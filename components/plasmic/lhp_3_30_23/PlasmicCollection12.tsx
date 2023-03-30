@@ -39,6 +39,7 @@ import {
 import Offer1 from "../../Offer1"; // plasmic-import: IfOzLkHETww2DF/component
 import Collection1 from "../../Collection1"; // plasmic-import: vA1Wg9x_sh5TE2/component
 import Collection1Cta from "../../Collection1Cta"; // plasmic-import: MzQ_uHTWm_TQyz/component
+import { Embed } from "@plasmicpkgs/plasmic-basic-components"; // plasmic-import: PKldDYkH42/codeComponent
 
 import { useScreenVariants as useScreenVariants_3APUwNdKvYe3 } from "./PlasmicGlobalVariant__Screen"; // plasmic-import: 3_a-pUwNdKvYE3/globalVariant
 
@@ -82,6 +83,7 @@ export type PlasmicCollection12__OverridesType = {
   offerParagraph?: p.Flex<"div">;
   offerCta?: p.Flex<"div">;
   products?: p.Flex<"div">;
+  embedHtml?: p.Flex<typeof Embed>;
 };
 
 export interface DefaultCollection12Props {
@@ -1352,6 +1354,14 @@ function PlasmicCollection12__RenderFunc(props: {
           ) : null}
         </div>
       </div>
+      <Embed
+        data-plasmic-name={"embedHtml"}
+        data-plasmic-override={overrides.embedHtml}
+        className={classNames("__wab_instance", sty.embedHtml)}
+        code={
+          "<!-- BV Meta Pixel Code -->\n<script>\n!function(f,b,e,v,n,t,s)\n{if(f.fbq)return;n=f.fbq=function(){n.callMethod?\nn.callMethod.apply(n,arguments):n.queue.push(arguments)};\nif(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';\nn.queue=[];t=b.createElement(e);t.async=!0;\nt.src=v;s=b.getElementsByTagName(e)[0];\ns.parentNode.insertBefore(t,s)}(window, document,'script',\n'https://connect.facebook.net/en_US/fbevents.js');\nfbq('init', '744390030232451');\nfbq('track', 'PageView');\n</script>\n<noscript><img height=\"1\" width=\"1\" style=\"display:none\"\nsrc=\"https://www.facebook.com/tr?id=744390030232451&ev=PageView&noscript=1\"\n/></noscript>\n<!-- End Meta Pixel Code -->\n\n<!-- Meta GetSparq Pixel Code -->\n<script>\n!function(f,b,e,v,n,t,s)\n{if(f.fbq)return;n=f.fbq=function(){n.callMethod?\nn.callMethod.apply(n,arguments):n.queue.push(arguments)};\nif(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';\nn.queue=[];t=b.createElement(e);t.async=!0;\nt.src=v;s=b.getElementsByTagName(e)[0];\ns.parentNode.insertBefore(t,s)}(window, document,'script',\n'https://connect.facebook.net/en_US/fbevents.js');\nfbq('init', '700814538266424');\nfbq('track', 'PageView');\n</script>\n<noscript><img height=\"1\" width=\"1\" style=\"display:none\"\nsrc=\"https://www.facebook.com/tr?id=700814538266424&ev=PageView&noscript=1\"\n/></noscript>\n<!-- End Meta Pixel Code -->\n\n<!-- Meta LHP Pixel Code -->\n<script>\n!function(f,b,e,v,n,t,s)\n{if(f.fbq)return;n=f.fbq=function(){n.callMethod?\nn.callMethod.apply(n,arguments):n.queue.push(arguments)};\nif(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';\nn.queue=[];t=b.createElement(e);t.async=!0;\nt.src=v;s=b.getElementsByTagName(e)[0];\ns.parentNode.insertBefore(t,s)}(window, document,'script',\n'https://connect.facebook.net/en_US/fbevents.js');\nfbq('init', '1183658905859121');\nfbq('track', 'PageView');\n</script>\n<noscript><img height=\"1\" width=\"1\" style=\"display:none\"\nsrc=\"https://www.facebook.com/tr?id=1183658905859121&ev=PageView&noscript=1\"\n/></noscript>\n<!-- End Meta Pixel Code -->" as const
+        }
+      />
     </div>
   ) as React.ReactElement | null;
 }
@@ -1382,7 +1392,8 @@ const PlasmicDescendants = {
     "offerH2",
     "offerParagraph",
     "offerCta",
-    "products"
+    "products",
+    "embedHtml"
   ],
   logo: ["logo"],
   hiconsH1: ["hiconsH1"],
@@ -1434,7 +1445,8 @@ const PlasmicDescendants = {
   offerH2: ["offerH2"],
   offerParagraph: ["offerParagraph"],
   offerCta: ["offerCta"],
-  products: ["products"]
+  products: ["products"],
+  embedHtml: ["embedHtml"]
 } as const;
 type NodeNameType = keyof typeof PlasmicDescendants;
 type DescendantsType<T extends NodeNameType> =
@@ -1465,6 +1477,7 @@ type NodeDefaultElementType = {
   offerParagraph: "div";
   offerCta: "div";
   products: "div";
+  embedHtml: typeof Embed;
 };
 
 type ReservedPropsType = "variants" | "args" | "overrides";
@@ -1551,6 +1564,7 @@ export const PlasmicCollection12 = Object.assign(
     offerParagraph: makeNodeComponent("offerParagraph"),
     offerCta: makeNodeComponent("offerCta"),
     products: makeNodeComponent("products"),
+    embedHtml: makeNodeComponent("embedHtml"),
 
     // Metadata about props expected for PlasmicCollection12
     internalVariantProps: PlasmicCollection12__VariantProps,

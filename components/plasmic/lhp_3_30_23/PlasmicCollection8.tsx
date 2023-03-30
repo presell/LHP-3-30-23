@@ -1507,11 +1507,13 @@ function PlasmicCollection8__RenderFunc(props: {
               className={classNames("__wab_instance", sty.collection12)}
             />
           ) : null}
-          <CwAdvert2
-            data-plasmic-name={"cwAdvert2"}
-            data-plasmic-override={overrides.cwAdvert2}
-            className={classNames("__wab_instance", sty.cwAdvert2)}
-          />
+          {true ? (
+            <CwAdvert2
+              data-plasmic-name={"cwAdvert2"}
+              data-plasmic-override={overrides.cwAdvert2}
+              className={classNames("__wab_instance", sty.cwAdvert2)}
+            />
+          ) : null}
         </div>
       </div>
     </React.Fragment>
