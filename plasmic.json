@@ -736,6 +736,32 @@
           "cssFilePath": "plasmic/lhp_3_30_23/PlasmicCollection12.module.css",
           "scheme": "blackbox",
           "componentType": "component"
+        },
+        {
+          "id": "NjkZCwt4tTB9",
+          "name": "Article3Bv",
+          "type": "managed",
+          "projectId": "jZt38kveZDTpkrHTcXsHEY",
+          "renderModuleFilePath": "plasmic/lhp_3_30_23/PlasmicArticle3Bv.tsx",
+          "importSpec": {
+            "modulePath": "../pages/article-3.tsx"
+          },
+          "cssFilePath": "plasmic/lhp_3_30_23/PlasmicArticle3Bv.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "ua8dnxfWqYM",
+          "name": "Collection13",
+          "type": "managed",
+          "projectId": "jZt38kveZDTpkrHTcXsHEY",
+          "renderModuleFilePath": "plasmic/lhp_3_30_23/PlasmicCollection13.tsx",
+          "importSpec": {
+            "modulePath": "../pages/disposable-offer.tsx"
+          },
+          "cssFilePath": "plasmic/lhp_3_30_23/PlasmicCollection13.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
         }
       ],
       "icons": [
@@ -1245,6 +1271,21 @@
           "id": "jxXWtxMBKw",
           "name": "nav.svg",
           "filePath": "../public/plasmic/lhp_3_30_23/images/navsvg.svg"
+        },
+        {
+          "id": "wC74JVF3m",
+          "name": "Disposable Outro.gif",
+          "filePath": "../public/plasmic/lhp_3_30_23/images/disposableOutrogif.gif"
+        },
+        {
+          "id": "DkK7vsi4V",
+          "name": "div.png",
+          "filePath": "../public/plasmic/lhp_3_30_23/images/divpng.png"
+        },
+        {
+          "id": "YVwA-maac",
+          "name": "sidereview2.png.png",
+          "filePath": "../public/plasmic/lhp_3_30_23/images/sidereview2Pngpng.png"
         }
       ],
       "indirect": false,

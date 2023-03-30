@@ -218,6 +218,7 @@ function PlasmicOffer2__RenderFunc(props: {
           data-plasmic-override={overrides.aCta}
           className={classNames(projectcss.all, projectcss.a, sty.aCta)}
           component={Link}
+          href={"https://blog.quittinghacks.com/disposable-offer" as const}
           onClick={async event => {
             const $steps = {};
             $steps["setVariable"] = true

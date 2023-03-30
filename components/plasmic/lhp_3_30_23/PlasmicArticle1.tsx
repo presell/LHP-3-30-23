@@ -36,10 +36,10 @@ import {
   deriveRenderOpts,
   ensureGlobalVariants
 } from "@plasmicapp/react-web";
+import Offer2 from "../../Offer2"; // plasmic-import: 2-0saNBo-p5-YQ/component
 import { DataFetcher } from "@plasmicpkgs/plasmic-query"; // plasmic-import: ae7V86eNoXA/codeComponent
 import BodyArticle1 from "../../BodyArticle1"; // plasmic-import: AhQc91uxvTPIfV/component
 import BodyArticle2 from "../../BodyArticle2"; // plasmic-import: t0aIBfhdPpHEyC/component
-import Offer2 from "../../Offer2"; // plasmic-import: 2-0saNBo-p5-YQ/component
 
 import { useScreenVariants as useScreenVariants_3APUwNdKvYe3 } from "./PlasmicGlobalVariant__Screen"; // plasmic-import: 3_a-pUwNdKvYE3/globalVariant
 
@@ -67,6 +67,81 @@ export const PlasmicArticle1__ArgProps = new Array<ArgPropType>(
 
 export type PlasmicArticle1__OverridesType = {
   root?: p.Flex<"div">;
+  nav?: p.Flex<"div">;
+  logo?: p.Flex<typeof p.PlasmicImg>;
+  aSlogan?: p.Flex<"div">;
+  intro?: p.Flex<"div">;
+  heroHeadline?: p.Flex<"div">;
+  heroSubHeadline?: p.Flex<"div">;
+  aCta?: p.Flex<"a"> & Partial<LinkProps>;
+  reviewIcon2?: p.Flex<typeof p.PlasmicImg>;
+  reviewStatement2?: p.Flex<"div">;
+  body?: p.Flex<"div">;
+  article?: p.Flex<"div">;
+  articleBody?: p.Flex<"div">;
+  press?: p.Flex<"div">;
+  pressIcons?: p.Flex<typeof p.PlasmicImg>;
+  paragraph1?: p.Flex<"div">;
+  h21?: p.Flex<"div">;
+  heroImage?: p.Flex<typeof p.PlasmicImg>;
+  paragraph2?: p.Flex<"div">;
+  h22?: p.Flex<"div">;
+  image2?: p.Flex<typeof p.PlasmicImg>;
+  paragraph3?: p.Flex<"div">;
+  h23?: p.Flex<"div">;
+  image3?: p.Flex<typeof p.PlasmicImg>;
+  paragraph4?: p.Flex<"div">;
+  h24?: p.Flex<"div">;
+  image4?: p.Flex<typeof p.PlasmicImg>;
+  review1?: p.Flex<"div">;
+  paragraph42?: p.Flex<"div">;
+  paragraph43?: p.Flex<"div">;
+  paragraph44?: p.Flex<"div">;
+  review2?: p.Flex<"div">;
+  paragraph45?: p.Flex<"div">;
+  paragraph46?: p.Flex<"div">;
+  paragraph47?: p.Flex<"div">;
+  review3?: p.Flex<"div">;
+  paragraph48?: p.Flex<"div">;
+  paragraph49?: p.Flex<"div">;
+  paragraph410?: p.Flex<"div">;
+  h25?: p.Flex<"div">;
+  h35?: p.Flex<"div">;
+  offer2?: p.Flex<typeof Offer2>;
+  image5?: p.Flex<typeof p.PlasmicImg>;
+  paragraph6?: p.Flex<"div">;
+  h26?: p.Flex<"div">;
+  image6?: p.Flex<typeof p.PlasmicImg>;
+  paragraph7?: p.Flex<"div">;
+  h27?: p.Flex<"div">;
+  image7?: p.Flex<typeof p.PlasmicImg>;
+  aOutroH1?: p.Flex<"div">;
+  aCta2?: p.Flex<"a"> & Partial<LinkProps>;
+  aOutroH2?: p.Flex<"div">;
+  reviewIcon?: p.Flex<typeof p.PlasmicImg>;
+  aOutroH3?: p.Flex<"div">;
+  aOutroImage?: p.Flex<typeof p.PlasmicImg>;
+  reviews?: p.Flex<"div">;
+  reviewMugshot1?: p.Flex<typeof p.PlasmicImg>;
+  reviewName1?: p.Flex<"div">;
+  reviewIcon3?: p.Flex<typeof p.PlasmicImg>;
+  reviewH11?: p.Flex<"div">;
+  reviewP1?: p.Flex<"div">;
+  reviewMugshot2?: p.Flex<typeof p.PlasmicImg>;
+  reviewName2?: p.Flex<"div">;
+  reviewIcon4?: p.Flex<typeof p.PlasmicImg>;
+  reviewH12?: p.Flex<"div">;
+  reviewP2?: p.Flex<"div">;
+  reviewMugshot3?: p.Flex<typeof p.PlasmicImg>;
+  reviewName3?: p.Flex<"div">;
+  reviewIcon5?: p.Flex<typeof p.PlasmicImg>;
+  reviewH122?: p.Flex<"div">;
+  reviewP3?: p.Flex<"div">;
+  reviewIcon6?: p.Flex<typeof p.PlasmicImg>;
+  reviewStatement?: p.Flex<"div">;
+  ctaCardH1?: p.Flex<"div">;
+  ctaCardH2?: p.Flex<"div">;
+  aCta3?: p.Flex<"a"> & Partial<LinkProps>;
   httpRestApiFetcher?: p.Flex<typeof DataFetcher>;
   _1554Px?: p.Flex<"div">;
   div2?: p.Flex<"div">;
@@ -224,81 +299,6 @@ export type PlasmicArticle1__OverridesType = {
   logopng4?: p.Flex<"div">;
   copyrights2022AllRightsReserved2?: p.Flex<"div">;
   div75?: p.Flex<"div">;
-  nav?: p.Flex<"div">;
-  logo?: p.Flex<typeof p.PlasmicImg>;
-  aSlogan?: p.Flex<"div">;
-  intro?: p.Flex<"div">;
-  heroHeadline?: p.Flex<"div">;
-  heroSubHeadline?: p.Flex<"div">;
-  aCta?: p.Flex<"a"> & Partial<LinkProps>;
-  reviewIcon2?: p.Flex<typeof p.PlasmicImg>;
-  reviewStatement2?: p.Flex<"div">;
-  body?: p.Flex<"div">;
-  article?: p.Flex<"div">;
-  articleBody?: p.Flex<"div">;
-  press?: p.Flex<"div">;
-  pressIcons?: p.Flex<typeof p.PlasmicImg>;
-  paragraph1?: p.Flex<"div">;
-  h21?: p.Flex<"div">;
-  heroImage?: p.Flex<typeof p.PlasmicImg>;
-  paragraph2?: p.Flex<"div">;
-  h22?: p.Flex<"div">;
-  image2?: p.Flex<typeof p.PlasmicImg>;
-  paragraph3?: p.Flex<"div">;
-  h23?: p.Flex<"div">;
-  image3?: p.Flex<typeof p.PlasmicImg>;
-  paragraph4?: p.Flex<"div">;
-  h24?: p.Flex<"div">;
-  image4?: p.Flex<typeof p.PlasmicImg>;
-  review1?: p.Flex<"div">;
-  paragraph42?: p.Flex<"div">;
-  paragraph43?: p.Flex<"div">;
-  paragraph44?: p.Flex<"div">;
-  review2?: p.Flex<"div">;
-  paragraph45?: p.Flex<"div">;
-  paragraph46?: p.Flex<"div">;
-  paragraph47?: p.Flex<"div">;
-  review3?: p.Flex<"div">;
-  paragraph48?: p.Flex<"div">;
-  paragraph49?: p.Flex<"div">;
-  paragraph410?: p.Flex<"div">;
-  h25?: p.Flex<"div">;
-  h35?: p.Flex<"div">;
-  offer2?: p.Flex<typeof Offer2>;
-  image5?: p.Flex<typeof p.PlasmicImg>;
-  paragraph6?: p.Flex<"div">;
-  h26?: p.Flex<"div">;
-  image6?: p.Flex<typeof p.PlasmicImg>;
-  paragraph7?: p.Flex<"div">;
-  h27?: p.Flex<"div">;
-  image7?: p.Flex<typeof p.PlasmicImg>;
-  aOutroH1?: p.Flex<"div">;
-  aCta2?: p.Flex<"a"> & Partial<LinkProps>;
-  aOutroH2?: p.Flex<"div">;
-  reviewIcon?: p.Flex<typeof p.PlasmicImg>;
-  aOutroH3?: p.Flex<"div">;
-  aOutroImage?: p.Flex<typeof p.PlasmicImg>;
-  reviews?: p.Flex<"div">;
-  reviewMugshot1?: p.Flex<typeof p.PlasmicImg>;
-  reviewName1?: p.Flex<"div">;
-  reviewIcon3?: p.Flex<typeof p.PlasmicImg>;
-  reviewH11?: p.Flex<"div">;
-  reviewP1?: p.Flex<"div">;
-  reviewMugshot2?: p.Flex<typeof p.PlasmicImg>;
-  reviewName2?: p.Flex<"div">;
-  reviewIcon4?: p.Flex<typeof p.PlasmicImg>;
-  reviewH12?: p.Flex<"div">;
-  reviewP2?: p.Flex<"div">;
-  reviewMugshot3?: p.Flex<typeof p.PlasmicImg>;
-  reviewName3?: p.Flex<"div">;
-  reviewIcon5?: p.Flex<typeof p.PlasmicImg>;
-  reviewH122?: p.Flex<"div">;
-  reviewP3?: p.Flex<"div">;
-  reviewIcon6?: p.Flex<typeof p.PlasmicImg>;
-  reviewStatement?: p.Flex<"div">;
-  ctaCardH1?: p.Flex<"div">;
-  ctaCardH2?: p.Flex<"div">;
-  aCta3?: p.Flex<"a"> & Partial<LinkProps>;
 };
 
 export interface DefaultArticle1Props {}
@@ -369,2790 +369,449 @@ function PlasmicArticle1__RenderFunc(props: {
             sty.root
           )}
         >
-          <DataFetcher
-            data-plasmic-name={"httpRestApiFetcher"}
-            data-plasmic-override={overrides.httpRestApiFetcher}
-            className={classNames("__wab_instance", sty.httpRestApiFetcher)}
-            dataName={"fetchedData" as const}
-            errorDisplay={
-              <ph.DataCtxReader>
-                {$ctx => "Error fetching data"}
-              </ph.DataCtxReader>
-            }
-            headers={{
-              "Content-Type": "application/json",
-              Accept: "application/json",
-              Authorization: "Bearer keyVDvhyVSx5Ntbl3"
-            }}
-            loadingDisplay={
-              <ph.DataCtxReader>{$ctx => "Loading..."}</ph.DataCtxReader>
-            }
-            method={"GET" as const}
-            noLayout={false}
-            url={(() => {
-              try {
-                return (
-                  "https://api.airtable.com/v0/appmM1mMqcDvugXhY/PlasmicCMS?filterByFormula=slug=" +
-                  "'" +
-                  $ctx.params.slug +
-                  "'"
-                );
-              } catch (e) {
-                if (e instanceof TypeError) {
-                  return "https://api.airtable.com/v0/appmM1mMqcDvugXhY/PlasmicCMS?filterByFormula=slug=";
-                }
-                throw e;
-              }
-            })()}
+          <div
+            data-plasmic-name={"nav"}
+            data-plasmic-override={overrides.nav}
+            className={classNames(projectcss.all, sty.nav)}
           >
-            <ph.DataCtxReader>
-              {$ctx => (
+            <div className={classNames(projectcss.all, sty.columns___7Tb6F)}>
+              <div className={classNames(projectcss.all, sty.column___6RfnB)}>
+                <p.PlasmicImg
+                  data-plasmic-name={"logo"}
+                  data-plasmic-override={overrides.logo}
+                  alt={""}
+                  className={classNames(sty.logo)}
+                  displayHeight={"auto" as const}
+                  displayMaxHeight={"50px" as const}
+                  displayMaxWidth={"100%" as const}
+                  displayMinHeight={"0" as const}
+                  displayMinWidth={"0" as const}
+                  displayWidth={"266px" as const}
+                  loading={"lazy" as const}
+                  src={{
+                    src: "/plasmic/lhp_3_30_23/images/logopng.png",
+                    fullWidth: 276,
+                    fullHeight: 46,
+                    aspectRatio: undefined
+                  }}
+                />
+              </div>
+              <div className={classNames(projectcss.all, sty.column__nrQ0Z)}>
+                <div
+                  data-plasmic-name={"aSlogan"}
+                  data-plasmic-override={overrides.aSlogan}
+                  className={classNames(
+                    projectcss.all,
+                    projectcss.__wab_text,
+                    sty.aSlogan
+                  )}
+                >
+                  {'"The Evolution of Inhalation"'}
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            data-plasmic-name={"intro"}
+            data-plasmic-override={overrides.intro}
+            className={classNames(projectcss.all, sty.intro)}
+          >
+            <div
+              data-plasmic-name={"heroHeadline"}
+              data-plasmic-override={overrides.heroHeadline}
+              className={classNames(
+                projectcss.all,
+                projectcss.__wab_text,
+                sty.heroHeadline
+              )}
+            >
+              {hasVariant(globalVariants, "screen", "mobileOnly")
+                ? "Want All The Joy Of Inhalation, But None Of The Health Compromises?"
+                : "Want All The Joy Of Inhalation, But\nNone Of The Health Compromises?"}
+            </div>
+            <div
+              data-plasmic-name={"heroSubHeadline"}
+              data-plasmic-override={overrides.heroSubHeadline}
+              className={classNames(
+                projectcss.all,
+                projectcss.__wab_text,
+                sty.heroSubHeadline
+              )}
+            >
+              {hasVariant(globalVariants, "screen", "mobileOnly") ? (
                 <React.Fragment>
-                  {(
-                    hasVariant(globalVariants, "screen", "mobileOnly")
-                      ? true
-                      : true
-                  ) ? (
+                  <React.Fragment>
+                    {"Inhale. Relax. Enjoy Your "}
+                  </React.Fragment>
+                  <span
+                    className={"plasmic_default__all plasmic_default__span"}
+                    style={{ fontWeight: 700 }}
+                  >
+                    {"Daily Vitamin Boost!"}
+                  </span>
+                </React.Fragment>
+              ) : (
+                <React.Fragment>
+                  <React.Fragment>
+                    {"Inhale. Relax. Enjoy Your "}
+                  </React.Fragment>
+                  <span
+                    className={"plasmic_default__all plasmic_default__span"}
+                    style={{ fontWeight: 700 }}
+                  >
+                    {"Daily Vitamin Boost!"}
+                  </span>
+                </React.Fragment>
+              )}
+            </div>
+            <p.PlasmicLink
+              data-plasmic-name={"aCta"}
+              data-plasmic-override={overrides.aCta}
+              className={classNames(projectcss.all, projectcss.a, sty.aCta)}
+              component={Link}
+              onClick={async event => {
+                const $steps = {};
+                $steps["setVariable"] = true
+                  ? (() => {
+                      const actionArgs = {};
+                      return __wrapUserFunction(
+                        {
+                          type: "InteractionLoc",
+                          actionName: "updateVariable",
+                          interactionUuid: "mxJHnhas94Pf8u",
+                          componentUuid: "Qsmc7rZ4njupIO"
+                        },
+                        () =>
+                          (({ variable, value, startIndex, deleteCount }) => {
+                            const { objRoot, variablePath } = variable;
+                            undefined;
+                          })?.apply(null, [actionArgs]),
+                        actionArgs
+                      );
+                    })()
+                  : undefined;
+                if (
+                  typeof $steps["setVariable"] === "object" &&
+                  typeof $steps["setVariable"].then === "function"
+                ) {
+                  $steps["setVariable"] = await __wrapUserPromise(
+                    {
+                      type: "InteractionLoc",
+                      actionName: "updateVariable",
+                      interactionUuid: "mxJHnhas94Pf8u",
+                      componentUuid: "Qsmc7rZ4njupIO"
+                    },
+                    $steps["setVariable"]
+                  );
+                }
+              }}
+              platform={"nextjs"}
+            >
+              {p.renderPlasmicSlot({
+                defaultContents: "CLAIM FREE DEVICE 👉",
+                value: args.slot8,
+                className: classNames(sty.slotTargetSlot8)
+              })}
+            </p.PlasmicLink>
+            <div className={classNames(projectcss.all, sty.freeBox__gOk5X)}>
+              <p.PlasmicImg
+                data-plasmic-name={"reviewIcon2"}
+                data-plasmic-override={overrides.reviewIcon2}
+                alt={""}
+                className={classNames(sty.reviewIcon2)}
+                displayHeight={
+                  hasVariant(globalVariants, "screen", "mobileOnly")
+                    ? ("11px" as const)
+                    : ("auto" as const)
+                }
+                displayMaxHeight={"none" as const}
+                displayMaxWidth={"100%" as const}
+                displayMinHeight={"0" as const}
+                displayMinWidth={"0" as const}
+                displayWidth={"auto" as const}
+                loading={"lazy" as const}
+                src={{
+                  src: "/plasmic/lhp_3_30_23/images/starpng.png",
+                  fullWidth: 142,
+                  fullHeight: 21,
+                  aspectRatio: undefined
+                }}
+              />
+
+              <div
+                data-plasmic-name={"reviewStatement2"}
+                data-plasmic-override={overrides.reviewStatement2}
+                className={classNames(
+                  projectcss.all,
+                  projectcss.__wab_text,
+                  sty.reviewStatement2
+                )}
+              >
+                <React.Fragment>
+                  <React.Fragment>{"Rated 4.9 Stars By "}</React.Fragment>
+                  <span
+                    className={"plasmic_default__all plasmic_default__span"}
+                    style={{ fontWeight: 700 }}
+                  >
+                    {"100,000+"}
+                  </span>
+                  <React.Fragment>{" Customers"}</React.Fragment>
+                </React.Fragment>
+              </div>
+            </div>
+          </div>
+          <div
+            data-plasmic-name={"body"}
+            data-plasmic-override={overrides.body}
+            className={classNames(projectcss.all, sty.body)}
+          >
+            {(
+              hasVariant(globalVariants, "screen", "mobileOnly") ? true : true
+            ) ? (
+              <div className={classNames(projectcss.all, sty.columns__ym8Nt)}>
+                {(
+                  hasVariant(globalVariants, "screen", "mobileOnly")
+                    ? true
+                    : true
+                ) ? (
+                  <div
+                    data-plasmic-name={"article"}
+                    data-plasmic-override={overrides.article}
+                    className={classNames(projectcss.all, sty.article)}
+                  >
                     <div
-                      data-plasmic-name={"_1554Px"}
-                      data-plasmic-override={overrides._1554Px}
-                      className={classNames(projectcss.all, sty._1554Px)}
+                      data-plasmic-name={"articleBody"}
+                      data-plasmic-override={overrides.articleBody}
+                      className={classNames(projectcss.all, sty.articleBody)}
                     >
-                      <p.Stack
-                        as={"div"}
-                        data-plasmic-name={"div2"}
-                        data-plasmic-override={overrides.div2}
-                        hasGap={true}
-                        className={classNames(projectcss.all, sty.div2)}
-                      >
+                      {true ? (
                         <div
-                          data-plasmic-name={"div3"}
-                          data-plasmic-override={overrides.div3}
-                          className={classNames(projectcss.all, sty.div3)}
+                          data-plasmic-name={"press"}
+                          data-plasmic-override={overrides.press}
+                          className={classNames(projectcss.all, sty.press)}
                         >
                           <div
-                            data-plasmic-name={"div4"}
-                            data-plasmic-override={overrides.div4}
-                            className={classNames(projectcss.all, sty.div4)}
+                            className={classNames(
+                              projectcss.all,
+                              projectcss.__wab_text,
+                              sty.text__bxaob
+                            )}
                           >
-                            <div
-                              data-plasmic-name={"h1"}
-                              data-plasmic-override={overrides.h1}
-                              className={classNames(projectcss.all, sty.h1)}
-                            >
-                              <div
-                                className={classNames(
-                                  projectcss.all,
-                                  projectcss.__wab_text,
-                                  sty.text__g6H2G
-                                )}
-                              >
-                                {(() => {
-                                  try {
-                                    return $ctx.fetchedData.records[0].fields
-                                      .heroHeadline;
-                                  } catch (e) {
-                                    if (e instanceof TypeError) {
-                                      return "Want All The Joy Of Inhalation, But";
-                                    }
-                                    throw e;
-                                  }
-                                })()}
-                              </div>
-                            </div>
-                            <div
-                              className={classNames(
-                                projectcss.all,
-                                projectcss.__wab_text,
-                                sty.text__acz4Q
-                              )}
-                            >
-                              {(() => {
-                                try {
-                                  return $ctx.fetchedData.records[0].fields
-                                    .heroSubHeadline;
-                                } catch (e) {
-                                  if (e instanceof TypeError) {
-                                    return "Inhale. Relax. Enjoy Your Daily Vitamin Boost!";
-                                  }
-                                  throw e;
-                                }
-                              })()}
-                            </div>
-                            <div
-                              data-plasmic-name={"div5"}
-                              data-plasmic-override={overrides.div5}
-                              className={classNames(projectcss.all, sty.div5)}
-                            >
-                              <div
-                                data-plasmic-name={
-                                  "rated49StarsBy100000Customers"
-                                }
-                                data-plasmic-override={
-                                  overrides.rated49StarsBy100000Customers
-                                }
-                                className={classNames(
-                                  projectcss.all,
-                                  sty.rated49StarsBy100000Customers
-                                )}
-                              >
-                                <div
-                                  className={classNames(
-                                    projectcss.all,
-                                    projectcss.__wab_text,
-                                    sty.text__c2AXf
-                                  )}
-                                >
-                                  {"Rated 4.9 Stars By 100,000+ Customers"}
-                                </div>
-                              </div>
-                              <p.PlasmicImg
-                                alt={""}
-                                className={classNames(sty.img__ti6Im)}
-                                displayHeight={"auto" as const}
-                                displayMaxHeight={"none" as const}
-                                displayMaxWidth={"100%" as const}
-                                displayMinHeight={"0" as const}
-                                displayMinWidth={"0" as const}
-                                displayWidth={"auto" as const}
-                                loading={"lazy" as const}
-                                src={{
-                                  src: "/plasmic/lhp_3_30_23/images/image39.webp",
-                                  fullWidth: 142,
-                                  fullHeight: 21,
-                                  aspectRatio: undefined
-                                }}
-                              />
-                            </div>
-                            <button
-                              data-plasmic-name={"button"}
-                              data-plasmic-override={overrides.button}
-                              className={classNames(
-                                projectcss.all,
-                                projectcss.button,
-                                sty.button
-                              )}
-                            >
-                              <div
-                                className={classNames(
-                                  projectcss.all,
-                                  projectcss.__wab_text,
-                                  sty.text__fe9B
-                                )}
-                              >
-                                {"CLAIM FREE PODS 👉"}
-                              </div>
-                              <div
-                                data-plasmic-name={"fingericonpng"}
-                                data-plasmic-override={overrides.fingericonpng}
-                                className={classNames(
-                                  projectcss.all,
-                                  sty.fingericonpng
-                                )}
-                              />
-                            </button>
+                            {"As Featured In:"}
                           </div>
+                          <p.PlasmicImg
+                            data-plasmic-name={"pressIcons"}
+                            data-plasmic-override={overrides.pressIcons}
+                            alt={""}
+                            className={classNames(sty.pressIcons)}
+                            displayHeight={"auto" as const}
+                            displayMaxHeight={"none" as const}
+                            displayMaxWidth={
+                              hasVariant(globalVariants, "screen", "mobileOnly")
+                                ? ("300px" as const)
+                                : ("100%" as const)
+                            }
+                            displayMinHeight={"0" as const}
+                            displayMinWidth={"0" as const}
+                            displayWidth={"475px" as const}
+                            loading={"lazy" as const}
+                            src={{
+                              src: "/plasmic/lhp_3_30_23/images/presssvg.svg",
+                              fullWidth: 300,
+                              fullHeight: 20,
+                              aspectRatio: 15.325
+                            }}
+                          />
                         </div>
-                        <p.Stack
-                          as={"div"}
-                          data-plasmic-name={"div6"}
-                          data-plasmic-override={overrides.div6}
-                          hasGap={true}
-                          className={classNames(projectcss.all, sty.div6)}
-                        >
-                          {true ? (
-                            <div
-                              className={classNames(
-                                projectcss.all,
-                                sty.freeBox___8Yf
-                              )}
-                            >
-                              {true ? (
-                                <BodyArticle1
-                                  data-plasmic-name={"bodyArticle1"}
-                                  data-plasmic-override={overrides.bodyArticle1}
-                                  className={classNames(
-                                    "__wab_instance",
-                                    sty.bodyArticle1
-                                  )}
-                                />
-                              ) : null}
-                              <BodyArticle2
-                                className={classNames(
-                                  "__wab_instance",
-                                  sty.bodyArticle2__sKb1G
-                                )}
-                              />
-                            </div>
-                          ) : null}
-                          <div
-                            data-plasmic-name={"div30"}
-                            data-plasmic-override={overrides.div30}
-                            className={classNames(projectcss.all, sty.div30)}
-                          >
-                            <div
-                              data-plasmic-name={"div31"}
-                              data-plasmic-override={overrides.div31}
-                              className={classNames(projectcss.all, sty.div31)}
-                            >
-                              <div
-                                data-plasmic-name={"div32"}
-                                data-plasmic-override={overrides.div32}
-                                className={classNames(
-                                  projectcss.all,
-                                  sty.div32
-                                )}
-                              >
-                                <div
-                                  data-plasmic-name={"sidereview1Png"}
-                                  data-plasmic-override={
-                                    overrides.sidereview1Png
-                                  }
-                                  className={classNames(
-                                    projectcss.all,
-                                    sty.sidereview1Png
-                                  )}
-                                />
-                              </div>
-                              <div
-                                className={classNames(
-                                  projectcss.all,
-                                  projectcss.__wab_text,
-                                  sty.text__jDpyc
-                                )}
-                              >
-                                {"Isaiah S."}
-                              </div>
-                              <div
-                                data-plasmic-name={"starpng2"}
-                                data-plasmic-override={overrides.starpng2}
-                                className={classNames(
-                                  projectcss.all,
-                                  sty.starpng2
-                                )}
-                              />
-
-                              <div
-                                data-plasmic-name={"bestAlternativeToSmoking"}
-                                data-plasmic-override={
-                                  overrides.bestAlternativeToSmoking
-                                }
-                                className={classNames(
-                                  projectcss.all,
-                                  sty.bestAlternativeToSmoking
-                                )}
-                              />
-
-                              <div
-                                data-plasmic-name={
-                                  "iSmokedForOver29YearsAndTiredToQuitSeveralTimesWithNoSuccessUntilICameAcrossSparqNowNotOnlyDoINotSmokeImDoingSomethingHealthyInPlaceGreatProductIllBeAUserForLife"
-                                }
-                                data-plasmic-override={
-                                  overrides.iSmokedForOver29YearsAndTiredToQuitSeveralTimesWithNoSuccessUntilICameAcrossSparqNowNotOnlyDoINotSmokeImDoingSomethingHealthyInPlaceGreatProductIllBeAUserForLife
-                                }
-                                className={classNames(
-                                  projectcss.all,
-                                  sty.iSmokedForOver29YearsAndTiredToQuitSeveralTimesWithNoSuccessUntilICameAcrossSparqNowNotOnlyDoINotSmokeImDoingSomethingHealthyInPlaceGreatProductIllBeAUserForLife
-                                )}
-                              >
-                                <div
-                                  className={classNames(
-                                    projectcss.all,
-                                    projectcss.__wab_text,
-                                    sty.text__g8Qts
-                                  )}
-                                >
-                                  {
-                                    "I smoked for over 29 years and tired to quit several times with no success. Until I came across sparq. Now not only do I not smoke, I’m doing something healthy in place! Great product, I’ll be a user for life!"
-                                  }
-                                </div>
-                              </div>
-                              <div
-                                className={classNames(
-                                  projectcss.all,
-                                  projectcss.__wab_text,
-                                  sty.text__okhZ
-                                )}
-                              >
-                                {"Best alternative to smoking"}
-                              </div>
-                            </div>
-                            <div
-                              data-plasmic-name={"div33"}
-                              data-plasmic-override={overrides.div33}
-                              className={classNames(projectcss.all, sty.div33)}
-                            >
-                              <div
-                                data-plasmic-name={"div34"}
-                                data-plasmic-override={overrides.div34}
-                                className={classNames(
-                                  projectcss.all,
-                                  sty.div34
-                                )}
-                              >
-                                <div
-                                  data-plasmic-name={"sidereview2Png"}
-                                  data-plasmic-override={
-                                    overrides.sidereview2Png
-                                  }
-                                  className={classNames(
-                                    projectcss.all,
-                                    sty.sidereview2Png
-                                  )}
-                                />
-                              </div>
-                              <div
-                                className={classNames(
-                                  projectcss.all,
-                                  projectcss.__wab_text,
-                                  sty.text__kbk8O
-                                )}
-                              >
-                                {"Jason G."}
-                              </div>
-                              <div
-                                data-plasmic-name={"starpng3"}
-                                data-plasmic-override={overrides.starpng3}
-                                className={classNames(
-                                  projectcss.all,
-                                  sty.starpng3
-                                )}
-                              />
-
-                              <div
-                                data-plasmic-name={"awesome"}
-                                data-plasmic-override={overrides.awesome}
-                                className={classNames(
-                                  projectcss.all,
-                                  sty.awesome
-                                )}
-                              >
-                                <div
-                                  className={classNames(
-                                    projectcss.all,
-                                    projectcss.__wab_text,
-                                    sty.text__o7Be0
-                                  )}
-                                >
-                                  {"Awesome"}
-                                </div>
-                              </div>
-                              <div
-                                data-plasmic-name={
-                                  "excellentILoveThisIQuitSmokingCigarettesAndWentToTheSparqILoveThisDeviceItIsNaturalNoNicotineItReallyDoesHelpCalmMe"
-                                }
-                                data-plasmic-override={
-                                  overrides.excellentILoveThisIQuitSmokingCigarettesAndWentToTheSparqILoveThisDeviceItIsNaturalNoNicotineItReallyDoesHelpCalmMe
-                                }
-                                className={classNames(
-                                  projectcss.all,
-                                  sty.excellentILoveThisIQuitSmokingCigarettesAndWentToTheSparqILoveThisDeviceItIsNaturalNoNicotineItReallyDoesHelpCalmMe
-                                )}
-                              >
-                                <div
-                                  className={classNames(
-                                    projectcss.all,
-                                    projectcss.__wab_text,
-                                    sty.text__f7Qg
-                                  )}
-                                >
-                                  {
-                                    "“Excellent. I love this. I quit smoking cigarettes and went to the sparq. I love this device. It is natural, no nicotine. It really does help calm me.”"
-                                  }
-                                </div>
-                              </div>
-                            </div>
-                            <div
-                              data-plasmic-name={"div36"}
-                              data-plasmic-override={overrides.div36}
-                              className={classNames(projectcss.all, sty.div36)}
-                            >
-                              <div
-                                data-plasmic-name={"div37"}
-                                data-plasmic-override={overrides.div37}
-                                className={classNames(
-                                  projectcss.all,
-                                  sty.div37
-                                )}
-                              >
-                                <div
-                                  data-plasmic-name={"sidereview3Png"}
-                                  data-plasmic-override={
-                                    overrides.sidereview3Png
-                                  }
-                                  className={classNames(
-                                    projectcss.all,
-                                    sty.sidereview3Png
-                                  )}
-                                >
-                                  <p.PlasmicImg
-                                    alt={""}
-                                    className={classNames(sty.img__swXfl)}
-                                    displayHeight={"auto" as const}
-                                    displayMaxHeight={"none" as const}
-                                    displayMaxWidth={"100%" as const}
-                                    displayMinHeight={"0" as const}
-                                    displayMinWidth={"0" as const}
-                                    displayWidth={"auto" as const}
-                                    loading={"lazy" as const}
-                                    src={{
-                                      src: "/plasmic/lhp_3_30_23/images/sidereview3Png.png",
-                                      fullWidth: 119,
-                                      fullHeight: 119,
-                                      aspectRatio: undefined
-                                    }}
-                                  />
-                                </div>
-                              </div>
-                              <div
-                                className={classNames(
-                                  projectcss.all,
-                                  projectcss.__wab_text,
-                                  sty.text__ty08Z
-                                )}
-                              >
-                                {"Kathy B"}
-                              </div>
-                              <div
-                                data-plasmic-name={"starpng4"}
-                                data-plasmic-override={overrides.starpng4}
-                                className={classNames(
-                                  projectcss.all,
-                                  sty.starpng4
-                                )}
-                              >
-                                <p.PlasmicImg
-                                  alt={""}
-                                  className={classNames(sty.img__wgZom)}
-                                  displayHeight={"auto" as const}
-                                  displayMaxHeight={"none" as const}
-                                  displayMaxWidth={"100%" as const}
-                                  displayMinHeight={"0" as const}
-                                  displayMinWidth={"0" as const}
-                                  displayWidth={"auto" as const}
-                                  loading={"lazy" as const}
-                                  src={{
-                                    src: "/plasmic/lhp_3_30_23/images/starpng.png",
-                                    fullWidth: 142,
-                                    fullHeight: 21,
-                                    aspectRatio: undefined
-                                  }}
-                                />
-                              </div>
-                              <div
-                                data-plasmic-name={"loveLove"}
-                                data-plasmic-override={overrides.loveLove}
-                                className={classNames(
-                                  projectcss.all,
-                                  sty.loveLove
-                                )}
-                              >
-                                <div
-                                  className={classNames(
-                                    projectcss.all,
-                                    projectcss.__wab_text,
-                                    sty.text__xCo4H
-                                  )}
-                                >
-                                  {"Love! LOVE!!"}
-                                </div>
-                              </div>
-                              <div
-                                data-plasmic-name={"p"}
-                                data-plasmic-override={overrides.p}
-                                className={classNames(projectcss.all, sty.p)}
-                              >
-                                <div
-                                  className={classNames(
-                                    projectcss.all,
-                                    projectcss.__wab_text,
-                                    sty.text__wLpcV
-                                  )}
-                                >
-                                  {"“Im literally obsessed the the elegant"}
-                                </div>
-                                <div
-                                  data-plasmic-name={"br4"}
-                                  data-plasmic-override={overrides.br4}
-                                  className={classNames(
-                                    projectcss.all,
-                                    projectcss.__wab_text,
-                                    sty.br4
-                                  )}
-                                >
-                                  {"\n"}
-                                </div>
-                                <div
-                                  className={classNames(
-                                    projectcss.all,
-                                    projectcss.__wab_text,
-                                    sty.text__uXLsE
-                                  )}
-                                >
-                                  {"design as well as the jaw dropping"}
-                                </div>
-                                <div
-                                  data-plasmic-name={"br5"}
-                                  data-plasmic-override={overrides.br5}
-                                  className={classNames(
-                                    projectcss.all,
-                                    projectcss.__wab_text,
-                                    sty.br5
-                                  )}
-                                >
-                                  {"\n"}
-                                </div>
-                                <div
-                                  className={classNames(
-                                    projectcss.all,
-                                    projectcss.__wab_text,
-                                    sty.text__sxkoV
-                                  )}
-                                >
-                                  {"packaging.”"}
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </p.Stack>
-                      </p.Stack>
+                      ) : null}
+                      <div
+                        data-plasmic-name={"paragraph1"}
+                        data-plasmic-override={overrides.paragraph1}
+                        className={classNames(
+                          projectcss.all,
+                          projectcss.__wab_text,
+                          sty.paragraph1
+                        )}
+                      >
+                        {
+                          "Imagine a world where you could inhale vitamins, minerals, and antioxidants to improve your well-being.\n\nThink about what it would be like to never have to suffer again through the jitters and anxiety that traditional inhalation methods bring.\n\nWhat if you’ll no longer have to choose between your habit or quitting, or feel like you are compromising on health just to get the throat hit and flavor you enjoy?"
+                        }
+                      </div>
+                      <div
+                        data-plasmic-name={"h21"}
+                        data-plasmic-override={overrides.h21}
+                        className={classNames(
+                          projectcss.all,
+                          projectcss.__wab_text,
+                          sty.h21
+                        )}
+                      >
+                        {
+                          "All Of The Above Is Possible…With Sparq’s Vitamin Air®."
+                        }
+                      </div>
                       <p.PlasmicImg
+                        data-plasmic-name={"heroImage"}
+                        data-plasmic-override={overrides.heroImage}
                         alt={""}
-                        className={classNames(sty.img__ywnNz)}
-                        displayHeight={"30px" as const}
+                        className={classNames(sty.heroImage)}
+                        displayHeight={"auto" as const}
                         displayMaxHeight={"none" as const}
                         displayMaxWidth={"100%" as const}
                         displayMinHeight={"0" as const}
                         displayMinWidth={"0" as const}
-                        displayWidth={"180px" as const}
+                        displayWidth={"100%" as const}
                         loading={"lazy" as const}
                         src={{
-                          src: "/plasmic/lhp_3_30_23/images/logopng.png",
-                          fullWidth: 276,
-                          fullHeight: 46,
+                          src: "/plasmic/lhp_3_30_23/images/midbannerjpgpng.png",
+                          fullWidth: 761,
+                          fullHeight: 862,
                           aspectRatio: undefined
                         }}
                       />
 
                       <div
+                        data-plasmic-name={"paragraph2"}
+                        data-plasmic-override={overrides.paragraph2}
                         className={classNames(
                           projectcss.all,
                           projectcss.__wab_text,
-                          sty.text__iYiI
+                          sty.paragraph2
                         )}
                       >
-                        {'"The Evolution of Inhalation"\n'}
-                      </div>
-                    </div>
-                  ) : null}
-                  {(
-                    hasVariant(globalVariants, "screen", "mobileOnly")
-                      ? true
-                      : true
-                  ) ? (
-                    <div
-                      data-plasmic-name={"_414Px"}
-                      data-plasmic-override={overrides._414Px}
-                      className={classNames(projectcss.all, sty._414Px)}
-                    >
-                      <div
-                        data-plasmic-name={"div41"}
-                        data-plasmic-override={overrides.div41}
-                        className={classNames(projectcss.all, sty.div41)}
-                      >
-                        {(
-                          hasVariant(globalVariants, "screen", "mobileOnly")
-                            ? true
-                            : true
-                        ) ? (
-                          <div
-                            data-plasmic-name={"logopng3"}
-                            data-plasmic-override={overrides.logopng3}
-                            className={classNames(projectcss.all, sty.logopng3)}
-                          >
-                            <p.PlasmicImg
-                              alt={""}
-                              className={classNames(sty.img___4P11)}
-                              displayHeight={"auto" as const}
-                              displayMaxHeight={"none" as const}
-                              displayMaxWidth={"100%" as const}
-                              displayMinHeight={"0" as const}
-                              displayMinWidth={"0" as const}
-                              displayWidth={"auto" as const}
-                              loading={"lazy" as const}
-                            />
-                          </div>
-                        ) : null}
-                        <div
-                          data-plasmic-name={"thisIsAnAdvertorial2"}
-                          data-plasmic-override={overrides.thisIsAnAdvertorial2}
-                          className={classNames(
-                            projectcss.all,
-                            sty.thisIsAnAdvertorial2
-                          )}
-                        >
-                          <div
-                            className={classNames(
-                              projectcss.all,
-                              projectcss.__wab_text,
-                              sty.text__i9QbF
-                            )}
-                          >
-                            {"This is an Advertorial"}
-                          </div>
-                        </div>
-                        <p.PlasmicImg
-                          alt={""}
-                          className={classNames(sty.img__mmcrZ)}
-                          displayHeight={"auto" as const}
-                          displayMaxHeight={"none" as const}
-                          displayMaxWidth={"100%" as const}
-                          displayMinHeight={"0" as const}
-                          displayMinWidth={"0" as const}
-                          displayWidth={"132px" as const}
-                          loading={"lazy" as const}
-                          src={{
-                            src: "/plasmic/lhp_3_30_23/images/logopng.png",
-                            fullWidth: 276,
-                            fullHeight: 46,
-                            aspectRatio: undefined
-                          }}
-                        />
+                        {
+                          "When you make the switch to Sparq, you're choosing to go beyond your typical inhalation experience.\n\nWith Sparq’s Vitamin Air, you don’t have to choose between staying healthy and treating yourself. Instead, you can lead a healthy lifestyle while also quenching your thirst for that truly satisfying hit.\n\nYou can enjoy delicious hitting flavors in the form of a slim, compact, and odorless device while delivering nutrients and botanicals to your body. They will give you energy, mental clarity, boost your metabolism, and protect your body against aging.\n\nSparq provides a satisfying inhalation experience without any of the harmful chemicals or stimulants."
+                        }
                       </div>
                       <div
-                        data-plasmic-name={"div42"}
-                        data-plasmic-override={overrides.div42}
-                        className={classNames(projectcss.all, sty.div42)}
-                      >
-                        <div
-                          data-plasmic-name={"div43"}
-                          data-plasmic-override={overrides.div43}
-                          className={classNames(projectcss.all, sty.div43)}
-                        >
-                          <div
-                            data-plasmic-name={"div44"}
-                            data-plasmic-override={overrides.div44}
-                            className={classNames(projectcss.all, sty.div44)}
-                          >
-                            <div
-                              className={classNames(
-                                projectcss.all,
-                                projectcss.__wab_text,
-                                sty.text__wzGhc
-                              )}
-                            >
-                              {(() => {
-                                try {
-                                  return $ctx.fetchedData.records[0].fields
-                                    .heroHeadline;
-                                } catch (e) {
-                                  if (e instanceof TypeError) {
-                                    return "Want All The Joy Of Inhalation, But None Of The Health Compromises?";
-                                  }
-                                  throw e;
-                                }
-                              })()}
-                            </div>
-                            <div
-                              className={classNames(
-                                projectcss.all,
-                                projectcss.__wab_text,
-                                sty.text__o7Ciz
-                              )}
-                            >
-                              {(() => {
-                                try {
-                                  return $ctx.fetchedData.records[0].fields
-                                    .heroSubHeadline;
-                                } catch (e) {
-                                  if (e instanceof TypeError) {
-                                    return undefined;
-                                  }
-                                  throw e;
-                                }
-                              })()}
-                            </div>
-                            {(
-                              hasVariant(globalVariants, "screen", "mobileOnly")
-                                ? true
-                                : true
-                            ) ? (
-                              <div
-                                data-plasmic-name={"aget12"}
-                                data-plasmic-override={overrides.aget12}
-                                className={classNames(
-                                  projectcss.all,
-                                  sty.aget12
-                                )}
-                              >
-                                <div
-                                  className={classNames(
-                                    projectcss.all,
-                                    projectcss.__wab_text,
-                                    sty.text__p6Qk
-                                  )}
-                                >
-                                  {"FEEL THE DIFFERENCE"}
-                                </div>
-                                <div
-                                  data-plasmic-name={"fingericonpng5"}
-                                  data-plasmic-override={
-                                    overrides.fingericonpng5
-                                  }
-                                  className={classNames(
-                                    projectcss.all,
-                                    sty.fingericonpng5
-                                  )}
-                                />
-                              </div>
-                            ) : null}
-                            <div
-                              data-plasmic-name={"div45"}
-                              data-plasmic-override={overrides.div45}
-                              className={classNames(projectcss.all, sty.div45)}
-                            >
-                              {(
-                                hasVariant(
-                                  globalVariants,
-                                  "screen",
-                                  "mobileOnly"
-                                )
-                                  ? true
-                                  : true
-                              ) ? (
-                                <div
-                                  data-plasmic-name={"starpng6"}
-                                  data-plasmic-override={overrides.starpng6}
-                                  className={classNames(
-                                    projectcss.all,
-                                    sty.starpng6
-                                  )}
-                                />
-                              ) : null}
-                              <div
-                                data-plasmic-name={
-                                  "rated49StarsBy100000Customers3"
-                                }
-                                data-plasmic-override={
-                                  overrides.rated49StarsBy100000Customers3
-                                }
-                                className={classNames(
-                                  projectcss.all,
-                                  sty.rated49StarsBy100000Customers3
-                                )}
-                              />
-                            </div>
-                            {(
-                              hasVariant(globalVariants, "screen", "mobileOnly")
-                                ? true
-                                : true
-                            ) ? (
-                              <p.PlasmicImg
-                                alt={""}
-                                className={classNames(sty.img__lWf99)}
-                                displayHeight={"auto" as const}
-                                displayMaxHeight={"none" as const}
-                                displayMaxWidth={"100%" as const}
-                                displayMinHeight={"0" as const}
-                                displayMinWidth={"0" as const}
-                                displayWidth={"auto" as const}
-                                loading={"lazy" as const}
-                              />
-                            ) : null}
-                            <div
-                              data-plasmic-name={"a3"}
-                              data-plasmic-override={overrides.a3}
-                              className={classNames(projectcss.all, sty.a3)}
-                            >
-                              <div
-                                className={classNames(
-                                  projectcss.all,
-                                  projectcss.__wab_text,
-                                  sty.text__yq4L
-                                )}
-                              >
-                                {"CLAIM FREE PODS 👉"}
-                              </div>
-                              {(
-                                hasVariant(
-                                  globalVariants,
-                                  "screen",
-                                  "mobileOnly"
-                                )
-                                  ? true
-                                  : true
-                              ) ? (
-                                <div
-                                  data-plasmic-name={"fingericonpng4"}
-                                  data-plasmic-override={
-                                    overrides.fingericonpng4
-                                  }
-                                  className={classNames(
-                                    projectcss.all,
-                                    sty.fingericonpng4
-                                  )}
-                                />
-                              ) : null}
-                            </div>
-                            <div
-                              className={classNames(
-                                projectcss.all,
-                                projectcss.__wab_text,
-                                sty.text___40Gru
-                              )}
-                            >
-                              {"Rated 4.9 Stars By 100,000+ Customers"}
-                            </div>
-                            <p.PlasmicImg
-                              alt={""}
-                              className={classNames(sty.img__bqAnq)}
-                              displayHeight={"19px" as const}
-                              displayMaxHeight={"none" as const}
-                              displayMaxWidth={"123%" as const}
-                              displayMinHeight={"0" as const}
-                              displayMinWidth={"0" as const}
-                              displayWidth={"139px" as const}
-                              loading={"lazy" as const}
-                              src={{
-                                src: "/plasmic/lhp_3_30_23/images/image39.webp",
-                                fullWidth: 142,
-                                fullHeight: 21,
-                                aspectRatio: undefined
-                              }}
-                            />
-                          </div>
-                        </div>
-                        <div
-                          data-plasmic-name={"div46"}
-                          data-plasmic-override={overrides.div46}
-                          className={classNames(projectcss.all, sty.div46)}
-                        >
-                          {(
-                            hasVariant(globalVariants, "screen", "mobileOnly")
-                              ? true
-                              : true
-                          ) ? (
-                            <div
-                              data-plasmic-name={"div47"}
-                              data-plasmic-override={overrides.div47}
-                              className={classNames(projectcss.all, sty.div47)}
-                            >
-                              <div
-                                data-plasmic-name={"div48"}
-                                data-plasmic-override={overrides.div48}
-                                className={classNames(
-                                  projectcss.all,
-                                  sty.div48
-                                )}
-                              >
-                                <div
-                                  className={classNames(
-                                    projectcss.all,
-                                    projectcss.__wab_text,
-                                    sty.text___5LbQm
-                                  )}
-                                >
-                                  {"As Featured In:"}
-                                </div>
-                                <div
-                                  data-plasmic-name={"div49"}
-                                  data-plasmic-override={overrides.div49}
-                                  className={classNames(
-                                    projectcss.all,
-                                    sty.div49
-                                  )}
-                                >
-                                  <div
-                                    data-plasmic-name={"div50"}
-                                    data-plasmic-override={overrides.div50}
-                                    className={classNames(
-                                      projectcss.all,
-                                      sty.div50
-                                    )}
-                                  >
-                                    <div
-                                      data-plasmic-name={"nwMobbrand1Png"}
-                                      data-plasmic-override={
-                                        overrides.nwMobbrand1Png
-                                      }
-                                      className={classNames(
-                                        projectcss.all,
-                                        sty.nwMobbrand1Png
-                                      )}
-                                    />
-
-                                    <div
-                                      data-plasmic-name={"nwMobbrand2Png"}
-                                      data-plasmic-override={
-                                        overrides.nwMobbrand2Png
-                                      }
-                                      className={classNames(
-                                        projectcss.all,
-                                        sty.nwMobbrand2Png
-                                      )}
-                                    />
-
-                                    <div
-                                      data-plasmic-name={"nwMobbrand3Png"}
-                                      data-plasmic-override={
-                                        overrides.nwMobbrand3Png
-                                      }
-                                      className={classNames(
-                                        projectcss.all,
-                                        sty.nwMobbrand3Png
-                                      )}
-                                    />
-                                  </div>
-                                </div>
-                              </div>
-                              <div
-                                className={classNames(
-                                  projectcss.all,
-                                  projectcss.__wab_text,
-                                  sty.text__zqQg3
-                                )}
-                              >
-                                {
-                                  "Imagine a world where you could inhale vitamins, minerals, and antioxidants to improve your well-being."
-                                }
-                              </div>
-                              <div
-                                className={classNames(
-                                  projectcss.all,
-                                  projectcss.__wab_text,
-                                  sty.text__ewj2E
-                                )}
-                              >
-                                {
-                                  "Think about what it would be like to never have to suffer again through the jitters and anxiety that traditional inhalation methods bring."
-                                }
-                              </div>
-                              <div
-                                className={classNames(
-                                  projectcss.all,
-                                  projectcss.__wab_text,
-                                  sty.text__hfCZb
-                                )}
-                              >
-                                {
-                                  "What if you’ll no longer have to choose between your habit or quitting, or feel like you are compromising on health just to get the throat hit and flavor you enjoy?"
-                                }
-                              </div>
-                              <div
-                                className={classNames(
-                                  projectcss.all,
-                                  projectcss.__wab_text,
-                                  sty.text__t5Nz
-                                )}
-                              >
-                                {
-                                  "All Of The Above Is Possible…With Sparq’s Vitamin Air®."
-                                }
-                              </div>
-                              <div
-                                data-plasmic-name={"midbannerjpg2"}
-                                data-plasmic-override={overrides.midbannerjpg2}
-                                className={classNames(
-                                  projectcss.all,
-                                  sty.midbannerjpg2
-                                )}
-                              />
-
-                              <div
-                                data-plasmic-name={
-                                  "whenYouMakeTheSwitchToSparqYoureChoosingToGoBeyondYourTypicalInhalationExperience2"
-                                }
-                                data-plasmic-override={
-                                  overrides.whenYouMakeTheSwitchToSparqYoureChoosingToGoBeyondYourTypicalInhalationExperience2
-                                }
-                                className={classNames(
-                                  projectcss.all,
-                                  sty.whenYouMakeTheSwitchToSparqYoureChoosingToGoBeyondYourTypicalInhalationExperience2
-                                )}
-                              >
-                                <div
-                                  className={classNames(
-                                    projectcss.all,
-                                    projectcss.__wab_text,
-                                    sty.text___9UJ8I
-                                  )}
-                                >
-                                  {
-                                    "When you make the switch to Sparq, you're choosing to go beyond your typical inhalation experience."
-                                  }
-                                </div>
-                              </div>
-                              <div
-                                data-plasmic-name={
-                                  "withSparqsVitaminAirYouDontHaveToChooseBetweenStayingHealthyAndTreatingYourselfInsteadYouCanLeadAHealthyLifestyleWhileAlsoQuenchingYourThirstForThatTrulySatisfyingHit2"
-                                }
-                                data-plasmic-override={
-                                  overrides.withSparqsVitaminAirYouDontHaveToChooseBetweenStayingHealthyAndTreatingYourselfInsteadYouCanLeadAHealthyLifestyleWhileAlsoQuenchingYourThirstForThatTrulySatisfyingHit2
-                                }
-                                className={classNames(
-                                  projectcss.all,
-                                  sty.withSparqsVitaminAirYouDontHaveToChooseBetweenStayingHealthyAndTreatingYourselfInsteadYouCanLeadAHealthyLifestyleWhileAlsoQuenchingYourThirstForThatTrulySatisfyingHit2
-                                )}
-                              >
-                                <div
-                                  className={classNames(
-                                    projectcss.all,
-                                    projectcss.__wab_text,
-                                    sty.text__eHo5O
-                                  )}
-                                >
-                                  {
-                                    "With Sparq’s Vitamin Air, you don’t have to choose between staying healthy and treating yourself. Instead, you can lead a healthy lifestyle while also quenching your thirst for that truly satisfying hit."
-                                  }
-                                </div>
-                              </div>
-                              <div
-                                data-plasmic-name={
-                                  "youCanEnjoyDeliciousHittingFlavorsInTheFormOfASlimCompactAndOdorlessDeviceWhileDeliveringNutrientsAndBotanicalsToYourBodyTheyWillGiveYouEnergyMentalClarityBoostYourMetabolismAndProtectYourBodyAgainstAging2"
-                                }
-                                data-plasmic-override={
-                                  overrides.youCanEnjoyDeliciousHittingFlavorsInTheFormOfASlimCompactAndOdorlessDeviceWhileDeliveringNutrientsAndBotanicalsToYourBodyTheyWillGiveYouEnergyMentalClarityBoostYourMetabolismAndProtectYourBodyAgainstAging2
-                                }
-                                className={classNames(
-                                  projectcss.all,
-                                  sty.youCanEnjoyDeliciousHittingFlavorsInTheFormOfASlimCompactAndOdorlessDeviceWhileDeliveringNutrientsAndBotanicalsToYourBodyTheyWillGiveYouEnergyMentalClarityBoostYourMetabolismAndProtectYourBodyAgainstAging2
-                                )}
-                              >
-                                <div
-                                  className={classNames(
-                                    projectcss.all,
-                                    projectcss.__wab_text,
-                                    sty.text__jszhF
-                                  )}
-                                >
-                                  {
-                                    "You can enjoy delicious hitting flavors in the form of a slim, compact, and odorless device while delivering nutrients and botanicals to your body. They will give you energy, mental clarity, boost your metabolism, and protect your body against aging."
-                                  }
-                                </div>
-                              </div>
-                              <div
-                                data-plasmic-name={
-                                  "sparqProvidesASatisfyingInhalationExperienceWithoutAnyOfTheHarmfulChemicalsOrStimulants2"
-                                }
-                                data-plasmic-override={
-                                  overrides.sparqProvidesASatisfyingInhalationExperienceWithoutAnyOfTheHarmfulChemicalsOrStimulants2
-                                }
-                                className={classNames(
-                                  projectcss.all,
-                                  sty.sparqProvidesASatisfyingInhalationExperienceWithoutAnyOfTheHarmfulChemicalsOrStimulants2
-                                )}
-                              >
-                                <div
-                                  className={classNames(
-                                    projectcss.all,
-                                    projectcss.__wab_text,
-                                    sty.text__cbwGc
-                                  )}
-                                >
-                                  {
-                                    "Sparq provides a satisfying inhalation experience without any of the harmful chemicals or stimulants."
-                                  }
-                                </div>
-                              </div>
-                              <div
-                                data-plasmic-name={
-                                  "areYouOneOfTheseTwoTypesOfPeople"
-                                }
-                                data-plasmic-override={
-                                  overrides.areYouOneOfTheseTwoTypesOfPeople
-                                }
-                                className={classNames(
-                                  projectcss.all,
-                                  sty.areYouOneOfTheseTwoTypesOfPeople
-                                )}
-                              >
-                                <div
-                                  className={classNames(
-                                    projectcss.all,
-                                    projectcss.__wab_text,
-                                    sty.text__rhgd5
-                                  )}
-                                >
-                                  {"Are YOU One Of These Two Types Of People?"}
-                                </div>
-                              </div>
-                              <p.Stack
-                                as={"div"}
-                                data-plasmic-name={"div51"}
-                                data-plasmic-override={overrides.div51}
-                                hasGap={true}
-                                className={classNames(
-                                  projectcss.all,
-                                  sty.div51
-                                )}
-                              >
-                                <div
-                                  data-plasmic-name={"div52"}
-                                  data-plasmic-override={overrides.div52}
-                                  className={classNames(
-                                    projectcss.all,
-                                    sty.div52
-                                  )}
-                                >
-                                  <div
-                                    className={classNames(
-                                      projectcss.all,
-                                      projectcss.__wab_text,
-                                      sty.text__f5MDq
-                                    )}
-                                  >
-                                    {
-                                      "If you're trying to quit, it can feel like every craving is another insurmountable problem to face.. Even if you've managed to go several days, weeks, or months without caving, you still crave that puff…that throat hit…that oh so satisfying flavor."
-                                    }
-                                  </div>
-                                  <div
-                                    className={classNames(
-                                      projectcss.all,
-                                      projectcss.__wab_text,
-                                      sty.text__wdEqv
-                                    )}
-                                  >
-                                    {
-                                      "We know nicotine is addictive…but did you know it’s the oral fixation that keeps bringing you back? When you drop the habit, nicotine is out of your system in 72 hours but the oral fixation can last in the brain for up to 10 years!"
-                                    }
-                                  </div>
-                                  <div
-                                    className={classNames(
-                                      projectcss.all,
-                                      projectcss.__wab_text,
-                                      sty.text__mZgx6
-                                    )}
-                                  >
-                                    {
-                                      "That's why no matter how many times you try, you find yourself going back to your old habit again and again. Fortunately, we've got the alternative that will break this repetitive pattern!"
-                                    }
-                                  </div>
-                                  <div
-                                    className={classNames(
-                                      projectcss.all,
-                                      projectcss.__wab_text,
-                                      sty.text__qPx8A
-                                    )}
-                                  >
-                                    {"#1"}
-                                  </div>
-                                </div>
-                                <div
-                                  data-plasmic-name={"div53"}
-                                  data-plasmic-override={overrides.div53}
-                                  className={classNames(
-                                    projectcss.all,
-                                    sty.div53
-                                  )}
-                                >
-                                  <div
-                                    className={classNames(
-                                      projectcss.all,
-                                      projectcss.__wab_text,
-                                      sty.text__bvS6D
-                                    )}
-                                  >
-                                    {
-                                      "The world is your oyster, and you want nothing less than to enjoy it to the fullest extent. Maybe you're not into using inhalation devices but you've always been curious as to what all the hype is about. Sparq offers the perfect option for the curious spirit: all of the enjoyment and flavors of traditional products/devices but without the harmful chemicals or addictive stimulants!"
-                                    }
-                                  </div>
-                                  <div
-                                    className={classNames(
-                                      projectcss.all,
-                                      projectcss.__wab_text,
-                                      sty.text__g4XvT
-                                    )}
-                                  >
-                                    {
-                                      "Natural flavoring that is intensely delicious, vitamins, amino acids and botanicals, all wrapped in a device designed to provide a superior inhalation experience."
-                                    }
-                                  </div>
-                                  <div
-                                    className={classNames(
-                                      projectcss.all,
-                                      projectcss.__wab_text,
-                                      sty.text__cbvlt
-                                    )}
-                                  >
-                                    {"#2"}
-                                  </div>
-                                </div>
-                              </p.Stack>
-                              <div
-                                data-plasmic-name={
-                                  "sparqHasTheAnswersYoureLookingFor"
-                                }
-                                data-plasmic-override={
-                                  overrides.sparqHasTheAnswersYoureLookingFor
-                                }
-                                className={classNames(
-                                  projectcss.all,
-                                  sty.sparqHasTheAnswersYoureLookingFor
-                                )}
-                              >
-                                <div
-                                  className={classNames(
-                                    projectcss.all,
-                                    projectcss.__wab_text,
-                                    sty.text__azIad
-                                  )}
-                                >
-                                  {"Sparq Has The Answers You’re Looking for:"}
-                                </div>
-                              </div>
-                              <p.Stack
-                                as={"div"}
-                                data-plasmic-name={"ul2"}
-                                data-plasmic-override={overrides.ul2}
-                                hasGap={true}
-                                className={classNames(projectcss.all, sty.ul2)}
-                              >
-                                <div
-                                  data-plasmic-name={"li7"}
-                                  data-plasmic-override={overrides.li7}
-                                  className={classNames(
-                                    projectcss.all,
-                                    sty.li7
-                                  )}
-                                >
-                                  <div
-                                    data-plasmic-name={
-                                      "getRidOfThoseNicotineCravingsWhilstStillEnjoyingThatStrongAndIntenseThroatHit"
-                                    }
-                                    data-plasmic-override={
-                                      overrides.getRidOfThoseNicotineCravingsWhilstStillEnjoyingThatStrongAndIntenseThroatHit
-                                    }
-                                    className={classNames(
-                                      projectcss.all,
-                                      sty.getRidOfThoseNicotineCravingsWhilstStillEnjoyingThatStrongAndIntenseThroatHit
-                                    )}
-                                  >
-                                    <div
-                                      className={classNames(
-                                        projectcss.all,
-                                        projectcss.__wab_text,
-                                        sty.text__fpp4O
-                                      )}
-                                    >
-                                      {
-                                        "Get rid of those nicotine cravings whilst still enjoying that strong and intense throat hit."
-                                      }
-                                    </div>
-                                  </div>
-                                </div>
-                                <div
-                                  data-plasmic-name={"li8"}
-                                  data-plasmic-override={overrides.li8}
-                                  className={classNames(
-                                    projectcss.all,
-                                    sty.li8
-                                  )}
-                                >
-                                  <div
-                                    data-plasmic-name={
-                                      "satisfyYourOralFixationWithoutConsumingToxicSubstancesOrHarmfulChemicals"
-                                    }
-                                    data-plasmic-override={
-                                      overrides.satisfyYourOralFixationWithoutConsumingToxicSubstancesOrHarmfulChemicals
-                                    }
-                                    className={classNames(
-                                      projectcss.all,
-                                      sty.satisfyYourOralFixationWithoutConsumingToxicSubstancesOrHarmfulChemicals
-                                    )}
-                                  >
-                                    <div
-                                      className={classNames(
-                                        projectcss.all,
-                                        projectcss.__wab_text,
-                                        sty.text__tHcci
-                                      )}
-                                    >
-                                      {
-                                        "Satisfy your oral fixation without consuming toxic substances or harmful chemicals."
-                                      }
-                                    </div>
-                                  </div>
-                                </div>
-                                <div
-                                  data-plasmic-name={"li9"}
-                                  data-plasmic-override={overrides.li9}
-                                  className={classNames(
-                                    projectcss.all,
-                                    sty.li9
-                                  )}
-                                >
-                                  <div
-                                    data-plasmic-name={
-                                      "replaceThoseHarmfulChemicalsWithVitaminsAminoAcidsAndBotanicals"
-                                    }
-                                    data-plasmic-override={
-                                      overrides.replaceThoseHarmfulChemicalsWithVitaminsAminoAcidsAndBotanicals
-                                    }
-                                    className={classNames(
-                                      projectcss.all,
-                                      sty.replaceThoseHarmfulChemicalsWithVitaminsAminoAcidsAndBotanicals
-                                    )}
-                                  >
-                                    <div
-                                      className={classNames(
-                                        projectcss.all,
-                                        projectcss.__wab_text,
-                                        sty.text__iRfo
-                                      )}
-                                    >
-                                      {
-                                        "Replace those harmful chemicals with vitamins, amino acids, and botanicals."
-                                      }
-                                    </div>
-                                  </div>
-                                </div>
-                                <div
-                                  data-plasmic-name={"li10"}
-                                  data-plasmic-override={overrides.li10}
-                                  className={classNames(
-                                    projectcss.all,
-                                    sty.li10
-                                  )}
-                                >
-                                  <div
-                                    data-plasmic-name={
-                                      "promoteDeepBreathingAndRelieveAnxietyWithEachVitaminInfusedInhalation"
-                                    }
-                                    data-plasmic-override={
-                                      overrides.promoteDeepBreathingAndRelieveAnxietyWithEachVitaminInfusedInhalation
-                                    }
-                                    className={classNames(
-                                      projectcss.all,
-                                      sty.promoteDeepBreathingAndRelieveAnxietyWithEachVitaminInfusedInhalation
-                                    )}
-                                  >
-                                    <div
-                                      className={classNames(
-                                        projectcss.all,
-                                        projectcss.__wab_text,
-                                        sty.text__ztVmF
-                                      )}
-                                    >
-                                      {
-                                        "Promote deep-breathing and relieve anxiety with each vitamin infused inhalation."
-                                      }
-                                    </div>
-                                  </div>
-                                </div>
-                                <div
-                                  data-plasmic-name={"li11"}
-                                  data-plasmic-override={overrides.li11}
-                                  className={classNames(
-                                    projectcss.all,
-                                    sty.li11
-                                  )}
-                                >
-                                  <div
-                                    data-plasmic-name={
-                                      "enjoyAHealthierAlternativeWithoutGivingUpYourHabit"
-                                    }
-                                    data-plasmic-override={
-                                      overrides.enjoyAHealthierAlternativeWithoutGivingUpYourHabit
-                                    }
-                                    className={classNames(
-                                      projectcss.all,
-                                      sty.enjoyAHealthierAlternativeWithoutGivingUpYourHabit
-                                    )}
-                                  >
-                                    <div
-                                      className={classNames(
-                                        projectcss.all,
-                                        projectcss.__wab_text,
-                                        sty.text__inLy
-                                      )}
-                                    >
-                                      {
-                                        "Enjoy a healthier alternative without giving up your habit."
-                                      }
-                                    </div>
-                                  </div>
-                                </div>
-                                <div
-                                  data-plasmic-name={"li12"}
-                                  data-plasmic-override={overrides.li12}
-                                  className={classNames(
-                                    projectcss.all,
-                                    sty.li12
-                                  )}
-                                >
-                                  <div
-                                    className={classNames(
-                                      projectcss.all,
-                                      projectcss.__wab_text,
-                                      sty.text__s4OKc
-                                    )}
-                                  >
-                                    {
-                                      "Take your device everywhere with its ultramodern and compact design and use it anytime you want."
-                                    }
-                                  </div>
-                                </div>
-                              </p.Stack>
-                              <div
-                                data-plasmic-name={"tbody2"}
-                                data-plasmic-override={overrides.tbody2}
-                                className={classNames(
-                                  projectcss.all,
-                                  sty.tbody2
-                                )}
-                              >
-                                <div
-                                  data-plasmic-name={"tr7"}
-                                  data-plasmic-override={overrides.tr7}
-                                  className={classNames(
-                                    projectcss.all,
-                                    sty.tr7
-                                  )}
-                                >
-                                  <div
-                                    data-plasmic-name={"th4"}
-                                    data-plasmic-override={overrides.th4}
-                                    className={classNames(
-                                      projectcss.all,
-                                      sty.th4
-                                    )}
-                                  />
-
-                                  <div
-                                    data-plasmic-name={"th5"}
-                                    data-plasmic-override={overrides.th5}
-                                    className={classNames(
-                                      projectcss.all,
-                                      sty.th5
-                                    )}
-                                  >
-                                    <div
-                                      className={classNames(
-                                        projectcss.all,
-                                        projectcss.__wab_text,
-                                        sty.text__lxuw8
-                                      )}
-                                    >
-                                      {"Sparq"}
-                                    </div>
-                                  </div>
-                                  <div
-                                    data-plasmic-name={"th6"}
-                                    data-plasmic-override={overrides.th6}
-                                    className={classNames(
-                                      projectcss.all,
-                                      sty.th6
-                                    )}
-                                  >
-                                    <div
-                                      className={classNames(
-                                        projectcss.all,
-                                        projectcss.__wab_text,
-                                        sty.text__d4WnF
-                                      )}
-                                    >
-                                      {"Others"}
-                                    </div>
-                                  </div>
-                                </div>
-                                <div
-                                  data-plasmic-name={"tr8"}
-                                  data-plasmic-override={overrides.tr8}
-                                  className={classNames(
-                                    projectcss.all,
-                                    sty.tr8
-                                  )}
-                                >
-                                  <div
-                                    data-plasmic-name={"td16"}
-                                    data-plasmic-override={overrides.td16}
-                                    className={classNames(
-                                      projectcss.all,
-                                      sty.td16
-                                    )}
-                                  >
-                                    <div
-                                      className={classNames(
-                                        projectcss.all,
-                                        projectcss.__wab_text,
-                                        sty.text__xSgWy
-                                      )}
-                                    >
-                                      {"No Harmful Chemicals"}
-                                    </div>
-                                  </div>
-                                  <div
-                                    data-plasmic-name={"td17"}
-                                    data-plasmic-override={overrides.td17}
-                                    className={classNames(
-                                      projectcss.all,
-                                      sty.td17
-                                    )}
-                                  >
-                                    <div
-                                      data-plasmic-name={"tickpng6"}
-                                      data-plasmic-override={overrides.tickpng6}
-                                      className={classNames(
-                                        projectcss.all,
-                                        sty.tickpng6
-                                      )}
-                                    />
-                                  </div>
-                                  <div
-                                    data-plasmic-name={"td18"}
-                                    data-plasmic-override={overrides.td18}
-                                    className={classNames(
-                                      projectcss.all,
-                                      sty.td18
-                                    )}
-                                  >
-                                    <div
-                                      data-plasmic-name={"crosspng6"}
-                                      data-plasmic-override={
-                                        overrides.crosspng6
-                                      }
-                                      className={classNames(
-                                        projectcss.all,
-                                        sty.crosspng6
-                                      )}
-                                    />
-                                  </div>
-                                </div>
-                                <div
-                                  data-plasmic-name={"tr9"}
-                                  data-plasmic-override={overrides.tr9}
-                                  className={classNames(
-                                    projectcss.all,
-                                    sty.tr9
-                                  )}
-                                >
-                                  <div
-                                    data-plasmic-name={"td19"}
-                                    data-plasmic-override={overrides.td19}
-                                    className={classNames(
-                                      projectcss.all,
-                                      sty.td19
-                                    )}
-                                  >
-                                    <div
-                                      className={classNames(
-                                        projectcss.all,
-                                        projectcss.__wab_text,
-                                        sty.text__nnw07
-                                      )}
-                                    >
-                                      {"Eco-friendly and recyclable"}
-                                    </div>
-                                  </div>
-                                  <div
-                                    data-plasmic-name={"td20"}
-                                    data-plasmic-override={overrides.td20}
-                                    className={classNames(
-                                      projectcss.all,
-                                      sty.td20
-                                    )}
-                                  >
-                                    <div
-                                      data-plasmic-name={"tickpng7"}
-                                      data-plasmic-override={overrides.tickpng7}
-                                      className={classNames(
-                                        projectcss.all,
-                                        sty.tickpng7
-                                      )}
-                                    />
-                                  </div>
-                                  <div
-                                    data-plasmic-name={"td21"}
-                                    data-plasmic-override={overrides.td21}
-                                    className={classNames(
-                                      projectcss.all,
-                                      sty.td21
-                                    )}
-                                  >
-                                    <div
-                                      data-plasmic-name={"crosspng7"}
-                                      data-plasmic-override={
-                                        overrides.crosspng7
-                                      }
-                                      className={classNames(
-                                        projectcss.all,
-                                        sty.crosspng7
-                                      )}
-                                    />
-                                  </div>
-                                </div>
-                                <div
-                                  data-plasmic-name={"tr10"}
-                                  data-plasmic-override={overrides.tr10}
-                                  className={classNames(
-                                    projectcss.all,
-                                    sty.tr10
-                                  )}
-                                >
-                                  <div
-                                    data-plasmic-name={"td22"}
-                                    data-plasmic-override={overrides.td22}
-                                    className={classNames(
-                                      projectcss.all,
-                                      sty.td22
-                                    )}
-                                  >
-                                    <div
-                                      className={classNames(
-                                        projectcss.all,
-                                        projectcss.__wab_text,
-                                        sty.text__cg4I6
-                                      )}
-                                    >
-                                      {"0% Nicotine, 100% Guilt Free"}
-                                    </div>
-                                  </div>
-                                  <div
-                                    data-plasmic-name={"td23"}
-                                    data-plasmic-override={overrides.td23}
-                                    className={classNames(
-                                      projectcss.all,
-                                      sty.td23
-                                    )}
-                                  >
-                                    <div
-                                      data-plasmic-name={"tickpng8"}
-                                      data-plasmic-override={overrides.tickpng8}
-                                      className={classNames(
-                                        projectcss.all,
-                                        sty.tickpng8
-                                      )}
-                                    />
-                                  </div>
-                                  <div
-                                    data-plasmic-name={"td24"}
-                                    data-plasmic-override={overrides.td24}
-                                    className={classNames(
-                                      projectcss.all,
-                                      sty.td24
-                                    )}
-                                  >
-                                    <div
-                                      data-plasmic-name={"crosspng8"}
-                                      data-plasmic-override={
-                                        overrides.crosspng8
-                                      }
-                                      className={classNames(
-                                        projectcss.all,
-                                        sty.crosspng8
-                                      )}
-                                    />
-                                  </div>
-                                </div>
-                                <div
-                                  data-plasmic-name={"tr11"}
-                                  data-plasmic-override={overrides.tr11}
-                                  className={classNames(
-                                    projectcss.all,
-                                    sty.tr11
-                                  )}
-                                >
-                                  <div
-                                    data-plasmic-name={"td25"}
-                                    data-plasmic-override={overrides.td25}
-                                    className={classNames(
-                                      projectcss.all,
-                                      sty.td25
-                                    )}
-                                  >
-                                    <div
-                                      className={classNames(
-                                        projectcss.all,
-                                        projectcss.__wab_text,
-                                        sty.text___4BCwL
-                                      )}
-                                    >
-                                      {"Laboratory-tested"}
-                                    </div>
-                                  </div>
-                                  <div
-                                    data-plasmic-name={"td26"}
-                                    data-plasmic-override={overrides.td26}
-                                    className={classNames(
-                                      projectcss.all,
-                                      sty.td26
-                                    )}
-                                  >
-                                    <div
-                                      data-plasmic-name={"tickpng9"}
-                                      data-plasmic-override={overrides.tickpng9}
-                                      className={classNames(
-                                        projectcss.all,
-                                        sty.tickpng9
-                                      )}
-                                    />
-                                  </div>
-                                  <div
-                                    data-plasmic-name={"td27"}
-                                    data-plasmic-override={overrides.td27}
-                                    className={classNames(
-                                      projectcss.all,
-                                      sty.td27
-                                    )}
-                                  >
-                                    <div
-                                      data-plasmic-name={"crosspng9"}
-                                      data-plasmic-override={
-                                        overrides.crosspng9
-                                      }
-                                      className={classNames(
-                                        projectcss.all,
-                                        sty.crosspng9
-                                      )}
-                                    />
-                                  </div>
-                                </div>
-                                <div
-                                  data-plasmic-name={"tr12"}
-                                  data-plasmic-override={overrides.tr12}
-                                  className={classNames(
-                                    projectcss.all,
-                                    sty.tr12
-                                  )}
-                                >
-                                  <div
-                                    data-plasmic-name={"td28"}
-                                    data-plasmic-override={overrides.td28}
-                                    className={classNames(
-                                      projectcss.all,
-                                      sty.td28
-                                    )}
-                                  >
-                                    <div
-                                      className={classNames(
-                                        projectcss.all,
-                                        projectcss.__wab_text,
-                                        sty.text__tyO3M
-                                      )}
-                                    >
-                                      {"Socially Responsible"}
-                                    </div>
-                                  </div>
-                                  <div
-                                    data-plasmic-name={"td29"}
-                                    data-plasmic-override={overrides.td29}
-                                    className={classNames(
-                                      projectcss.all,
-                                      sty.td29
-                                    )}
-                                  >
-                                    <div
-                                      data-plasmic-name={"tickpng10"}
-                                      data-plasmic-override={
-                                        overrides.tickpng10
-                                      }
-                                      className={classNames(
-                                        projectcss.all,
-                                        sty.tickpng10
-                                      )}
-                                    />
-                                  </div>
-                                  <div
-                                    data-plasmic-name={"td30"}
-                                    data-plasmic-override={overrides.td30}
-                                    className={classNames(
-                                      projectcss.all,
-                                      sty.td30
-                                    )}
-                                  >
-                                    <div
-                                      data-plasmic-name={"crosspng10"}
-                                      data-plasmic-override={
-                                        overrides.crosspng10
-                                      }
-                                      className={classNames(
-                                        projectcss.all,
-                                        sty.crosspng10
-                                      )}
-                                    />
-                                  </div>
-                                </div>
-                              </div>
-                              <div
-                                data-plasmic-name={
-                                  "happyQuittersVitaminLoversAndHealthyChoiceFollowersCantStopTalkingAboutVitaminAir2"
-                                }
-                                data-plasmic-override={
-                                  overrides.happyQuittersVitaminLoversAndHealthyChoiceFollowersCantStopTalkingAboutVitaminAir2
-                                }
-                                className={classNames(
-                                  projectcss.all,
-                                  sty.happyQuittersVitaminLoversAndHealthyChoiceFollowersCantStopTalkingAboutVitaminAir2
-                                )}
-                              >
-                                <div
-                                  className={classNames(
-                                    projectcss.all,
-                                    projectcss.__wab_text,
-                                    sty.text__g90CL
-                                  )}
-                                >
-                                  {
-                                    "Happy Quitters, Vitamin Lovers, And Healthy Choice Followers Can't Stop Talking About Vitamin Air:"
-                                  }
-                                </div>
-                              </div>
-                              <div
-                                data-plasmic-name={"reviewjpg2"}
-                                data-plasmic-override={overrides.reviewjpg2}
-                                className={classNames(
-                                  projectcss.all,
-                                  sty.reviewjpg2
-                                )}
-                              />
-
-                              <div
-                                data-plasmic-name={
-                                  "nowYouDontHaveToChooseBetweenEitherStrawberryOrVanillaFlavor2"
-                                }
-                                data-plasmic-override={
-                                  overrides.nowYouDontHaveToChooseBetweenEitherStrawberryOrVanillaFlavor2
-                                }
-                                className={classNames(
-                                  projectcss.all,
-                                  sty.nowYouDontHaveToChooseBetweenEitherStrawberryOrVanillaFlavor2
-                                )}
-                              >
-                                <div
-                                  className={classNames(
-                                    projectcss.all,
-                                    projectcss.__wab_text,
-                                    sty.text__xIuko
-                                  )}
-                                >
-                                  {
-                                    "Now you don't have to choose between either Strawberry or Vanilla flavor."
-                                  }
-                                </div>
-                              </div>
-                              <div
-                                data-plasmic-name={
-                                  "youCanHaveBothAndAPlusOneForFree2"
-                                }
-                                data-plasmic-override={
-                                  overrides.youCanHaveBothAndAPlusOneForFree2
-                                }
-                                className={classNames(
-                                  projectcss.all,
-                                  sty.youCanHaveBothAndAPlusOneForFree2
-                                )}
-                              >
-                                <div
-                                  className={classNames(
-                                    projectcss.all,
-                                    projectcss.__wab_text,
-                                    sty.text__afsVl
-                                  )}
-                                >
-                                  {
-                                    "You can have both and a plus one - FOR FREE."
-                                  }
-                                </div>
-                              </div>
-                              <div
-                                data-plasmic-name={"divprodarea2"}
-                                data-plasmic-override={overrides.divprodarea2}
-                                className={classNames(
-                                  projectcss.all,
-                                  sty.divprodarea2
-                                )}
-                              >
-                                <div
-                                  data-plasmic-name={"div54"}
-                                  data-plasmic-override={overrides.div54}
-                                  className={classNames(
-                                    projectcss.all,
-                                    sty.div54
-                                  )}
-                                >
-                                  <div
-                                    data-plasmic-name={"div55"}
-                                    data-plasmic-override={overrides.div55}
-                                    className={classNames(
-                                      projectcss.all,
-                                      sty.div55
-                                    )}
-                                  >
-                                    <div
-                                      data-plasmic-name={"prodimagepng2"}
-                                      data-plasmic-override={
-                                        overrides.prodimagepng2
-                                      }
-                                      className={classNames(
-                                        projectcss.all,
-                                        sty.prodimagepng2
-                                      )}
-                                    />
-
-                                    <div
-                                      data-plasmic-name={"div56"}
-                                      data-plasmic-override={overrides.div56}
-                                      className={classNames(
-                                        projectcss.all,
-                                        sty.div56
-                                      )}
-                                    >
-                                      <div
-                                        data-plasmic-name={"buy2Get2"}
-                                        data-plasmic-override={
-                                          overrides.buy2Get2
-                                        }
-                                        className={classNames(
-                                          projectcss.all,
-                                          sty.buy2Get2
-                                        )}
-                                      >
-                                        <div
-                                          className={classNames(
-                                            projectcss.all,
-                                            projectcss.__wab_text,
-                                            sty.text__c5Pf
-                                          )}
-                                        >
-                                          {"BUY 2, Get 1"}
-                                        </div>
-                                      </div>
-                                      <div
-                                        data-plasmic-name={"free2"}
-                                        data-plasmic-override={overrides.free2}
-                                        className={classNames(
-                                          projectcss.all,
-                                          sty.free2
-                                        )}
-                                      >
-                                        <div
-                                          className={classNames(
-                                            projectcss.all,
-                                            projectcss.__wab_text,
-                                            sty.text__m1CYx
-                                          )}
-                                        >
-                                          {"Free"}
-                                        </div>
-                                      </div>
-                                    </div>
-                                  </div>
-                                  <div
-                                    data-plasmic-name={"div57"}
-                                    data-plasmic-override={overrides.div57}
-                                    className={classNames(
-                                      projectcss.all,
-                                      sty.div57
-                                    )}
-                                  >
-                                    <div
-                                      className={classNames(
-                                        projectcss.all,
-                                        projectcss.__wab_text,
-                                        sty.text__lQeD
-                                      )}
-                                    >
-                                      {"special offer"}
-                                    </div>
-                                    <div
-                                      className={classNames(
-                                        projectcss.all,
-                                        projectcss.__wab_text,
-                                        sty.text__uBep0
-                                      )}
-                                    >
-                                      {"free vitamin air"}
-                                    </div>
-                                    <div
-                                      className={classNames(
-                                        projectcss.all,
-                                        projectcss.__wab_text,
-                                        sty.text__wBqdA
-                                      )}
-                                    >
-                                      {
-                                        "Money-Back Guarantee: Better Flavor & Harder Hits or Your Money Back."
-                                      }
-                                    </div>
-                                    <div
-                                      data-plasmic-name={"div58"}
-                                      data-plasmic-override={overrides.div58}
-                                      className={classNames(
-                                        projectcss.all,
-                                        sty.div58
-                                      )}
-                                    >
-                                      <div
-                                        className={classNames(
-                                          projectcss.all,
-                                          projectcss.__wab_text,
-                                          sty.text__kN8Jw
-                                        )}
-                                      >
-                                        {"Choose Flavor"}
-                                      </div>
-                                      <p.Stack
-                                        as={"div"}
-                                        data-plasmic-name={"div59"}
-                                        data-plasmic-override={overrides.div59}
-                                        hasGap={true}
-                                        className={classNames(
-                                          projectcss.all,
-                                          sty.div59
-                                        )}
-                                      >
-                                        <div
-                                          data-plasmic-name={"div60"}
-                                          data-plasmic-override={
-                                            overrides.div60
-                                          }
-                                          className={classNames(
-                                            projectcss.all,
-                                            sty.div60
-                                          )}
-                                        >
-                                          <div
-                                            data-plasmic-name={"div61"}
-                                            data-plasmic-override={
-                                              overrides.div61
-                                            }
-                                            className={classNames(
-                                              projectcss.all,
-                                              sty.div61
-                                            )}
-                                          >
-                                            <div
-                                              data-plasmic-name={"div62"}
-                                              data-plasmic-override={
-                                                overrides.div62
-                                              }
-                                              className={classNames(
-                                                projectcss.all,
-                                                sty.div62
-                                              )}
-                                            />
-                                          </div>
-                                          <div
-                                            data-plasmic-name={"strawberry2"}
-                                            data-plasmic-override={
-                                              overrides.strawberry2
-                                            }
-                                            className={classNames(
-                                              projectcss.all,
-                                              sty.strawberry2
-                                            )}
-                                          >
-                                            <div
-                                              className={classNames(
-                                                projectcss.all,
-                                                projectcss.__wab_text,
-                                                sty.text___5Dbym
-                                              )}
-                                            >
-                                              {"Strawberry"}
-                                            </div>
-                                          </div>
-                                        </div>
-                                        <div
-                                          data-plasmic-name={"div63"}
-                                          data-plasmic-override={
-                                            overrides.div63
-                                          }
-                                          className={classNames(
-                                            projectcss.all,
-                                            sty.div63
-                                          )}
-                                        >
-                                          <div
-                                            data-plasmic-name={"div64"}
-                                            data-plasmic-override={
-                                              overrides.div64
-                                            }
-                                            className={classNames(
-                                              projectcss.all,
-                                              sty.div64
-                                            )}
-                                          >
-                                            <div
-                                              data-plasmic-name={"div65"}
-                                              data-plasmic-override={
-                                                overrides.div65
-                                              }
-                                              className={classNames(
-                                                projectcss.all,
-                                                sty.div65
-                                              )}
-                                            />
-                                          </div>
-                                          <div
-                                            data-plasmic-name={"vanila2"}
-                                            data-plasmic-override={
-                                              overrides.vanila2
-                                            }
-                                            className={classNames(
-                                              projectcss.all,
-                                              sty.vanila2
-                                            )}
-                                          >
-                                            <div
-                                              className={classNames(
-                                                projectcss.all,
-                                                projectcss.__wab_text,
-                                                sty.text__dOisn
-                                              )}
-                                            >
-                                              {"Vanila"}
-                                            </div>
-                                          </div>
-                                        </div>
-                                      </p.Stack>
-                                    </div>
-                                  </div>
-                                </div>
-                                <div
-                                  data-plasmic-name={"div66"}
-                                  data-plasmic-override={overrides.div66}
-                                  className={classNames(
-                                    projectcss.all,
-                                    sty.div66
-                                  )}
-                                >
-                                  <div
-                                    data-plasmic-name={"aget2"}
-                                    data-plasmic-override={overrides.aget2}
-                                    className={classNames(
-                                      projectcss.all,
-                                      sty.aget2
-                                    )}
-                                  >
-                                    <div
-                                      className={classNames(
-                                        projectcss.all,
-                                        projectcss.__wab_text,
-                                        sty.text__e6YG2
-                                      )}
-                                    >
-                                      {"FEEL THE DIFFERENCE"}
-                                    </div>
-                                    <div
-                                      data-plasmic-name={"fingericonpng6"}
-                                      data-plasmic-override={
-                                        overrides.fingericonpng6
-                                      }
-                                      className={classNames(
-                                        projectcss.all,
-                                        sty.fingericonpng6
-                                      )}
-                                    />
-                                  </div>
-                                  <div
-                                    data-plasmic-name={"paymentcardpng2"}
-                                    data-plasmic-override={
-                                      overrides.paymentcardpng2
-                                    }
-                                    className={classNames(
-                                      projectcss.all,
-                                      sty.paymentcardpng2
-                                    )}
-                                  />
-                                </div>
-                              </div>
-                              <div
-                                data-plasmic-name={"faQs2"}
-                                data-plasmic-override={overrides.faQs2}
-                                className={classNames(
-                                  projectcss.all,
-                                  sty.faQs2
-                                )}
-                              >
-                                <div
-                                  className={classNames(
-                                    projectcss.all,
-                                    projectcss.__wab_text,
-                                    sty.text__xXSxG
-                                  )}
-                                >
-                                  {"FAQs"}
-                                </div>
-                              </div>
-                              <p.Stack
-                                as={"div"}
-                                data-plasmic-name={"div67"}
-                                data-plasmic-override={overrides.div67}
-                                hasGap={true}
-                                className={classNames(
-                                  projectcss.all,
-                                  sty.div67
-                                )}
-                              >
-                                <div
-                                  className={classNames(
-                                    projectcss.all,
-                                    projectcss.__wab_text,
-                                    sty.text__k4M8U
-                                  )}
-                                >
-                                  {"Is Sparq Vitamin Air safe?"}
-                                </div>
-                                <div
-                                  className={classNames(
-                                    projectcss.all,
-                                    projectcss.__wab_text,
-                                    sty.text__gmRyY
-                                  )}
-                                >
-                                  {
-                                    "Sparq Vitamin Air has been laboratory-tested in an ISO-17025 accredited lab and certified to be free of harmful chemicals. It is only made with organic, natural substances."
-                                  }
-                                </div>
-                              </p.Stack>
-                              <p.Stack
-                                as={"div"}
-                                data-plasmic-name={"div68"}
-                                data-plasmic-override={overrides.div68}
-                                hasGap={true}
-                                className={classNames(
-                                  projectcss.all,
-                                  sty.div68
-                                )}
-                              >
-                                <div
-                                  className={classNames(
-                                    projectcss.all,
-                                    projectcss.__wab_text,
-                                    sty.text___3ScV1
-                                  )}
-                                >
-                                  {
-                                    "What are the ingredients used in Sparq Vitamin Air?"
-                                  }
-                                </div>
-                                <div
-                                  className={classNames(
-                                    projectcss.all,
-                                    projectcss.__wab_text,
-                                    sty.text__i3Hi4
-                                  )}
-                                >
-                                  {
-                                    "Our formulations do not contain nicotine or any addictive substances. We only use Organic Vegetable Glycerin and Natural Flavoring as our base, combined with the highest quality, U.S. sourced vitamins, amino acids and botanicals."
-                                  }
-                                </div>
-                              </p.Stack>
-                              <p.Stack
-                                as={"div"}
-                                data-plasmic-name={"div69"}
-                                data-plasmic-override={overrides.div69}
-                                hasGap={true}
-                                className={classNames(
-                                  projectcss.all,
-                                  sty.div69
-                                )}
-                              >
-                                <div
-                                  className={classNames(
-                                    projectcss.all,
-                                    projectcss.__wab_text,
-                                    sty.text__iIy1I
-                                  )}
-                                >
-                                  {"How do I use Sparq Vitamin Air?"}
-                                </div>
-                                <div
-                                  className={classNames(
-                                    projectcss.all,
-                                    projectcss.__wab_text,
-                                    sty.text__w4KmY
-                                  )}
-                                >
-                                  {
-                                    "To use Sparq Vitamin Air, simply lift the device from the packaging, remove the protective silicone caps, place the wooden end of the device in your mouth and inhale. The LED will illuminate to indicate suctio."
-                                  }
-                                </div>
-                              </p.Stack>
-                              <p.Stack
-                                as={"div"}
-                                data-plasmic-name={"div70"}
-                                data-plasmic-override={overrides.div70}
-                                hasGap={true}
-                                className={classNames(
-                                  projectcss.all,
-                                  sty.div70
-                                )}
-                              >
-                                <div
-                                  className={classNames(
-                                    projectcss.all,
-                                    projectcss.__wab_text,
-                                    sty.text__xOgqb
-                                  )}
-                                >
-                                  {"How long does it last?"}
-                                </div>
-                                <div
-                                  className={classNames(
-                                    projectcss.all,
-                                    projectcss.__wab_text,
-                                    sty.text__aUJj
-                                  )}
-                                >
-                                  {
-                                    "Each Sparq device will provide 300 puffs or more, depending on how it is used. The built-in LED will blink for 2 seconds when the juice is about to run out."
-                                  }
-                                </div>
-                              </p.Stack>
-                              <p.Stack
-                                as={"div"}
-                                data-plasmic-name={"div71"}
-                                data-plasmic-override={overrides.div71}
-                                hasGap={true}
-                                className={classNames(
-                                  projectcss.all,
-                                  sty.div71
-                                )}
-                              >
-                                <div
-                                  className={classNames(
-                                    projectcss.all,
-                                    projectcss.__wab_text,
-                                    sty.text__ymfWa
-                                  )}
-                                >
-                                  {"What materials is Sparq made from?"}
-                                </div>
-                                <div
-                                  className={classNames(
-                                    projectcss.all,
-                                    projectcss.__wab_text,
-                                    sty.text__mmdXw
-                                  )}
-                                >
-                                  {
-                                    "Our Sparq Vitamin Air is 100% recyclable. It is made of a biodegradable body of wood, stainless steel and food-grade silicone and it's powered by a lithium battery."
-                                  }
-                                </div>
-                              </p.Stack>
-                            </div>
-                          ) : null}
-                          {(
-                            hasVariant(globalVariants, "screen", "mobileOnly")
-                              ? true
-                              : true
-                          ) ? (
-                            <div
-                              data-plasmic-name={"div72"}
-                              data-plasmic-override={overrides.div72}
-                              className={classNames(projectcss.all, sty.div72)}
-                            >
-                              <div
-                                data-plasmic-name={"div73"}
-                                data-plasmic-override={overrides.div73}
-                                className={classNames(
-                                  projectcss.all,
-                                  sty.div73
-                                )}
-                              >
-                                <div
-                                  data-plasmic-name={"starpng7"}
-                                  data-plasmic-override={overrides.starpng7}
-                                  className={classNames(
-                                    projectcss.all,
-                                    sty.starpng7
-                                  )}
-                                />
-
-                                <div
-                                  data-plasmic-name={
-                                    "rated49StarsBy100000Customers4"
-                                  }
-                                  data-plasmic-override={
-                                    overrides.rated49StarsBy100000Customers4
-                                  }
-                                  className={classNames(
-                                    projectcss.all,
-                                    sty.rated49StarsBy100000Customers4
-                                  )}
-                                >
-                                  <div
-                                    className={classNames(
-                                      projectcss.all,
-                                      projectcss.__wab_text,
-                                      sty.text___3Jobb
-                                    )}
-                                  >
-                                    {"Rated 4.9 Stars By 100,000+ Customers"}
-                                  </div>
-                                </div>
-                                <div
-                                  data-plasmic-name={"h33"}
-                                  data-plasmic-override={overrides.h33}
-                                  className={classNames(
-                                    projectcss.all,
-                                    sty.h33
-                                  )}
-                                >
-                                  <div
-                                    data-plasmic-name={"soWhatAre2"}
-                                    data-plasmic-override={overrides.soWhatAre2}
-                                    className={classNames(
-                                      projectcss.all,
-                                      projectcss.__wab_text,
-                                      sty.soWhatAre2
-                                    )}
-                                  >
-                                    {"So What Are\n"}
-                                  </div>
-                                  <div
-                                    className={classNames(
-                                      projectcss.all,
-                                      projectcss.__wab_text,
-                                      sty.text__rJb5J
-                                    )}
-                                  >
-                                    {"You Waiting For?"}
-                                  </div>
-                                </div>
-                                <div
-                                  data-plasmic-name={
-                                    "takeTheFirstAndEasiestStepTowardsQuittingAndReceive15OffYourFirstPurchase2"
-                                  }
-                                  data-plasmic-override={
-                                    overrides.takeTheFirstAndEasiestStepTowardsQuittingAndReceive15OffYourFirstPurchase2
-                                  }
-                                  className={classNames(
-                                    projectcss.all,
-                                    sty.takeTheFirstAndEasiestStepTowardsQuittingAndReceive15OffYourFirstPurchase2
-                                  )}
-                                >
-                                  <div
-                                    className={classNames(
-                                      projectcss.all,
-                                      projectcss.__wab_text,
-                                      sty.text__zhIox
-                                    )}
-                                  >
-                                    {
-                                      "Take the first and easiest step towards quitting and receive 15% OFF your first purchase"
-                                    }
-                                  </div>
-                                </div>
-                                <div
-                                  data-plasmic-name={"aget3"}
-                                  data-plasmic-override={overrides.aget3}
-                                  className={classNames(
-                                    projectcss.all,
-                                    sty.aget3
-                                  )}
-                                >
-                                  <div
-                                    className={classNames(
-                                      projectcss.all,
-                                      projectcss.__wab_text,
-                                      sty.text__yBgqV
-                                    )}
-                                  >
-                                    {"FEEL THE DIFFERENCE"}
-                                  </div>
-                                  <div
-                                    data-plasmic-name={"fingericonpng7"}
-                                    data-plasmic-override={
-                                      overrides.fingericonpng7
-                                    }
-                                    className={classNames(
-                                      projectcss.all,
-                                      sty.fingericonpng7
-                                    )}
-                                  />
-                                </div>
-                              </div>
-                            </div>
-                          ) : null}
-                        </div>
-                      </div>
-                      {(
-                        hasVariant(globalVariants, "screen", "mobileOnly")
-                          ? true
-                          : true
-                      ) ? (
-                        <div
-                          data-plasmic-name={"div74"}
-                          data-plasmic-override={overrides.div74}
-                          className={classNames(projectcss.all, sty.div74)}
-                        >
-                          <div
-                            data-plasmic-name={"logopng4"}
-                            data-plasmic-override={overrides.logopng4}
-                            className={classNames(projectcss.all, sty.logopng4)}
-                          />
-
-                          <div
-                            data-plasmic-name={
-                              "copyrights2022AllRightsReserved2"
-                            }
-                            data-plasmic-override={
-                              overrides.copyrights2022AllRightsReserved2
-                            }
-                            className={classNames(
-                              projectcss.all,
-                              sty.copyrights2022AllRightsReserved2
-                            )}
-                          >
-                            <div
-                              className={classNames(
-                                projectcss.all,
-                                projectcss.__wab_text,
-                                sty.text__iilxo
-                              )}
-                            >
-                              {"Copyrights 2022. All Rights Reserved"}
-                            </div>
-                          </div>
-                          <div
-                            data-plasmic-name={"div75"}
-                            data-plasmic-override={overrides.div75}
-                            className={classNames(projectcss.all, sty.div75)}
-                          >
-                            <div
-                              className={classNames(
-                                projectcss.all,
-                                projectcss.__wab_text,
-                                sty.text__vjyZr
-                              )}
-                            >
-                              {"Privacy Policy"}
-                            </div>
-                            <div
-                              className={classNames(
-                                projectcss.all,
-                                projectcss.__wab_text,
-                                sty.text__aeeS5
-                              )}
-                            >
-                              {"-"}
-                            </div>
-                            <div
-                              className={classNames(
-                                projectcss.all,
-                                projectcss.__wab_text,
-                                sty.text___031Lb
-                              )}
-                            >
-                              {"Terms & Conditions"}
-                            </div>
-                          </div>
-                        </div>
-                      ) : null}
-                      <div
+                        data-plasmic-name={"h22"}
+                        data-plasmic-override={overrides.h22}
                         className={classNames(
                           projectcss.all,
-                          sty.freeBox__nWm2D
+                          projectcss.__wab_text,
+                          sty.h22
                         )}
                       >
-                        <BodyArticle2
-                          className={classNames(
-                            "__wab_instance",
-                            sty.bodyArticle2___8VuIs
-                          )}
-                        />
-
-                        <div
-                          className={classNames(
-                            projectcss.all,
-                            sty.freeBox__zrLfJ
-                          )}
-                        >
-                          <p.PlasmicImg
-                            alt={""}
-                            className={classNames(sty.img__rlPRm)}
-                            displayHeight={"100px" as const}
-                            displayMaxHeight={"none" as const}
-                            displayMaxWidth={"none" as const}
-                            displayMinHeight={"0" as const}
-                            displayMinWidth={"0" as const}
-                            displayWidth={"100px" as const}
-                            loading={"lazy" as const}
-                            src={{
-                              src: "/plasmic/lhp_3_30_23/images/cab4357670Ddf7F8Ce094069Bef14B6Apng.png",
-                              fullWidth: 119,
-                              fullHeight: 119,
-                              aspectRatio: undefined
-                            }}
-                          />
-
-                          <div
-                            className={classNames(
-                              projectcss.all,
-                              projectcss.__wab_text,
-                              sty.text__vcxKj
-                            )}
-                          >
-                            {"Isaiah S."}
-                          </div>
-                          <p.PlasmicImg
-                            alt={""}
-                            className={classNames(sty.img__j11Xt)}
-                            displayHeight={"auto" as const}
-                            displayMaxHeight={"none" as const}
-                            displayMaxWidth={"100%" as const}
-                            displayMinHeight={"0" as const}
-                            displayMinWidth={"0" as const}
-                            displayWidth={"114px" as const}
-                            loading={"lazy" as const}
-                            src={{
-                              src: "/plasmic/lhp_3_30_23/images/starpng.png",
-                              fullWidth: 142,
-                              fullHeight: 21,
-                              aspectRatio: undefined
-                            }}
-                          />
-
-                          <div
-                            className={classNames(
-                              projectcss.all,
-                              projectcss.__wab_text,
-                              sty.text___19NmP
-                            )}
-                          >
-                            {"Best alternative to smoking"}
-                          </div>
-                          <div
-                            className={classNames(
-                              projectcss.all,
-                              projectcss.__wab_text,
-                              sty.text__iVgE4
-                            )}
-                          >
-                            {
-                              "I smoked for over 29 years and tired to quit several times with no success. Until I came across sparq. Now not only do I not smoke, I’m doing something healthy in place! Great product, I’ll be a user for life!"
-                            }
-                          </div>
-                        </div>
+                        {"Are YOU One Of These Two Types Of People?"}
                       </div>
+                      <p.PlasmicImg
+                        data-plasmic-name={"image2"}
+                        data-plasmic-override={overrides.image2}
+                        alt={""}
+                        className={classNames(sty.image2)}
+                        displayHeight={"auto" as const}
+                        displayMaxHeight={"none" as const}
+                        displayMaxWidth={"100%" as const}
+                        displayMinHeight={"0" as const}
+                        displayMinWidth={"0" as const}
+                        displayWidth={"100%" as const}
+                        loading={"lazy" as const}
+                        src={{
+                          src: "/plasmic/lhp_3_30_23/images/comparepng2.png",
+                          fullWidth: 1461,
+                          fullHeight: 607,
+                          aspectRatio: undefined
+                        }}
+                      />
+
                       <div
+                        data-plasmic-name={"paragraph3"}
+                        data-plasmic-override={overrides.paragraph3}
                         className={classNames(
                           projectcss.all,
-                          sty.freeBox__vyFt
+                          projectcss.__wab_text,
+                          sty.paragraph3
                         )}
                       >
-                        <p.PlasmicImg
-                          alt={""}
-                          className={classNames(sty.img__xGWgC)}
-                          displayHeight={"100px" as const}
-                          displayMaxHeight={"none" as const}
-                          displayMaxWidth={"100%" as const}
-                          displayMinHeight={"0" as const}
-                          displayMinWidth={"0" as const}
-                          displayWidth={"100px" as const}
-                          loading={"lazy" as const}
-                          src={{
-                            src: "/plasmic/lhp_3_30_23/images/cab4357670Ddf7F8Ce094069Bef14B6Apng.png",
-                            fullWidth: 119,
-                            fullHeight: 119,
-                            aspectRatio: undefined
-                          }}
-                        />
-
-                        <div
-                          className={classNames(
-                            projectcss.all,
-                            projectcss.__wab_text,
-                            sty.text__ls9W0
-                          )}
-                        >
-                          {"Isaiah S."}
-                        </div>
-                        <p.PlasmicImg
-                          alt={""}
-                          className={classNames(sty.img__cqjoT)}
-                          displayHeight={"auto" as const}
-                          displayMaxHeight={"none" as const}
-                          displayMaxWidth={"100%" as const}
-                          displayMinHeight={"0" as const}
-                          displayMinWidth={"0" as const}
-                          displayWidth={"114px" as const}
-                          loading={"lazy" as const}
-                          src={{
-                            src: "/plasmic/lhp_3_30_23/images/starpng.png",
-                            fullWidth: 142,
-                            fullHeight: 21,
-                            aspectRatio: undefined
-                          }}
-                        />
-
-                        {(
-                          hasVariant(globalVariants, "screen", "mobileOnly")
-                            ? true
-                            : true
-                        ) ? (
-                          <p.PlasmicImg
-                            alt={""}
-                            className={classNames(sty.img__oynsj)}
-                            displayHeight={"auto" as const}
-                            displayMaxHeight={"none" as const}
-                            displayMaxWidth={"100%" as const}
-                            displayMinHeight={"0" as const}
-                            displayMinWidth={"0" as const}
-                            displayWidth={"auto" as const}
-                            loading={"lazy" as const}
-                          />
-                        ) : null}
-                        <div
-                          className={classNames(
-                            projectcss.all,
-                            projectcss.__wab_text,
-                            sty.text__iOaf
-                          )}
-                        >
-                          {"Best alternative to smoking"}
-                        </div>
-                        <div
-                          className={classNames(
-                            projectcss.all,
-                            projectcss.__wab_text,
-                            sty.text__itMTr
-                          )}
-                        >
-                          {
-                            "I smoked for over 29 years and tired to quit several times with no success. Until I came across sparq. Now not only do I not smoke, I’m doing something healthy in place! Great product, I’ll be a user for life!"
-                          }
-                        </div>
+                        {
+                          "If you're trying to quit, it can feel like every craving is another insurmountable problem to face.. Even if you've managed to go several days, weeks, or months without caving, you still crave that puff…that throat hit…that oh so satisfying flavor.\n\nWe know nicotine is addictive…but did you know it’s the oral fixation that keeps bringing you back? When you drop the habit, nicotine is out of your system in 72 hours but the oral fixation can last in the brain for up to 10 years!\n\nThat's why no matter how many times you try, you find yourself going back to your old habit again and again. Fortunately, we've got the alternative that will break this repetitive pattern!\n\nThe world is your oyster, and you want nothing less than to enjoy it to the fullest extent. Maybe you're not into using inhalation devices but you've always been curious as to what all the hype is about. Sparq offers the perfect option for the curious spirit: all of the enjoyment and flavors of traditional products/devices but without the harmful chemicals or addictive stimulants!\n\nNatural flavoring that is intensely delicious, vitamins, amino acids and botanicals, all wrapped in a device designed to provide a superior inhalation experience."
+                        }
                       </div>
                       <div
+                        data-plasmic-name={"h23"}
+                        data-plasmic-override={overrides.h23}
                         className={classNames(
                           projectcss.all,
-                          sty.freeBox__e4Mp2
+                          projectcss.__wab_text,
+                          sty.h23
                         )}
+                      >
+                        {"Sparq Has The Answers You’re Looking for:"}
+                      </div>
+                      <p.PlasmicImg
+                        data-plasmic-name={"image3"}
+                        data-plasmic-override={overrides.image3}
+                        alt={""}
+                        className={classNames(sty.image3)}
+                        displayHeight={"auto" as const}
+                        displayMaxHeight={"none" as const}
+                        displayMaxWidth={"100%" as const}
+                        displayMinHeight={"0" as const}
+                        displayMinWidth={"0" as const}
+                        displayWidth={"100%" as const}
+                        loading={"lazy" as const}
+                        src={{
+                          src: "/plasmic/lhp_3_30_23/images/midbannerjpgpng.png",
+                          fullWidth: 761,
+                          fullHeight: 862,
+                          aspectRatio: undefined
+                        }}
+                      />
+
+                      <div
+                        data-plasmic-name={"paragraph4"}
+                        data-plasmic-override={overrides.paragraph4}
+                        className={classNames(
+                          projectcss.all,
+                          projectcss.__wab_text,
+                          sty.paragraph4
+                        )}
+                      >
+                        {
+                          "Get rid of those nicotine cravings whilst still enjoying that strong and intense throat hit.\n\nSatisfy your oral fixation without consuming toxic substances or harmful chemicals.\n\nReplace those harmful chemicals with vitamins, amino acids, and botanicals.\n\nPromote deep-breathing and relieve anxiety with each vitamin infused inhalation.\n\nEnjoy a healthier alternative without giving up your habit.\n\nTake your device everywhere with its ultramodern and compact design and use it anytime you want."
+                        }
+                      </div>
+                      <div
+                        data-plasmic-name={"h24"}
+                        data-plasmic-override={overrides.h24}
+                        className={classNames(
+                          projectcss.all,
+                          projectcss.__wab_text,
+                          sty.h24
+                        )}
+                      >
+                        {
+                          "Happy Quitters, Vitamin Lovers, And Healthy Choice Followers Can't Stop Talking About Vitamin Air:"
+                        }
+                      </div>
+                      <p.PlasmicImg
+                        data-plasmic-name={"image4"}
+                        data-plasmic-override={overrides.image4}
+                        alt={""}
+                        className={classNames(sty.image4)}
+                        displayHeight={"auto" as const}
+                        displayMaxHeight={"none" as const}
+                        displayMaxWidth={"100%" as const}
+                        displayMinHeight={"0" as const}
+                        displayMinWidth={"0" as const}
+                        displayWidth={"100%" as const}
+                        loading={"lazy" as const}
+                        src={{
+                          src: "/plasmic/lhp_3_30_23/images/comparepng2.png",
+                          fullWidth: 1461,
+                          fullHeight: 607,
+                          aspectRatio: undefined
+                        }}
+                      />
+
+                      <div
+                        data-plasmic-name={"review1"}
+                        data-plasmic-override={overrides.review1}
+                        className={classNames(projectcss.all, sty.review1)}
                       >
                         <p.PlasmicImg
                           alt={""}
-                          className={classNames(sty.img__riYbh)}
-                          displayHeight={"100px" as const}
-                          displayMaxHeight={"none" as const}
-                          displayMaxWidth={"100%" as const}
-                          displayMinHeight={"0" as const}
-                          displayMinWidth={"0" as const}
-                          displayWidth={"100px" as const}
-                          loading={"lazy" as const}
-                          src={{
-                            src: "/plasmic/lhp_3_30_23/images/cab4357670Ddf7F8Ce094069Bef14B6Apng.png",
-                            fullWidth: 119,
-                            fullHeight: 119,
-                            aspectRatio: undefined
-                          }}
-                        />
-
-                        <div
-                          className={classNames(
-                            projectcss.all,
-                            projectcss.__wab_text,
-                            sty.text__wWtQe
-                          )}
-                        >
-                          {"Isaiah S."}
-                        </div>
-                        <p.PlasmicImg
-                          alt={""}
-                          className={classNames(sty.img__ybrSw)}
+                          className={classNames(sty.img___4Pcq9)}
                           displayHeight={"auto" as const}
                           displayMaxHeight={"none" as const}
                           displayMaxWidth={"100%" as const}
@@ -3169,19 +828,607 @@ function PlasmicArticle1__RenderFunc(props: {
                         />
 
                         <div
+                          data-plasmic-name={"paragraph42"}
+                          data-plasmic-override={overrides.paragraph42}
                           className={classNames(
                             projectcss.all,
                             projectcss.__wab_text,
-                            sty.text__vYo5V
+                            sty.paragraph42
                           )}
                         >
-                          {"Best alternative to smoking"}
+                          {"Amazing product for an amazing price"}
                         </div>
+                        <div
+                          data-plasmic-name={"paragraph43"}
+                          data-plasmic-override={overrides.paragraph43}
+                          className={classNames(
+                            projectcss.all,
+                            projectcss.__wab_text,
+                            sty.paragraph43
+                          )}
+                        >
+                          {
+                            "If you are trying to quit then this is the product for you its amazing and worth every penny."
+                          }
+                        </div>
+                        <div
+                          data-plasmic-name={"paragraph44"}
+                          data-plasmic-override={overrides.paragraph44}
+                          className={classNames(
+                            projectcss.all,
+                            projectcss.__wab_text,
+                            sty.paragraph44
+                          )}
+                        >
+                          {"Todd S."}
+                        </div>
+                      </div>
+                      <div
+                        data-plasmic-name={"review2"}
+                        data-plasmic-override={overrides.review2}
+                        className={classNames(projectcss.all, sty.review2)}
+                      >
+                        <p.PlasmicImg
+                          alt={""}
+                          className={classNames(sty.img__vrSxx)}
+                          displayHeight={"auto" as const}
+                          displayMaxHeight={"none" as const}
+                          displayMaxWidth={"100%" as const}
+                          displayMinHeight={"0" as const}
+                          displayMinWidth={"0" as const}
+                          displayWidth={"auto" as const}
+                          loading={"lazy" as const}
+                          src={{
+                            src: "/plasmic/lhp_3_30_23/images/starpng.png",
+                            fullWidth: 142,
+                            fullHeight: 21,
+                            aspectRatio: undefined
+                          }}
+                        />
+
+                        <div
+                          data-plasmic-name={"paragraph45"}
+                          data-plasmic-override={overrides.paragraph45}
+                          className={classNames(
+                            projectcss.all,
+                            projectcss.__wab_text,
+                            sty.paragraph45
+                          )}
+                        >
+                          {"Best friend as I quit cigs!"}
+                        </div>
+                        <div
+                          data-plasmic-name={"paragraph46"}
+                          data-plasmic-override={overrides.paragraph46}
+                          className={classNames(
+                            projectcss.all,
+                            projectcss.__wab_text,
+                            sty.paragraph46
+                          )}
+                        >
+                          {
+                            "I love the taste and it doesnt make me cough at all! Super nice product and cool packaging! I will be ordering again!"
+                          }
+                        </div>
+                        <div
+                          data-plasmic-name={"paragraph47"}
+                          data-plasmic-override={overrides.paragraph47}
+                          className={classNames(
+                            projectcss.all,
+                            projectcss.__wab_text,
+                            sty.paragraph47
+                          )}
+                        >
+                          {"Jessica M."}
+                        </div>
+                      </div>
+                      <div
+                        data-plasmic-name={"review3"}
+                        data-plasmic-override={overrides.review3}
+                        className={classNames(projectcss.all, sty.review3)}
+                      >
+                        <p.PlasmicImg
+                          alt={""}
+                          className={classNames(sty.img__mr4Df)}
+                          displayHeight={"auto" as const}
+                          displayMaxHeight={"none" as const}
+                          displayMaxWidth={"100%" as const}
+                          displayMinHeight={"0" as const}
+                          displayMinWidth={"0" as const}
+                          displayWidth={"auto" as const}
+                          loading={"lazy" as const}
+                          src={{
+                            src: "/plasmic/lhp_3_30_23/images/starpng.png",
+                            fullWidth: 142,
+                            fullHeight: 21,
+                            aspectRatio: undefined
+                          }}
+                        />
+
+                        <div
+                          data-plasmic-name={"paragraph48"}
+                          data-plasmic-override={overrides.paragraph48}
+                          className={classNames(
+                            projectcss.all,
+                            projectcss.__wab_text,
+                            sty.paragraph48
+                          )}
+                        >
+                          {"Sparq was very refreshing and awesome"}
+                        </div>
+                        <div
+                          data-plasmic-name={"paragraph49"}
+                          data-plasmic-override={overrides.paragraph49}
+                          className={classNames(
+                            projectcss.all,
+                            projectcss.__wab_text,
+                            sty.paragraph49
+                          )}
+                        >
+                          {
+                            "My overall experience was fantastic. I loved the cleanliness of the vapor and how it tasted naturally fruity."
+                          }
+                        </div>
+                        <div
+                          data-plasmic-name={"paragraph410"}
+                          data-plasmic-override={overrides.paragraph410}
+                          className={classNames(
+                            projectcss.all,
+                            projectcss.__wab_text,
+                            sty.paragraph410
+                          )}
+                        >
+                          {"Philip G."}
+                        </div>
+                      </div>
+                      <div
+                        data-plasmic-name={"h25"}
+                        data-plasmic-override={overrides.h25}
+                        className={classNames(
+                          projectcss.all,
+                          projectcss.__wab_text,
+                          sty.h25
+                        )}
+                      >
+                        {
+                          "Now you don't have to choose between either Strawberry or Vanilla flavor. "
+                        }
+                      </div>
+                      <div
+                        data-plasmic-name={"h35"}
+                        data-plasmic-override={overrides.h35}
+                        className={classNames(
+                          projectcss.all,
+                          projectcss.__wab_text,
+                          sty.h35
+                        )}
+                      >
+                        <React.Fragment>
+                          <React.Fragment>
+                            {"You can have both and a plus one - "}
+                          </React.Fragment>
+                          <span
+                            className={
+                              "plasmic_default__all plasmic_default__span"
+                            }
+                            style={{ color: "#FF0000" }}
+                          >
+                            {"FOR FREE."}
+                          </span>
+                        </React.Fragment>
+                      </div>
+                      <Offer2
+                        data-plasmic-name={"offer2"}
+                        data-plasmic-override={overrides.offer2}
+                        className={classNames("__wab_instance", sty.offer2)}
+                        slot7={
+                          <div
+                            className={classNames(
+                              projectcss.all,
+                              projectcss.__wab_text,
+                              sty.text__dumdc
+                            )}
+                          >
+                            {hasVariant(globalVariants, "screen", "mobileOnly")
+                              ? "CLAIM FREE DEVICE 👉"
+                              : "CLAIM FREE DEVICE 👉"}
+                          </div>
+                        }
+                      >
+                        <p.PlasmicImg
+                          alt={""}
+                          className={classNames(sty.img__bCb1)}
+                          displayHeight={
+                            hasVariant(globalVariants, "screen", "mobileOnly")
+                              ? ("auto" as const)
+                              : ("auto" as const)
+                          }
+                          displayMaxHeight={"none" as const}
+                          displayMaxWidth={"100%" as const}
+                          displayMinHeight={"0" as const}
+                          displayMinWidth={"0" as const}
+                          displayWidth={"auto" as const}
+                          loading={"lazy" as const}
+                          src={{
+                            src: "/plasmic/lhp_3_30_23/images/offersvg.svg",
+                            fullWidth: 76,
+                            fullHeight: 150,
+                            aspectRatio: 0.503546
+                          }}
+                        />
+                      </Offer2>
+                      <p.PlasmicImg
+                        data-plasmic-name={"image5"}
+                        data-plasmic-override={overrides.image5}
+                        alt={""}
+                        className={classNames(sty.image5)}
+                        displayHeight={"auto" as const}
+                        displayMaxHeight={"none" as const}
+                        displayMaxWidth={"100%" as const}
+                        displayMinHeight={"0" as const}
+                        displayMinWidth={"0" as const}
+                        displayWidth={"100%" as const}
+                        loading={"lazy" as const}
+                        src={{
+                          src: "/plasmic/lhp_3_30_23/images/comparepng2.png",
+                          fullWidth: 1461,
+                          fullHeight: 607,
+                          aspectRatio: undefined
+                        }}
+                      />
+
+                      <div
+                        data-plasmic-name={"paragraph6"}
+                        data-plasmic-override={overrides.paragraph6}
+                        className={classNames(
+                          projectcss.all,
+                          projectcss.__wab_text,
+                          sty.paragraph6
+                        )}
+                      >
+                        {
+                          "Get rid of those nicotine cravings whilst still enjoying that strong and intense throat hit.\n\nSatisfy your oral fixation without consuming toxic substances or harmful chemicals.\n\nReplace those harmful chemicals with vitamins, amino acids, and botanicals.\n\nPromote deep-breathing and relieve anxiety with each vitamin infused inhalation.\n\nEnjoy a healthier alternative without giving up your habit.\n\nTake your device everywhere with its ultramodern and compact design and use it anytime you want."
+                        }
+                      </div>
+                      <div
+                        data-plasmic-name={"h26"}
+                        data-plasmic-override={overrides.h26}
+                        className={classNames(
+                          projectcss.all,
+                          projectcss.__wab_text,
+                          sty.h26
+                        )}
+                      >
+                        {
+                          "Now you don't have to choose between either Strawberry or Vanilla flavor. "
+                        }
+                      </div>
+                      <p.PlasmicImg
+                        data-plasmic-name={"image6"}
+                        data-plasmic-override={overrides.image6}
+                        alt={""}
+                        className={classNames(sty.image6)}
+                        displayHeight={"auto" as const}
+                        displayMaxHeight={"none" as const}
+                        displayMaxWidth={"100%" as const}
+                        displayMinHeight={"0" as const}
+                        displayMinWidth={"0" as const}
+                        displayWidth={"100%" as const}
+                        loading={"lazy" as const}
+                        src={{
+                          src: "/plasmic/lhp_3_30_23/images/comparepng2.png",
+                          fullWidth: 1461,
+                          fullHeight: 607,
+                          aspectRatio: undefined
+                        }}
+                      />
+
+                      <div
+                        data-plasmic-name={"paragraph7"}
+                        data-plasmic-override={overrides.paragraph7}
+                        className={classNames(
+                          projectcss.all,
+                          projectcss.__wab_text,
+                          sty.paragraph7
+                        )}
+                      >
+                        {
+                          "Get rid of those nicotine cravings whilst still enjoying that strong and intense throat hit.\n\nSatisfy your oral fixation without consuming toxic substances or harmful chemicals.\n\nReplace those harmful chemicals with vitamins, amino acids, and botanicals.\n\nPromote deep-breathing and relieve anxiety with each vitamin infused inhalation.\n\nEnjoy a healthier alternative without giving up your habit.\n\nTake your device everywhere with its ultramodern and compact design and use it anytime you want."
+                        }
+                      </div>
+                      <div
+                        data-plasmic-name={"h27"}
+                        data-plasmic-override={overrides.h27}
+                        className={classNames(
+                          projectcss.all,
+                          projectcss.__wab_text,
+                          sty.h27
+                        )}
+                      >
+                        {
+                          "Now you don't have to choose between either Strawberry or Vanilla flavor. "
+                        }
+                      </div>
+                      <p.PlasmicImg
+                        data-plasmic-name={"image7"}
+                        data-plasmic-override={overrides.image7}
+                        alt={""}
+                        className={classNames(sty.image7)}
+                        displayHeight={"auto" as const}
+                        displayMaxHeight={"none" as const}
+                        displayMaxWidth={"100%" as const}
+                        displayMinHeight={"0" as const}
+                        displayMinWidth={"0" as const}
+                        displayWidth={"100%" as const}
+                        loading={"lazy" as const}
+                        src={{
+                          src: "/plasmic/lhp_3_30_23/images/comparepng2.png",
+                          fullWidth: 1461,
+                          fullHeight: 607,
+                          aspectRatio: undefined
+                        }}
+                      />
+
+                      <div
+                        data-plasmic-name={"aOutroH1"}
+                        data-plasmic-override={overrides.aOutroH1}
+                        className={classNames(
+                          projectcss.all,
+                          projectcss.__wab_text,
+                          sty.aOutroH1
+                        )}
+                      >
+                        {"Click Here To Learn More & Order Vitamin Air Today!"}
+                      </div>
+                      <div
+                        className={classNames(
+                          projectcss.all,
+                          sty.freeBox__atFp5
+                        )}
+                      >
+                        <p.PlasmicLink
+                          data-plasmic-name={"aCta2"}
+                          data-plasmic-override={overrides.aCta2}
+                          className={classNames(
+                            projectcss.all,
+                            projectcss.a,
+                            sty.aCta2
+                          )}
+                          component={Link}
+                          onClick={async event => {
+                            const $steps = {};
+                            $steps["setVariable"] = true
+                              ? (() => {
+                                  const actionArgs = {};
+                                  return __wrapUserFunction(
+                                    {
+                                      type: "InteractionLoc",
+                                      actionName: "updateVariable",
+                                      interactionUuid: "3ZW2HiZcOjYbCV",
+                                      componentUuid: "Qsmc7rZ4njupIO"
+                                    },
+                                    () =>
+                                      (({
+                                        variable,
+                                        value,
+                                        startIndex,
+                                        deleteCount
+                                      }) => {
+                                        const { objRoot, variablePath } =
+                                          variable;
+                                        undefined;
+                                      })?.apply(null, [actionArgs]),
+                                    actionArgs
+                                  );
+                                })()
+                              : undefined;
+                            if (
+                              typeof $steps["setVariable"] === "object" &&
+                              typeof $steps["setVariable"].then === "function"
+                            ) {
+                              $steps["setVariable"] = await __wrapUserPromise(
+                                {
+                                  type: "InteractionLoc",
+                                  actionName: "updateVariable",
+                                  interactionUuid: "3ZW2HiZcOjYbCV",
+                                  componentUuid: "Qsmc7rZ4njupIO"
+                                },
+                                $steps["setVariable"]
+                              );
+                            }
+                          }}
+                          platform={"nextjs"}
+                        >
+                          {p.renderPlasmicSlot({
+                            defaultContents: "CLAIM FREE DEVICE 👉",
+                            value: args.slot7,
+                            className: classNames(sty.slotTargetSlot7)
+                          })}
+                        </p.PlasmicLink>
                         <div
                           className={classNames(
                             projectcss.all,
+                            sty.freeBox___3PoAw
+                          )}
+                        />
+
+                        <div
+                          className={classNames(
+                            projectcss.all,
+                            sty.freeBox__blM9P
+                          )}
+                        >
+                          <div
+                            data-plasmic-name={"aOutroH2"}
+                            data-plasmic-override={overrides.aOutroH2}
+                            className={classNames(
+                              projectcss.all,
+                              projectcss.__wab_text,
+                              sty.aOutroH2
+                            )}
+                          >
+                            {"Fast Same-Day Shipping"}
+                          </div>
+                          <p.PlasmicImg
+                            data-plasmic-name={"reviewIcon"}
+                            data-plasmic-override={overrides.reviewIcon}
+                            alt={""}
+                            className={classNames(sty.reviewIcon)}
+                            displayHeight={
+                              hasVariant(globalVariants, "screen", "mobileOnly")
+                                ? ("11px" as const)
+                                : ("auto" as const)
+                            }
+                            displayMaxHeight={"none" as const}
+                            displayMaxWidth={"100%" as const}
+                            displayMinHeight={"0" as const}
+                            displayMinWidth={"0" as const}
+                            displayWidth={"auto" as const}
+                            loading={"lazy" as const}
+                            src={{
+                              src: "/plasmic/lhp_3_30_23/images/starpng.png",
+                              fullWidth: 142,
+                              fullHeight: 21,
+                              aspectRatio: undefined
+                            }}
+                          />
+
+                          <div
+                            data-plasmic-name={"aOutroH3"}
+                            data-plasmic-override={overrides.aOutroH3}
+                            className={classNames(
+                              projectcss.all,
+                              projectcss.__wab_text,
+                              sty.aOutroH3
+                            )}
+                          >
+                            <React.Fragment>
+                              <React.Fragment>
+                                {"Rated 4.9 Stars By "}
+                              </React.Fragment>
+                              <span
+                                className={
+                                  "plasmic_default__all plasmic_default__span"
+                                }
+                                style={{ fontWeight: 700 }}
+                              >
+                                {"100,000+"}
+                              </span>
+                              <React.Fragment>{" Customers"}</React.Fragment>
+                            </React.Fragment>
+                          </div>
+                        </div>
+                      </div>
+                      <p.PlasmicImg
+                        data-plasmic-name={"aOutroImage"}
+                        data-plasmic-override={overrides.aOutroImage}
+                        alt={""}
+                        className={classNames(sty.aOutroImage)}
+                        displayHeight={"auto" as const}
+                        displayMaxHeight={"none" as const}
+                        displayMaxWidth={"100%" as const}
+                        displayMinHeight={"0" as const}
+                        displayMinWidth={"0" as const}
+                        displayWidth={"100%" as const}
+                        loading={"lazy" as const}
+                        src={{
+                          src: "/plasmic/lhp_3_30_23/images/comparepng2.png",
+                          fullWidth: 1461,
+                          fullHeight: 607,
+                          aspectRatio: undefined
+                        }}
+                      />
+                    </div>
+                  </div>
+                ) : null}
+                {(
+                  hasVariant(globalVariants, "screen", "mobileOnly")
+                    ? true
+                    : true
+                ) ? (
+                  <div
+                    data-plasmic-name={"reviews"}
+                    data-plasmic-override={overrides.reviews}
+                    className={classNames(projectcss.all, sty.reviews)}
+                  >
+                    <div
+                      className={classNames(projectcss.all, sty.freeBox___7Jkx)}
+                    >
+                      <div
+                        className={classNames(
+                          projectcss.all,
+                          sty.freeBox__wkloO
+                        )}
+                      >
+                        <p.PlasmicImg
+                          data-plasmic-name={"reviewMugshot1"}
+                          data-plasmic-override={overrides.reviewMugshot1}
+                          alt={""}
+                          className={classNames(sty.reviewMugshot1)}
+                          displayHeight={"100px" as const}
+                          displayMaxHeight={"none" as const}
+                          displayMaxWidth={"100%" as const}
+                          displayMinHeight={"0" as const}
+                          displayMinWidth={"0" as const}
+                          displayWidth={"100px" as const}
+                          loading={"lazy" as const}
+                          src={{
+                            src: "/plasmic/lhp_3_30_23/images/sidereview1Pngpng.png",
+                            fullWidth: 101,
+                            fullHeight: 101,
+                            aspectRatio: undefined
+                          }}
+                        />
+
+                        <div
+                          data-plasmic-name={"reviewName1"}
+                          data-plasmic-override={overrides.reviewName1}
+                          className={classNames(
+                            projectcss.all,
                             projectcss.__wab_text,
-                            sty.text__prdGd
+                            sty.reviewName1
+                          )}
+                        >
+                          {"Isaiah S."}
+                        </div>
+                        <p.PlasmicImg
+                          data-plasmic-name={"reviewIcon3"}
+                          data-plasmic-override={overrides.reviewIcon3}
+                          alt={""}
+                          className={classNames(sty.reviewIcon3)}
+                          displayHeight={"auto" as const}
+                          displayMaxHeight={"none" as const}
+                          displayMaxWidth={"100%" as const}
+                          displayMinHeight={"0" as const}
+                          displayMinWidth={"0" as const}
+                          displayWidth={"100px" as const}
+                          loading={"lazy" as const}
+                          src={{
+                            src: "/plasmic/lhp_3_30_23/images/starpng.png",
+                            fullWidth: 142,
+                            fullHeight: 21,
+                            aspectRatio: undefined
+                          }}
+                        />
+
+                        <div
+                          data-plasmic-name={"reviewH11"}
+                          data-plasmic-override={overrides.reviewH11}
+                          className={classNames(
+                            projectcss.all,
+                            projectcss.__wab_text,
+                            sty.reviewH11
+                          )}
+                        >
+                          {"BEST ALTERNATIVE TO CIGS"}
+                        </div>
+                        <div
+                          data-plasmic-name={"reviewP1"}
+                          data-plasmic-override={overrides.reviewP1}
+                          className={classNames(
+                            projectcss.all,
+                            projectcss.__wab_text,
+                            sty.reviewP1
                           )}
                         >
                           {
@@ -3189,1000 +1436,780 @@ function PlasmicArticle1__RenderFunc(props: {
                           }
                         </div>
                       </div>
-                    </div>
-                  ) : null}
-                  <div
-                    data-plasmic-name={"nav"}
-                    data-plasmic-override={overrides.nav}
-                    className={classNames(projectcss.all, sty.nav)}
-                  >
-                    <div
-                      className={classNames(
-                        projectcss.all,
-                        sty.columns___7Tb6F
-                      )}
-                    >
                       <div
                         className={classNames(
                           projectcss.all,
-                          sty.column___6RfnB
+                          sty.freeBox__uiapb
                         )}
                       >
                         <p.PlasmicImg
-                          data-plasmic-name={"logo"}
-                          data-plasmic-override={overrides.logo}
+                          data-plasmic-name={"reviewMugshot2"}
+                          data-plasmic-override={overrides.reviewMugshot2}
                           alt={""}
-                          className={classNames(sty.logo)}
-                          displayHeight={"auto" as const}
-                          displayMaxHeight={"50px" as const}
+                          className={classNames(sty.reviewMugshot2)}
+                          displayHeight={"100px" as const}
+                          displayMaxHeight={"none" as const}
                           displayMaxWidth={"100%" as const}
                           displayMinHeight={"0" as const}
                           displayMinWidth={"0" as const}
-                          displayWidth={"266px" as const}
+                          displayWidth={"100px" as const}
                           loading={"lazy" as const}
                           src={{
-                            src: "/plasmic/lhp_3_30_23/images/logopng.png",
-                            fullWidth: 276,
-                            fullHeight: 46,
+                            src: "/plasmic/lhp_3_30_23/images/sidereview1Pngpng.png",
+                            fullWidth: 101,
+                            fullHeight: 101,
                             aspectRatio: undefined
                           }}
                         />
-                      </div>
-                      <div
-                        className={classNames(
-                          projectcss.all,
-                          sty.column__nrQ0Z
-                        )}
-                      >
+
                         <div
-                          data-plasmic-name={"aSlogan"}
-                          data-plasmic-override={overrides.aSlogan}
+                          data-plasmic-name={"reviewName2"}
+                          data-plasmic-override={overrides.reviewName2}
                           className={classNames(
                             projectcss.all,
                             projectcss.__wab_text,
-                            sty.aSlogan
+                            sty.reviewName2
                           )}
                         >
-                          {'"The Evolution of Inhalation"'}
+                          {"Isaiah S."}
+                        </div>
+                        <p.PlasmicImg
+                          data-plasmic-name={"reviewIcon4"}
+                          data-plasmic-override={overrides.reviewIcon4}
+                          alt={""}
+                          className={classNames(sty.reviewIcon4)}
+                          displayHeight={"auto" as const}
+                          displayMaxHeight={"none" as const}
+                          displayMaxWidth={"100%" as const}
+                          displayMinHeight={"0" as const}
+                          displayMinWidth={"0" as const}
+                          displayWidth={"100px" as const}
+                          loading={"lazy" as const}
+                          src={{
+                            src: "/plasmic/lhp_3_30_23/images/starpng.png",
+                            fullWidth: 142,
+                            fullHeight: 21,
+                            aspectRatio: undefined
+                          }}
+                        />
+
+                        <div
+                          data-plasmic-name={"reviewH12"}
+                          data-plasmic-override={overrides.reviewH12}
+                          className={classNames(
+                            projectcss.all,
+                            projectcss.__wab_text,
+                            sty.reviewH12
+                          )}
+                        >
+                          {"BEST ALTERNATIVE TO CIGS"}
+                        </div>
+                        <div
+                          data-plasmic-name={"reviewP2"}
+                          data-plasmic-override={overrides.reviewP2}
+                          className={classNames(
+                            projectcss.all,
+                            projectcss.__wab_text,
+                            sty.reviewP2
+                          )}
+                        >
+                          {
+                            "I smoked for over 29 years and tired to quit several times with no success. Until I came across sparq. Now not only do I not smoke, I’m doing something healthy in place! Great product, I’ll be a user for life!"
+                          }
                         </div>
                       </div>
-                    </div>
-                  </div>
-                  <div
-                    data-plasmic-name={"intro"}
-                    data-plasmic-override={overrides.intro}
-                    className={classNames(projectcss.all, sty.intro)}
-                  >
-                    <div
-                      data-plasmic-name={"heroHeadline"}
-                      data-plasmic-override={overrides.heroHeadline}
-                      className={classNames(
-                        projectcss.all,
-                        projectcss.__wab_text,
-                        sty.heroHeadline
-                      )}
-                    >
-                      {hasVariant(globalVariants, "screen", "mobileOnly")
-                        ? "Want All The Joy Of Inhalation, But None Of The Health Compromises?"
-                        : "Want All The Joy Of Inhalation, But\nNone Of The Health Compromises?"}
-                    </div>
-                    <div
-                      data-plasmic-name={"heroSubHeadline"}
-                      data-plasmic-override={overrides.heroSubHeadline}
-                      className={classNames(
-                        projectcss.all,
-                        projectcss.__wab_text,
-                        sty.heroSubHeadline
-                      )}
-                    >
-                      {hasVariant(globalVariants, "screen", "mobileOnly") ? (
-                        <React.Fragment>
+                      <div
+                        className={classNames(
+                          projectcss.all,
+                          sty.freeBox__rRpZ
+                        )}
+                      >
+                        <p.PlasmicImg
+                          data-plasmic-name={"reviewMugshot3"}
+                          data-plasmic-override={overrides.reviewMugshot3}
+                          alt={""}
+                          className={classNames(sty.reviewMugshot3)}
+                          displayHeight={"100px" as const}
+                          displayMaxHeight={"none" as const}
+                          displayMaxWidth={"100%" as const}
+                          displayMinHeight={"0" as const}
+                          displayMinWidth={"0" as const}
+                          displayWidth={"100px" as const}
+                          loading={"lazy" as const}
+                          src={{
+                            src: "/plasmic/lhp_3_30_23/images/sidereview1Pngpng.png",
+                            fullWidth: 101,
+                            fullHeight: 101,
+                            aspectRatio: undefined
+                          }}
+                        />
+
+                        <div
+                          data-plasmic-name={"reviewName3"}
+                          data-plasmic-override={overrides.reviewName3}
+                          className={classNames(
+                            projectcss.all,
+                            projectcss.__wab_text,
+                            sty.reviewName3
+                          )}
+                        >
+                          {"Isaiah S."}
+                        </div>
+                        <p.PlasmicImg
+                          data-plasmic-name={"reviewIcon5"}
+                          data-plasmic-override={overrides.reviewIcon5}
+                          alt={""}
+                          className={classNames(sty.reviewIcon5)}
+                          displayHeight={"auto" as const}
+                          displayMaxHeight={"none" as const}
+                          displayMaxWidth={"100%" as const}
+                          displayMinHeight={"0" as const}
+                          displayMinWidth={"0" as const}
+                          displayWidth={"100px" as const}
+                          loading={"lazy" as const}
+                          src={{
+                            src: "/plasmic/lhp_3_30_23/images/starpng.png",
+                            fullWidth: 142,
+                            fullHeight: 21,
+                            aspectRatio: undefined
+                          }}
+                        />
+
+                        <div
+                          data-plasmic-name={"reviewH122"}
+                          data-plasmic-override={overrides.reviewH122}
+                          className={classNames(
+                            projectcss.all,
+                            projectcss.__wab_text,
+                            sty.reviewH122
+                          )}
+                        >
+                          {"BEST ALTERNATIVE TO CIGS"}
+                        </div>
+                        <div
+                          data-plasmic-name={"reviewP3"}
+                          data-plasmic-override={overrides.reviewP3}
+                          className={classNames(
+                            projectcss.all,
+                            projectcss.__wab_text,
+                            sty.reviewP3
+                          )}
+                        >
+                          {
+                            "I smoked for over 29 years and tired to quit several times with no success. Until I came across sparq. Now not only do I not smoke, I’m doing something healthy in place! Great product, I’ll be a user for life!"
+                          }
+                        </div>
+                      </div>
+                      <div
+                        className={classNames(
+                          projectcss.all,
+                          sty.freeBox__wa5SK
+                        )}
+                      >
+                        <p.PlasmicImg
+                          data-plasmic-name={"reviewIcon6"}
+                          data-plasmic-override={overrides.reviewIcon6}
+                          alt={""}
+                          className={classNames(sty.reviewIcon6)}
+                          displayHeight={"auto" as const}
+                          displayMaxHeight={"none" as const}
+                          displayMaxWidth={"100%" as const}
+                          displayMinHeight={"0" as const}
+                          displayMinWidth={"0" as const}
+                          displayWidth={"100px" as const}
+                          loading={"lazy" as const}
+                          src={{
+                            src: "/plasmic/lhp_3_30_23/images/starpng.png",
+                            fullWidth: 142,
+                            fullHeight: 21,
+                            aspectRatio: undefined
+                          }}
+                        />
+
+                        <div
+                          data-plasmic-name={"reviewStatement"}
+                          data-plasmic-override={overrides.reviewStatement}
+                          className={classNames(
+                            projectcss.all,
+                            projectcss.__wab_text,
+                            sty.reviewStatement
+                          )}
+                        >
                           <React.Fragment>
-                            {"Inhale. Relax. Enjoy Your "}
+                            <React.Fragment>
+                              {"Rated 4.9 Stars By "}
+                            </React.Fragment>
+                            <span
+                              className={
+                                "plasmic_default__all plasmic_default__span"
+                              }
+                              style={{ fontWeight: 700 }}
+                            >
+                              {"100,000+"}
+                            </span>
+                            <React.Fragment>{" Customers"}</React.Fragment>
                           </React.Fragment>
-                          <span
-                            className={
-                              "plasmic_default__all plasmic_default__span"
-                            }
-                            style={{ fontWeight: 700 }}
-                          >
-                            {"Daily Vitamin Boost!"}
-                          </span>
-                        </React.Fragment>
-                      ) : (
-                        <React.Fragment>
-                          <React.Fragment>
-                            {"Inhale. Relax. Enjoy Your "}
-                          </React.Fragment>
-                          <span
-                            className={
-                              "plasmic_default__all plasmic_default__span"
-                            }
-                            style={{ fontWeight: 700 }}
-                          >
-                            {"Daily Vitamin Boost!"}
-                          </span>
-                        </React.Fragment>
-                      )}
-                    </div>
-                    <p.PlasmicLink
-                      data-plasmic-name={"aCta"}
-                      data-plasmic-override={overrides.aCta}
-                      className={classNames(
-                        projectcss.all,
-                        projectcss.a,
-                        sty.aCta
-                      )}
-                      component={Link}
-                      onClick={async event => {
-                        const $steps = {};
-                        $steps["setVariable"] = true
-                          ? (() => {
-                              const actionArgs = {};
-                              return __wrapUserFunction(
+                        </div>
+                        <div
+                          data-plasmic-name={"ctaCardH1"}
+                          data-plasmic-override={overrides.ctaCardH1}
+                          className={classNames(
+                            projectcss.all,
+                            projectcss.__wab_text,
+                            sty.ctaCardH1
+                          )}
+                        >
+                          {"So What Are You Waiting For?"}
+                        </div>
+                        <div
+                          data-plasmic-name={"ctaCardH2"}
+                          data-plasmic-override={overrides.ctaCardH2}
+                          className={classNames(
+                            projectcss.all,
+                            projectcss.__wab_text,
+                            sty.ctaCardH2
+                          )}
+                        >
+                          {
+                            "Take the first and easiest step towards quitting and receive 15% OFF your first purchase"
+                          }
+                        </div>
+                        <p.PlasmicLink
+                          data-plasmic-name={"aCta3"}
+                          data-plasmic-override={overrides.aCta3}
+                          className={classNames(
+                            projectcss.all,
+                            projectcss.a,
+                            sty.aCta3
+                          )}
+                          component={Link}
+                          onClick={async event => {
+                            const $steps = {};
+                            $steps["setVariable"] = true
+                              ? (() => {
+                                  const actionArgs = {};
+                                  return __wrapUserFunction(
+                                    {
+                                      type: "InteractionLoc",
+                                      actionName: "updateVariable",
+                                      interactionUuid: "Sid6Xc9gKYiz1V",
+                                      componentUuid: "Qsmc7rZ4njupIO"
+                                    },
+                                    () =>
+                                      (({
+                                        variable,
+                                        value,
+                                        startIndex,
+                                        deleteCount
+                                      }) => {
+                                        const { objRoot, variablePath } =
+                                          variable;
+                                        undefined;
+                                      })?.apply(null, [actionArgs]),
+                                    actionArgs
+                                  );
+                                })()
+                              : undefined;
+                            if (
+                              typeof $steps["setVariable"] === "object" &&
+                              typeof $steps["setVariable"].then === "function"
+                            ) {
+                              $steps["setVariable"] = await __wrapUserPromise(
                                 {
                                   type: "InteractionLoc",
                                   actionName: "updateVariable",
-                                  interactionUuid: "mxJHnhas94Pf8u",
+                                  interactionUuid: "Sid6Xc9gKYiz1V",
                                   componentUuid: "Qsmc7rZ4njupIO"
                                 },
-                                () =>
-                                  (({
-                                    variable,
-                                    value,
-                                    startIndex,
-                                    deleteCount
-                                  }) => {
-                                    const { objRoot, variablePath } = variable;
-                                    undefined;
-                                  })?.apply(null, [actionArgs]),
-                                actionArgs
+                                $steps["setVariable"]
                               );
-                            })()
-                          : undefined;
-                        if (
-                          typeof $steps["setVariable"] === "object" &&
-                          typeof $steps["setVariable"].then === "function"
-                        ) {
-                          $steps["setVariable"] = await __wrapUserPromise(
-                            {
-                              type: "InteractionLoc",
-                              actionName: "updateVariable",
-                              interactionUuid: "mxJHnhas94Pf8u",
-                              componentUuid: "Qsmc7rZ4njupIO"
-                            },
-                            $steps["setVariable"]
-                          );
-                        }
-                      }}
-                      platform={"nextjs"}
-                    >
-                      {p.renderPlasmicSlot({
-                        defaultContents: "CLAIM FREE DEVICE 👉",
-                        value: args.slot8,
-                        className: classNames(sty.slotTargetSlot8)
-                      })}
-                    </p.PlasmicLink>
-                    <div
-                      className={classNames(projectcss.all, sty.freeBox__gOk5X)}
-                    >
-                      <p.PlasmicImg
-                        data-plasmic-name={"reviewIcon2"}
-                        data-plasmic-override={overrides.reviewIcon2}
-                        alt={""}
-                        className={classNames(sty.reviewIcon2)}
-                        displayHeight={
-                          hasVariant(globalVariants, "screen", "mobileOnly")
-                            ? ("11px" as const)
-                            : ("auto" as const)
-                        }
-                        displayMaxHeight={"none" as const}
-                        displayMaxWidth={"100%" as const}
-                        displayMinHeight={"0" as const}
-                        displayMinWidth={"0" as const}
-                        displayWidth={"auto" as const}
-                        loading={"lazy" as const}
-                        src={{
-                          src: "/plasmic/lhp_3_30_23/images/starpng.png",
-                          fullWidth: 142,
-                          fullHeight: 21,
-                          aspectRatio: undefined
-                        }}
-                      />
-
-                      <div
-                        data-plasmic-name={"reviewStatement2"}
-                        data-plasmic-override={overrides.reviewStatement2}
-                        className={classNames(
-                          projectcss.all,
-                          projectcss.__wab_text,
-                          sty.reviewStatement2
-                        )}
-                      >
-                        <React.Fragment>
-                          <React.Fragment>
-                            {"Rated 4.9 Stars By "}
-                          </React.Fragment>
-                          <span
-                            className={
-                              "plasmic_default__all plasmic_default__span"
                             }
-                            style={{ fontWeight: 700 }}
-                          >
-                            {"100,000+"}
-                          </span>
-                          <React.Fragment>{" Customers"}</React.Fragment>
-                        </React.Fragment>
+                          }}
+                          platform={"nextjs"}
+                        >
+                          {p.renderPlasmicSlot({
+                            defaultContents: "CLAIM FREE DEVICE 👉",
+                            value: args.slot9,
+                            className: classNames(sty.slotTargetSlot9)
+                          })}
+                        </p.PlasmicLink>
                       </div>
                     </div>
                   </div>
-                  <div
-                    data-plasmic-name={"body"}
-                    data-plasmic-override={overrides.body}
-                    className={classNames(projectcss.all, sty.body)}
-                  >
+                ) : null}
+              </div>
+            ) : null}
+          </div>
+          {true ? (
+            <DataFetcher
+              data-plasmic-name={"httpRestApiFetcher"}
+              data-plasmic-override={overrides.httpRestApiFetcher}
+              className={classNames("__wab_instance", sty.httpRestApiFetcher)}
+              dataName={"fetchedData" as const}
+              errorDisplay={
+                <ph.DataCtxReader>
+                  {$ctx => "Error fetching data"}
+                </ph.DataCtxReader>
+              }
+              headers={{
+                "Content-Type": "application/json",
+                Accept: "application/json",
+                Authorization: "Bearer keyVDvhyVSx5Ntbl3"
+              }}
+              loadingDisplay={
+                <ph.DataCtxReader>{$ctx => "Loading..."}</ph.DataCtxReader>
+              }
+              method={"GET" as const}
+              noLayout={false}
+              url={(() => {
+                try {
+                  return (
+                    "https://api.airtable.com/v0/appmM1mMqcDvugXhY/PlasmicCMS?filterByFormula=slug=" +
+                    "'" +
+                    $ctx.params.slug +
+                    "'"
+                  );
+                } catch (e) {
+                  if (e instanceof TypeError) {
+                    return "https://api.airtable.com/v0/appmM1mMqcDvugXhY/PlasmicCMS?filterByFormula=slug=";
+                  }
+                  throw e;
+                }
+              })()}
+            >
+              <ph.DataCtxReader>
+                {$ctx => (
+                  <React.Fragment>
                     {(
                       hasVariant(globalVariants, "screen", "mobileOnly")
                         ? true
                         : true
                     ) ? (
                       <div
-                        className={classNames(
-                          projectcss.all,
-                          sty.columns__ym8Nt
-                        )}
+                        data-plasmic-name={"_1554Px"}
+                        data-plasmic-override={overrides._1554Px}
+                        className={classNames(projectcss.all, sty._1554Px)}
                       >
-                        {(
-                          hasVariant(globalVariants, "screen", "mobileOnly")
-                            ? true
-                            : true
-                        ) ? (
+                        <p.Stack
+                          as={"div"}
+                          data-plasmic-name={"div2"}
+                          data-plasmic-override={overrides.div2}
+                          hasGap={true}
+                          className={classNames(projectcss.all, sty.div2)}
+                        >
                           <div
-                            data-plasmic-name={"article"}
-                            data-plasmic-override={overrides.article}
-                            className={classNames(projectcss.all, sty.article)}
+                            data-plasmic-name={"div3"}
+                            data-plasmic-override={overrides.div3}
+                            className={classNames(projectcss.all, sty.div3)}
                           >
                             <div
-                              data-plasmic-name={"articleBody"}
-                              data-plasmic-override={overrides.articleBody}
-                              className={classNames(
-                                projectcss.all,
-                                sty.articleBody
-                              )}
+                              data-plasmic-name={"div4"}
+                              data-plasmic-override={overrides.div4}
+                              className={classNames(projectcss.all, sty.div4)}
                             >
-                              {true ? (
+                              <div
+                                data-plasmic-name={"h1"}
+                                data-plasmic-override={overrides.h1}
+                                className={classNames(projectcss.all, sty.h1)}
+                              >
                                 <div
-                                  data-plasmic-name={"press"}
-                                  data-plasmic-override={overrides.press}
                                   className={classNames(
                                     projectcss.all,
-                                    sty.press
+                                    projectcss.__wab_text,
+                                    sty.text__g6H2G
+                                  )}
+                                >
+                                  {(() => {
+                                    try {
+                                      return $ctx.fetchedData.records[0].fields
+                                        .heroHeadline;
+                                    } catch (e) {
+                                      if (e instanceof TypeError) {
+                                        return "Want All The Joy Of Inhalation, But";
+                                      }
+                                      throw e;
+                                    }
+                                  })()}
+                                </div>
+                              </div>
+                              <div
+                                className={classNames(
+                                  projectcss.all,
+                                  projectcss.__wab_text,
+                                  sty.text__acz4Q
+                                )}
+                              >
+                                {(() => {
+                                  try {
+                                    return $ctx.fetchedData.records[0].fields
+                                      .heroSubHeadline;
+                                  } catch (e) {
+                                    if (e instanceof TypeError) {
+                                      return "Inhale. Relax. Enjoy Your Daily Vitamin Boost!";
+                                    }
+                                    throw e;
+                                  }
+                                })()}
+                              </div>
+                              <div
+                                data-plasmic-name={"div5"}
+                                data-plasmic-override={overrides.div5}
+                                className={classNames(projectcss.all, sty.div5)}
+                              >
+                                <div
+                                  data-plasmic-name={
+                                    "rated49StarsBy100000Customers"
+                                  }
+                                  data-plasmic-override={
+                                    overrides.rated49StarsBy100000Customers
+                                  }
+                                  className={classNames(
+                                    projectcss.all,
+                                    sty.rated49StarsBy100000Customers
                                   )}
                                 >
                                   <div
                                     className={classNames(
                                       projectcss.all,
                                       projectcss.__wab_text,
-                                      sty.text__bxaob
+                                      sty.text__c2AXf
                                     )}
                                   >
-                                    {"As Featured In:"}
+                                    {"Rated 4.9 Stars By 100,000+ Customers"}
                                   </div>
-                                  <p.PlasmicImg
-                                    data-plasmic-name={"pressIcons"}
-                                    data-plasmic-override={overrides.pressIcons}
-                                    alt={""}
-                                    className={classNames(sty.pressIcons)}
-                                    displayHeight={"auto" as const}
-                                    displayMaxHeight={"none" as const}
-                                    displayMaxWidth={
-                                      hasVariant(
-                                        globalVariants,
-                                        "screen",
-                                        "mobileOnly"
-                                      )
-                                        ? ("300px" as const)
-                                        : ("100%" as const)
+                                </div>
+                                <p.PlasmicImg
+                                  alt={""}
+                                  className={classNames(sty.img__ti6Im)}
+                                  displayHeight={"auto" as const}
+                                  displayMaxHeight={"none" as const}
+                                  displayMaxWidth={"100%" as const}
+                                  displayMinHeight={"0" as const}
+                                  displayMinWidth={"0" as const}
+                                  displayWidth={"auto" as const}
+                                  loading={"lazy" as const}
+                                  src={{
+                                    src: "/plasmic/lhp_3_30_23/images/image39.webp",
+                                    fullWidth: 142,
+                                    fullHeight: 21,
+                                    aspectRatio: undefined
+                                  }}
+                                />
+                              </div>
+                              <button
+                                data-plasmic-name={"button"}
+                                data-plasmic-override={overrides.button}
+                                className={classNames(
+                                  projectcss.all,
+                                  projectcss.button,
+                                  sty.button
+                                )}
+                              >
+                                <div
+                                  className={classNames(
+                                    projectcss.all,
+                                    projectcss.__wab_text,
+                                    sty.text__fe9B
+                                  )}
+                                >
+                                  {"CLAIM FREE PODS 👉"}
+                                </div>
+                                <div
+                                  data-plasmic-name={"fingericonpng"}
+                                  data-plasmic-override={
+                                    overrides.fingericonpng
+                                  }
+                                  className={classNames(
+                                    projectcss.all,
+                                    sty.fingericonpng
+                                  )}
+                                />
+                              </button>
+                            </div>
+                          </div>
+                          <p.Stack
+                            as={"div"}
+                            data-plasmic-name={"div6"}
+                            data-plasmic-override={overrides.div6}
+                            hasGap={true}
+                            className={classNames(projectcss.all, sty.div6)}
+                          >
+                            {true ? (
+                              <div
+                                className={classNames(
+                                  projectcss.all,
+                                  sty.freeBox___8Yf
+                                )}
+                              >
+                                {true ? (
+                                  <BodyArticle1
+                                    data-plasmic-name={"bodyArticle1"}
+                                    data-plasmic-override={
+                                      overrides.bodyArticle1
                                     }
-                                    displayMinHeight={"0" as const}
-                                    displayMinWidth={"0" as const}
-                                    displayWidth={"475px" as const}
-                                    loading={"lazy" as const}
-                                    src={{
-                                      src: "/plasmic/lhp_3_30_23/images/presssvg.svg",
-                                      fullWidth: 300,
-                                      fullHeight: 20,
-                                      aspectRatio: 15.325
-                                    }}
+                                    className={classNames(
+                                      "__wab_instance",
+                                      sty.bodyArticle1
+                                    )}
+                                  />
+                                ) : null}
+                                <BodyArticle2
+                                  className={classNames(
+                                    "__wab_instance",
+                                    sty.bodyArticle2__sKb1G
+                                  )}
+                                />
+                              </div>
+                            ) : null}
+                            <div
+                              data-plasmic-name={"div30"}
+                              data-plasmic-override={overrides.div30}
+                              className={classNames(projectcss.all, sty.div30)}
+                            >
+                              <div
+                                data-plasmic-name={"div31"}
+                                data-plasmic-override={overrides.div31}
+                                className={classNames(
+                                  projectcss.all,
+                                  sty.div31
+                                )}
+                              >
+                                <div
+                                  data-plasmic-name={"div32"}
+                                  data-plasmic-override={overrides.div32}
+                                  className={classNames(
+                                    projectcss.all,
+                                    sty.div32
+                                  )}
+                                >
+                                  <div
+                                    data-plasmic-name={"sidereview1Png"}
+                                    data-plasmic-override={
+                                      overrides.sidereview1Png
+                                    }
+                                    className={classNames(
+                                      projectcss.all,
+                                      sty.sidereview1Png
+                                    )}
                                   />
                                 </div>
-                              ) : null}
-                              <div
-                                data-plasmic-name={"paragraph1"}
-                                data-plasmic-override={overrides.paragraph1}
-                                className={classNames(
-                                  projectcss.all,
-                                  projectcss.__wab_text,
-                                  sty.paragraph1
-                                )}
-                              >
-                                {
-                                  "Imagine a world where you could inhale vitamins, minerals, and antioxidants to improve your well-being.\n\nThink about what it would be like to never have to suffer again through the jitters and anxiety that traditional inhalation methods bring.\n\nWhat if you’ll no longer have to choose between your habit or quitting, or feel like you are compromising on health just to get the throat hit and flavor you enjoy?"
-                                }
-                              </div>
-                              <div
-                                data-plasmic-name={"h21"}
-                                data-plasmic-override={overrides.h21}
-                                className={classNames(
-                                  projectcss.all,
-                                  projectcss.__wab_text,
-                                  sty.h21
-                                )}
-                              >
-                                {
-                                  "All Of The Above Is Possible…With Sparq’s Vitamin Air®."
-                                }
-                              </div>
-                              <p.PlasmicImg
-                                data-plasmic-name={"heroImage"}
-                                data-plasmic-override={overrides.heroImage}
-                                alt={""}
-                                className={classNames(sty.heroImage)}
-                                displayHeight={"auto" as const}
-                                displayMaxHeight={"none" as const}
-                                displayMaxWidth={"100%" as const}
-                                displayMinHeight={"0" as const}
-                                displayMinWidth={"0" as const}
-                                displayWidth={"100%" as const}
-                                loading={"lazy" as const}
-                                src={{
-                                  src: "/plasmic/lhp_3_30_23/images/midbannerjpgpng.png",
-                                  fullWidth: 761,
-                                  fullHeight: 862,
-                                  aspectRatio: undefined
-                                }}
-                              />
-
-                              <div
-                                data-plasmic-name={"paragraph2"}
-                                data-plasmic-override={overrides.paragraph2}
-                                className={classNames(
-                                  projectcss.all,
-                                  projectcss.__wab_text,
-                                  sty.paragraph2
-                                )}
-                              >
-                                {
-                                  "When you make the switch to Sparq, you're choosing to go beyond your typical inhalation experience.\n\nWith Sparq’s Vitamin Air, you don’t have to choose between staying healthy and treating yourself. Instead, you can lead a healthy lifestyle while also quenching your thirst for that truly satisfying hit.\n\nYou can enjoy delicious hitting flavors in the form of a slim, compact, and odorless device while delivering nutrients and botanicals to your body. They will give you energy, mental clarity, boost your metabolism, and protect your body against aging.\n\nSparq provides a satisfying inhalation experience without any of the harmful chemicals or stimulants."
-                                }
-                              </div>
-                              <div
-                                data-plasmic-name={"h22"}
-                                data-plasmic-override={overrides.h22}
-                                className={classNames(
-                                  projectcss.all,
-                                  projectcss.__wab_text,
-                                  sty.h22
-                                )}
-                              >
-                                {"Are YOU One Of These Two Types Of People?"}
-                              </div>
-                              <p.PlasmicImg
-                                data-plasmic-name={"image2"}
-                                data-plasmic-override={overrides.image2}
-                                alt={""}
-                                className={classNames(sty.image2)}
-                                displayHeight={"auto" as const}
-                                displayMaxHeight={"none" as const}
-                                displayMaxWidth={"100%" as const}
-                                displayMinHeight={"0" as const}
-                                displayMinWidth={"0" as const}
-                                displayWidth={"100%" as const}
-                                loading={"lazy" as const}
-                                src={{
-                                  src: "/plasmic/lhp_3_30_23/images/midbannerjpgpng.png",
-                                  fullWidth: 761,
-                                  fullHeight: 862,
-                                  aspectRatio: undefined
-                                }}
-                              />
-
-                              <div
-                                data-plasmic-name={"paragraph3"}
-                                data-plasmic-override={overrides.paragraph3}
-                                className={classNames(
-                                  projectcss.all,
-                                  projectcss.__wab_text,
-                                  sty.paragraph3
-                                )}
-                              >
-                                {
-                                  "If you're trying to quit, it can feel like every craving is another insurmountable problem to face.. Even if you've managed to go several days, weeks, or months without caving, you still crave that puff…that throat hit…that oh so satisfying flavor.\n\nWe know nicotine is addictive…but did you know it’s the oral fixation that keeps bringing you back? When you drop the habit, nicotine is out of your system in 72 hours but the oral fixation can last in the brain for up to 10 years!\n\nThat's why no matter how many times you try, you find yourself going back to your old habit again and again. Fortunately, we've got the alternative that will break this repetitive pattern!\n\nThe world is your oyster, and you want nothing less than to enjoy it to the fullest extent. Maybe you're not into using inhalation devices but you've always been curious as to what all the hype is about. Sparq offers the perfect option for the curious spirit: all of the enjoyment and flavors of traditional products/devices but without the harmful chemicals or addictive stimulants!\n\nNatural flavoring that is intensely delicious, vitamins, amino acids and botanicals, all wrapped in a device designed to provide a superior inhalation experience."
-                                }
-                              </div>
-                              <div
-                                data-plasmic-name={"h23"}
-                                data-plasmic-override={overrides.h23}
-                                className={classNames(
-                                  projectcss.all,
-                                  projectcss.__wab_text,
-                                  sty.h23
-                                )}
-                              >
-                                {"Sparq Has The Answers You’re Looking for:"}
-                              </div>
-                              <p.PlasmicImg
-                                data-plasmic-name={"image3"}
-                                data-plasmic-override={overrides.image3}
-                                alt={""}
-                                className={classNames(sty.image3)}
-                                displayHeight={"auto" as const}
-                                displayMaxHeight={"none" as const}
-                                displayMaxWidth={"100%" as const}
-                                displayMinHeight={"0" as const}
-                                displayMinWidth={"0" as const}
-                                displayWidth={"100%" as const}
-                                loading={"lazy" as const}
-                                src={{
-                                  src: "/plasmic/lhp_3_30_23/images/midbannerjpgpng.png",
-                                  fullWidth: 761,
-                                  fullHeight: 862,
-                                  aspectRatio: undefined
-                                }}
-                              />
-
-                              <div
-                                data-plasmic-name={"paragraph4"}
-                                data-plasmic-override={overrides.paragraph4}
-                                className={classNames(
-                                  projectcss.all,
-                                  projectcss.__wab_text,
-                                  sty.paragraph4
-                                )}
-                              >
-                                {
-                                  "Get rid of those nicotine cravings whilst still enjoying that strong and intense throat hit.\n\nSatisfy your oral fixation without consuming toxic substances or harmful chemicals.\n\nReplace those harmful chemicals with vitamins, amino acids, and botanicals.\n\nPromote deep-breathing and relieve anxiety with each vitamin infused inhalation.\n\nEnjoy a healthier alternative without giving up your habit.\n\nTake your device everywhere with its ultramodern and compact design and use it anytime you want."
-                                }
-                              </div>
-                              <div
-                                data-plasmic-name={"h24"}
-                                data-plasmic-override={overrides.h24}
-                                className={classNames(
-                                  projectcss.all,
-                                  projectcss.__wab_text,
-                                  sty.h24
-                                )}
-                              >
-                                {
-                                  "Happy Quitters, Vitamin Lovers, And Healthy Choice Followers Can't Stop Talking About Vitamin Air:"
-                                }
-                              </div>
-                              <p.PlasmicImg
-                                data-plasmic-name={"image4"}
-                                data-plasmic-override={overrides.image4}
-                                alt={""}
-                                className={classNames(sty.image4)}
-                                displayHeight={"auto" as const}
-                                displayMaxHeight={"none" as const}
-                                displayMaxWidth={"100%" as const}
-                                displayMinHeight={"0" as const}
-                                displayMinWidth={"0" as const}
-                                displayWidth={"100%" as const}
-                                loading={"lazy" as const}
-                                src={{
-                                  src: "/plasmic/lhp_3_30_23/images/comparepng2.png",
-                                  fullWidth: 1461,
-                                  fullHeight: 607,
-                                  aspectRatio: undefined
-                                }}
-                              />
-
-                              <div
-                                data-plasmic-name={"review1"}
-                                data-plasmic-override={overrides.review1}
-                                className={classNames(
-                                  projectcss.all,
-                                  sty.review1
-                                )}
-                              >
-                                <p.PlasmicImg
-                                  alt={""}
-                                  className={classNames(sty.img___4Pcq9)}
-                                  displayHeight={"auto" as const}
-                                  displayMaxHeight={"none" as const}
-                                  displayMaxWidth={"100%" as const}
-                                  displayMinHeight={"0" as const}
-                                  displayMinWidth={"0" as const}
-                                  displayWidth={"auto" as const}
-                                  loading={"lazy" as const}
-                                  src={{
-                                    src: "/plasmic/lhp_3_30_23/images/starpng.png",
-                                    fullWidth: 142,
-                                    fullHeight: 21,
-                                    aspectRatio: undefined
-                                  }}
+                                <div
+                                  className={classNames(
+                                    projectcss.all,
+                                    projectcss.__wab_text,
+                                    sty.text__jDpyc
+                                  )}
+                                >
+                                  {"Isaiah S."}
+                                </div>
+                                <div
+                                  data-plasmic-name={"starpng2"}
+                                  data-plasmic-override={overrides.starpng2}
+                                  className={classNames(
+                                    projectcss.all,
+                                    sty.starpng2
+                                  )}
                                 />
 
                                 <div
-                                  data-plasmic-name={"paragraph42"}
-                                  data-plasmic-override={overrides.paragraph42}
-                                  className={classNames(
-                                    projectcss.all,
-                                    projectcss.__wab_text,
-                                    sty.paragraph42
-                                  )}
-                                >
-                                  {"Amazing product for an amazing price"}
-                                </div>
-                                <div
-                                  data-plasmic-name={"paragraph43"}
-                                  data-plasmic-override={overrides.paragraph43}
-                                  className={classNames(
-                                    projectcss.all,
-                                    projectcss.__wab_text,
-                                    sty.paragraph43
-                                  )}
-                                >
-                                  {
-                                    "If you are trying to quit then this is the product for you its amazing and worth every penny."
+                                  data-plasmic-name={"bestAlternativeToSmoking"}
+                                  data-plasmic-override={
+                                    overrides.bestAlternativeToSmoking
                                   }
-                                </div>
-                                <div
-                                  data-plasmic-name={"paragraph44"}
-                                  data-plasmic-override={overrides.paragraph44}
                                   className={classNames(
                                     projectcss.all,
-                                    projectcss.__wab_text,
-                                    sty.paragraph44
+                                    sty.bestAlternativeToSmoking
                                   )}
-                                >
-                                  {"Todd S."}
-                                </div>
-                              </div>
-                              <div
-                                data-plasmic-name={"review2"}
-                                data-plasmic-override={overrides.review2}
-                                className={classNames(
-                                  projectcss.all,
-                                  sty.review2
-                                )}
-                              >
-                                <p.PlasmicImg
-                                  alt={""}
-                                  className={classNames(sty.img__vrSxx)}
-                                  displayHeight={"auto" as const}
-                                  displayMaxHeight={"none" as const}
-                                  displayMaxWidth={"100%" as const}
-                                  displayMinHeight={"0" as const}
-                                  displayMinWidth={"0" as const}
-                                  displayWidth={"auto" as const}
-                                  loading={"lazy" as const}
-                                  src={{
-                                    src: "/plasmic/lhp_3_30_23/images/starpng.png",
-                                    fullWidth: 142,
-                                    fullHeight: 21,
-                                    aspectRatio: undefined
-                                  }}
                                 />
 
                                 <div
-                                  data-plasmic-name={"paragraph45"}
-                                  data-plasmic-override={overrides.paragraph45}
-                                  className={classNames(
-                                    projectcss.all,
-                                    projectcss.__wab_text,
-                                    sty.paragraph45
-                                  )}
-                                >
-                                  {"Best friend as I quit cigs!"}
-                                </div>
-                                <div
-                                  data-plasmic-name={"paragraph46"}
-                                  data-plasmic-override={overrides.paragraph46}
-                                  className={classNames(
-                                    projectcss.all,
-                                    projectcss.__wab_text,
-                                    sty.paragraph46
-                                  )}
-                                >
-                                  {
-                                    "I love the taste and it doesnt make me cough at all! Super nice product and cool packaging! I will be ordering again!"
+                                  data-plasmic-name={
+                                    "iSmokedForOver29YearsAndTiredToQuitSeveralTimesWithNoSuccessUntilICameAcrossSparqNowNotOnlyDoINotSmokeImDoingSomethingHealthyInPlaceGreatProductIllBeAUserForLife"
                                   }
-                                </div>
-                                <div
-                                  data-plasmic-name={"paragraph47"}
-                                  data-plasmic-override={overrides.paragraph47}
-                                  className={classNames(
-                                    projectcss.all,
-                                    projectcss.__wab_text,
-                                    sty.paragraph47
-                                  )}
-                                >
-                                  {"Jessica M."}
-                                </div>
-                              </div>
-                              <div
-                                data-plasmic-name={"review3"}
-                                data-plasmic-override={overrides.review3}
-                                className={classNames(
-                                  projectcss.all,
-                                  sty.review3
-                                )}
-                              >
-                                <p.PlasmicImg
-                                  alt={""}
-                                  className={classNames(sty.img__mr4Df)}
-                                  displayHeight={"auto" as const}
-                                  displayMaxHeight={"none" as const}
-                                  displayMaxWidth={"100%" as const}
-                                  displayMinHeight={"0" as const}
-                                  displayMinWidth={"0" as const}
-                                  displayWidth={"auto" as const}
-                                  loading={"lazy" as const}
-                                  src={{
-                                    src: "/plasmic/lhp_3_30_23/images/starpng.png",
-                                    fullWidth: 142,
-                                    fullHeight: 21,
-                                    aspectRatio: undefined
-                                  }}
-                                />
-
-                                <div
-                                  data-plasmic-name={"paragraph48"}
-                                  data-plasmic-override={overrides.paragraph48}
-                                  className={classNames(
-                                    projectcss.all,
-                                    projectcss.__wab_text,
-                                    sty.paragraph48
-                                  )}
-                                >
-                                  {"Sparq was very refreshing and awesome"}
-                                </div>
-                                <div
-                                  data-plasmic-name={"paragraph49"}
-                                  data-plasmic-override={overrides.paragraph49}
-                                  className={classNames(
-                                    projectcss.all,
-                                    projectcss.__wab_text,
-                                    sty.paragraph49
-                                  )}
-                                >
-                                  {
-                                    "My overall experience was fantastic. I loved the cleanliness of the vapor and how it tasted naturally fruity."
+                                  data-plasmic-override={
+                                    overrides.iSmokedForOver29YearsAndTiredToQuitSeveralTimesWithNoSuccessUntilICameAcrossSparqNowNotOnlyDoINotSmokeImDoingSomethingHealthyInPlaceGreatProductIllBeAUserForLife
                                   }
-                                </div>
-                                <div
-                                  data-plasmic-name={"paragraph410"}
-                                  data-plasmic-override={overrides.paragraph410}
                                   className={classNames(
                                     projectcss.all,
-                                    projectcss.__wab_text,
-                                    sty.paragraph410
+                                    sty.iSmokedForOver29YearsAndTiredToQuitSeveralTimesWithNoSuccessUntilICameAcrossSparqNowNotOnlyDoINotSmokeImDoingSomethingHealthyInPlaceGreatProductIllBeAUserForLife
                                   )}
                                 >
-                                  {"Philip G."}
-                                </div>
-                              </div>
-                              <div
-                                data-plasmic-name={"h25"}
-                                data-plasmic-override={overrides.h25}
-                                className={classNames(
-                                  projectcss.all,
-                                  projectcss.__wab_text,
-                                  sty.h25
-                                )}
-                              >
-                                {
-                                  "Now you don't have to choose between either Strawberry or Vanilla flavor. "
-                                }
-                              </div>
-                              <div
-                                data-plasmic-name={"h35"}
-                                data-plasmic-override={overrides.h35}
-                                className={classNames(
-                                  projectcss.all,
-                                  projectcss.__wab_text,
-                                  sty.h35
-                                )}
-                              >
-                                <React.Fragment>
-                                  <React.Fragment>
-                                    {"You can have both and a plus one - "}
-                                  </React.Fragment>
-                                  <span
-                                    className={
-                                      "plasmic_default__all plasmic_default__span"
-                                    }
-                                    style={{ color: "#FF0000" }}
-                                  >
-                                    {"FOR FREE."}
-                                  </span>
-                                </React.Fragment>
-                              </div>
-                              <Offer2
-                                data-plasmic-name={"offer2"}
-                                data-plasmic-override={overrides.offer2}
-                                className={classNames(
-                                  "__wab_instance",
-                                  sty.offer2
-                                )}
-                                slot7={
                                   <div
                                     className={classNames(
                                       projectcss.all,
                                       projectcss.__wab_text,
-                                      sty.text__dumdc
+                                      sty.text__g8Qts
                                     )}
                                   >
-                                    {hasVariant(
-                                      globalVariants,
-                                      "screen",
-                                      "mobileOnly"
-                                    )
-                                      ? "CLAIM FREE DEVICE 👉"
-                                      : "CLAIM FREE DEVICE 👉"}
-                                  </div>
-                                }
-                              >
-                                <p.PlasmicImg
-                                  alt={""}
-                                  className={classNames(sty.img__bCb1)}
-                                  displayHeight={
-                                    hasVariant(
-                                      globalVariants,
-                                      "screen",
-                                      "mobileOnly"
-                                    )
-                                      ? ("auto" as const)
-                                      : ("auto" as const)
-                                  }
-                                  displayMaxHeight={"none" as const}
-                                  displayMaxWidth={"100%" as const}
-                                  displayMinHeight={"0" as const}
-                                  displayMinWidth={"0" as const}
-                                  displayWidth={"auto" as const}
-                                  loading={"lazy" as const}
-                                  src={{
-                                    src: "/plasmic/lhp_3_30_23/images/offersvg.svg",
-                                    fullWidth: 76,
-                                    fullHeight: 150,
-                                    aspectRatio: 0.503546
-                                  }}
-                                />
-                              </Offer2>
-                              <p.PlasmicImg
-                                data-plasmic-name={"image5"}
-                                data-plasmic-override={overrides.image5}
-                                alt={""}
-                                className={classNames(sty.image5)}
-                                displayHeight={"auto" as const}
-                                displayMaxHeight={"none" as const}
-                                displayMaxWidth={"100%" as const}
-                                displayMinHeight={"0" as const}
-                                displayMinWidth={"0" as const}
-                                displayWidth={"100%" as const}
-                                loading={"lazy" as const}
-                                src={{
-                                  src: "/plasmic/lhp_3_30_23/images/comparepng2.png",
-                                  fullWidth: 1461,
-                                  fullHeight: 607,
-                                  aspectRatio: undefined
-                                }}
-                              />
-
-                              <div
-                                data-plasmic-name={"paragraph6"}
-                                data-plasmic-override={overrides.paragraph6}
-                                className={classNames(
-                                  projectcss.all,
-                                  projectcss.__wab_text,
-                                  sty.paragraph6
-                                )}
-                              >
-                                {
-                                  "Get rid of those nicotine cravings whilst still enjoying that strong and intense throat hit.\n\nSatisfy your oral fixation without consuming toxic substances or harmful chemicals.\n\nReplace those harmful chemicals with vitamins, amino acids, and botanicals.\n\nPromote deep-breathing and relieve anxiety with each vitamin infused inhalation.\n\nEnjoy a healthier alternative without giving up your habit.\n\nTake your device everywhere with its ultramodern and compact design and use it anytime you want."
-                                }
-                              </div>
-                              <div
-                                data-plasmic-name={"h26"}
-                                data-plasmic-override={overrides.h26}
-                                className={classNames(
-                                  projectcss.all,
-                                  projectcss.__wab_text,
-                                  sty.h26
-                                )}
-                              >
-                                {
-                                  "Now you don't have to choose between either Strawberry or Vanilla flavor. "
-                                }
-                              </div>
-                              <p.PlasmicImg
-                                data-plasmic-name={"image6"}
-                                data-plasmic-override={overrides.image6}
-                                alt={""}
-                                className={classNames(sty.image6)}
-                                displayHeight={"auto" as const}
-                                displayMaxHeight={"none" as const}
-                                displayMaxWidth={"100%" as const}
-                                displayMinHeight={"0" as const}
-                                displayMinWidth={"0" as const}
-                                displayWidth={"100%" as const}
-                                loading={"lazy" as const}
-                                src={{
-                                  src: "/plasmic/lhp_3_30_23/images/comparepng2.png",
-                                  fullWidth: 1461,
-                                  fullHeight: 607,
-                                  aspectRatio: undefined
-                                }}
-                              />
-
-                              <div
-                                data-plasmic-name={"paragraph7"}
-                                data-plasmic-override={overrides.paragraph7}
-                                className={classNames(
-                                  projectcss.all,
-                                  projectcss.__wab_text,
-                                  sty.paragraph7
-                                )}
-                              >
-                                {
-                                  "Get rid of those nicotine cravings whilst still enjoying that strong and intense throat hit.\n\nSatisfy your oral fixation without consuming toxic substances or harmful chemicals.\n\nReplace those harmful chemicals with vitamins, amino acids, and botanicals.\n\nPromote deep-breathing and relieve anxiety with each vitamin infused inhalation.\n\nEnjoy a healthier alternative without giving up your habit.\n\nTake your device everywhere with its ultramodern and compact design and use it anytime you want."
-                                }
-                              </div>
-                              <div
-                                data-plasmic-name={"h27"}
-                                data-plasmic-override={overrides.h27}
-                                className={classNames(
-                                  projectcss.all,
-                                  projectcss.__wab_text,
-                                  sty.h27
-                                )}
-                              >
-                                {
-                                  "Now you don't have to choose between either Strawberry or Vanilla flavor. "
-                                }
-                              </div>
-                              <p.PlasmicImg
-                                data-plasmic-name={"image7"}
-                                data-plasmic-override={overrides.image7}
-                                alt={""}
-                                className={classNames(sty.image7)}
-                                displayHeight={"auto" as const}
-                                displayMaxHeight={"none" as const}
-                                displayMaxWidth={"100%" as const}
-                                displayMinHeight={"0" as const}
-                                displayMinWidth={"0" as const}
-                                displayWidth={"100%" as const}
-                                loading={"lazy" as const}
-                                src={{
-                                  src: "/plasmic/lhp_3_30_23/images/comparepng2.png",
-                                  fullWidth: 1461,
-                                  fullHeight: 607,
-                                  aspectRatio: undefined
-                                }}
-                              />
-
-                              <div
-                                data-plasmic-name={"aOutroH1"}
-                                data-plasmic-override={overrides.aOutroH1}
-                                className={classNames(
-                                  projectcss.all,
-                                  projectcss.__wab_text,
-                                  sty.aOutroH1
-                                )}
-                              >
-                                {
-                                  "Click Here To Learn More & Order Vitamin Air Today!"
-                                }
-                              </div>
-                              <div
-                                className={classNames(
-                                  projectcss.all,
-                                  sty.freeBox__atFp5
-                                )}
-                              >
-                                <p.PlasmicLink
-                                  data-plasmic-name={"aCta2"}
-                                  data-plasmic-override={overrides.aCta2}
-                                  className={classNames(
-                                    projectcss.all,
-                                    projectcss.a,
-                                    sty.aCta2
-                                  )}
-                                  component={Link}
-                                  onClick={async event => {
-                                    const $steps = {};
-                                    $steps["setVariable"] = true
-                                      ? (() => {
-                                          const actionArgs = {};
-                                          return __wrapUserFunction(
-                                            {
-                                              type: "InteractionLoc",
-                                              actionName: "updateVariable",
-                                              interactionUuid: "3ZW2HiZcOjYbCV",
-                                              componentUuid: "Qsmc7rZ4njupIO"
-                                            },
-                                            () =>
-                                              (({
-                                                variable,
-                                                value,
-                                                startIndex,
-                                                deleteCount
-                                              }) => {
-                                                const {
-                                                  objRoot,
-                                                  variablePath
-                                                } = variable;
-                                                undefined;
-                                              })?.apply(null, [actionArgs]),
-                                            actionArgs
-                                          );
-                                        })()
-                                      : undefined;
-                                    if (
-                                      typeof $steps["setVariable"] ===
-                                        "object" &&
-                                      typeof $steps["setVariable"].then ===
-                                        "function"
-                                    ) {
-                                      $steps["setVariable"] =
-                                        await __wrapUserPromise(
-                                          {
-                                            type: "InteractionLoc",
-                                            actionName: "updateVariable",
-                                            interactionUuid: "3ZW2HiZcOjYbCV",
-                                            componentUuid: "Qsmc7rZ4njupIO"
-                                          },
-                                          $steps["setVariable"]
-                                        );
+                                    {
+                                      "I smoked for over 29 years and tired to quit several times with no success. Until I came across sparq. Now not only do I not smoke, I’m doing something healthy in place! Great product, I’ll be a user for life!"
                                     }
-                                  }}
-                                  platform={"nextjs"}
-                                >
-                                  {p.renderPlasmicSlot({
-                                    defaultContents: "CLAIM FREE DEVICE 👉",
-                                    value: args.slot7,
-                                    className: classNames(sty.slotTargetSlot7)
-                                  })}
-                                </p.PlasmicLink>
+                                  </div>
+                                </div>
                                 <div
                                   className={classNames(
                                     projectcss.all,
-                                    sty.freeBox___3PoAw
+                                    projectcss.__wab_text,
+                                    sty.text__okhZ
                                   )}
-                                />
-
+                                >
+                                  {"Best alternative to smoking"}
+                                </div>
+                              </div>
+                              <div
+                                data-plasmic-name={"div33"}
+                                data-plasmic-override={overrides.div33}
+                                className={classNames(
+                                  projectcss.all,
+                                  sty.div33
+                                )}
+                              >
                                 <div
+                                  data-plasmic-name={"div34"}
+                                  data-plasmic-override={overrides.div34}
                                   className={classNames(
                                     projectcss.all,
-                                    sty.freeBox__blM9P
+                                    sty.div34
                                   )}
                                 >
                                   <div
-                                    data-plasmic-name={"aOutroH2"}
-                                    data-plasmic-override={overrides.aOutroH2}
+                                    data-plasmic-name={"sidereview2Png"}
+                                    data-plasmic-override={
+                                      overrides.sidereview2Png
+                                    }
+                                    className={classNames(
+                                      projectcss.all,
+                                      sty.sidereview2Png
+                                    )}
+                                  />
+                                </div>
+                                <div
+                                  className={classNames(
+                                    projectcss.all,
+                                    projectcss.__wab_text,
+                                    sty.text__kbk8O
+                                  )}
+                                >
+                                  {"Jason G."}
+                                </div>
+                                <div
+                                  data-plasmic-name={"starpng3"}
+                                  data-plasmic-override={overrides.starpng3}
+                                  className={classNames(
+                                    projectcss.all,
+                                    sty.starpng3
+                                  )}
+                                />
+
+                                <div
+                                  data-plasmic-name={"awesome"}
+                                  data-plasmic-override={overrides.awesome}
+                                  className={classNames(
+                                    projectcss.all,
+                                    sty.awesome
+                                  )}
+                                >
+                                  <div
                                     className={classNames(
                                       projectcss.all,
                                       projectcss.__wab_text,
-                                      sty.aOutroH2
+                                      sty.text__o7Be0
                                     )}
                                   >
-                                    {"Fast Same-Day Shipping"}
+                                    {"Awesome"}
                                   </div>
+                                </div>
+                                <div
+                                  data-plasmic-name={
+                                    "excellentILoveThisIQuitSmokingCigarettesAndWentToTheSparqILoveThisDeviceItIsNaturalNoNicotineItReallyDoesHelpCalmMe"
+                                  }
+                                  data-plasmic-override={
+                                    overrides.excellentILoveThisIQuitSmokingCigarettesAndWentToTheSparqILoveThisDeviceItIsNaturalNoNicotineItReallyDoesHelpCalmMe
+                                  }
+                                  className={classNames(
+                                    projectcss.all,
+                                    sty.excellentILoveThisIQuitSmokingCigarettesAndWentToTheSparqILoveThisDeviceItIsNaturalNoNicotineItReallyDoesHelpCalmMe
+                                  )}
+                                >
+                                  <div
+                                    className={classNames(
+                                      projectcss.all,
+                                      projectcss.__wab_text,
+                                      sty.text__f7Qg
+                                    )}
+                                  >
+                                    {
+                                      "“Excellent. I love this. I quit smoking cigarettes and went to the sparq. I love this device. It is natural, no nicotine. It really does help calm me.”"
+                                    }
+                                  </div>
+                                </div>
+                              </div>
+                              <div
+                                data-plasmic-name={"div36"}
+                                data-plasmic-override={overrides.div36}
+                                className={classNames(
+                                  projectcss.all,
+                                  sty.div36
+                                )}
+                              >
+                                <div
+                                  data-plasmic-name={"div37"}
+                                  data-plasmic-override={overrides.div37}
+                                  className={classNames(
+                                    projectcss.all,
+                                    sty.div37
+                                  )}
+                                >
+                                  <div
+                                    data-plasmic-name={"sidereview3Png"}
+                                    data-plasmic-override={
+                                      overrides.sidereview3Png
+                                    }
+                                    className={classNames(
+                                      projectcss.all,
+                                      sty.sidereview3Png
+                                    )}
+                                  >
+                                    <p.PlasmicImg
+                                      alt={""}
+                                      className={classNames(sty.img__swXfl)}
+                                      displayHeight={"auto" as const}
+                                      displayMaxHeight={"none" as const}
+                                      displayMaxWidth={"100%" as const}
+                                      displayMinHeight={"0" as const}
+                                      displayMinWidth={"0" as const}
+                                      displayWidth={"auto" as const}
+                                      loading={"lazy" as const}
+                                      src={{
+                                        src: "/plasmic/lhp_3_30_23/images/sidereview3Png.png",
+                                        fullWidth: 119,
+                                        fullHeight: 119,
+                                        aspectRatio: undefined
+                                      }}
+                                    />
+                                  </div>
+                                </div>
+                                <div
+                                  className={classNames(
+                                    projectcss.all,
+                                    projectcss.__wab_text,
+                                    sty.text__ty08Z
+                                  )}
+                                >
+                                  {"Kathy B"}
+                                </div>
+                                <div
+                                  data-plasmic-name={"starpng4"}
+                                  data-plasmic-override={overrides.starpng4}
+                                  className={classNames(
+                                    projectcss.all,
+                                    sty.starpng4
+                                  )}
+                                >
                                   <p.PlasmicImg
-                                    data-plasmic-name={"reviewIcon"}
-                                    data-plasmic-override={overrides.reviewIcon}
                                     alt={""}
-                                    className={classNames(sty.reviewIcon)}
-                                    displayHeight={
-                                      hasVariant(
-                                        globalVariants,
-                                        "screen",
-                                        "mobileOnly"
-                                      )
-                                        ? ("11px" as const)
-                                        : ("auto" as const)
-                                    }
+                                    className={classNames(sty.img__wgZom)}
+                                    displayHeight={"auto" as const}
                                     displayMaxHeight={"none" as const}
                                     displayMaxWidth={"100%" as const}
                                     displayMinHeight={"0" as const}
@@ -4196,478 +2223,2412 @@ function PlasmicArticle1__RenderFunc(props: {
                                       aspectRatio: undefined
                                     }}
                                   />
-
+                                </div>
+                                <div
+                                  data-plasmic-name={"loveLove"}
+                                  data-plasmic-override={overrides.loveLove}
+                                  className={classNames(
+                                    projectcss.all,
+                                    sty.loveLove
+                                  )}
+                                >
                                   <div
-                                    data-plasmic-name={"aOutroH3"}
-                                    data-plasmic-override={overrides.aOutroH3}
                                     className={classNames(
                                       projectcss.all,
                                       projectcss.__wab_text,
-                                      sty.aOutroH3
+                                      sty.text__xCo4H
                                     )}
                                   >
-                                    <React.Fragment>
-                                      <React.Fragment>
-                                        {"Rated 4.9 Stars By "}
-                                      </React.Fragment>
-                                      <span
-                                        className={
-                                          "plasmic_default__all plasmic_default__span"
-                                        }
-                                        style={{ fontWeight: 700 }}
-                                      >
-                                        {"100,000+"}
-                                      </span>
-                                      <React.Fragment>
-                                        {" Customers"}
-                                      </React.Fragment>
-                                    </React.Fragment>
+                                    {"Love! LOVE!!"}
+                                  </div>
+                                </div>
+                                <div
+                                  data-plasmic-name={"p"}
+                                  data-plasmic-override={overrides.p}
+                                  className={classNames(projectcss.all, sty.p)}
+                                >
+                                  <div
+                                    className={classNames(
+                                      projectcss.all,
+                                      projectcss.__wab_text,
+                                      sty.text__wLpcV
+                                    )}
+                                  >
+                                    {"“Im literally obsessed the the elegant"}
+                                  </div>
+                                  <div
+                                    data-plasmic-name={"br4"}
+                                    data-plasmic-override={overrides.br4}
+                                    className={classNames(
+                                      projectcss.all,
+                                      projectcss.__wab_text,
+                                      sty.br4
+                                    )}
+                                  >
+                                    {"\n"}
+                                  </div>
+                                  <div
+                                    className={classNames(
+                                      projectcss.all,
+                                      projectcss.__wab_text,
+                                      sty.text__uXLsE
+                                    )}
+                                  >
+                                    {"design as well as the jaw dropping"}
+                                  </div>
+                                  <div
+                                    data-plasmic-name={"br5"}
+                                    data-plasmic-override={overrides.br5}
+                                    className={classNames(
+                                      projectcss.all,
+                                      projectcss.__wab_text,
+                                      sty.br5
+                                    )}
+                                  >
+                                    {"\n"}
+                                  </div>
+                                  <div
+                                    className={classNames(
+                                      projectcss.all,
+                                      projectcss.__wab_text,
+                                      sty.text__sxkoV
+                                    )}
+                                  >
+                                    {"packaging.”"}
                                   </div>
                                 </div>
                               </div>
+                            </div>
+                          </p.Stack>
+                        </p.Stack>
+                        <p.PlasmicImg
+                          alt={""}
+                          className={classNames(sty.img__ywnNz)}
+                          displayHeight={"30px" as const}
+                          displayMaxHeight={"none" as const}
+                          displayMaxWidth={"100%" as const}
+                          displayMinHeight={"0" as const}
+                          displayMinWidth={"0" as const}
+                          displayWidth={"180px" as const}
+                          loading={"lazy" as const}
+                          src={{
+                            src: "/plasmic/lhp_3_30_23/images/logopng.png",
+                            fullWidth: 276,
+                            fullHeight: 46,
+                            aspectRatio: undefined
+                          }}
+                        />
+
+                        <div
+                          className={classNames(
+                            projectcss.all,
+                            projectcss.__wab_text,
+                            sty.text__iYiI
+                          )}
+                        >
+                          {'"The Evolution of Inhalation"\n'}
+                        </div>
+                      </div>
+                    ) : null}
+                    {(
+                      hasVariant(globalVariants, "screen", "mobileOnly")
+                        ? true
+                        : true
+                    ) ? (
+                      <div
+                        data-plasmic-name={"_414Px"}
+                        data-plasmic-override={overrides._414Px}
+                        className={classNames(projectcss.all, sty._414Px)}
+                      >
+                        <div
+                          data-plasmic-name={"div41"}
+                          data-plasmic-override={overrides.div41}
+                          className={classNames(projectcss.all, sty.div41)}
+                        >
+                          {(
+                            hasVariant(globalVariants, "screen", "mobileOnly")
+                              ? true
+                              : true
+                          ) ? (
+                            <div
+                              data-plasmic-name={"logopng3"}
+                              data-plasmic-override={overrides.logopng3}
+                              className={classNames(
+                                projectcss.all,
+                                sty.logopng3
+                              )}
+                            >
                               <p.PlasmicImg
-                                data-plasmic-name={"aOutroImage"}
-                                data-plasmic-override={overrides.aOutroImage}
                                 alt={""}
-                                className={classNames(sty.aOutroImage)}
+                                className={classNames(sty.img___4P11)}
                                 displayHeight={"auto" as const}
                                 displayMaxHeight={"none" as const}
                                 displayMaxWidth={"100%" as const}
                                 displayMinHeight={"0" as const}
                                 displayMinWidth={"0" as const}
-                                displayWidth={"100%" as const}
+                                displayWidth={"auto" as const}
+                                loading={"lazy" as const}
+                              />
+                            </div>
+                          ) : null}
+                          <div
+                            data-plasmic-name={"thisIsAnAdvertorial2"}
+                            data-plasmic-override={
+                              overrides.thisIsAnAdvertorial2
+                            }
+                            className={classNames(
+                              projectcss.all,
+                              sty.thisIsAnAdvertorial2
+                            )}
+                          >
+                            <div
+                              className={classNames(
+                                projectcss.all,
+                                projectcss.__wab_text,
+                                sty.text__i9QbF
+                              )}
+                            >
+                              {"This is an Advertorial"}
+                            </div>
+                          </div>
+                          <p.PlasmicImg
+                            alt={""}
+                            className={classNames(sty.img__mmcrZ)}
+                            displayHeight={"auto" as const}
+                            displayMaxHeight={"none" as const}
+                            displayMaxWidth={"100%" as const}
+                            displayMinHeight={"0" as const}
+                            displayMinWidth={"0" as const}
+                            displayWidth={"132px" as const}
+                            loading={"lazy" as const}
+                            src={{
+                              src: "/plasmic/lhp_3_30_23/images/logopng.png",
+                              fullWidth: 276,
+                              fullHeight: 46,
+                              aspectRatio: undefined
+                            }}
+                          />
+                        </div>
+                        <div
+                          data-plasmic-name={"div42"}
+                          data-plasmic-override={overrides.div42}
+                          className={classNames(projectcss.all, sty.div42)}
+                        >
+                          <div
+                            data-plasmic-name={"div43"}
+                            data-plasmic-override={overrides.div43}
+                            className={classNames(projectcss.all, sty.div43)}
+                          >
+                            <div
+                              data-plasmic-name={"div44"}
+                              data-plasmic-override={overrides.div44}
+                              className={classNames(projectcss.all, sty.div44)}
+                            >
+                              <div
+                                className={classNames(
+                                  projectcss.all,
+                                  projectcss.__wab_text,
+                                  sty.text__wzGhc
+                                )}
+                              >
+                                {(() => {
+                                  try {
+                                    return $ctx.fetchedData.records[0].fields
+                                      .heroHeadline;
+                                  } catch (e) {
+                                    if (e instanceof TypeError) {
+                                      return "Want All The Joy Of Inhalation, But None Of The Health Compromises?";
+                                    }
+                                    throw e;
+                                  }
+                                })()}
+                              </div>
+                              <div
+                                className={classNames(
+                                  projectcss.all,
+                                  projectcss.__wab_text,
+                                  sty.text__o7Ciz
+                                )}
+                              >
+                                {(() => {
+                                  try {
+                                    return $ctx.fetchedData.records[0].fields
+                                      .heroSubHeadline;
+                                  } catch (e) {
+                                    if (e instanceof TypeError) {
+                                      return undefined;
+                                    }
+                                    throw e;
+                                  }
+                                })()}
+                              </div>
+                              {(
+                                hasVariant(
+                                  globalVariants,
+                                  "screen",
+                                  "mobileOnly"
+                                )
+                                  ? true
+                                  : true
+                              ) ? (
+                                <div
+                                  data-plasmic-name={"aget12"}
+                                  data-plasmic-override={overrides.aget12}
+                                  className={classNames(
+                                    projectcss.all,
+                                    sty.aget12
+                                  )}
+                                >
+                                  <div
+                                    className={classNames(
+                                      projectcss.all,
+                                      projectcss.__wab_text,
+                                      sty.text__p6Qk
+                                    )}
+                                  >
+                                    {"FEEL THE DIFFERENCE"}
+                                  </div>
+                                  <div
+                                    data-plasmic-name={"fingericonpng5"}
+                                    data-plasmic-override={
+                                      overrides.fingericonpng5
+                                    }
+                                    className={classNames(
+                                      projectcss.all,
+                                      sty.fingericonpng5
+                                    )}
+                                  />
+                                </div>
+                              ) : null}
+                              <div
+                                data-plasmic-name={"div45"}
+                                data-plasmic-override={overrides.div45}
+                                className={classNames(
+                                  projectcss.all,
+                                  sty.div45
+                                )}
+                              >
+                                {(
+                                  hasVariant(
+                                    globalVariants,
+                                    "screen",
+                                    "mobileOnly"
+                                  )
+                                    ? true
+                                    : true
+                                ) ? (
+                                  <div
+                                    data-plasmic-name={"starpng6"}
+                                    data-plasmic-override={overrides.starpng6}
+                                    className={classNames(
+                                      projectcss.all,
+                                      sty.starpng6
+                                    )}
+                                  />
+                                ) : null}
+                                <div
+                                  data-plasmic-name={
+                                    "rated49StarsBy100000Customers3"
+                                  }
+                                  data-plasmic-override={
+                                    overrides.rated49StarsBy100000Customers3
+                                  }
+                                  className={classNames(
+                                    projectcss.all,
+                                    sty.rated49StarsBy100000Customers3
+                                  )}
+                                />
+                              </div>
+                              {(
+                                hasVariant(
+                                  globalVariants,
+                                  "screen",
+                                  "mobileOnly"
+                                )
+                                  ? true
+                                  : true
+                              ) ? (
+                                <p.PlasmicImg
+                                  alt={""}
+                                  className={classNames(sty.img__lWf99)}
+                                  displayHeight={"auto" as const}
+                                  displayMaxHeight={"none" as const}
+                                  displayMaxWidth={"100%" as const}
+                                  displayMinHeight={"0" as const}
+                                  displayMinWidth={"0" as const}
+                                  displayWidth={"auto" as const}
+                                  loading={"lazy" as const}
+                                />
+                              ) : null}
+                              <div
+                                data-plasmic-name={"a3"}
+                                data-plasmic-override={overrides.a3}
+                                className={classNames(projectcss.all, sty.a3)}
+                              >
+                                <div
+                                  className={classNames(
+                                    projectcss.all,
+                                    projectcss.__wab_text,
+                                    sty.text__yq4L
+                                  )}
+                                >
+                                  {"CLAIM FREE PODS 👉"}
+                                </div>
+                                {(
+                                  hasVariant(
+                                    globalVariants,
+                                    "screen",
+                                    "mobileOnly"
+                                  )
+                                    ? true
+                                    : true
+                                ) ? (
+                                  <div
+                                    data-plasmic-name={"fingericonpng4"}
+                                    data-plasmic-override={
+                                      overrides.fingericonpng4
+                                    }
+                                    className={classNames(
+                                      projectcss.all,
+                                      sty.fingericonpng4
+                                    )}
+                                  />
+                                ) : null}
+                              </div>
+                              <div
+                                className={classNames(
+                                  projectcss.all,
+                                  projectcss.__wab_text,
+                                  sty.text___40Gru
+                                )}
+                              >
+                                {"Rated 4.9 Stars By 100,000+ Customers"}
+                              </div>
+                              <p.PlasmicImg
+                                alt={""}
+                                className={classNames(sty.img__bqAnq)}
+                                displayHeight={"19px" as const}
+                                displayMaxHeight={"none" as const}
+                                displayMaxWidth={"123%" as const}
+                                displayMinHeight={"0" as const}
+                                displayMinWidth={"0" as const}
+                                displayWidth={"139px" as const}
                                 loading={"lazy" as const}
                                 src={{
-                                  src: "/plasmic/lhp_3_30_23/images/comparepng2.png",
-                                  fullWidth: 1461,
-                                  fullHeight: 607,
+                                  src: "/plasmic/lhp_3_30_23/images/image39.webp",
+                                  fullWidth: 142,
+                                  fullHeight: 21,
                                   aspectRatio: undefined
                                 }}
                               />
                             </div>
                           </div>
-                        ) : null}
+                          <div
+                            data-plasmic-name={"div46"}
+                            data-plasmic-override={overrides.div46}
+                            className={classNames(projectcss.all, sty.div46)}
+                          >
+                            {(
+                              hasVariant(globalVariants, "screen", "mobileOnly")
+                                ? true
+                                : true
+                            ) ? (
+                              <div
+                                data-plasmic-name={"div47"}
+                                data-plasmic-override={overrides.div47}
+                                className={classNames(
+                                  projectcss.all,
+                                  sty.div47
+                                )}
+                              >
+                                <div
+                                  data-plasmic-name={"div48"}
+                                  data-plasmic-override={overrides.div48}
+                                  className={classNames(
+                                    projectcss.all,
+                                    sty.div48
+                                  )}
+                                >
+                                  <div
+                                    className={classNames(
+                                      projectcss.all,
+                                      projectcss.__wab_text,
+                                      sty.text___5LbQm
+                                    )}
+                                  >
+                                    {"As Featured In:"}
+                                  </div>
+                                  <div
+                                    data-plasmic-name={"div49"}
+                                    data-plasmic-override={overrides.div49}
+                                    className={classNames(
+                                      projectcss.all,
+                                      sty.div49
+                                    )}
+                                  >
+                                    <div
+                                      data-plasmic-name={"div50"}
+                                      data-plasmic-override={overrides.div50}
+                                      className={classNames(
+                                        projectcss.all,
+                                        sty.div50
+                                      )}
+                                    >
+                                      <div
+                                        data-plasmic-name={"nwMobbrand1Png"}
+                                        data-plasmic-override={
+                                          overrides.nwMobbrand1Png
+                                        }
+                                        className={classNames(
+                                          projectcss.all,
+                                          sty.nwMobbrand1Png
+                                        )}
+                                      />
+
+                                      <div
+                                        data-plasmic-name={"nwMobbrand2Png"}
+                                        data-plasmic-override={
+                                          overrides.nwMobbrand2Png
+                                        }
+                                        className={classNames(
+                                          projectcss.all,
+                                          sty.nwMobbrand2Png
+                                        )}
+                                      />
+
+                                      <div
+                                        data-plasmic-name={"nwMobbrand3Png"}
+                                        data-plasmic-override={
+                                          overrides.nwMobbrand3Png
+                                        }
+                                        className={classNames(
+                                          projectcss.all,
+                                          sty.nwMobbrand3Png
+                                        )}
+                                      />
+                                    </div>
+                                  </div>
+                                </div>
+                                <div
+                                  className={classNames(
+                                    projectcss.all,
+                                    projectcss.__wab_text,
+                                    sty.text__zqQg3
+                                  )}
+                                >
+                                  {
+                                    "Imagine a world where you could inhale vitamins, minerals, and antioxidants to improve your well-being."
+                                  }
+                                </div>
+                                <div
+                                  className={classNames(
+                                    projectcss.all,
+                                    projectcss.__wab_text,
+                                    sty.text__ewj2E
+                                  )}
+                                >
+                                  {
+                                    "Think about what it would be like to never have to suffer again through the jitters and anxiety that traditional inhalation methods bring."
+                                  }
+                                </div>
+                                <div
+                                  className={classNames(
+                                    projectcss.all,
+                                    projectcss.__wab_text,
+                                    sty.text__hfCZb
+                                  )}
+                                >
+                                  {
+                                    "What if you’ll no longer have to choose between your habit or quitting, or feel like you are compromising on health just to get the throat hit and flavor you enjoy?"
+                                  }
+                                </div>
+                                <div
+                                  className={classNames(
+                                    projectcss.all,
+                                    projectcss.__wab_text,
+                                    sty.text__t5Nz
+                                  )}
+                                >
+                                  {
+                                    "All Of The Above Is Possible…With Sparq’s Vitamin Air®."
+                                  }
+                                </div>
+                                <div
+                                  data-plasmic-name={"midbannerjpg2"}
+                                  data-plasmic-override={
+                                    overrides.midbannerjpg2
+                                  }
+                                  className={classNames(
+                                    projectcss.all,
+                                    sty.midbannerjpg2
+                                  )}
+                                />
+
+                                <div
+                                  data-plasmic-name={
+                                    "whenYouMakeTheSwitchToSparqYoureChoosingToGoBeyondYourTypicalInhalationExperience2"
+                                  }
+                                  data-plasmic-override={
+                                    overrides.whenYouMakeTheSwitchToSparqYoureChoosingToGoBeyondYourTypicalInhalationExperience2
+                                  }
+                                  className={classNames(
+                                    projectcss.all,
+                                    sty.whenYouMakeTheSwitchToSparqYoureChoosingToGoBeyondYourTypicalInhalationExperience2
+                                  )}
+                                >
+                                  <div
+                                    className={classNames(
+                                      projectcss.all,
+                                      projectcss.__wab_text,
+                                      sty.text___9UJ8I
+                                    )}
+                                  >
+                                    {
+                                      "When you make the switch to Sparq, you're choosing to go beyond your typical inhalation experience."
+                                    }
+                                  </div>
+                                </div>
+                                <div
+                                  data-plasmic-name={
+                                    "withSparqsVitaminAirYouDontHaveToChooseBetweenStayingHealthyAndTreatingYourselfInsteadYouCanLeadAHealthyLifestyleWhileAlsoQuenchingYourThirstForThatTrulySatisfyingHit2"
+                                  }
+                                  data-plasmic-override={
+                                    overrides.withSparqsVitaminAirYouDontHaveToChooseBetweenStayingHealthyAndTreatingYourselfInsteadYouCanLeadAHealthyLifestyleWhileAlsoQuenchingYourThirstForThatTrulySatisfyingHit2
+                                  }
+                                  className={classNames(
+                                    projectcss.all,
+                                    sty.withSparqsVitaminAirYouDontHaveToChooseBetweenStayingHealthyAndTreatingYourselfInsteadYouCanLeadAHealthyLifestyleWhileAlsoQuenchingYourThirstForThatTrulySatisfyingHit2
+                                  )}
+                                >
+                                  <div
+                                    className={classNames(
+                                      projectcss.all,
+                                      projectcss.__wab_text,
+                                      sty.text__eHo5O
+                                    )}
+                                  >
+                                    {
+                                      "With Sparq’s Vitamin Air, you don’t have to choose between staying healthy and treating yourself. Instead, you can lead a healthy lifestyle while also quenching your thirst for that truly satisfying hit."
+                                    }
+                                  </div>
+                                </div>
+                                <div
+                                  data-plasmic-name={
+                                    "youCanEnjoyDeliciousHittingFlavorsInTheFormOfASlimCompactAndOdorlessDeviceWhileDeliveringNutrientsAndBotanicalsToYourBodyTheyWillGiveYouEnergyMentalClarityBoostYourMetabolismAndProtectYourBodyAgainstAging2"
+                                  }
+                                  data-plasmic-override={
+                                    overrides.youCanEnjoyDeliciousHittingFlavorsInTheFormOfASlimCompactAndOdorlessDeviceWhileDeliveringNutrientsAndBotanicalsToYourBodyTheyWillGiveYouEnergyMentalClarityBoostYourMetabolismAndProtectYourBodyAgainstAging2
+                                  }
+                                  className={classNames(
+                                    projectcss.all,
+                                    sty.youCanEnjoyDeliciousHittingFlavorsInTheFormOfASlimCompactAndOdorlessDeviceWhileDeliveringNutrientsAndBotanicalsToYourBodyTheyWillGiveYouEnergyMentalClarityBoostYourMetabolismAndProtectYourBodyAgainstAging2
+                                  )}
+                                >
+                                  <div
+                                    className={classNames(
+                                      projectcss.all,
+                                      projectcss.__wab_text,
+                                      sty.text__jszhF
+                                    )}
+                                  >
+                                    {
+                                      "You can enjoy delicious hitting flavors in the form of a slim, compact, and odorless device while delivering nutrients and botanicals to your body. They will give you energy, mental clarity, boost your metabolism, and protect your body against aging."
+                                    }
+                                  </div>
+                                </div>
+                                <div
+                                  data-plasmic-name={
+                                    "sparqProvidesASatisfyingInhalationExperienceWithoutAnyOfTheHarmfulChemicalsOrStimulants2"
+                                  }
+                                  data-plasmic-override={
+                                    overrides.sparqProvidesASatisfyingInhalationExperienceWithoutAnyOfTheHarmfulChemicalsOrStimulants2
+                                  }
+                                  className={classNames(
+                                    projectcss.all,
+                                    sty.sparqProvidesASatisfyingInhalationExperienceWithoutAnyOfTheHarmfulChemicalsOrStimulants2
+                                  )}
+                                >
+                                  <div
+                                    className={classNames(
+                                      projectcss.all,
+                                      projectcss.__wab_text,
+                                      sty.text__cbwGc
+                                    )}
+                                  >
+                                    {
+                                      "Sparq provides a satisfying inhalation experience without any of the harmful chemicals or stimulants."
+                                    }
+                                  </div>
+                                </div>
+                                <div
+                                  data-plasmic-name={
+                                    "areYouOneOfTheseTwoTypesOfPeople"
+                                  }
+                                  data-plasmic-override={
+                                    overrides.areYouOneOfTheseTwoTypesOfPeople
+                                  }
+                                  className={classNames(
+                                    projectcss.all,
+                                    sty.areYouOneOfTheseTwoTypesOfPeople
+                                  )}
+                                >
+                                  <div
+                                    className={classNames(
+                                      projectcss.all,
+                                      projectcss.__wab_text,
+                                      sty.text__rhgd5
+                                    )}
+                                  >
+                                    {
+                                      "Are YOU One Of These Two Types Of People?"
+                                    }
+                                  </div>
+                                </div>
+                                <p.Stack
+                                  as={"div"}
+                                  data-plasmic-name={"div51"}
+                                  data-plasmic-override={overrides.div51}
+                                  hasGap={true}
+                                  className={classNames(
+                                    projectcss.all,
+                                    sty.div51
+                                  )}
+                                >
+                                  <div
+                                    data-plasmic-name={"div52"}
+                                    data-plasmic-override={overrides.div52}
+                                    className={classNames(
+                                      projectcss.all,
+                                      sty.div52
+                                    )}
+                                  >
+                                    <div
+                                      className={classNames(
+                                        projectcss.all,
+                                        projectcss.__wab_text,
+                                        sty.text__f5MDq
+                                      )}
+                                    >
+                                      {
+                                        "If you're trying to quit, it can feel like every craving is another insurmountable problem to face.. Even if you've managed to go several days, weeks, or months without caving, you still crave that puff…that throat hit…that oh so satisfying flavor."
+                                      }
+                                    </div>
+                                    <div
+                                      className={classNames(
+                                        projectcss.all,
+                                        projectcss.__wab_text,
+                                        sty.text__wdEqv
+                                      )}
+                                    >
+                                      {
+                                        "We know nicotine is addictive…but did you know it’s the oral fixation that keeps bringing you back? When you drop the habit, nicotine is out of your system in 72 hours but the oral fixation can last in the brain for up to 10 years!"
+                                      }
+                                    </div>
+                                    <div
+                                      className={classNames(
+                                        projectcss.all,
+                                        projectcss.__wab_text,
+                                        sty.text__mZgx6
+                                      )}
+                                    >
+                                      {
+                                        "That's why no matter how many times you try, you find yourself going back to your old habit again and again. Fortunately, we've got the alternative that will break this repetitive pattern!"
+                                      }
+                                    </div>
+                                    <div
+                                      className={classNames(
+                                        projectcss.all,
+                                        projectcss.__wab_text,
+                                        sty.text__qPx8A
+                                      )}
+                                    >
+                                      {"#1"}
+                                    </div>
+                                  </div>
+                                  <div
+                                    data-plasmic-name={"div53"}
+                                    data-plasmic-override={overrides.div53}
+                                    className={classNames(
+                                      projectcss.all,
+                                      sty.div53
+                                    )}
+                                  >
+                                    <div
+                                      className={classNames(
+                                        projectcss.all,
+                                        projectcss.__wab_text,
+                                        sty.text__bvS6D
+                                      )}
+                                    >
+                                      {
+                                        "The world is your oyster, and you want nothing less than to enjoy it to the fullest extent. Maybe you're not into using inhalation devices but you've always been curious as to what all the hype is about. Sparq offers the perfect option for the curious spirit: all of the enjoyment and flavors of traditional products/devices but without the harmful chemicals or addictive stimulants!"
+                                      }
+                                    </div>
+                                    <div
+                                      className={classNames(
+                                        projectcss.all,
+                                        projectcss.__wab_text,
+                                        sty.text__g4XvT
+                                      )}
+                                    >
+                                      {
+                                        "Natural flavoring that is intensely delicious, vitamins, amino acids and botanicals, all wrapped in a device designed to provide a superior inhalation experience."
+                                      }
+                                    </div>
+                                    <div
+                                      className={classNames(
+                                        projectcss.all,
+                                        projectcss.__wab_text,
+                                        sty.text__cbvlt
+                                      )}
+                                    >
+                                      {"#2"}
+                                    </div>
+                                  </div>
+                                </p.Stack>
+                                <div
+                                  data-plasmic-name={
+                                    "sparqHasTheAnswersYoureLookingFor"
+                                  }
+                                  data-plasmic-override={
+                                    overrides.sparqHasTheAnswersYoureLookingFor
+                                  }
+                                  className={classNames(
+                                    projectcss.all,
+                                    sty.sparqHasTheAnswersYoureLookingFor
+                                  )}
+                                >
+                                  <div
+                                    className={classNames(
+                                      projectcss.all,
+                                      projectcss.__wab_text,
+                                      sty.text__azIad
+                                    )}
+                                  >
+                                    {
+                                      "Sparq Has The Answers You’re Looking for:"
+                                    }
+                                  </div>
+                                </div>
+                                <p.Stack
+                                  as={"div"}
+                                  data-plasmic-name={"ul2"}
+                                  data-plasmic-override={overrides.ul2}
+                                  hasGap={true}
+                                  className={classNames(
+                                    projectcss.all,
+                                    sty.ul2
+                                  )}
+                                >
+                                  <div
+                                    data-plasmic-name={"li7"}
+                                    data-plasmic-override={overrides.li7}
+                                    className={classNames(
+                                      projectcss.all,
+                                      sty.li7
+                                    )}
+                                  >
+                                    <div
+                                      data-plasmic-name={
+                                        "getRidOfThoseNicotineCravingsWhilstStillEnjoyingThatStrongAndIntenseThroatHit"
+                                      }
+                                      data-plasmic-override={
+                                        overrides.getRidOfThoseNicotineCravingsWhilstStillEnjoyingThatStrongAndIntenseThroatHit
+                                      }
+                                      className={classNames(
+                                        projectcss.all,
+                                        sty.getRidOfThoseNicotineCravingsWhilstStillEnjoyingThatStrongAndIntenseThroatHit
+                                      )}
+                                    >
+                                      <div
+                                        className={classNames(
+                                          projectcss.all,
+                                          projectcss.__wab_text,
+                                          sty.text__fpp4O
+                                        )}
+                                      >
+                                        {
+                                          "Get rid of those nicotine cravings whilst still enjoying that strong and intense throat hit."
+                                        }
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <div
+                                    data-plasmic-name={"li8"}
+                                    data-plasmic-override={overrides.li8}
+                                    className={classNames(
+                                      projectcss.all,
+                                      sty.li8
+                                    )}
+                                  >
+                                    <div
+                                      data-plasmic-name={
+                                        "satisfyYourOralFixationWithoutConsumingToxicSubstancesOrHarmfulChemicals"
+                                      }
+                                      data-plasmic-override={
+                                        overrides.satisfyYourOralFixationWithoutConsumingToxicSubstancesOrHarmfulChemicals
+                                      }
+                                      className={classNames(
+                                        projectcss.all,
+                                        sty.satisfyYourOralFixationWithoutConsumingToxicSubstancesOrHarmfulChemicals
+                                      )}
+                                    >
+                                      <div
+                                        className={classNames(
+                                          projectcss.all,
+                                          projectcss.__wab_text,
+                                          sty.text__tHcci
+                                        )}
+                                      >
+                                        {
+                                          "Satisfy your oral fixation without consuming toxic substances or harmful chemicals."
+                                        }
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <div
+                                    data-plasmic-name={"li9"}
+                                    data-plasmic-override={overrides.li9}
+                                    className={classNames(
+                                      projectcss.all,
+                                      sty.li9
+                                    )}
+                                  >
+                                    <div
+                                      data-plasmic-name={
+                                        "replaceThoseHarmfulChemicalsWithVitaminsAminoAcidsAndBotanicals"
+                                      }
+                                      data-plasmic-override={
+                                        overrides.replaceThoseHarmfulChemicalsWithVitaminsAminoAcidsAndBotanicals
+                                      }
+                                      className={classNames(
+                                        projectcss.all,
+                                        sty.replaceThoseHarmfulChemicalsWithVitaminsAminoAcidsAndBotanicals
+                                      )}
+                                    >
+                                      <div
+                                        className={classNames(
+                                          projectcss.all,
+                                          projectcss.__wab_text,
+                                          sty.text__iRfo
+                                        )}
+                                      >
+                                        {
+                                          "Replace those harmful chemicals with vitamins, amino acids, and botanicals."
+                                        }
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <div
+                                    data-plasmic-name={"li10"}
+                                    data-plasmic-override={overrides.li10}
+                                    className={classNames(
+                                      projectcss.all,
+                                      sty.li10
+                                    )}
+                                  >
+                                    <div
+                                      data-plasmic-name={
+                                        "promoteDeepBreathingAndRelieveAnxietyWithEachVitaminInfusedInhalation"
+                                      }
+                                      data-plasmic-override={
+                                        overrides.promoteDeepBreathingAndRelieveAnxietyWithEachVitaminInfusedInhalation
+                                      }
+                                      className={classNames(
+                                        projectcss.all,
+                                        sty.promoteDeepBreathingAndRelieveAnxietyWithEachVitaminInfusedInhalation
+                                      )}
+                                    >
+                                      <div
+                                        className={classNames(
+                                          projectcss.all,
+                                          projectcss.__wab_text,
+                                          sty.text__ztVmF
+                                        )}
+                                      >
+                                        {
+                                          "Promote deep-breathing and relieve anxiety with each vitamin infused inhalation."
+                                        }
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <div
+                                    data-plasmic-name={"li11"}
+                                    data-plasmic-override={overrides.li11}
+                                    className={classNames(
+                                      projectcss.all,
+                                      sty.li11
+                                    )}
+                                  >
+                                    <div
+                                      data-plasmic-name={
+                                        "enjoyAHealthierAlternativeWithoutGivingUpYourHabit"
+                                      }
+                                      data-plasmic-override={
+                                        overrides.enjoyAHealthierAlternativeWithoutGivingUpYourHabit
+                                      }
+                                      className={classNames(
+                                        projectcss.all,
+                                        sty.enjoyAHealthierAlternativeWithoutGivingUpYourHabit
+                                      )}
+                                    >
+                                      <div
+                                        className={classNames(
+                                          projectcss.all,
+                                          projectcss.__wab_text,
+                                          sty.text__inLy
+                                        )}
+                                      >
+                                        {
+                                          "Enjoy a healthier alternative without giving up your habit."
+                                        }
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <div
+                                    data-plasmic-name={"li12"}
+                                    data-plasmic-override={overrides.li12}
+                                    className={classNames(
+                                      projectcss.all,
+                                      sty.li12
+                                    )}
+                                  >
+                                    <div
+                                      className={classNames(
+                                        projectcss.all,
+                                        projectcss.__wab_text,
+                                        sty.text__s4OKc
+                                      )}
+                                    >
+                                      {
+                                        "Take your device everywhere with its ultramodern and compact design and use it anytime you want."
+                                      }
+                                    </div>
+                                  </div>
+                                </p.Stack>
+                                <div
+                                  data-plasmic-name={"tbody2"}
+                                  data-plasmic-override={overrides.tbody2}
+                                  className={classNames(
+                                    projectcss.all,
+                                    sty.tbody2
+                                  )}
+                                >
+                                  <div
+                                    data-plasmic-name={"tr7"}
+                                    data-plasmic-override={overrides.tr7}
+                                    className={classNames(
+                                      projectcss.all,
+                                      sty.tr7
+                                    )}
+                                  >
+                                    <div
+                                      data-plasmic-name={"th4"}
+                                      data-plasmic-override={overrides.th4}
+                                      className={classNames(
+                                        projectcss.all,
+                                        sty.th4
+                                      )}
+                                    />
+
+                                    <div
+                                      data-plasmic-name={"th5"}
+                                      data-plasmic-override={overrides.th5}
+                                      className={classNames(
+                                        projectcss.all,
+                                        sty.th5
+                                      )}
+                                    >
+                                      <div
+                                        className={classNames(
+                                          projectcss.all,
+                                          projectcss.__wab_text,
+                                          sty.text__lxuw8
+                                        )}
+                                      >
+                                        {"Sparq"}
+                                      </div>
+                                    </div>
+                                    <div
+                                      data-plasmic-name={"th6"}
+                                      data-plasmic-override={overrides.th6}
+                                      className={classNames(
+                                        projectcss.all,
+                                        sty.th6
+                                      )}
+                                    >
+                                      <div
+                                        className={classNames(
+                                          projectcss.all,
+                                          projectcss.__wab_text,
+                                          sty.text__d4WnF
+                                        )}
+                                      >
+                                        {"Others"}
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <div
+                                    data-plasmic-name={"tr8"}
+                                    data-plasmic-override={overrides.tr8}
+                                    className={classNames(
+                                      projectcss.all,
+                                      sty.tr8
+                                    )}
+                                  >
+                                    <div
+                                      data-plasmic-name={"td16"}
+                                      data-plasmic-override={overrides.td16}
+                                      className={classNames(
+                                        projectcss.all,
+                                        sty.td16
+                                      )}
+                                    >
+                                      <div
+                                        className={classNames(
+                                          projectcss.all,
+                                          projectcss.__wab_text,
+                                          sty.text__xSgWy
+                                        )}
+                                      >
+                                        {"No Harmful Chemicals"}
+                                      </div>
+                                    </div>
+                                    <div
+                                      data-plasmic-name={"td17"}
+                                      data-plasmic-override={overrides.td17}
+                                      className={classNames(
+                                        projectcss.all,
+                                        sty.td17
+                                      )}
+                                    >
+                                      <div
+                                        data-plasmic-name={"tickpng6"}
+                                        data-plasmic-override={
+                                          overrides.tickpng6
+                                        }
+                                        className={classNames(
+                                          projectcss.all,
+                                          sty.tickpng6
+                                        )}
+                                      />
+                                    </div>
+                                    <div
+                                      data-plasmic-name={"td18"}
+                                      data-plasmic-override={overrides.td18}
+                                      className={classNames(
+                                        projectcss.all,
+                                        sty.td18
+                                      )}
+                                    >
+                                      <div
+                                        data-plasmic-name={"crosspng6"}
+                                        data-plasmic-override={
+                                          overrides.crosspng6
+                                        }
+                                        className={classNames(
+                                          projectcss.all,
+                                          sty.crosspng6
+                                        )}
+                                      />
+                                    </div>
+                                  </div>
+                                  <div
+                                    data-plasmic-name={"tr9"}
+                                    data-plasmic-override={overrides.tr9}
+                                    className={classNames(
+                                      projectcss.all,
+                                      sty.tr9
+                                    )}
+                                  >
+                                    <div
+                                      data-plasmic-name={"td19"}
+                                      data-plasmic-override={overrides.td19}
+                                      className={classNames(
+                                        projectcss.all,
+                                        sty.td19
+                                      )}
+                                    >
+                                      <div
+                                        className={classNames(
+                                          projectcss.all,
+                                          projectcss.__wab_text,
+                                          sty.text__nnw07
+                                        )}
+                                      >
+                                        {"Eco-friendly and recyclable"}
+                                      </div>
+                                    </div>
+                                    <div
+                                      data-plasmic-name={"td20"}
+                                      data-plasmic-override={overrides.td20}
+                                      className={classNames(
+                                        projectcss.all,
+                                        sty.td20
+                                      )}
+                                    >
+                                      <div
+                                        data-plasmic-name={"tickpng7"}
+                                        data-plasmic-override={
+                                          overrides.tickpng7
+                                        }
+                                        className={classNames(
+                                          projectcss.all,
+                                          sty.tickpng7
+                                        )}
+                                      />
+                                    </div>
+                                    <div
+                                      data-plasmic-name={"td21"}
+                                      data-plasmic-override={overrides.td21}
+                                      className={classNames(
+                                        projectcss.all,
+                                        sty.td21
+                                      )}
+                                    >
+                                      <div
+                                        data-plasmic-name={"crosspng7"}
+                                        data-plasmic-override={
+                                          overrides.crosspng7
+                                        }
+                                        className={classNames(
+                                          projectcss.all,
+                                          sty.crosspng7
+                                        )}
+                                      />
+                                    </div>
+                                  </div>
+                                  <div
+                                    data-plasmic-name={"tr10"}
+                                    data-plasmic-override={overrides.tr10}
+                                    className={classNames(
+                                      projectcss.all,
+                                      sty.tr10
+                                    )}
+                                  >
+                                    <div
+                                      data-plasmic-name={"td22"}
+                                      data-plasmic-override={overrides.td22}
+                                      className={classNames(
+                                        projectcss.all,
+                                        sty.td22
+                                      )}
+                                    >
+                                      <div
+                                        className={classNames(
+                                          projectcss.all,
+                                          projectcss.__wab_text,
+                                          sty.text__cg4I6
+                                        )}
+                                      >
+                                        {"0% Nicotine, 100% Guilt Free"}
+                                      </div>
+                                    </div>
+                                    <div
+                                      data-plasmic-name={"td23"}
+                                      data-plasmic-override={overrides.td23}
+                                      className={classNames(
+                                        projectcss.all,
+                                        sty.td23
+                                      )}
+                                    >
+                                      <div
+                                        data-plasmic-name={"tickpng8"}
+                                        data-plasmic-override={
+                                          overrides.tickpng8
+                                        }
+                                        className={classNames(
+                                          projectcss.all,
+                                          sty.tickpng8
+                                        )}
+                                      />
+                                    </div>
+                                    <div
+                                      data-plasmic-name={"td24"}
+                                      data-plasmic-override={overrides.td24}
+                                      className={classNames(
+                                        projectcss.all,
+                                        sty.td24
+                                      )}
+                                    >
+                                      <div
+                                        data-plasmic-name={"crosspng8"}
+                                        data-plasmic-override={
+                                          overrides.crosspng8
+                                        }
+                                        className={classNames(
+                                          projectcss.all,
+                                          sty.crosspng8
+                                        )}
+                                      />
+                                    </div>
+                                  </div>
+                                  <div
+                                    data-plasmic-name={"tr11"}
+                                    data-plasmic-override={overrides.tr11}
+                                    className={classNames(
+                                      projectcss.all,
+                                      sty.tr11
+                                    )}
+                                  >
+                                    <div
+                                      data-plasmic-name={"td25"}
+                                      data-plasmic-override={overrides.td25}
+                                      className={classNames(
+                                        projectcss.all,
+                                        sty.td25
+                                      )}
+                                    >
+                                      <div
+                                        className={classNames(
+                                          projectcss.all,
+                                          projectcss.__wab_text,
+                                          sty.text___4BCwL
+                                        )}
+                                      >
+                                        {"Laboratory-tested"}
+                                      </div>
+                                    </div>
+                                    <div
+                                      data-plasmic-name={"td26"}
+                                      data-plasmic-override={overrides.td26}
+                                      className={classNames(
+                                        projectcss.all,
+                                        sty.td26
+                                      )}
+                                    >
+                                      <div
+                                        data-plasmic-name={"tickpng9"}
+                                        data-plasmic-override={
+                                          overrides.tickpng9
+                                        }
+                                        className={classNames(
+                                          projectcss.all,
+                                          sty.tickpng9
+                                        )}
+                                      />
+                                    </div>
+                                    <div
+                                      data-plasmic-name={"td27"}
+                                      data-plasmic-override={overrides.td27}
+                                      className={classNames(
+                                        projectcss.all,
+                                        sty.td27
+                                      )}
+                                    >
+                                      <div
+                                        data-plasmic-name={"crosspng9"}
+                                        data-plasmic-override={
+                                          overrides.crosspng9
+                                        }
+                                        className={classNames(
+                                          projectcss.all,
+                                          sty.crosspng9
+                                        )}
+                                      />
+                                    </div>
+                                  </div>
+                                  <div
+                                    data-plasmic-name={"tr12"}
+                                    data-plasmic-override={overrides.tr12}
+                                    className={classNames(
+                                      projectcss.all,
+                                      sty.tr12
+                                    )}
+                                  >
+                                    <div
+                                      data-plasmic-name={"td28"}
+                                      data-plasmic-override={overrides.td28}
+                                      className={classNames(
+                                        projectcss.all,
+                                        sty.td28
+                                      )}
+                                    >
+                                      <div
+                                        className={classNames(
+                                          projectcss.all,
+                                          projectcss.__wab_text,
+                                          sty.text__tyO3M
+                                        )}
+                                      >
+                                        {"Socially Responsible"}
+                                      </div>
+                                    </div>
+                                    <div
+                                      data-plasmic-name={"td29"}
+                                      data-plasmic-override={overrides.td29}
+                                      className={classNames(
+                                        projectcss.all,
+                                        sty.td29
+                                      )}
+                                    >
+                                      <div
+                                        data-plasmic-name={"tickpng10"}
+                                        data-plasmic-override={
+                                          overrides.tickpng10
+                                        }
+                                        className={classNames(
+                                          projectcss.all,
+                                          sty.tickpng10
+                                        )}
+                                      />
+                                    </div>
+                                    <div
+                                      data-plasmic-name={"td30"}
+                                      data-plasmic-override={overrides.td30}
+                                      className={classNames(
+                                        projectcss.all,
+                                        sty.td30
+                                      )}
+                                    >
+                                      <div
+                                        data-plasmic-name={"crosspng10"}
+                                        data-plasmic-override={
+                                          overrides.crosspng10
+                                        }
+                                        className={classNames(
+                                          projectcss.all,
+                                          sty.crosspng10
+                                        )}
+                                      />
+                                    </div>
+                                  </div>
+                                </div>
+                                <div
+                                  data-plasmic-name={
+                                    "happyQuittersVitaminLoversAndHealthyChoiceFollowersCantStopTalkingAboutVitaminAir2"
+                                  }
+                                  data-plasmic-override={
+                                    overrides.happyQuittersVitaminLoversAndHealthyChoiceFollowersCantStopTalkingAboutVitaminAir2
+                                  }
+                                  className={classNames(
+                                    projectcss.all,
+                                    sty.happyQuittersVitaminLoversAndHealthyChoiceFollowersCantStopTalkingAboutVitaminAir2
+                                  )}
+                                >
+                                  <div
+                                    className={classNames(
+                                      projectcss.all,
+                                      projectcss.__wab_text,
+                                      sty.text__g90CL
+                                    )}
+                                  >
+                                    {
+                                      "Happy Quitters, Vitamin Lovers, And Healthy Choice Followers Can't Stop Talking About Vitamin Air:"
+                                    }
+                                  </div>
+                                </div>
+                                <div
+                                  data-plasmic-name={"reviewjpg2"}
+                                  data-plasmic-override={overrides.reviewjpg2}
+                                  className={classNames(
+                                    projectcss.all,
+                                    sty.reviewjpg2
+                                  )}
+                                />
+
+                                <div
+                                  data-plasmic-name={
+                                    "nowYouDontHaveToChooseBetweenEitherStrawberryOrVanillaFlavor2"
+                                  }
+                                  data-plasmic-override={
+                                    overrides.nowYouDontHaveToChooseBetweenEitherStrawberryOrVanillaFlavor2
+                                  }
+                                  className={classNames(
+                                    projectcss.all,
+                                    sty.nowYouDontHaveToChooseBetweenEitherStrawberryOrVanillaFlavor2
+                                  )}
+                                >
+                                  <div
+                                    className={classNames(
+                                      projectcss.all,
+                                      projectcss.__wab_text,
+                                      sty.text__xIuko
+                                    )}
+                                  >
+                                    {
+                                      "Now you don't have to choose between either Strawberry or Vanilla flavor."
+                                    }
+                                  </div>
+                                </div>
+                                <div
+                                  data-plasmic-name={
+                                    "youCanHaveBothAndAPlusOneForFree2"
+                                  }
+                                  data-plasmic-override={
+                                    overrides.youCanHaveBothAndAPlusOneForFree2
+                                  }
+                                  className={classNames(
+                                    projectcss.all,
+                                    sty.youCanHaveBothAndAPlusOneForFree2
+                                  )}
+                                >
+                                  <div
+                                    className={classNames(
+                                      projectcss.all,
+                                      projectcss.__wab_text,
+                                      sty.text__afsVl
+                                    )}
+                                  >
+                                    {
+                                      "You can have both and a plus one - FOR FREE."
+                                    }
+                                  </div>
+                                </div>
+                                <div
+                                  data-plasmic-name={"divprodarea2"}
+                                  data-plasmic-override={overrides.divprodarea2}
+                                  className={classNames(
+                                    projectcss.all,
+                                    sty.divprodarea2
+                                  )}
+                                >
+                                  <div
+                                    data-plasmic-name={"div54"}
+                                    data-plasmic-override={overrides.div54}
+                                    className={classNames(
+                                      projectcss.all,
+                                      sty.div54
+                                    )}
+                                  >
+                                    <div
+                                      data-plasmic-name={"div55"}
+                                      data-plasmic-override={overrides.div55}
+                                      className={classNames(
+                                        projectcss.all,
+                                        sty.div55
+                                      )}
+                                    >
+                                      <div
+                                        data-plasmic-name={"prodimagepng2"}
+                                        data-plasmic-override={
+                                          overrides.prodimagepng2
+                                        }
+                                        className={classNames(
+                                          projectcss.all,
+                                          sty.prodimagepng2
+                                        )}
+                                      />
+
+                                      <div
+                                        data-plasmic-name={"div56"}
+                                        data-plasmic-override={overrides.div56}
+                                        className={classNames(
+                                          projectcss.all,
+                                          sty.div56
+                                        )}
+                                      >
+                                        <div
+                                          data-plasmic-name={"buy2Get2"}
+                                          data-plasmic-override={
+                                            overrides.buy2Get2
+                                          }
+                                          className={classNames(
+                                            projectcss.all,
+                                            sty.buy2Get2
+                                          )}
+                                        >
+                                          <div
+                                            className={classNames(
+                                              projectcss.all,
+                                              projectcss.__wab_text,
+                                              sty.text__c5Pf
+                                            )}
+                                          >
+                                            {"BUY 2, Get 1"}
+                                          </div>
+                                        </div>
+                                        <div
+                                          data-plasmic-name={"free2"}
+                                          data-plasmic-override={
+                                            overrides.free2
+                                          }
+                                          className={classNames(
+                                            projectcss.all,
+                                            sty.free2
+                                          )}
+                                        >
+                                          <div
+                                            className={classNames(
+                                              projectcss.all,
+                                              projectcss.__wab_text,
+                                              sty.text__m1CYx
+                                            )}
+                                          >
+                                            {"Free"}
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <div
+                                      data-plasmic-name={"div57"}
+                                      data-plasmic-override={overrides.div57}
+                                      className={classNames(
+                                        projectcss.all,
+                                        sty.div57
+                                      )}
+                                    >
+                                      <div
+                                        className={classNames(
+                                          projectcss.all,
+                                          projectcss.__wab_text,
+                                          sty.text__lQeD
+                                        )}
+                                      >
+                                        {"special offer"}
+                                      </div>
+                                      <div
+                                        className={classNames(
+                                          projectcss.all,
+                                          projectcss.__wab_text,
+                                          sty.text__uBep0
+                                        )}
+                                      >
+                                        {"free vitamin air"}
+                                      </div>
+                                      <div
+                                        className={classNames(
+                                          projectcss.all,
+                                          projectcss.__wab_text,
+                                          sty.text__wBqdA
+                                        )}
+                                      >
+                                        {
+                                          "Money-Back Guarantee: Better Flavor & Harder Hits or Your Money Back."
+                                        }
+                                      </div>
+                                      <div
+                                        data-plasmic-name={"div58"}
+                                        data-plasmic-override={overrides.div58}
+                                        className={classNames(
+                                          projectcss.all,
+                                          sty.div58
+                                        )}
+                                      >
+                                        <div
+                                          className={classNames(
+                                            projectcss.all,
+                                            projectcss.__wab_text,
+                                            sty.text__kN8Jw
+                                          )}
+                                        >
+                                          {"Choose Flavor"}
+                                        </div>
+                                        <p.Stack
+                                          as={"div"}
+                                          data-plasmic-name={"div59"}
+                                          data-plasmic-override={
+                                            overrides.div59
+                                          }
+                                          hasGap={true}
+                                          className={classNames(
+                                            projectcss.all,
+                                            sty.div59
+                                          )}
+                                        >
+                                          <div
+                                            data-plasmic-name={"div60"}
+                                            data-plasmic-override={
+                                              overrides.div60
+                                            }
+                                            className={classNames(
+                                              projectcss.all,
+                                              sty.div60
+                                            )}
+                                          >
+                                            <div
+                                              data-plasmic-name={"div61"}
+                                              data-plasmic-override={
+                                                overrides.div61
+                                              }
+                                              className={classNames(
+                                                projectcss.all,
+                                                sty.div61
+                                              )}
+                                            >
+                                              <div
+                                                data-plasmic-name={"div62"}
+                                                data-plasmic-override={
+                                                  overrides.div62
+                                                }
+                                                className={classNames(
+                                                  projectcss.all,
+                                                  sty.div62
+                                                )}
+                                              />
+                                            </div>
+                                            <div
+                                              data-plasmic-name={"strawberry2"}
+                                              data-plasmic-override={
+                                                overrides.strawberry2
+                                              }
+                                              className={classNames(
+                                                projectcss.all,
+                                                sty.strawberry2
+                                              )}
+                                            >
+                                              <div
+                                                className={classNames(
+                                                  projectcss.all,
+                                                  projectcss.__wab_text,
+                                                  sty.text___5Dbym
+                                                )}
+                                              >
+                                                {"Strawberry"}
+                                              </div>
+                                            </div>
+                                          </div>
+                                          <div
+                                            data-plasmic-name={"div63"}
+                                            data-plasmic-override={
+                                              overrides.div63
+                                            }
+                                            className={classNames(
+                                              projectcss.all,
+                                              sty.div63
+                                            )}
+                                          >
+                                            <div
+                                              data-plasmic-name={"div64"}
+                                              data-plasmic-override={
+                                                overrides.div64
+                                              }
+                                              className={classNames(
+                                                projectcss.all,
+                                                sty.div64
+                                              )}
+                                            >
+                                              <div
+                                                data-plasmic-name={"div65"}
+                                                data-plasmic-override={
+                                                  overrides.div65
+                                                }
+                                                className={classNames(
+                                                  projectcss.all,
+                                                  sty.div65
+                                                )}
+                                              />
+                                            </div>
+                                            <div
+                                              data-plasmic-name={"vanila2"}
+                                              data-plasmic-override={
+                                                overrides.vanila2
+                                              }
+                                              className={classNames(
+                                                projectcss.all,
+                                                sty.vanila2
+                                              )}
+                                            >
+                                              <div
+                                                className={classNames(
+                                                  projectcss.all,
+                                                  projectcss.__wab_text,
+                                                  sty.text__dOisn
+                                                )}
+                                              >
+                                                {"Vanila"}
+                                              </div>
+                                            </div>
+                                          </div>
+                                        </p.Stack>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <div
+                                    data-plasmic-name={"div66"}
+                                    data-plasmic-override={overrides.div66}
+                                    className={classNames(
+                                      projectcss.all,
+                                      sty.div66
+                                    )}
+                                  >
+                                    <div
+                                      data-plasmic-name={"aget2"}
+                                      data-plasmic-override={overrides.aget2}
+                                      className={classNames(
+                                        projectcss.all,
+                                        sty.aget2
+                                      )}
+                                    >
+                                      <div
+                                        className={classNames(
+                                          projectcss.all,
+                                          projectcss.__wab_text,
+                                          sty.text__e6YG2
+                                        )}
+                                      >
+                                        {"FEEL THE DIFFERENCE"}
+                                      </div>
+                                      <div
+                                        data-plasmic-name={"fingericonpng6"}
+                                        data-plasmic-override={
+                                          overrides.fingericonpng6
+                                        }
+                                        className={classNames(
+                                          projectcss.all,
+                                          sty.fingericonpng6
+                                        )}
+                                      />
+                                    </div>
+                                    <div
+                                      data-plasmic-name={"paymentcardpng2"}
+                                      data-plasmic-override={
+                                        overrides.paymentcardpng2
+                                      }
+                                      className={classNames(
+                                        projectcss.all,
+                                        sty.paymentcardpng2
+                                      )}
+                                    />
+                                  </div>
+                                </div>
+                                <div
+                                  data-plasmic-name={"faQs2"}
+                                  data-plasmic-override={overrides.faQs2}
+                                  className={classNames(
+                                    projectcss.all,
+                                    sty.faQs2
+                                  )}
+                                >
+                                  <div
+                                    className={classNames(
+                                      projectcss.all,
+                                      projectcss.__wab_text,
+                                      sty.text__xXSxG
+                                    )}
+                                  >
+                                    {"FAQs"}
+                                  </div>
+                                </div>
+                                <p.Stack
+                                  as={"div"}
+                                  data-plasmic-name={"div67"}
+                                  data-plasmic-override={overrides.div67}
+                                  hasGap={true}
+                                  className={classNames(
+                                    projectcss.all,
+                                    sty.div67
+                                  )}
+                                >
+                                  <div
+                                    className={classNames(
+                                      projectcss.all,
+                                      projectcss.__wab_text,
+                                      sty.text__k4M8U
+                                    )}
+                                  >
+                                    {"Is Sparq Vitamin Air safe?"}
+                                  </div>
+                                  <div
+                                    className={classNames(
+                                      projectcss.all,
+                                      projectcss.__wab_text,
+                                      sty.text__gmRyY
+                                    )}
+                                  >
+                                    {
+                                      "Sparq Vitamin Air has been laboratory-tested in an ISO-17025 accredited lab and certified to be free of harmful chemicals. It is only made with organic, natural substances."
+                                    }
+                                  </div>
+                                </p.Stack>
+                                <p.Stack
+                                  as={"div"}
+                                  data-plasmic-name={"div68"}
+                                  data-plasmic-override={overrides.div68}
+                                  hasGap={true}
+                                  className={classNames(
+                                    projectcss.all,
+                                    sty.div68
+                                  )}
+                                >
+                                  <div
+                                    className={classNames(
+                                      projectcss.all,
+                                      projectcss.__wab_text,
+                                      sty.text___3ScV1
+                                    )}
+                                  >
+                                    {
+                                      "What are the ingredients used in Sparq Vitamin Air?"
+                                    }
+                                  </div>
+                                  <div
+                                    className={classNames(
+                                      projectcss.all,
+                                      projectcss.__wab_text,
+                                      sty.text__i3Hi4
+                                    )}
+                                  >
+                                    {
+                                      "Our formulations do not contain nicotine or any addictive substances. We only use Organic Vegetable Glycerin and Natural Flavoring as our base, combined with the highest quality, U.S. sourced vitamins, amino acids and botanicals."
+                                    }
+                                  </div>
+                                </p.Stack>
+                                <p.Stack
+                                  as={"div"}
+                                  data-plasmic-name={"div69"}
+                                  data-plasmic-override={overrides.div69}
+                                  hasGap={true}
+                                  className={classNames(
+                                    projectcss.all,
+                                    sty.div69
+                                  )}
+                                >
+                                  <div
+                                    className={classNames(
+                                      projectcss.all,
+                                      projectcss.__wab_text,
+                                      sty.text__iIy1I
+                                    )}
+                                  >
+                                    {"How do I use Sparq Vitamin Air?"}
+                                  </div>
+                                  <div
+                                    className={classNames(
+                                      projectcss.all,
+                                      projectcss.__wab_text,
+                                      sty.text__w4KmY
+                                    )}
+                                  >
+                                    {
+                                      "To use Sparq Vitamin Air, simply lift the device from the packaging, remove the protective silicone caps, place the wooden end of the device in your mouth and inhale. The LED will illuminate to indicate suctio."
+                                    }
+                                  </div>
+                                </p.Stack>
+                                <p.Stack
+                                  as={"div"}
+                                  data-plasmic-name={"div70"}
+                                  data-plasmic-override={overrides.div70}
+                                  hasGap={true}
+                                  className={classNames(
+                                    projectcss.all,
+                                    sty.div70
+                                  )}
+                                >
+                                  <div
+                                    className={classNames(
+                                      projectcss.all,
+                                      projectcss.__wab_text,
+                                      sty.text__xOgqb
+                                    )}
+                                  >
+                                    {"How long does it last?"}
+                                  </div>
+                                  <div
+                                    className={classNames(
+                                      projectcss.all,
+                                      projectcss.__wab_text,
+                                      sty.text__aUJj
+                                    )}
+                                  >
+                                    {
+                                      "Each Sparq device will provide 300 puffs or more, depending on how it is used. The built-in LED will blink for 2 seconds when the juice is about to run out."
+                                    }
+                                  </div>
+                                </p.Stack>
+                                <p.Stack
+                                  as={"div"}
+                                  data-plasmic-name={"div71"}
+                                  data-plasmic-override={overrides.div71}
+                                  hasGap={true}
+                                  className={classNames(
+                                    projectcss.all,
+                                    sty.div71
+                                  )}
+                                >
+                                  <div
+                                    className={classNames(
+                                      projectcss.all,
+                                      projectcss.__wab_text,
+                                      sty.text__ymfWa
+                                    )}
+                                  >
+                                    {"What materials is Sparq made from?"}
+                                  </div>
+                                  <div
+                                    className={classNames(
+                                      projectcss.all,
+                                      projectcss.__wab_text,
+                                      sty.text__mmdXw
+                                    )}
+                                  >
+                                    {
+                                      "Our Sparq Vitamin Air is 100% recyclable. It is made of a biodegradable body of wood, stainless steel and food-grade silicone and it's powered by a lithium battery."
+                                    }
+                                  </div>
+                                </p.Stack>
+                              </div>
+                            ) : null}
+                            {(
+                              hasVariant(globalVariants, "screen", "mobileOnly")
+                                ? true
+                                : true
+                            ) ? (
+                              <div
+                                data-plasmic-name={"div72"}
+                                data-plasmic-override={overrides.div72}
+                                className={classNames(
+                                  projectcss.all,
+                                  sty.div72
+                                )}
+                              >
+                                <div
+                                  data-plasmic-name={"div73"}
+                                  data-plasmic-override={overrides.div73}
+                                  className={classNames(
+                                    projectcss.all,
+                                    sty.div73
+                                  )}
+                                >
+                                  <div
+                                    data-plasmic-name={"starpng7"}
+                                    data-plasmic-override={overrides.starpng7}
+                                    className={classNames(
+                                      projectcss.all,
+                                      sty.starpng7
+                                    )}
+                                  />
+
+                                  <div
+                                    data-plasmic-name={
+                                      "rated49StarsBy100000Customers4"
+                                    }
+                                    data-plasmic-override={
+                                      overrides.rated49StarsBy100000Customers4
+                                    }
+                                    className={classNames(
+                                      projectcss.all,
+                                      sty.rated49StarsBy100000Customers4
+                                    )}
+                                  >
+                                    <div
+                                      className={classNames(
+                                        projectcss.all,
+                                        projectcss.__wab_text,
+                                        sty.text___3Jobb
+                                      )}
+                                    >
+                                      {"Rated 4.9 Stars By 100,000+ Customers"}
+                                    </div>
+                                  </div>
+                                  <div
+                                    data-plasmic-name={"h33"}
+                                    data-plasmic-override={overrides.h33}
+                                    className={classNames(
+                                      projectcss.all,
+                                      sty.h33
+                                    )}
+                                  >
+                                    <div
+                                      data-plasmic-name={"soWhatAre2"}
+                                      data-plasmic-override={
+                                        overrides.soWhatAre2
+                                      }
+                                      className={classNames(
+                                        projectcss.all,
+                                        projectcss.__wab_text,
+                                        sty.soWhatAre2
+                                      )}
+                                    >
+                                      {"So What Are\n"}
+                                    </div>
+                                    <div
+                                      className={classNames(
+                                        projectcss.all,
+                                        projectcss.__wab_text,
+                                        sty.text__rJb5J
+                                      )}
+                                    >
+                                      {"You Waiting For?"}
+                                    </div>
+                                  </div>
+                                  <div
+                                    data-plasmic-name={
+                                      "takeTheFirstAndEasiestStepTowardsQuittingAndReceive15OffYourFirstPurchase2"
+                                    }
+                                    data-plasmic-override={
+                                      overrides.takeTheFirstAndEasiestStepTowardsQuittingAndReceive15OffYourFirstPurchase2
+                                    }
+                                    className={classNames(
+                                      projectcss.all,
+                                      sty.takeTheFirstAndEasiestStepTowardsQuittingAndReceive15OffYourFirstPurchase2
+                                    )}
+                                  >
+                                    <div
+                                      className={classNames(
+                                        projectcss.all,
+                                        projectcss.__wab_text,
+                                        sty.text__zhIox
+                                      )}
+                                    >
+                                      {
+                                        "Take the first and easiest step towards quitting and receive 15% OFF your first purchase"
+                                      }
+                                    </div>
+                                  </div>
+                                  <div
+                                    data-plasmic-name={"aget3"}
+                                    data-plasmic-override={overrides.aget3}
+                                    className={classNames(
+                                      projectcss.all,
+                                      sty.aget3
+                                    )}
+                                  >
+                                    <div
+                                      className={classNames(
+                                        projectcss.all,
+                                        projectcss.__wab_text,
+                                        sty.text__yBgqV
+                                      )}
+                                    >
+                                      {"FEEL THE DIFFERENCE"}
+                                    </div>
+                                    <div
+                                      data-plasmic-name={"fingericonpng7"}
+                                      data-plasmic-override={
+                                        overrides.fingericonpng7
+                                      }
+                                      className={classNames(
+                                        projectcss.all,
+                                        sty.fingericonpng7
+                                      )}
+                                    />
+                                  </div>
+                                </div>
+                              </div>
+                            ) : null}
+                          </div>
+                        </div>
                         {(
                           hasVariant(globalVariants, "screen", "mobileOnly")
                             ? true
                             : true
                         ) ? (
                           <div
-                            data-plasmic-name={"reviews"}
-                            data-plasmic-override={overrides.reviews}
-                            className={classNames(projectcss.all, sty.reviews)}
+                            data-plasmic-name={"div74"}
+                            data-plasmic-override={overrides.div74}
+                            className={classNames(projectcss.all, sty.div74)}
                           >
                             <div
+                              data-plasmic-name={"logopng4"}
+                              data-plasmic-override={overrides.logopng4}
                               className={classNames(
                                 projectcss.all,
-                                sty.freeBox___7Jkx
+                                sty.logopng4
+                              )}
+                            />
+
+                            <div
+                              data-plasmic-name={
+                                "copyrights2022AllRightsReserved2"
+                              }
+                              data-plasmic-override={
+                                overrides.copyrights2022AllRightsReserved2
+                              }
+                              className={classNames(
+                                projectcss.all,
+                                sty.copyrights2022AllRightsReserved2
                               )}
                             >
                               <div
                                 className={classNames(
                                   projectcss.all,
-                                  sty.freeBox__wkloO
+                                  projectcss.__wab_text,
+                                  sty.text__iilxo
                                 )}
                               >
-                                <p.PlasmicImg
-                                  data-plasmic-name={"reviewMugshot1"}
-                                  data-plasmic-override={
-                                    overrides.reviewMugshot1
-                                  }
-                                  alt={""}
-                                  className={classNames(sty.reviewMugshot1)}
-                                  displayHeight={"100px" as const}
-                                  displayMaxHeight={"none" as const}
-                                  displayMaxWidth={"100%" as const}
-                                  displayMinHeight={"0" as const}
-                                  displayMinWidth={"0" as const}
-                                  displayWidth={"100px" as const}
-                                  loading={"lazy" as const}
-                                  src={{
-                                    src: "/plasmic/lhp_3_30_23/images/sidereview1Pngpng.png",
-                                    fullWidth: 101,
-                                    fullHeight: 101,
-                                    aspectRatio: undefined
-                                  }}
-                                />
-
-                                <div
-                                  data-plasmic-name={"reviewName1"}
-                                  data-plasmic-override={overrides.reviewName1}
-                                  className={classNames(
-                                    projectcss.all,
-                                    projectcss.__wab_text,
-                                    sty.reviewName1
-                                  )}
-                                >
-                                  {"Isaiah S."}
-                                </div>
-                                <p.PlasmicImg
-                                  data-plasmic-name={"reviewIcon3"}
-                                  data-plasmic-override={overrides.reviewIcon3}
-                                  alt={""}
-                                  className={classNames(sty.reviewIcon3)}
-                                  displayHeight={"auto" as const}
-                                  displayMaxHeight={"none" as const}
-                                  displayMaxWidth={"100%" as const}
-                                  displayMinHeight={"0" as const}
-                                  displayMinWidth={"0" as const}
-                                  displayWidth={"100px" as const}
-                                  loading={"lazy" as const}
-                                  src={{
-                                    src: "/plasmic/lhp_3_30_23/images/starpng.png",
-                                    fullWidth: 142,
-                                    fullHeight: 21,
-                                    aspectRatio: undefined
-                                  }}
-                                />
-
-                                <div
-                                  data-plasmic-name={"reviewH11"}
-                                  data-plasmic-override={overrides.reviewH11}
-                                  className={classNames(
-                                    projectcss.all,
-                                    projectcss.__wab_text,
-                                    sty.reviewH11
-                                  )}
-                                >
-                                  {"BEST ALTERNATIVE TO CIGS"}
-                                </div>
-                                <div
-                                  data-plasmic-name={"reviewP1"}
-                                  data-plasmic-override={overrides.reviewP1}
-                                  className={classNames(
-                                    projectcss.all,
-                                    projectcss.__wab_text,
-                                    sty.reviewP1
-                                  )}
-                                >
-                                  {
-                                    "I smoked for over 29 years and tired to quit several times with no success. Until I came across sparq. Now not only do I not smoke, I’m doing something healthy in place! Great product, I’ll be a user for life!"
-                                  }
-                                </div>
+                                {"Copyrights 2022. All Rights Reserved"}
+                              </div>
+                            </div>
+                            <div
+                              data-plasmic-name={"div75"}
+                              data-plasmic-override={overrides.div75}
+                              className={classNames(projectcss.all, sty.div75)}
+                            >
+                              <div
+                                className={classNames(
+                                  projectcss.all,
+                                  projectcss.__wab_text,
+                                  sty.text__vjyZr
+                                )}
+                              >
+                                {"Privacy Policy"}
                               </div>
                               <div
                                 className={classNames(
                                   projectcss.all,
-                                  sty.freeBox__uiapb
+                                  projectcss.__wab_text,
+                                  sty.text__aeeS5
                                 )}
                               >
-                                <p.PlasmicImg
-                                  data-plasmic-name={"reviewMugshot2"}
-                                  data-plasmic-override={
-                                    overrides.reviewMugshot2
-                                  }
-                                  alt={""}
-                                  className={classNames(sty.reviewMugshot2)}
-                                  displayHeight={"100px" as const}
-                                  displayMaxHeight={"none" as const}
-                                  displayMaxWidth={"100%" as const}
-                                  displayMinHeight={"0" as const}
-                                  displayMinWidth={"0" as const}
-                                  displayWidth={"100px" as const}
-                                  loading={"lazy" as const}
-                                  src={{
-                                    src: "/plasmic/lhp_3_30_23/images/sidereview1Pngpng.png",
-                                    fullWidth: 101,
-                                    fullHeight: 101,
-                                    aspectRatio: undefined
-                                  }}
-                                />
-
-                                <div
-                                  data-plasmic-name={"reviewName2"}
-                                  data-plasmic-override={overrides.reviewName2}
-                                  className={classNames(
-                                    projectcss.all,
-                                    projectcss.__wab_text,
-                                    sty.reviewName2
-                                  )}
-                                >
-                                  {"Isaiah S."}
-                                </div>
-                                <p.PlasmicImg
-                                  data-plasmic-name={"reviewIcon4"}
-                                  data-plasmic-override={overrides.reviewIcon4}
-                                  alt={""}
-                                  className={classNames(sty.reviewIcon4)}
-                                  displayHeight={"auto" as const}
-                                  displayMaxHeight={"none" as const}
-                                  displayMaxWidth={"100%" as const}
-                                  displayMinHeight={"0" as const}
-                                  displayMinWidth={"0" as const}
-                                  displayWidth={"100px" as const}
-                                  loading={"lazy" as const}
-                                  src={{
-                                    src: "/plasmic/lhp_3_30_23/images/starpng.png",
-                                    fullWidth: 142,
-                                    fullHeight: 21,
-                                    aspectRatio: undefined
-                                  }}
-                                />
-
-                                <div
-                                  data-plasmic-name={"reviewH12"}
-                                  data-plasmic-override={overrides.reviewH12}
-                                  className={classNames(
-                                    projectcss.all,
-                                    projectcss.__wab_text,
-                                    sty.reviewH12
-                                  )}
-                                >
-                                  {"BEST ALTERNATIVE TO CIGS"}
-                                </div>
-                                <div
-                                  data-plasmic-name={"reviewP2"}
-                                  data-plasmic-override={overrides.reviewP2}
-                                  className={classNames(
-                                    projectcss.all,
-                                    projectcss.__wab_text,
-                                    sty.reviewP2
-                                  )}
-                                >
-                                  {
-                                    "I smoked for over 29 years and tired to quit several times with no success. Until I came across sparq. Now not only do I not smoke, I’m doing something healthy in place! Great product, I’ll be a user for life!"
-                                  }
-                                </div>
+                                {"-"}
                               </div>
                               <div
                                 className={classNames(
                                   projectcss.all,
-                                  sty.freeBox__rRpZ
+                                  projectcss.__wab_text,
+                                  sty.text___031Lb
                                 )}
                               >
-                                <p.PlasmicImg
-                                  data-plasmic-name={"reviewMugshot3"}
-                                  data-plasmic-override={
-                                    overrides.reviewMugshot3
-                                  }
-                                  alt={""}
-                                  className={classNames(sty.reviewMugshot3)}
-                                  displayHeight={"100px" as const}
-                                  displayMaxHeight={"none" as const}
-                                  displayMaxWidth={"100%" as const}
-                                  displayMinHeight={"0" as const}
-                                  displayMinWidth={"0" as const}
-                                  displayWidth={"100px" as const}
-                                  loading={"lazy" as const}
-                                  src={{
-                                    src: "/plasmic/lhp_3_30_23/images/sidereview1Pngpng.png",
-                                    fullWidth: 101,
-                                    fullHeight: 101,
-                                    aspectRatio: undefined
-                                  }}
-                                />
-
-                                <div
-                                  data-plasmic-name={"reviewName3"}
-                                  data-plasmic-override={overrides.reviewName3}
-                                  className={classNames(
-                                    projectcss.all,
-                                    projectcss.__wab_text,
-                                    sty.reviewName3
-                                  )}
-                                >
-                                  {"Isaiah S."}
-                                </div>
-                                <p.PlasmicImg
-                                  data-plasmic-name={"reviewIcon5"}
-                                  data-plasmic-override={overrides.reviewIcon5}
-                                  alt={""}
-                                  className={classNames(sty.reviewIcon5)}
-                                  displayHeight={"auto" as const}
-                                  displayMaxHeight={"none" as const}
-                                  displayMaxWidth={"100%" as const}
-                                  displayMinHeight={"0" as const}
-                                  displayMinWidth={"0" as const}
-                                  displayWidth={"100px" as const}
-                                  loading={"lazy" as const}
-                                  src={{
-                                    src: "/plasmic/lhp_3_30_23/images/starpng.png",
-                                    fullWidth: 142,
-                                    fullHeight: 21,
-                                    aspectRatio: undefined
-                                  }}
-                                />
-
-                                <div
-                                  data-plasmic-name={"reviewH122"}
-                                  data-plasmic-override={overrides.reviewH122}
-                                  className={classNames(
-                                    projectcss.all,
-                                    projectcss.__wab_text,
-                                    sty.reviewH122
-                                  )}
-                                >
-                                  {"BEST ALTERNATIVE TO CIGS"}
-                                </div>
-                                <div
-                                  data-plasmic-name={"reviewP3"}
-                                  data-plasmic-override={overrides.reviewP3}
-                                  className={classNames(
-                                    projectcss.all,
-                                    projectcss.__wab_text,
-                                    sty.reviewP3
-                                  )}
-                                >
-                                  {
-                                    "I smoked for over 29 years and tired to quit several times with no success. Until I came across sparq. Now not only do I not smoke, I’m doing something healthy in place! Great product, I’ll be a user for life!"
-                                  }
-                                </div>
-                              </div>
-                              <div
-                                className={classNames(
-                                  projectcss.all,
-                                  sty.freeBox__wa5SK
-                                )}
-                              >
-                                <p.PlasmicImg
-                                  data-plasmic-name={"reviewIcon6"}
-                                  data-plasmic-override={overrides.reviewIcon6}
-                                  alt={""}
-                                  className={classNames(sty.reviewIcon6)}
-                                  displayHeight={"auto" as const}
-                                  displayMaxHeight={"none" as const}
-                                  displayMaxWidth={"100%" as const}
-                                  displayMinHeight={"0" as const}
-                                  displayMinWidth={"0" as const}
-                                  displayWidth={"100px" as const}
-                                  loading={"lazy" as const}
-                                  src={{
-                                    src: "/plasmic/lhp_3_30_23/images/starpng.png",
-                                    fullWidth: 142,
-                                    fullHeight: 21,
-                                    aspectRatio: undefined
-                                  }}
-                                />
-
-                                <div
-                                  data-plasmic-name={"reviewStatement"}
-                                  data-plasmic-override={
-                                    overrides.reviewStatement
-                                  }
-                                  className={classNames(
-                                    projectcss.all,
-                                    projectcss.__wab_text,
-                                    sty.reviewStatement
-                                  )}
-                                >
-                                  <React.Fragment>
-                                    <React.Fragment>
-                                      {"Rated 4.9 Stars By "}
-                                    </React.Fragment>
-                                    <span
-                                      className={
-                                        "plasmic_default__all plasmic_default__span"
-                                      }
-                                      style={{ fontWeight: 700 }}
-                                    >
-                                      {"100,000+"}
-                                    </span>
-                                    <React.Fragment>
-                                      {" Customers"}
-                                    </React.Fragment>
-                                  </React.Fragment>
-                                </div>
-                                <div
-                                  data-plasmic-name={"ctaCardH1"}
-                                  data-plasmic-override={overrides.ctaCardH1}
-                                  className={classNames(
-                                    projectcss.all,
-                                    projectcss.__wab_text,
-                                    sty.ctaCardH1
-                                  )}
-                                >
-                                  {"So What Are You Waiting For?"}
-                                </div>
-                                <div
-                                  data-plasmic-name={"ctaCardH2"}
-                                  data-plasmic-override={overrides.ctaCardH2}
-                                  className={classNames(
-                                    projectcss.all,
-                                    projectcss.__wab_text,
-                                    sty.ctaCardH2
-                                  )}
-                                >
-                                  {
-                                    "Take the first and easiest step towards quitting and receive 15% OFF your first purchase"
-                                  }
-                                </div>
-                                <p.PlasmicLink
-                                  data-plasmic-name={"aCta3"}
-                                  data-plasmic-override={overrides.aCta3}
-                                  className={classNames(
-                                    projectcss.all,
-                                    projectcss.a,
-                                    sty.aCta3
-                                  )}
-                                  component={Link}
-                                  onClick={async event => {
-                                    const $steps = {};
-                                    $steps["setVariable"] = true
-                                      ? (() => {
-                                          const actionArgs = {};
-                                          return __wrapUserFunction(
-                                            {
-                                              type: "InteractionLoc",
-                                              actionName: "updateVariable",
-                                              interactionUuid: "Sid6Xc9gKYiz1V",
-                                              componentUuid: "Qsmc7rZ4njupIO"
-                                            },
-                                            () =>
-                                              (({
-                                                variable,
-                                                value,
-                                                startIndex,
-                                                deleteCount
-                                              }) => {
-                                                const {
-                                                  objRoot,
-                                                  variablePath
-                                                } = variable;
-                                                undefined;
-                                              })?.apply(null, [actionArgs]),
-                                            actionArgs
-                                          );
-                                        })()
-                                      : undefined;
-                                    if (
-                                      typeof $steps["setVariable"] ===
-                                        "object" &&
-                                      typeof $steps["setVariable"].then ===
-                                        "function"
-                                    ) {
-                                      $steps["setVariable"] =
-                                        await __wrapUserPromise(
-                                          {
-                                            type: "InteractionLoc",
-                                            actionName: "updateVariable",
-                                            interactionUuid: "Sid6Xc9gKYiz1V",
-                                            componentUuid: "Qsmc7rZ4njupIO"
-                                          },
-                                          $steps["setVariable"]
-                                        );
-                                    }
-                                  }}
-                                  platform={"nextjs"}
-                                >
-                                  {p.renderPlasmicSlot({
-                                    defaultContents: "CLAIM FREE DEVICE 👉",
-                                    value: args.slot9,
-                                    className: classNames(sty.slotTargetSlot9)
-                                  })}
-                                </p.PlasmicLink>
+                                {"Terms & Conditions"}
                               </div>
                             </div>
                           </div>
                         ) : null}
+                        <div
+                          className={classNames(
+                            projectcss.all,
+                            sty.freeBox__nWm2D
+                          )}
+                        >
+                          <BodyArticle2
+                            className={classNames(
+                              "__wab_instance",
+                              sty.bodyArticle2___8VuIs
+                            )}
+                          />
+
+                          <div
+                            className={classNames(
+                              projectcss.all,
+                              sty.freeBox__zrLfJ
+                            )}
+                          >
+                            <p.PlasmicImg
+                              alt={""}
+                              className={classNames(sty.img__rlPRm)}
+                              displayHeight={"100px" as const}
+                              displayMaxHeight={"none" as const}
+                              displayMaxWidth={"none" as const}
+                              displayMinHeight={"0" as const}
+                              displayMinWidth={"0" as const}
+                              displayWidth={"100px" as const}
+                              loading={"lazy" as const}
+                              src={{
+                                src: "/plasmic/lhp_3_30_23/images/cab4357670Ddf7F8Ce094069Bef14B6Apng.png",
+                                fullWidth: 119,
+                                fullHeight: 119,
+                                aspectRatio: undefined
+                              }}
+                            />
+
+                            <div
+                              className={classNames(
+                                projectcss.all,
+                                projectcss.__wab_text,
+                                sty.text__vcxKj
+                              )}
+                            >
+                              {"Isaiah S."}
+                            </div>
+                            <p.PlasmicImg
+                              alt={""}
+                              className={classNames(sty.img__j11Xt)}
+                              displayHeight={"auto" as const}
+                              displayMaxHeight={"none" as const}
+                              displayMaxWidth={"100%" as const}
+                              displayMinHeight={"0" as const}
+                              displayMinWidth={"0" as const}
+                              displayWidth={"114px" as const}
+                              loading={"lazy" as const}
+                              src={{
+                                src: "/plasmic/lhp_3_30_23/images/starpng.png",
+                                fullWidth: 142,
+                                fullHeight: 21,
+                                aspectRatio: undefined
+                              }}
+                            />
+
+                            <div
+                              className={classNames(
+                                projectcss.all,
+                                projectcss.__wab_text,
+                                sty.text___19NmP
+                              )}
+                            >
+                              {"Best alternative to smoking"}
+                            </div>
+                            <div
+                              className={classNames(
+                                projectcss.all,
+                                projectcss.__wab_text,
+                                sty.text__iVgE4
+                              )}
+                            >
+                              {
+                                "I smoked for over 29 years and tired to quit several times with no success. Until I came across sparq. Now not only do I not smoke, I’m doing something healthy in place! Great product, I’ll be a user for life!"
+                              }
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          className={classNames(
+                            projectcss.all,
+                            sty.freeBox__vyFt
+                          )}
+                        >
+                          <p.PlasmicImg
+                            alt={""}
+                            className={classNames(sty.img__xGWgC)}
+                            displayHeight={"100px" as const}
+                            displayMaxHeight={"none" as const}
+                            displayMaxWidth={"100%" as const}
+                            displayMinHeight={"0" as const}
+                            displayMinWidth={"0" as const}
+                            displayWidth={"100px" as const}
+                            loading={"lazy" as const}
+                            src={{
+                              src: "/plasmic/lhp_3_30_23/images/cab4357670Ddf7F8Ce094069Bef14B6Apng.png",
+                              fullWidth: 119,
+                              fullHeight: 119,
+                              aspectRatio: undefined
+                            }}
+                          />
+
+                          <div
+                            className={classNames(
+                              projectcss.all,
+                              projectcss.__wab_text,
+                              sty.text__ls9W0
+                            )}
+                          >
+                            {"Isaiah S."}
+                          </div>
+                          <p.PlasmicImg
+                            alt={""}
+                            className={classNames(sty.img__cqjoT)}
+                            displayHeight={"auto" as const}
+                            displayMaxHeight={"none" as const}
+                            displayMaxWidth={"100%" as const}
+                            displayMinHeight={"0" as const}
+                            displayMinWidth={"0" as const}
+                            displayWidth={"114px" as const}
+                            loading={"lazy" as const}
+                            src={{
+                              src: "/plasmic/lhp_3_30_23/images/starpng.png",
+                              fullWidth: 142,
+                              fullHeight: 21,
+                              aspectRatio: undefined
+                            }}
+                          />
+
+                          {(
+                            hasVariant(globalVariants, "screen", "mobileOnly")
+                              ? true
+                              : true
+                          ) ? (
+                            <p.PlasmicImg
+                              alt={""}
+                              className={classNames(sty.img__oynsj)}
+                              displayHeight={"auto" as const}
+                              displayMaxHeight={"none" as const}
+                              displayMaxWidth={"100%" as const}
+                              displayMinHeight={"0" as const}
+                              displayMinWidth={"0" as const}
+                              displayWidth={"auto" as const}
+                              loading={"lazy" as const}
+                            />
+                          ) : null}
+                          <div
+                            className={classNames(
+                              projectcss.all,
+                              projectcss.__wab_text,
+                              sty.text__iOaf
+                            )}
+                          >
+                            {"Best alternative to smoking"}
+                          </div>
+                          <div
+                            className={classNames(
+                              projectcss.all,
+                              projectcss.__wab_text,
+                              sty.text__itMTr
+                            )}
+                          >
+                            {
+                              "I smoked for over 29 years and tired to quit several times with no success. Until I came across sparq. Now not only do I not smoke, I’m doing something healthy in place! Great product, I’ll be a user for life!"
+                            }
+                          </div>
+                        </div>
+                        <div
+                          className={classNames(
+                            projectcss.all,
+                            sty.freeBox__e4Mp2
+                          )}
+                        >
+                          <p.PlasmicImg
+                            alt={""}
+                            className={classNames(sty.img__riYbh)}
+                            displayHeight={"100px" as const}
+                            displayMaxHeight={"none" as const}
+                            displayMaxWidth={"100%" as const}
+                            displayMinHeight={"0" as const}
+                            displayMinWidth={"0" as const}
+                            displayWidth={"100px" as const}
+                            loading={"lazy" as const}
+                            src={{
+                              src: "/plasmic/lhp_3_30_23/images/cab4357670Ddf7F8Ce094069Bef14B6Apng.png",
+                              fullWidth: 119,
+                              fullHeight: 119,
+                              aspectRatio: undefined
+                            }}
+                          />
+
+                          <div
+                            className={classNames(
+                              projectcss.all,
+                              projectcss.__wab_text,
+                              sty.text__wWtQe
+                            )}
+                          >
+                            {"Isaiah S."}
+                          </div>
+                          <p.PlasmicImg
+                            alt={""}
+                            className={classNames(sty.img__ybrSw)}
+                            displayHeight={"auto" as const}
+                            displayMaxHeight={"none" as const}
+                            displayMaxWidth={"100%" as const}
+                            displayMinHeight={"0" as const}
+                            displayMinWidth={"0" as const}
+                            displayWidth={"auto" as const}
+                            loading={"lazy" as const}
+                            src={{
+                              src: "/plasmic/lhp_3_30_23/images/starpng.png",
+                              fullWidth: 142,
+                              fullHeight: 21,
+                              aspectRatio: undefined
+                            }}
+                          />
+
+                          <div
+                            className={classNames(
+                              projectcss.all,
+                              projectcss.__wab_text,
+                              sty.text__vYo5V
+                            )}
+                          >
+                            {"Best alternative to smoking"}
+                          </div>
+                          <div
+                            className={classNames(
+                              projectcss.all,
+                              projectcss.__wab_text,
+                              sty.text__prdGd
+                            )}
+                          >
+                            {
+                              "I smoked for over 29 years and tired to quit several times with no success. Until I came across sparq. Now not only do I not smoke, I’m doing something healthy in place! Great product, I’ll be a user for life!"
+                            }
+                          </div>
+                        </div>
                       </div>
                     ) : null}
-                  </div>
-                </React.Fragment>
-              )}
-            </ph.DataCtxReader>
-          </DataFetcher>
+                  </React.Fragment>
+                )}
+              </ph.DataCtxReader>
+            </DataFetcher>
+          ) : null}
         </div>
       </div>
     </React.Fragment>
@@ -4677,6 +4638,81 @@ function PlasmicArticle1__RenderFunc(props: {
 const PlasmicDescendants = {
   root: [
     "root",
+    "nav",
+    "logo",
+    "aSlogan",
+    "intro",
+    "heroHeadline",
+    "heroSubHeadline",
+    "aCta",
+    "reviewIcon2",
+    "reviewStatement2",
+    "body",
+    "article",
+    "articleBody",
+    "press",
+    "pressIcons",
+    "paragraph1",
+    "h21",
+    "heroImage",
+    "paragraph2",
+    "h22",
+    "image2",
+    "paragraph3",
+    "h23",
+    "image3",
+    "paragraph4",
+    "h24",
+    "image4",
+    "review1",
+    "paragraph42",
+    "paragraph43",
+    "paragraph44",
+    "review2",
+    "paragraph45",
+    "paragraph46",
+    "paragraph47",
+    "review3",
+    "paragraph48",
+    "paragraph49",
+    "paragraph410",
+    "h25",
+    "h35",
+    "offer2",
+    "image5",
+    "paragraph6",
+    "h26",
+    "image6",
+    "paragraph7",
+    "h27",
+    "image7",
+    "aOutroH1",
+    "aCta2",
+    "aOutroH2",
+    "reviewIcon",
+    "aOutroH3",
+    "aOutroImage",
+    "reviews",
+    "reviewMugshot1",
+    "reviewName1",
+    "reviewIcon3",
+    "reviewH11",
+    "reviewP1",
+    "reviewMugshot2",
+    "reviewName2",
+    "reviewIcon4",
+    "reviewH12",
+    "reviewP2",
+    "reviewMugshot3",
+    "reviewName3",
+    "reviewIcon5",
+    "reviewH122",
+    "reviewP3",
+    "reviewIcon6",
+    "reviewStatement",
+    "ctaCardH1",
+    "ctaCardH2",
+    "aCta3",
     "httpRestApiFetcher",
     "_1554Px",
     "div2",
@@ -4833,16 +4869,25 @@ const PlasmicDescendants = {
     "div74",
     "logopng4",
     "copyrights2022AllRightsReserved2",
-    "div75",
-    "nav",
-    "logo",
-    "aSlogan",
+    "div75"
+  ],
+  nav: ["nav", "logo", "aSlogan"],
+  logo: ["logo"],
+  aSlogan: ["aSlogan"],
+  intro: [
     "intro",
     "heroHeadline",
     "heroSubHeadline",
     "aCta",
     "reviewIcon2",
-    "reviewStatement2",
+    "reviewStatement2"
+  ],
+  heroHeadline: ["heroHeadline"],
+  heroSubHeadline: ["heroSubHeadline"],
+  aCta: ["aCta"],
+  reviewIcon2: ["reviewIcon2"],
+  reviewStatement2: ["reviewStatement2"],
+  body: [
     "body",
     "article",
     "articleBody",
@@ -4910,6 +4955,182 @@ const PlasmicDescendants = {
     "ctaCardH2",
     "aCta3"
   ],
+  article: [
+    "article",
+    "articleBody",
+    "press",
+    "pressIcons",
+    "paragraph1",
+    "h21",
+    "heroImage",
+    "paragraph2",
+    "h22",
+    "image2",
+    "paragraph3",
+    "h23",
+    "image3",
+    "paragraph4",
+    "h24",
+    "image4",
+    "review1",
+    "paragraph42",
+    "paragraph43",
+    "paragraph44",
+    "review2",
+    "paragraph45",
+    "paragraph46",
+    "paragraph47",
+    "review3",
+    "paragraph48",
+    "paragraph49",
+    "paragraph410",
+    "h25",
+    "h35",
+    "offer2",
+    "image5",
+    "paragraph6",
+    "h26",
+    "image6",
+    "paragraph7",
+    "h27",
+    "image7",
+    "aOutroH1",
+    "aCta2",
+    "aOutroH2",
+    "reviewIcon",
+    "aOutroH3",
+    "aOutroImage"
+  ],
+  articleBody: [
+    "articleBody",
+    "press",
+    "pressIcons",
+    "paragraph1",
+    "h21",
+    "heroImage",
+    "paragraph2",
+    "h22",
+    "image2",
+    "paragraph3",
+    "h23",
+    "image3",
+    "paragraph4",
+    "h24",
+    "image4",
+    "review1",
+    "paragraph42",
+    "paragraph43",
+    "paragraph44",
+    "review2",
+    "paragraph45",
+    "paragraph46",
+    "paragraph47",
+    "review3",
+    "paragraph48",
+    "paragraph49",
+    "paragraph410",
+    "h25",
+    "h35",
+    "offer2",
+    "image5",
+    "paragraph6",
+    "h26",
+    "image6",
+    "paragraph7",
+    "h27",
+    "image7",
+    "aOutroH1",
+    "aCta2",
+    "aOutroH2",
+    "reviewIcon",
+    "aOutroH3",
+    "aOutroImage"
+  ],
+  press: ["press", "pressIcons"],
+  pressIcons: ["pressIcons"],
+  paragraph1: ["paragraph1"],
+  h21: ["h21"],
+  heroImage: ["heroImage"],
+  paragraph2: ["paragraph2"],
+  h22: ["h22"],
+  image2: ["image2"],
+  paragraph3: ["paragraph3"],
+  h23: ["h23"],
+  image3: ["image3"],
+  paragraph4: ["paragraph4"],
+  h24: ["h24"],
+  image4: ["image4"],
+  review1: ["review1", "paragraph42", "paragraph43", "paragraph44"],
+  paragraph42: ["paragraph42"],
+  paragraph43: ["paragraph43"],
+  paragraph44: ["paragraph44"],
+  review2: ["review2", "paragraph45", "paragraph46", "paragraph47"],
+  paragraph45: ["paragraph45"],
+  paragraph46: ["paragraph46"],
+  paragraph47: ["paragraph47"],
+  review3: ["review3", "paragraph48", "paragraph49", "paragraph410"],
+  paragraph48: ["paragraph48"],
+  paragraph49: ["paragraph49"],
+  paragraph410: ["paragraph410"],
+  h25: ["h25"],
+  h35: ["h35"],
+  offer2: ["offer2"],
+  image5: ["image5"],
+  paragraph6: ["paragraph6"],
+  h26: ["h26"],
+  image6: ["image6"],
+  paragraph7: ["paragraph7"],
+  h27: ["h27"],
+  image7: ["image7"],
+  aOutroH1: ["aOutroH1"],
+  aCta2: ["aCta2"],
+  aOutroH2: ["aOutroH2"],
+  reviewIcon: ["reviewIcon"],
+  aOutroH3: ["aOutroH3"],
+  aOutroImage: ["aOutroImage"],
+  reviews: [
+    "reviews",
+    "reviewMugshot1",
+    "reviewName1",
+    "reviewIcon3",
+    "reviewH11",
+    "reviewP1",
+    "reviewMugshot2",
+    "reviewName2",
+    "reviewIcon4",
+    "reviewH12",
+    "reviewP2",
+    "reviewMugshot3",
+    "reviewName3",
+    "reviewIcon5",
+    "reviewH122",
+    "reviewP3",
+    "reviewIcon6",
+    "reviewStatement",
+    "ctaCardH1",
+    "ctaCardH2",
+    "aCta3"
+  ],
+  reviewMugshot1: ["reviewMugshot1"],
+  reviewName1: ["reviewName1"],
+  reviewIcon3: ["reviewIcon3"],
+  reviewH11: ["reviewH11"],
+  reviewP1: ["reviewP1"],
+  reviewMugshot2: ["reviewMugshot2"],
+  reviewName2: ["reviewName2"],
+  reviewIcon4: ["reviewIcon4"],
+  reviewH12: ["reviewH12"],
+  reviewP2: ["reviewP2"],
+  reviewMugshot3: ["reviewMugshot3"],
+  reviewName3: ["reviewName3"],
+  reviewIcon5: ["reviewIcon5"],
+  reviewH122: ["reviewH122"],
+  reviewP3: ["reviewP3"],
+  reviewIcon6: ["reviewIcon6"],
+  reviewStatement: ["reviewStatement"],
+  ctaCardH1: ["ctaCardH1"],
+  ctaCardH2: ["ctaCardH2"],
+  aCta3: ["aCta3"],
   httpRestApiFetcher: [
     "httpRestApiFetcher",
     "_1554Px",
@@ -5067,82 +5288,7 @@ const PlasmicDescendants = {
     "div74",
     "logopng4",
     "copyrights2022AllRightsReserved2",
-    "div75",
-    "nav",
-    "logo",
-    "aSlogan",
-    "intro",
-    "heroHeadline",
-    "heroSubHeadline",
-    "aCta",
-    "reviewIcon2",
-    "reviewStatement2",
-    "body",
-    "article",
-    "articleBody",
-    "press",
-    "pressIcons",
-    "paragraph1",
-    "h21",
-    "heroImage",
-    "paragraph2",
-    "h22",
-    "image2",
-    "paragraph3",
-    "h23",
-    "image3",
-    "paragraph4",
-    "h24",
-    "image4",
-    "review1",
-    "paragraph42",
-    "paragraph43",
-    "paragraph44",
-    "review2",
-    "paragraph45",
-    "paragraph46",
-    "paragraph47",
-    "review3",
-    "paragraph48",
-    "paragraph49",
-    "paragraph410",
-    "h25",
-    "h35",
-    "offer2",
-    "image5",
-    "paragraph6",
-    "h26",
-    "image6",
-    "paragraph7",
-    "h27",
-    "image7",
-    "aOutroH1",
-    "aCta2",
-    "aOutroH2",
-    "reviewIcon",
-    "aOutroH3",
-    "aOutroImage",
-    "reviews",
-    "reviewMugshot1",
-    "reviewName1",
-    "reviewIcon3",
-    "reviewH11",
-    "reviewP1",
-    "reviewMugshot2",
-    "reviewName2",
-    "reviewIcon4",
-    "reviewH12",
-    "reviewP2",
-    "reviewMugshot3",
-    "reviewName3",
-    "reviewIcon5",
-    "reviewH122",
-    "reviewP3",
-    "reviewIcon6",
-    "reviewStatement",
-    "ctaCardH1",
-    "ctaCardH2",
-    "aCta3"
+    "div75"
   ],
   _1554Px: [
     "_1554Px",
@@ -6116,273 +6262,88 @@ const PlasmicDescendants = {
   div74: ["div74", "logopng4", "copyrights2022AllRightsReserved2", "div75"],
   logopng4: ["logopng4"],
   copyrights2022AllRightsReserved2: ["copyrights2022AllRightsReserved2"],
-  div75: ["div75"],
-  nav: ["nav", "logo", "aSlogan"],
-  logo: ["logo"],
-  aSlogan: ["aSlogan"],
-  intro: [
-    "intro",
-    "heroHeadline",
-    "heroSubHeadline",
-    "aCta",
-    "reviewIcon2",
-    "reviewStatement2"
-  ],
-  heroHeadline: ["heroHeadline"],
-  heroSubHeadline: ["heroSubHeadline"],
-  aCta: ["aCta"],
-  reviewIcon2: ["reviewIcon2"],
-  reviewStatement2: ["reviewStatement2"],
-  body: [
-    "body",
-    "article",
-    "articleBody",
-    "press",
-    "pressIcons",
-    "paragraph1",
-    "h21",
-    "heroImage",
-    "paragraph2",
-    "h22",
-    "image2",
-    "paragraph3",
-    "h23",
-    "image3",
-    "paragraph4",
-    "h24",
-    "image4",
-    "review1",
-    "paragraph42",
-    "paragraph43",
-    "paragraph44",
-    "review2",
-    "paragraph45",
-    "paragraph46",
-    "paragraph47",
-    "review3",
-    "paragraph48",
-    "paragraph49",
-    "paragraph410",
-    "h25",
-    "h35",
-    "offer2",
-    "image5",
-    "paragraph6",
-    "h26",
-    "image6",
-    "paragraph7",
-    "h27",
-    "image7",
-    "aOutroH1",
-    "aCta2",
-    "aOutroH2",
-    "reviewIcon",
-    "aOutroH3",
-    "aOutroImage",
-    "reviews",
-    "reviewMugshot1",
-    "reviewName1",
-    "reviewIcon3",
-    "reviewH11",
-    "reviewP1",
-    "reviewMugshot2",
-    "reviewName2",
-    "reviewIcon4",
-    "reviewH12",
-    "reviewP2",
-    "reviewMugshot3",
-    "reviewName3",
-    "reviewIcon5",
-    "reviewH122",
-    "reviewP3",
-    "reviewIcon6",
-    "reviewStatement",
-    "ctaCardH1",
-    "ctaCardH2",
-    "aCta3"
-  ],
-  article: [
-    "article",
-    "articleBody",
-    "press",
-    "pressIcons",
-    "paragraph1",
-    "h21",
-    "heroImage",
-    "paragraph2",
-    "h22",
-    "image2",
-    "paragraph3",
-    "h23",
-    "image3",
-    "paragraph4",
-    "h24",
-    "image4",
-    "review1",
-    "paragraph42",
-    "paragraph43",
-    "paragraph44",
-    "review2",
-    "paragraph45",
-    "paragraph46",
-    "paragraph47",
-    "review3",
-    "paragraph48",
-    "paragraph49",
-    "paragraph410",
-    "h25",
-    "h35",
-    "offer2",
-    "image5",
-    "paragraph6",
-    "h26",
-    "image6",
-    "paragraph7",
-    "h27",
-    "image7",
-    "aOutroH1",
-    "aCta2",
-    "aOutroH2",
-    "reviewIcon",
-    "aOutroH3",
-    "aOutroImage"
-  ],
-  articleBody: [
-    "articleBody",
-    "press",
-    "pressIcons",
-    "paragraph1",
-    "h21",
-    "heroImage",
-    "paragraph2",
-    "h22",
-    "image2",
-    "paragraph3",
-    "h23",
-    "image3",
-    "paragraph4",
-    "h24",
-    "image4",
-    "review1",
-    "paragraph42",
-    "paragraph43",
-    "paragraph44",
-    "review2",
-    "paragraph45",
-    "paragraph46",
-    "paragraph47",
-    "review3",
-    "paragraph48",
-    "paragraph49",
-    "paragraph410",
-    "h25",
-    "h35",
-    "offer2",
-    "image5",
-    "paragraph6",
-    "h26",
-    "image6",
-    "paragraph7",
-    "h27",
-    "image7",
-    "aOutroH1",
-    "aCta2",
-    "aOutroH2",
-    "reviewIcon",
-    "aOutroH3",
-    "aOutroImage"
-  ],
-  press: ["press", "pressIcons"],
-  pressIcons: ["pressIcons"],
-  paragraph1: ["paragraph1"],
-  h21: ["h21"],
-  heroImage: ["heroImage"],
-  paragraph2: ["paragraph2"],
-  h22: ["h22"],
-  image2: ["image2"],
-  paragraph3: ["paragraph3"],
-  h23: ["h23"],
-  image3: ["image3"],
-  paragraph4: ["paragraph4"],
-  h24: ["h24"],
-  image4: ["image4"],
-  review1: ["review1", "paragraph42", "paragraph43", "paragraph44"],
-  paragraph42: ["paragraph42"],
-  paragraph43: ["paragraph43"],
-  paragraph44: ["paragraph44"],
-  review2: ["review2", "paragraph45", "paragraph46", "paragraph47"],
-  paragraph45: ["paragraph45"],
-  paragraph46: ["paragraph46"],
-  paragraph47: ["paragraph47"],
-  review3: ["review3", "paragraph48", "paragraph49", "paragraph410"],
-  paragraph48: ["paragraph48"],
-  paragraph49: ["paragraph49"],
-  paragraph410: ["paragraph410"],
-  h25: ["h25"],
-  h35: ["h35"],
-  offer2: ["offer2"],
-  image5: ["image5"],
-  paragraph6: ["paragraph6"],
-  h26: ["h26"],
-  image6: ["image6"],
-  paragraph7: ["paragraph7"],
-  h27: ["h27"],
-  image7: ["image7"],
-  aOutroH1: ["aOutroH1"],
-  aCta2: ["aCta2"],
-  aOutroH2: ["aOutroH2"],
-  reviewIcon: ["reviewIcon"],
-  aOutroH3: ["aOutroH3"],
-  aOutroImage: ["aOutroImage"],
-  reviews: [
-    "reviews",
-    "reviewMugshot1",
-    "reviewName1",
-    "reviewIcon3",
-    "reviewH11",
-    "reviewP1",
-    "reviewMugshot2",
-    "reviewName2",
-    "reviewIcon4",
-    "reviewH12",
-    "reviewP2",
-    "reviewMugshot3",
-    "reviewName3",
-    "reviewIcon5",
-    "reviewH122",
-    "reviewP3",
-    "reviewIcon6",
-    "reviewStatement",
-    "ctaCardH1",
-    "ctaCardH2",
-    "aCta3"
-  ],
-  reviewMugshot1: ["reviewMugshot1"],
-  reviewName1: ["reviewName1"],
-  reviewIcon3: ["reviewIcon3"],
-  reviewH11: ["reviewH11"],
-  reviewP1: ["reviewP1"],
-  reviewMugshot2: ["reviewMugshot2"],
-  reviewName2: ["reviewName2"],
-  reviewIcon4: ["reviewIcon4"],
-  reviewH12: ["reviewH12"],
-  reviewP2: ["reviewP2"],
-  reviewMugshot3: ["reviewMugshot3"],
-  reviewName3: ["reviewName3"],
-  reviewIcon5: ["reviewIcon5"],
-  reviewH122: ["reviewH122"],
-  reviewP3: ["reviewP3"],
-  reviewIcon6: ["reviewIcon6"],
-  reviewStatement: ["reviewStatement"],
-  ctaCardH1: ["ctaCardH1"],
-  ctaCardH2: ["ctaCardH2"],
-  aCta3: ["aCta3"]
+  div75: ["div75"]
 } as const;
 type NodeNameType = keyof typeof PlasmicDescendants;
 type DescendantsType<T extends NodeNameType> =
   (typeof PlasmicDescendants)[T][number];
 type NodeDefaultElementType = {
   root: "div";
+  nav: "div";
+  logo: typeof p.PlasmicImg;
+  aSlogan: "div";
+  intro: "div";
+  heroHeadline: "div";
+  heroSubHeadline: "div";
+  aCta: "a";
+  reviewIcon2: typeof p.PlasmicImg;
+  reviewStatement2: "div";
+  body: "div";
+  article: "div";
+  articleBody: "div";
+  press: "div";
+  pressIcons: typeof p.PlasmicImg;
+  paragraph1: "div";
+  h21: "div";
+  heroImage: typeof p.PlasmicImg;
+  paragraph2: "div";
+  h22: "div";
+  image2: typeof p.PlasmicImg;
+  paragraph3: "div";
+  h23: "div";
+  image3: typeof p.PlasmicImg;
+  paragraph4: "div";
+  h24: "div";
+  image4: typeof p.PlasmicImg;
+  review1: "div";
+  paragraph42: "div";
+  paragraph43: "div";
+  paragraph44: "div";
+  review2: "div";
+  paragraph45: "div";
+  paragraph46: "div";
+  paragraph47: "div";
+  review3: "div";
+  paragraph48: "div";
+  paragraph49: "div";
+  paragraph410: "div";
+  h25: "div";
+  h35: "div";
+  offer2: typeof Offer2;
+  image5: typeof p.PlasmicImg;
+  paragraph6: "div";
+  h26: "div";
+  image6: typeof p.PlasmicImg;
+  paragraph7: "div";
+  h27: "div";
+  image7: typeof p.PlasmicImg;
+  aOutroH1: "div";
+  aCta2: "a";
+  aOutroH2: "div";
+  reviewIcon: typeof p.PlasmicImg;
+  aOutroH3: "div";
+  aOutroImage: typeof p.PlasmicImg;
+  reviews: "div";
+  reviewMugshot1: typeof p.PlasmicImg;
+  reviewName1: "div";
+  reviewIcon3: typeof p.PlasmicImg;
+  reviewH11: "div";
+  reviewP1: "div";
+  reviewMugshot2: typeof p.PlasmicImg;
+  reviewName2: "div";
+  reviewIcon4: typeof p.PlasmicImg;
+  reviewH12: "div";
+  reviewP2: "div";
+  reviewMugshot3: typeof p.PlasmicImg;
+  reviewName3: "div";
+  reviewIcon5: typeof p.PlasmicImg;
+  reviewH122: "div";
+  reviewP3: "div";
+  reviewIcon6: typeof p.PlasmicImg;
+  reviewStatement: "div";
+  ctaCardH1: "div";
+  ctaCardH2: "div";
+  aCta3: "a";
   httpRestApiFetcher: typeof DataFetcher;
   _1554Px: "div";
   div2: "div";
@@ -6540,81 +6501,6 @@ type NodeDefaultElementType = {
   logopng4: "div";
   copyrights2022AllRightsReserved2: "div";
   div75: "div";
-  nav: "div";
-  logo: typeof p.PlasmicImg;
-  aSlogan: "div";
-  intro: "div";
-  heroHeadline: "div";
-  heroSubHeadline: "div";
-  aCta: "a";
-  reviewIcon2: typeof p.PlasmicImg;
-  reviewStatement2: "div";
-  body: "div";
-  article: "div";
-  articleBody: "div";
-  press: "div";
-  pressIcons: typeof p.PlasmicImg;
-  paragraph1: "div";
-  h21: "div";
-  heroImage: typeof p.PlasmicImg;
-  paragraph2: "div";
-  h22: "div";
-  image2: typeof p.PlasmicImg;
-  paragraph3: "div";
-  h23: "div";
-  image3: typeof p.PlasmicImg;
-  paragraph4: "div";
-  h24: "div";
-  image4: typeof p.PlasmicImg;
-  review1: "div";
-  paragraph42: "div";
-  paragraph43: "div";
-  paragraph44: "div";
-  review2: "div";
-  paragraph45: "div";
-  paragraph46: "div";
-  paragraph47: "div";
-  review3: "div";
-  paragraph48: "div";
-  paragraph49: "div";
-  paragraph410: "div";
-  h25: "div";
-  h35: "div";
-  offer2: typeof Offer2;
-  image5: typeof p.PlasmicImg;
-  paragraph6: "div";
-  h26: "div";
-  image6: typeof p.PlasmicImg;
-  paragraph7: "div";
-  h27: "div";
-  image7: typeof p.PlasmicImg;
-  aOutroH1: "div";
-  aCta2: "a";
-  aOutroH2: "div";
-  reviewIcon: typeof p.PlasmicImg;
-  aOutroH3: "div";
-  aOutroImage: typeof p.PlasmicImg;
-  reviews: "div";
-  reviewMugshot1: typeof p.PlasmicImg;
-  reviewName1: "div";
-  reviewIcon3: typeof p.PlasmicImg;
-  reviewH11: "div";
-  reviewP1: "div";
-  reviewMugshot2: typeof p.PlasmicImg;
-  reviewName2: "div";
-  reviewIcon4: typeof p.PlasmicImg;
-  reviewH12: "div";
-  reviewP2: "div";
-  reviewMugshot3: typeof p.PlasmicImg;
-  reviewName3: "div";
-  reviewIcon5: typeof p.PlasmicImg;
-  reviewH122: "div";
-  reviewP3: "div";
-  reviewIcon6: typeof p.PlasmicImg;
-  reviewStatement: "div";
-  ctaCardH1: "div";
-  ctaCardH2: "div";
-  aCta3: "a";
 };
 
 type ReservedPropsType = "variants" | "args" | "overrides";
@@ -6677,6 +6563,81 @@ export const PlasmicArticle1 = Object.assign(
   makeNodeComponent("root"),
   {
     // Helper components rendering sub-elements
+    nav: makeNodeComponent("nav"),
+    logo: makeNodeComponent("logo"),
+    aSlogan: makeNodeComponent("aSlogan"),
+    intro: makeNodeComponent("intro"),
+    heroHeadline: makeNodeComponent("heroHeadline"),
+    heroSubHeadline: makeNodeComponent("heroSubHeadline"),
+    aCta: makeNodeComponent("aCta"),
+    reviewIcon2: makeNodeComponent("reviewIcon2"),
+    reviewStatement2: makeNodeComponent("reviewStatement2"),
+    body: makeNodeComponent("body"),
+    article: makeNodeComponent("article"),
+    articleBody: makeNodeComponent("articleBody"),
+    press: makeNodeComponent("press"),
+    pressIcons: makeNodeComponent("pressIcons"),
+    paragraph1: makeNodeComponent("paragraph1"),
+    h21: makeNodeComponent("h21"),
+    heroImage: makeNodeComponent("heroImage"),
+    paragraph2: makeNodeComponent("paragraph2"),
+    h22: makeNodeComponent("h22"),
+    image2: makeNodeComponent("image2"),
+    paragraph3: makeNodeComponent("paragraph3"),
+    h23: makeNodeComponent("h23"),
+    image3: makeNodeComponent("image3"),
+    paragraph4: makeNodeComponent("paragraph4"),
+    h24: makeNodeComponent("h24"),
+    image4: makeNodeComponent("image4"),
+    review1: makeNodeComponent("review1"),
+    paragraph42: makeNodeComponent("paragraph42"),
+    paragraph43: makeNodeComponent("paragraph43"),
+    paragraph44: makeNodeComponent("paragraph44"),
+    review2: makeNodeComponent("review2"),
+    paragraph45: makeNodeComponent("paragraph45"),
+    paragraph46: makeNodeComponent("paragraph46"),
+    paragraph47: makeNodeComponent("paragraph47"),
+    review3: makeNodeComponent("review3"),
+    paragraph48: makeNodeComponent("paragraph48"),
+    paragraph49: makeNodeComponent("paragraph49"),
+    paragraph410: makeNodeComponent("paragraph410"),
+    h25: makeNodeComponent("h25"),
+    h35: makeNodeComponent("h35"),
+    offer2: makeNodeComponent("offer2"),
+    image5: makeNodeComponent("image5"),
+    paragraph6: makeNodeComponent("paragraph6"),
+    h26: makeNodeComponent("h26"),
+    image6: makeNodeComponent("image6"),
+    paragraph7: makeNodeComponent("paragraph7"),
+    h27: makeNodeComponent("h27"),
+    image7: makeNodeComponent("image7"),
+    aOutroH1: makeNodeComponent("aOutroH1"),
+    aCta2: makeNodeComponent("aCta2"),
+    aOutroH2: makeNodeComponent("aOutroH2"),
+    reviewIcon: makeNodeComponent("reviewIcon"),
+    aOutroH3: makeNodeComponent("aOutroH3"),
+    aOutroImage: makeNodeComponent("aOutroImage"),
+    reviews: makeNodeComponent("reviews"),
+    reviewMugshot1: makeNodeComponent("reviewMugshot1"),
+    reviewName1: makeNodeComponent("reviewName1"),
+    reviewIcon3: makeNodeComponent("reviewIcon3"),
+    reviewH11: makeNodeComponent("reviewH11"),
+    reviewP1: makeNodeComponent("reviewP1"),
+    reviewMugshot2: makeNodeComponent("reviewMugshot2"),
+    reviewName2: makeNodeComponent("reviewName2"),
+    reviewIcon4: makeNodeComponent("reviewIcon4"),
+    reviewH12: makeNodeComponent("reviewH12"),
+    reviewP2: makeNodeComponent("reviewP2"),
+    reviewMugshot3: makeNodeComponent("reviewMugshot3"),
+    reviewName3: makeNodeComponent("reviewName3"),
+    reviewIcon5: makeNodeComponent("reviewIcon5"),
+    reviewH122: makeNodeComponent("reviewH122"),
+    reviewP3: makeNodeComponent("reviewP3"),
+    reviewIcon6: makeNodeComponent("reviewIcon6"),
+    reviewStatement: makeNodeComponent("reviewStatement"),
+    ctaCardH1: makeNodeComponent("ctaCardH1"),
+    ctaCardH2: makeNodeComponent("ctaCardH2"),
+    aCta3: makeNodeComponent("aCta3"),
     httpRestApiFetcher: makeNodeComponent("httpRestApiFetcher"),
     _1554Px: makeNodeComponent("_1554Px"),
     div2: makeNodeComponent("div2"),
@@ -6889,81 +6850,6 @@ export const PlasmicArticle1 = Object.assign(
       "copyrights2022AllRightsReserved2"
     ),
     div75: makeNodeComponent("div75"),
-    nav: makeNodeComponent("nav"),
-    logo: makeNodeComponent("logo"),
-    aSlogan: makeNodeComponent("aSlogan"),
-    intro: makeNodeComponent("intro"),
-    heroHeadline: makeNodeComponent("heroHeadline"),
-    heroSubHeadline: makeNodeComponent("heroSubHeadline"),
-    aCta: makeNodeComponent("aCta"),
-    reviewIcon2: makeNodeComponent("reviewIcon2"),
-    reviewStatement2: makeNodeComponent("reviewStatement2"),
-    body: makeNodeComponent("body"),
-    article: makeNodeComponent("article"),
-    articleBody: makeNodeComponent("articleBody"),
-    press: makeNodeComponent("press"),
-    pressIcons: makeNodeComponent("pressIcons"),
-    paragraph1: makeNodeComponent("paragraph1"),
-    h21: makeNodeComponent("h21"),
-    heroImage: makeNodeComponent("heroImage"),
-    paragraph2: makeNodeComponent("paragraph2"),
-    h22: makeNodeComponent("h22"),
-    image2: makeNodeComponent("image2"),
-    paragraph3: makeNodeComponent("paragraph3"),
-    h23: makeNodeComponent("h23"),
-    image3: makeNodeComponent("image3"),
-    paragraph4: makeNodeComponent("paragraph4"),
-    h24: makeNodeComponent("h24"),
-    image4: makeNodeComponent("image4"),
-    review1: makeNodeComponent("review1"),
-    paragraph42: makeNodeComponent("paragraph42"),
-    paragraph43: makeNodeComponent("paragraph43"),
-    paragraph44: makeNodeComponent("paragraph44"),
-    review2: makeNodeComponent("review2"),
-    paragraph45: makeNodeComponent("paragraph45"),
-    paragraph46: makeNodeComponent("paragraph46"),
-    paragraph47: makeNodeComponent("paragraph47"),
-    review3: makeNodeComponent("review3"),
-    paragraph48: makeNodeComponent("paragraph48"),
-    paragraph49: makeNodeComponent("paragraph49"),
-    paragraph410: makeNodeComponent("paragraph410"),
-    h25: makeNodeComponent("h25"),
-    h35: makeNodeComponent("h35"),
-    offer2: makeNodeComponent("offer2"),
-    image5: makeNodeComponent("image5"),
-    paragraph6: makeNodeComponent("paragraph6"),
-    h26: makeNodeComponent("h26"),
-    image6: makeNodeComponent("image6"),
-    paragraph7: makeNodeComponent("paragraph7"),
-    h27: makeNodeComponent("h27"),
-    image7: makeNodeComponent("image7"),
-    aOutroH1: makeNodeComponent("aOutroH1"),
-    aCta2: makeNodeComponent("aCta2"),
-    aOutroH2: makeNodeComponent("aOutroH2"),
-    reviewIcon: makeNodeComponent("reviewIcon"),
-    aOutroH3: makeNodeComponent("aOutroH3"),
-    aOutroImage: makeNodeComponent("aOutroImage"),
-    reviews: makeNodeComponent("reviews"),
-    reviewMugshot1: makeNodeComponent("reviewMugshot1"),
-    reviewName1: makeNodeComponent("reviewName1"),
-    reviewIcon3: makeNodeComponent("reviewIcon3"),
-    reviewH11: makeNodeComponent("reviewH11"),
-    reviewP1: makeNodeComponent("reviewP1"),
-    reviewMugshot2: makeNodeComponent("reviewMugshot2"),
-    reviewName2: makeNodeComponent("reviewName2"),
-    reviewIcon4: makeNodeComponent("reviewIcon4"),
-    reviewH12: makeNodeComponent("reviewH12"),
-    reviewP2: makeNodeComponent("reviewP2"),
-    reviewMugshot3: makeNodeComponent("reviewMugshot3"),
-    reviewName3: makeNodeComponent("reviewName3"),
-    reviewIcon5: makeNodeComponent("reviewIcon5"),
-    reviewH122: makeNodeComponent("reviewH122"),
-    reviewP3: makeNodeComponent("reviewP3"),
-    reviewIcon6: makeNodeComponent("reviewIcon6"),
-    reviewStatement: makeNodeComponent("reviewStatement"),
-    ctaCardH1: makeNodeComponent("ctaCardH1"),
-    ctaCardH2: makeNodeComponent("ctaCardH2"),
-    aCta3: makeNodeComponent("aCta3"),
 
     // Metadata about props expected for PlasmicArticle1
     internalVariantProps: PlasmicArticle1__VariantProps,
