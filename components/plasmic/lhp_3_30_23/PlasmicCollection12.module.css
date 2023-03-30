@@ -759,9 +759,10 @@
   position: relative;
   object-fit: cover;
   max-width: 100%;
-  width: 387px;
-  height: 441px;
+  width: 100%;
+  height: auto;
   margin-bottom: 0;
+  min-width: 0;
 }
 .img__t6E9V > picture > img {
   object-fit: cover;
@@ -836,9 +837,10 @@
   position: relative;
   object-fit: cover;
   max-width: 100%;
-  width: 387px;
-  height: 441px;
+  width: 100%;
+  height: auto;
   margin-bottom: 0;
+  min-width: 0;
 }
 .img__fn8VN > picture > img {
   object-fit: cover;
@@ -914,9 +916,10 @@
   position: relative;
   object-fit: cover;
   max-width: 100%;
-  width: 387px;
-  height: 441px;
+  width: 100%;
+  height: auto;
   margin-bottom: 0;
+  min-width: 0;
 }
 .img__x6Zc4 > picture > img {
   object-fit: cover;
@@ -1030,9 +1033,10 @@
   position: relative;
   object-fit: cover;
   max-width: 100%;
-  width: 387px;
-  height: 441px;
+  width: 100%;
+  height: auto;
   margin-bottom: 0;
+  min-width: 0;
 }
 .img__wOtUb > picture > img {
   object-fit: cover;
@@ -1113,9 +1117,10 @@
   position: relative;
   object-fit: cover;
   max-width: 100%;
-  width: 387px;
-  height: 441px;
+  width: 100%;
+  height: auto;
   margin-bottom: 0;
+  min-width: 0;
 }
 .img___5XmxN > picture > img {
   object-fit: cover;

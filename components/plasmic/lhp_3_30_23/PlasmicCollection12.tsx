@@ -1014,12 +1014,12 @@ function PlasmicCollection12__RenderFunc(props: {
               <p.PlasmicImg
                 alt={""}
                 className={classNames(sty.img__t6E9V)}
-                displayHeight={"441px" as const}
+                displayHeight={"auto" as const}
                 displayMaxHeight={"none" as const}
                 displayMaxWidth={"100%" as const}
                 displayMinHeight={"0" as const}
                 displayMinWidth={"0" as const}
-                displayWidth={"387px" as const}
+                displayWidth={"100%" as const}
                 loading={"lazy" as const}
                 src={{
                   src: "/plasmic/lhp_3_30_23/images/_3PacKsvg.svg",
@@ -1085,12 +1085,12 @@ function PlasmicCollection12__RenderFunc(props: {
                 <p.PlasmicImg
                   alt={""}
                   className={classNames(sty.img__fn8VN)}
-                  displayHeight={"441px" as const}
+                  displayHeight={"auto" as const}
                   displayMaxHeight={"none" as const}
                   displayMaxWidth={"100%" as const}
                   displayMinHeight={"0" as const}
                   displayMinWidth={"0" as const}
-                  displayWidth={"387px" as const}
+                  displayWidth={"100%" as const}
                   loading={"lazy" as const}
                   src={{
                     src: "/plasmic/lhp_3_30_23/images/varietYsvg.svg",
@@ -1139,12 +1139,12 @@ function PlasmicCollection12__RenderFunc(props: {
               <p.PlasmicImg
                 alt={""}
                 className={classNames(sty.img__x6Zc4)}
-                displayHeight={"441px" as const}
+                displayHeight={"auto" as const}
                 displayMaxHeight={"none" as const}
                 displayMaxWidth={"100%" as const}
                 displayMinHeight={"0" as const}
                 displayMinWidth={"0" as const}
-                displayWidth={"387px" as const}
+                displayWidth={"100%" as const}
                 loading={"lazy" as const}
                 src={{
                   src: "/plasmic/lhp_3_30_23/images/fueLsvg.svg",
@@ -1204,12 +1204,12 @@ function PlasmicCollection12__RenderFunc(props: {
               <p.PlasmicImg
                 alt={""}
                 className={classNames(sty.img__wOtUb)}
-                displayHeight={"441px" as const}
+                displayHeight={"auto" as const}
                 displayMaxHeight={"none" as const}
                 displayMaxWidth={"100%" as const}
                 displayMinHeight={"0" as const}
                 displayMinWidth={"0" as const}
-                displayWidth={"387px" as const}
+                displayWidth={"100%" as const}
                 loading={"lazy" as const}
                 src={{
                   src: "/plasmic/lhp_3_30_23/images/purEsvg.svg",
@@ -1272,12 +1272,12 @@ function PlasmicCollection12__RenderFunc(props: {
                 <p.PlasmicImg
                   alt={""}
                   className={classNames(sty.img___5XmxN)}
-                  displayHeight={"441px" as const}
+                  displayHeight={"auto" as const}
                   displayMaxHeight={"none" as const}
                   displayMaxWidth={"100%" as const}
                   displayMinHeight={"0" as const}
                   displayMinWidth={"0" as const}
-                  displayWidth={"387px" as const}
+                  displayWidth={"100%" as const}
                   loading={"lazy" as const}
                   src={{
                     src: "/plasmic/lhp_3_30_23/images/melTsvg.svg",
