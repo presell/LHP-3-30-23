@@ -7,7 +7,7 @@
   },
   "style": {
     "scheme": "css-modules",
-    "defaultStyleCssFilePath": "plasmic/plasmic__default_style.css"
+    "defaultStyleCssFilePath": "plasmic/plasmic__default_style.module.css"
   },
   "images": {
     "scheme": "public-files",
@@ -178,7 +178,8 @@
           "name": "TableValue",
           "componentImportPath": "@plasmicpkgs/antd/skinny/registerTable"
         }
-      ]
+      ],
+      "jsBundleThemes": []
     },
     {
       "projectId": "caTPwKxj5ZrD9LQ7DMdK4Z",
@@ -212,7 +213,8 @@
           "name": "DataProvider",
           "componentImportPath": "@plasmicpkgs/plasmic-basic-components"
         }
-      ]
+      ],
+      "jsBundleThemes": []
     },
     {
       "projectId": "7nJ7UcFmq9UzB6eXfC5z4a",
@@ -231,7 +233,8 @@
           "name": "NavigationBar",
           "componentImportPath": "@plasmicpkgs/plasmic-nav"
         }
-      ]
+      ],
+      "jsBundleThemes": []
     },
     {
       "projectId": "kmmGrmCVRJPgZ5NNJMDQ4v",
@@ -260,7 +263,8 @@
           "name": "WordpressProvider",
           "componentImportPath": "@plasmicpkgs/plasmic-wordpress"
         }
-      ]
+      ],
+      "jsBundleThemes": []
     },
     {
       "projectId": "hjKYmYi6HMwK6TRyk7ew5R",
@@ -304,7 +308,8 @@
           "name": "CmsQueryRepeater",
           "componentImportPath": "@plasmicpkgs/plasmic-cms"
         }
-      ]
+      ],
+      "jsBundleThemes": []
     },
     {
       "projectId": "YUiM7yqBWAqsh8KSnrdj7",
@@ -328,7 +333,8 @@
           "name": "GraphqlFetcher",
           "componentImportPath": "@plasmicpkgs/plasmic-query"
         }
-      ]
+      ],
+      "jsBundleThemes": []
     },
     {
       "projectId": "jZt38kveZDTpkrHTcXsHEY",
@@ -689,6 +695,19 @@
             "modulePath": "../pages/disposable-3.tsx"
           },
           "cssFilePath": "plasmic/lhp_3_30_23/PlasmicCollection9.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "Y9OKSrzwzMn",
+          "name": "Collection10",
+          "type": "managed",
+          "projectId": "jZt38kveZDTpkrHTcXsHEY",
+          "renderModuleFilePath": "plasmic/lhp_3_30_23/PlasmicCollection10.tsx",
+          "importSpec": {
+            "modulePath": "../pages/disposable-4.tsx"
+          },
+          "cssFilePath": "plasmic/lhp_3_30_23/PlasmicCollection10.module.css",
           "scheme": "blackbox",
           "componentType": "page"
         }
