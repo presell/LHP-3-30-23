@@ -150,12 +150,12 @@ function PlasmicCollection1__RenderFunc(props: {
             <p.PlasmicImg
               alt={""}
               className={classNames(sty.img__tfmsq)}
-              displayHeight={"441px" as const}
+              displayHeight={"auto" as const}
               displayMaxHeight={"none" as const}
               displayMaxWidth={"100%" as const}
               displayMinHeight={"0" as const}
               displayMinWidth={"0" as const}
-              displayWidth={"387px" as const}
+              displayWidth={"100%" as const}
               loading={"lazy" as const}
               src={{
                 src: "/plasmic/lhp_3_30_23/images/productVariety1C2E7Bd9Ac9C4989Bfad811526Dad7E0250X2502Xjpgpng.png",

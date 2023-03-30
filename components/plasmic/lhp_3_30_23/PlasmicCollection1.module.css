@@ -25,14 +25,21 @@
   margin-bottom: 15px;
   width: 387px;
 }
+@media (min-width: 0px) and (max-width: 768px) {
+  .freeBox__s5Nwo {
+    width: 100%;
+    height: auto;
+    min-width: 0;
+  }
+}
 .img__tfmsq {
   position: relative;
   object-fit: cover;
   max-width: 100%;
-  width: 387px;
-  height: 441px;
+  width: 100%;
+  height: auto;
   margin-bottom: 0;
-  flex-shrink: 0;
+  min-width: 0;
 }
 .img__tfmsq > picture > img {
   object-fit: cover;
