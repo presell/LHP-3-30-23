@@ -294,6 +294,8 @@
 @media (min-width: 0px) and (max-width: 768px) {
   .freeBox__jXs8S {
     width: 392px;
+    padding-left: 0px;
+    padding-right: 0px;
   }
 }
 .freeBox__rw61L {
@@ -360,7 +362,7 @@
 }
 @media (min-width: 0px) and (max-width: 768px) {
   .hiconsLabel1 {
-    font-size: 16px;
+    font-size: 14px;
     width: 100%;
     max-width: none;
     min-width: 0;
@@ -430,7 +432,7 @@
 }
 @media (min-width: 0px) and (max-width: 768px) {
   .hiconsLabel2 {
-    font-size: 16px;
+    font-size: 14px;
   }
 }
 .freeBox___3Calv {
@@ -497,7 +499,7 @@
 }
 @media (min-width: 0px) and (max-width: 768px) {
   .hiconsIcon4 {
-    font-size: 16px;
+    font-size: 14px;
   }
 }
 .freeBox__zyTo6 {
@@ -556,7 +558,7 @@
 }
 @media (min-width: 0px) and (max-width: 768px) {
   .hiconsIcon6 {
-    font-size: 16px;
+    font-size: 14px;
   }
 }
 .offer {
