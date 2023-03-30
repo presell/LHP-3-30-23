@@ -39,6 +39,7 @@ import {
 import Offer1 from "../../Offer1"; // plasmic-import: IfOzLkHETww2DF/component
 import Collection1 from "../../Collection1"; // plasmic-import: vA1Wg9x_sh5TE2/component
 import Collection1Cta from "../../Collection1Cta"; // plasmic-import: MzQ_uHTWm_TQyz/component
+import Collection12 from "../../Collection12"; // plasmic-import: 9Pza3R-tisl/component
 
 import { useScreenVariants as useScreenVariants_3APUwNdKvYe3 } from "./PlasmicGlobalVariant__Screen"; // plasmic-import: 3_a-pUwNdKvYE3/globalVariant
 
@@ -58,6 +59,7 @@ export const PlasmicCollection7__ArgProps = new Array<ArgPropType>();
 
 export type PlasmicCollection7__OverridesType = {
   root?: p.Flex<"div">;
+  logo2?: p.Flex<typeof p.PlasmicImg>;
   logo?: p.Flex<typeof p.PlasmicImg>;
   hiconsH1?: p.Flex<"div">;
   hiconsIcon1?: p.Flex<typeof p.PlasmicImg>;
@@ -82,6 +84,7 @@ export type PlasmicCollection7__OverridesType = {
   offerParagraph?: p.Flex<"div">;
   offerCta?: p.Flex<"div">;
   products?: p.Flex<"div">;
+  collection12?: p.Flex<typeof Collection12>;
 };
 
 export interface DefaultCollection7Props {}
@@ -180,38 +183,404 @@ function PlasmicCollection7__RenderFunc(props: {
             sty.root
           )}
         >
-          <div className={classNames(projectcss.all, sty.freeBox__mlVza)}>
-            <p.PlasmicLink
-              className={classNames(
-                projectcss.all,
-                projectcss.a,
-                sty.link__sxxDk
-              )}
-              component={Link}
-              href={"https://shop.lifehacksplus.com/discount/QUIT15" as const}
-              platform={"nextjs"}
-            >
-              <p.PlasmicImg
-                data-plasmic-name={"logo"}
-                data-plasmic-override={overrides.logo}
-                alt={""}
-                className={classNames(sty.logo)}
-                displayHeight={"auto" as const}
-                displayMaxHeight={"50px" as const}
-                displayMaxWidth={"100%" as const}
-                displayMinHeight={"0" as const}
-                displayMinWidth={"0" as const}
-                displayWidth={"auto" as const}
-                loading={"lazy" as const}
-                src={{
-                  src: "/plasmic/lhp_3_30_23/images/logopng.png",
-                  fullWidth: 276,
-                  fullHeight: 46,
-                  aspectRatio: undefined
-                }}
-              />
-            </p.PlasmicLink>
-          </div>
+          {true ? (
+            <div className={classNames(projectcss.all, sty.freeBox__m30Qn)}>
+              <div
+                className={classNames(
+                  projectcss.all,
+                  projectcss.__wab_text,
+                  sty.text__nHsi1
+                )}
+              >
+                <React.Fragment>
+                  <span
+                    className={"plasmic_default__all plasmic_default__span"}
+                    style={{ color: "#FFFFFF" }}
+                  >
+                    {"FREE SHIPPING ON ORDERS OVER $65"}
+                  </span>
+                </React.Fragment>
+              </div>
+            </div>
+          ) : null}
+          {true ? (
+            <div className={classNames(projectcss.all, sty.freeBox__umDuf)}>
+              <div className={classNames(projectcss.all, sty.freeBox__wgrVo)}>
+                {true ? (
+                  <p.PlasmicLink
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.a,
+                      sty.link__oyg4Y
+                    )}
+                    component={Link}
+                    href={"https://www.sparqlife.com/discount/QUIT15" as const}
+                    platform={"nextjs"}
+                  >
+                    {(
+                      hasVariant(globalVariants, "screen", "mobileOnly")
+                        ? true
+                        : false
+                    ) ? (
+                      <p.PlasmicLink
+                        className={classNames(
+                          projectcss.all,
+                          projectcss.a,
+                          sty.link___6Xty
+                        )}
+                        component={Link}
+                        href={
+                          "https://www.sparqlife.com/discount/QUIT15" as const
+                        }
+                        platform={"nextjs"}
+                      >
+                        <p.PlasmicImg
+                          alt={""}
+                          className={classNames(sty.img__v9J35)}
+                          displayHeight={"auto" as const}
+                          displayMaxHeight={"none" as const}
+                          displayMaxWidth={"100%" as const}
+                          displayMinHeight={"0" as const}
+                          displayMinWidth={"0" as const}
+                          displayWidth={"13px" as const}
+                          loading={"lazy" as const}
+                          src={{
+                            src: "/plasmic/lhp_3_30_23/images/navsvg.svg",
+                            fullWidth: 102,
+                            fullHeight: 150,
+                            aspectRatio: 0.677419
+                          }}
+                        />
+                      </p.PlasmicLink>
+                    ) : null}
+                    <p.PlasmicImg
+                      data-plasmic-name={"logo2"}
+                      data-plasmic-override={overrides.logo2}
+                      alt={""}
+                      className={classNames(sty.logo2)}
+                      displayHeight={"auto" as const}
+                      displayMaxHeight={"50px" as const}
+                      displayMaxWidth={"100%" as const}
+                      displayMinHeight={"0" as const}
+                      displayMinWidth={"0" as const}
+                      displayWidth={"125px" as const}
+                      loading={"lazy" as const}
+                      src={{
+                        src: "/plasmic/lhp_3_30_23/images/logopng.png",
+                        fullWidth: 276,
+                        fullHeight: 46,
+                        aspectRatio: undefined
+                      }}
+                    />
+
+                    {(
+                      hasVariant(globalVariants, "screen", "mobileOnly")
+                        ? true
+                        : true
+                    ) ? (
+                      <p.PlasmicLink
+                        className={classNames(
+                          projectcss.all,
+                          projectcss.a,
+                          projectcss.__wab_text,
+                          sty.link__kdUn2
+                        )}
+                        component={Link}
+                        href={
+                          "https://www.sparqlife.com/discount/QUIT15?redirect=/collections/rechargeable" as const
+                        }
+                        platform={"nextjs"}
+                      >
+                        {"RECHARGABLE"}
+                      </p.PlasmicLink>
+                    ) : null}
+                    {(
+                      hasVariant(globalVariants, "screen", "mobileOnly")
+                        ? true
+                        : true
+                    ) ? (
+                      <p.PlasmicLink
+                        className={classNames(
+                          projectcss.all,
+                          projectcss.a,
+                          projectcss.__wab_text,
+                          sty.link__z0K6A
+                        )}
+                        component={Link}
+                        href={
+                          "https://www.sparqlife.com/discount/QUIT15?redirect=/collections/all" as const
+                        }
+                        platform={"nextjs"}
+                      >
+                        {"DISPOSABLE"}
+                      </p.PlasmicLink>
+                    ) : null}
+                    {(
+                      hasVariant(globalVariants, "screen", "mobileOnly")
+                        ? true
+                        : true
+                    ) ? (
+                      <p.PlasmicLink
+                        className={classNames(
+                          projectcss.all,
+                          projectcss.a,
+                          projectcss.__wab_text,
+                          sty.link___44WZz
+                        )}
+                        component={Link}
+                        href={
+                          "https://www.sparqlife.com/discount/QUIT15?redirect=/collections/volume-buying" as const
+                        }
+                        platform={"nextjs"}
+                      >
+                        {"BULK BUYING"}
+                      </p.PlasmicLink>
+                    ) : null}
+                    {(
+                      hasVariant(globalVariants, "screen", "mobileOnly")
+                        ? true
+                        : true
+                    ) ? (
+                      <p.PlasmicLink
+                        className={classNames(
+                          projectcss.all,
+                          projectcss.a,
+                          projectcss.__wab_text,
+                          sty.link__egEHq
+                        )}
+                        component={Link}
+                        href={
+                          "https://www.sparqlife.com/discount/QUIT15?redirect=/pages/our-story" as const
+                        }
+                        platform={"nextjs"}
+                      >
+                        <React.Fragment>
+                          <span
+                            className={
+                              "plasmic_default__all plasmic_default__span"
+                            }
+                            style={{ color: "#000000" }}
+                          >
+                            {"AUTO-SHIP"}
+                          </span>
+                        </React.Fragment>
+                      </p.PlasmicLink>
+                    ) : null}
+                    {(
+                      hasVariant(globalVariants, "screen", "mobileOnly")
+                        ? true
+                        : true
+                    ) ? (
+                      <p.PlasmicLink
+                        className={classNames(
+                          projectcss.all,
+                          projectcss.a,
+                          projectcss.__wab_text,
+                          sty.link__u6VrO
+                        )}
+                        component={Link}
+                        href={
+                          "https://www.sparqlife.com/discount/QUIT15?redirect=/pages/pod-subscription" as const
+                        }
+                        platform={"nextjs"}
+                      >
+                        <React.Fragment>
+                          <span
+                            className={
+                              "plasmic_default__all plasmic_default__span"
+                            }
+                            style={{ color: "#000000" }}
+                          >
+                            {"ABOUT"}
+                          </span>
+                        </React.Fragment>
+                      </p.PlasmicLink>
+                    ) : null}
+                    {(
+                      hasVariant(globalVariants, "screen", "mobileOnly")
+                        ? true
+                        : true
+                    ) ? (
+                      <p.PlasmicLink
+                        className={classNames(
+                          projectcss.all,
+                          projectcss.a,
+                          projectcss.__wab_text,
+                          sty.link__u6C1R
+                        )}
+                        component={Link}
+                        href={
+                          "https://www.sparqlife.com/discount/QUIT15?redirect=/pages/loyalty-referral-program" as const
+                        }
+                        platform={"nextjs"}
+                      >
+                        <React.Fragment>
+                          <span
+                            className={
+                              "plasmic_default__all plasmic_default__span"
+                            }
+                            style={{ color: "#000000" }}
+                          >
+                            {"REWARDS"}
+                          </span>
+                        </React.Fragment>
+                      </p.PlasmicLink>
+                    ) : null}
+                    {(
+                      hasVariant(globalVariants, "screen", "mobileOnly")
+                        ? true
+                        : true
+                    ) ? (
+                      <p.PlasmicLink
+                        className={classNames(
+                          projectcss.all,
+                          projectcss.a,
+                          projectcss.__wab_text,
+                          sty.link__j8BRr
+                        )}
+                        component={Link}
+                        href={
+                          "https://www.sparqlife.com/account/login" as const
+                        }
+                        platform={"nextjs"}
+                      >
+                        <React.Fragment>
+                          <span
+                            className={
+                              "plasmic_default__all plasmic_default__span"
+                            }
+                            style={{ color: "#000000" }}
+                          >
+                            {"LOGIN"}
+                          </span>
+                        </React.Fragment>
+                      </p.PlasmicLink>
+                    ) : null}
+                    {(
+                      hasVariant(globalVariants, "screen", "mobileOnly")
+                        ? true
+                        : true
+                    ) ? (
+                      <p.PlasmicLink
+                        className={classNames(
+                          projectcss.all,
+                          projectcss.a,
+                          projectcss.__wab_text,
+                          sty.link___74YOc
+                        )}
+                        component={Link}
+                        href={
+                          "https://www.sparqlife.com/account/register" as const
+                        }
+                        platform={"nextjs"}
+                      >
+                        <React.Fragment>
+                          <span
+                            className={
+                              "plasmic_default__all plasmic_default__span"
+                            }
+                            style={{ color: "#000000" }}
+                          >
+                            {"LOGIN"}
+                          </span>
+                        </React.Fragment>
+                      </p.PlasmicLink>
+                    ) : null}
+                    {(
+                      hasVariant(globalVariants, "screen", "mobileOnly")
+                        ? true
+                        : true
+                    ) ? (
+                      <p.PlasmicLink
+                        className={classNames(
+                          projectcss.all,
+                          projectcss.a,
+                          projectcss.__wab_text,
+                          sty.link__uR2PX
+                        )}
+                        component={Link}
+                        href={"https://www.sparqlife.com/cart" as const}
+                        platform={"nextjs"}
+                      >
+                        <React.Fragment>
+                          <span
+                            className={
+                              "plasmic_default__all plasmic_default__span"
+                            }
+                            style={{ color: "#93896A" }}
+                          >
+                            {"CART"}
+                          </span>
+                        </React.Fragment>
+                      </p.PlasmicLink>
+                    ) : null}
+                    <p.PlasmicLink
+                      className={classNames(
+                        projectcss.all,
+                        projectcss.a,
+                        sty.link__ek1Jy
+                      )}
+                      component={Link}
+                      href={"https://www.sparqlife.com/cart" as const}
+                      platform={"nextjs"}
+                    >
+                      <p.PlasmicImg
+                        alt={""}
+                        className={classNames(sty.img__j6Jnh)}
+                        displayHeight={"auto" as const}
+                        displayMaxHeight={"none" as const}
+                        displayMaxWidth={"100%" as const}
+                        displayMinHeight={"0" as const}
+                        displayMinWidth={"0" as const}
+                        displayWidth={"13px" as const}
+                        loading={"lazy" as const}
+                        src={{
+                          src: "/plasmic/lhp_3_30_23/images/cartsvg.svg",
+                          fullWidth: 134,
+                          fullHeight: 150,
+                          aspectRatio: 0.894737
+                        }}
+                      />
+                    </p.PlasmicLink>
+                  </p.PlasmicLink>
+                ) : null}
+              </div>
+            </div>
+          ) : null}
+          {true ? (
+            <div className={classNames(projectcss.all, sty.freeBox__mlVza)}>
+              <p.PlasmicLink
+                className={classNames(
+                  projectcss.all,
+                  projectcss.a,
+                  sty.link__sxxDk
+                )}
+                component={Link}
+                href={"https://shop.lifehacksplus.com/discount/QUIT15" as const}
+                platform={"nextjs"}
+              >
+                <p.PlasmicImg
+                  data-plasmic-name={"logo"}
+                  data-plasmic-override={overrides.logo}
+                  alt={""}
+                  className={classNames(sty.logo)}
+                  displayHeight={"auto" as const}
+                  displayMaxHeight={"50px" as const}
+                  displayMaxWidth={"100%" as const}
+                  displayMinHeight={"0" as const}
+                  displayMinWidth={"0" as const}
+                  displayWidth={"auto" as const}
+                  loading={"lazy" as const}
+                  src={{
+                    src: "/plasmic/lhp_3_30_23/images/logopng.png",
+                    fullWidth: 276,
+                    fullHeight: 46,
+                    aspectRatio: undefined
+                  }}
+                />
+              </p.PlasmicLink>
+            </div>
+          ) : null}
           {true ? (
             <div className={classNames(projectcss.all, sty.freeBox__iZ1Xy)}>
               <div
@@ -462,373 +831,303 @@ function PlasmicCollection7__RenderFunc(props: {
               </div>
             </div>
           ) : null}
-          <div
-            data-plasmic-name={"offer"}
-            data-plasmic-override={overrides.offer}
-            className={classNames(projectcss.all, sty.offer)}
-          >
-            <Offer1
-              data-plasmic-name={"offer1"}
-              data-plasmic-override={overrides.offer1}
-              className={classNames("__wab_instance", sty.offer1)}
-              slot={
-                <React.Fragment>
-                  <p.PlasmicLink
-                    data-plasmic-name={"offerVariant1Url"}
-                    data-plasmic-override={overrides.offerVariant1Url}
-                    className={classNames(
-                      projectcss.all,
-                      projectcss.a,
-                      sty.offerVariant1Url
-                    )}
-                    component={Link}
-                    href={
-                      "https://shop.lifehacksplus.com/discount/FREE?redirect=/cart/39394788108:1,39394868748:1,39394817036:1?note=LHP-cw-offer-widget" as const
-                    }
-                    platform={"nextjs"}
-                  >
-                    <p.PlasmicImg
-                      data-plasmic-name={"offerVariant1Image"}
-                      data-plasmic-override={overrides.offerVariant1Image}
-                      alt={""}
-                      className={classNames(sty.offerVariant1Image)}
-                      displayHeight={"60px" as const}
-                      displayMaxHeight={"none" as const}
-                      displayMaxWidth={"100%" as const}
-                      displayMinHeight={"0" as const}
-                      displayMinWidth={"0" as const}
-                      displayWidth={"60px" as const}
-                      loading={"lazy" as const}
-                      src={(() => {
-                        try {
-                          return $ctx.fetchDyanamicData.records[0].fields
-                            .offer_variant_image1[0].url;
-                        } catch (e) {
-                          if (e instanceof TypeError) {
-                            return "https://site-assets.plasmic.app/c63d1d2e518b2d80727ede4d7588f173.svg";
-                          }
-                          throw e;
-                        }
-                      })()}
-                    />
-                  </p.PlasmicLink>
-                  <div
-                    data-plasmic-name={"offerVariant1Label"}
-                    data-plasmic-override={overrides.offerVariant1Label}
-                    className={classNames(
-                      projectcss.all,
-                      projectcss.__wab_text,
-                      sty.offerVariant1Label
-                    )}
-                  >
-                    {(() => {
-                      try {
-                        return $ctx.fetchDyanamicData.records[0].fields
-                          .offer_variant_label1;
-                      } catch (e) {
-                        if (e instanceof TypeError) {
-                          return "Strawberry";
-                        }
-                        throw e;
-                      }
-                    })()}
-                  </div>
-                </React.Fragment>
-              }
-              slot2={
-                <React.Fragment>
-                  <p.PlasmicLink
-                    data-plasmic-name={"offerVariant2Url"}
-                    data-plasmic-override={overrides.offerVariant2Url}
-                    className={classNames(
-                      projectcss.all,
-                      projectcss.a,
-                      sty.offerVariant2Url
-                    )}
-                    component={Link}
-                    href={
-                      "https://shop.lifehacksplus.com/discount/FREE?redirect=/cart/39394788236:1,39394868940:1,39394817164:1?discount=FREE&note=LHP-cw-offer-widget" as const
-                    }
-                    platform={"nextjs"}
-                  >
-                    <p.PlasmicImg
-                      data-plasmic-name={"offerVariant2Image"}
-                      data-plasmic-override={overrides.offerVariant2Image}
-                      alt={""}
-                      className={classNames(sty.offerVariant2Image)}
-                      displayHeight={"60px" as const}
-                      displayMaxHeight={"none" as const}
-                      displayMaxWidth={"100%" as const}
-                      displayMinHeight={"0" as const}
-                      displayMinWidth={"0" as const}
-                      displayWidth={"60px" as const}
-                      loading={"lazy" as const}
-                      src={(() => {
-                        try {
-                          return $ctx.fetchDyanamicData.records[0].fields
-                            .offer_variant_image2[0].url;
-                        } catch (e) {
-                          if (e instanceof TypeError) {
-                            return "https://site-assets.plasmic.app/eac11844e4f24b6cdb55891eb5d2951d.svg";
-                          }
-                          throw e;
-                        }
-                      })()}
-                    />
-                  </p.PlasmicLink>
-                  <div
-                    data-plasmic-name={"offerVariant2Label"}
-                    data-plasmic-override={overrides.offerVariant2Label}
-                    className={classNames(
-                      projectcss.all,
-                      projectcss.__wab_text,
-                      sty.offerVariant2Label
-                    )}
-                  >
-                    {(() => {
-                      try {
-                        return $ctx.fetchDyanamicData.records[0].fields
-                          .offer_variant_label2;
-                      } catch (e) {
-                        if (e instanceof TypeError) {
-                          return "Vanilla";
-                        }
-                        throw e;
-                      }
-                    })()}
-                  </div>
-                </React.Fragment>
-              }
-              slot3={
-                <div
-                  data-plasmic-name={"offerH1"}
-                  data-plasmic-override={overrides.offerH1}
-                  className={classNames(
-                    projectcss.all,
-                    projectcss.__wab_text,
-                    sty.offerH1
-                  )}
-                >
-                  {(() => {
-                    try {
-                      return $ctx.fetchDyanamicData.records[0].fields.offer_h1;
-                    } catch (e) {
-                      if (e instanceof TypeError) {
-                        return "SPECIAL OFFER";
-                      }
-                      throw e;
-                    }
-                  })()}
-                </div>
-              }
-              slot4={
-                <div
-                  data-plasmic-name={"offerH2"}
-                  data-plasmic-override={overrides.offerH2}
-                  className={classNames(
-                    projectcss.all,
-                    projectcss.__wab_text,
-                    sty.offerH2
-                  )}
-                >
-                  {(() => {
-                    try {
-                      return $ctx.fetchDyanamicData.records[0].fields.offer_h2;
-                    } catch (e) {
-                      if (e instanceof TypeError) {
-                        return "FREE VITAMIN AIR";
-                      }
-                      throw e;
-                    }
-                  })()}
-                </div>
-              }
-              slot5={
-                <div
-                  data-plasmic-name={"offerParagraph"}
-                  data-plasmic-override={overrides.offerParagraph}
-                  className={classNames(
-                    projectcss.all,
-                    projectcss.__wab_text,
-                    sty.offerParagraph
-                  )}
-                >
-                  {(() => {
-                    try {
-                      return $ctx.fetchDyanamicData.records[0].fields
-                        .offer_paragraph;
-                    } catch (e) {
-                      if (e instanceof TypeError) {
-                        return "Money-Back Guarantee: Better Flavor & Harder Hits or Your Money Back.";
-                      }
-                      throw e;
-                    }
-                  })()}
-                </div>
-              }
-              slot6={
-                <div
-                  data-plasmic-name={"offerCta"}
-                  data-plasmic-override={overrides.offerCta}
-                  className={classNames(
-                    projectcss.all,
-                    projectcss.__wab_text,
-                    sty.offerCta
-                  )}
-                >
-                  {(() => {
-                    try {
-                      return $ctx.fetchDyanamicData.records[0].fields.offer_cta;
-                    } catch (e) {
-                      if (e instanceof TypeError) {
-                        return "CHOOSE FLAVOR";
-                      }
-                      throw e;
-                    }
-                  })()}
-                </div>
-              }
+          {true ? (
+            <div
+              data-plasmic-name={"offer"}
+              data-plasmic-override={overrides.offer}
+              className={classNames(projectcss.all, sty.offer)}
             >
-              <p.PlasmicLink
-                className={classNames(
-                  projectcss.all,
-                  projectcss.a,
-                  sty.link__cHio3
-                )}
-                component={Link}
-                platform={"nextjs"}
-              >
-                <p.PlasmicImg
-                  data-plasmic-name={"offerImage"}
-                  data-plasmic-override={overrides.offerImage}
-                  alt={""}
-                  className={classNames(sty.offerImage)}
-                  displayHeight={"423px" as const}
-                  displayMaxHeight={"none" as const}
-                  displayMaxWidth={"100%" as const}
-                  displayMinHeight={"0" as const}
-                  displayMinWidth={"0" as const}
-                  displayWidth={"auto" as const}
-                  loading={"lazy" as const}
-                  src={(() => {
-                    try {
-                      return $ctx.fetchDyanamicData.records[0].fields
-                        .offer_image[0].url;
-                    } catch (e) {
-                      if (e instanceof TypeError) {
-                        return "https://site-assets.plasmic.app/6187c6867888745d6599b0c2b977be87.svg";
+              <Offer1
+                data-plasmic-name={"offer1"}
+                data-plasmic-override={overrides.offer1}
+                className={classNames("__wab_instance", sty.offer1)}
+                slot={
+                  <React.Fragment>
+                    <p.PlasmicLink
+                      data-plasmic-name={"offerVariant1Url"}
+                      data-plasmic-override={overrides.offerVariant1Url}
+                      className={classNames(
+                        projectcss.all,
+                        projectcss.a,
+                        sty.offerVariant1Url
+                      )}
+                      component={Link}
+                      href={
+                        "https://shop.lifehacksplus.com/discount/FREE?redirect=/cart/39394788108:1,39394868748:1,39394817036:1?note=LHP-cw-offer-widget" as const
                       }
-                      throw e;
-                    }
-                  })()}
-                />
-              </p.PlasmicLink>
-            </Offer1>
-          </div>
-          <div
-            data-plasmic-name={"products"}
-            data-plasmic-override={overrides.products}
-            className={classNames(projectcss.all, sty.products)}
-          >
-            <div className={classNames(projectcss.all, sty.columns__fekih)}>
-              <p.PlasmicLink
-                className={classNames(
-                  projectcss.all,
-                  projectcss.a,
-                  sty.column__qBpbC
-                )}
-                component={Link}
-                href={
-                  "https://shop.lifehacksplus.com/discount/QUIT15?redirect=/collections/all/products/3-pack?variant=31099464122437" as const
+                      platform={"nextjs"}
+                    >
+                      <p.PlasmicImg
+                        data-plasmic-name={"offerVariant1Image"}
+                        data-plasmic-override={overrides.offerVariant1Image}
+                        alt={""}
+                        className={classNames(sty.offerVariant1Image)}
+                        displayHeight={"60px" as const}
+                        displayMaxHeight={"none" as const}
+                        displayMaxWidth={"100%" as const}
+                        displayMinHeight={"0" as const}
+                        displayMinWidth={"0" as const}
+                        displayWidth={"60px" as const}
+                        loading={"lazy" as const}
+                        src={(() => {
+                          try {
+                            return $ctx.fetchDyanamicData.records[0].fields
+                              .offer_variant_image1[0].url;
+                          } catch (e) {
+                            if (e instanceof TypeError) {
+                              return "https://site-assets.plasmic.app/c63d1d2e518b2d80727ede4d7588f173.svg";
+                            }
+                            throw e;
+                          }
+                        })()}
+                      />
+                    </p.PlasmicLink>
+                    <div
+                      data-plasmic-name={"offerVariant1Label"}
+                      data-plasmic-override={overrides.offerVariant1Label}
+                      className={classNames(
+                        projectcss.all,
+                        projectcss.__wab_text,
+                        sty.offerVariant1Label
+                      )}
+                    >
+                      {(() => {
+                        try {
+                          return $ctx.fetchDyanamicData.records[0].fields
+                            .offer_variant_label1;
+                        } catch (e) {
+                          if (e instanceof TypeError) {
+                            return "Strawberry";
+                          }
+                          throw e;
+                        }
+                      })()}
+                    </div>
+                  </React.Fragment>
                 }
-                platform={"nextjs"}
-              >
-                <Collection1
-                  className={classNames(
-                    "__wab_instance",
-                    sty.collection1__veAXu
-                  )}
-                  slot9={"$56"}
-                >
-                  <p.PlasmicImg
-                    alt={""}
-                    className={classNames(sty.img__fWvRu)}
-                    displayHeight={"441px" as const}
-                    displayMaxHeight={"none" as const}
-                    displayMaxWidth={"100%" as const}
-                    displayMinHeight={"0" as const}
-                    displayMinWidth={"0" as const}
-                    displayWidth={"387px" as const}
-                    loading={"lazy" as const}
-                    src={{
-                      src: "/plasmic/lhp_3_30_23/images/_3PacKsvg.svg",
-                      fullWidth: 131,
-                      fullHeight: 150,
-                      aspectRatio: 0.875566
-                    }}
-                  />
-                </Collection1>
-                <Collection1Cta
-                  className={classNames(
-                    "__wab_instance",
-                    sty.collection1Cta__cL7NF
-                  )}
-                >
+                slot2={
+                  <React.Fragment>
+                    <p.PlasmicLink
+                      data-plasmic-name={"offerVariant2Url"}
+                      data-plasmic-override={overrides.offerVariant2Url}
+                      className={classNames(
+                        projectcss.all,
+                        projectcss.a,
+                        sty.offerVariant2Url
+                      )}
+                      component={Link}
+                      href={
+                        "https://shop.lifehacksplus.com/discount/FREE?redirect=/cart/39394788236:1,39394868940:1,39394817164:1?discount=FREE&note=LHP-cw-offer-widget" as const
+                      }
+                      platform={"nextjs"}
+                    >
+                      <p.PlasmicImg
+                        data-plasmic-name={"offerVariant2Image"}
+                        data-plasmic-override={overrides.offerVariant2Image}
+                        alt={""}
+                        className={classNames(sty.offerVariant2Image)}
+                        displayHeight={"60px" as const}
+                        displayMaxHeight={"none" as const}
+                        displayMaxWidth={"100%" as const}
+                        displayMinHeight={"0" as const}
+                        displayMinWidth={"0" as const}
+                        displayWidth={"60px" as const}
+                        loading={"lazy" as const}
+                        src={(() => {
+                          try {
+                            return $ctx.fetchDyanamicData.records[0].fields
+                              .offer_variant_image2[0].url;
+                          } catch (e) {
+                            if (e instanceof TypeError) {
+                              return "https://site-assets.plasmic.app/eac11844e4f24b6cdb55891eb5d2951d.svg";
+                            }
+                            throw e;
+                          }
+                        })()}
+                      />
+                    </p.PlasmicLink>
+                    <div
+                      data-plasmic-name={"offerVariant2Label"}
+                      data-plasmic-override={overrides.offerVariant2Label}
+                      className={classNames(
+                        projectcss.all,
+                        projectcss.__wab_text,
+                        sty.offerVariant2Label
+                      )}
+                    >
+                      {(() => {
+                        try {
+                          return $ctx.fetchDyanamicData.records[0].fields
+                            .offer_variant_label2;
+                        } catch (e) {
+                          if (e instanceof TypeError) {
+                            return "Vanilla";
+                          }
+                          throw e;
+                        }
+                      })()}
+                    </div>
+                  </React.Fragment>
+                }
+                slot3={
                   <div
+                    data-plasmic-name={"offerH1"}
+                    data-plasmic-override={overrides.offerH1}
                     className={classNames(
                       projectcss.all,
                       projectcss.__wab_text,
-                      sty.text__xiKgB
+                      sty.offerH1
                     )}
                   >
-                    {"SHOP NOW"}
+                    {(() => {
+                      try {
+                        return $ctx.fetchDyanamicData.records[0].fields
+                          .offer_h1;
+                      } catch (e) {
+                        if (e instanceof TypeError) {
+                          return "SPECIAL OFFER";
+                        }
+                        throw e;
+                      }
+                    })()}
                   </div>
-                </Collection1Cta>
-              </p.PlasmicLink>
-              {true ? (
+                }
+                slot4={
+                  <div
+                    data-plasmic-name={"offerH2"}
+                    data-plasmic-override={overrides.offerH2}
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.__wab_text,
+                      sty.offerH2
+                    )}
+                  >
+                    {(() => {
+                      try {
+                        return $ctx.fetchDyanamicData.records[0].fields
+                          .offer_h2;
+                      } catch (e) {
+                        if (e instanceof TypeError) {
+                          return "FREE VITAMIN AIR";
+                        }
+                        throw e;
+                      }
+                    })()}
+                  </div>
+                }
+                slot5={
+                  <div
+                    data-plasmic-name={"offerParagraph"}
+                    data-plasmic-override={overrides.offerParagraph}
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.__wab_text,
+                      sty.offerParagraph
+                    )}
+                  >
+                    {(() => {
+                      try {
+                        return $ctx.fetchDyanamicData.records[0].fields
+                          .offer_paragraph;
+                      } catch (e) {
+                        if (e instanceof TypeError) {
+                          return "Money-Back Guarantee: Better Flavor & Harder Hits or Your Money Back.";
+                        }
+                        throw e;
+                      }
+                    })()}
+                  </div>
+                }
+                slot6={
+                  <div
+                    data-plasmic-name={"offerCta"}
+                    data-plasmic-override={overrides.offerCta}
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.__wab_text,
+                      sty.offerCta
+                    )}
+                  >
+                    {(() => {
+                      try {
+                        return $ctx.fetchDyanamicData.records[0].fields
+                          .offer_cta;
+                      } catch (e) {
+                        if (e instanceof TypeError) {
+                          return "CHOOSE FLAVOR";
+                        }
+                        throw e;
+                      }
+                    })()}
+                  </div>
+                }
+              >
                 <p.PlasmicLink
                   className={classNames(
                     projectcss.all,
                     projectcss.a,
-                    sty.column__snZzo
+                    sty.link__cHio3
+                  )}
+                  component={Link}
+                  platform={"nextjs"}
+                >
+                  <p.PlasmicImg
+                    data-plasmic-name={"offerImage"}
+                    data-plasmic-override={overrides.offerImage}
+                    alt={""}
+                    className={classNames(sty.offerImage)}
+                    displayHeight={"423px" as const}
+                    displayMaxHeight={"none" as const}
+                    displayMaxWidth={"100%" as const}
+                    displayMinHeight={"0" as const}
+                    displayMinWidth={"0" as const}
+                    displayWidth={"auto" as const}
+                    loading={"lazy" as const}
+                    src={(() => {
+                      try {
+                        return $ctx.fetchDyanamicData.records[0].fields
+                          .offer_image[0].url;
+                      } catch (e) {
+                        if (e instanceof TypeError) {
+                          return "https://site-assets.plasmic.app/6187c6867888745d6599b0c2b977be87.svg";
+                        }
+                        throw e;
+                      }
+                    })()}
+                  />
+                </p.PlasmicLink>
+              </Offer1>
+            </div>
+          ) : null}
+          {true ? (
+            <div
+              data-plasmic-name={"products"}
+              data-plasmic-override={overrides.products}
+              className={classNames(projectcss.all, sty.products)}
+            >
+              <div className={classNames(projectcss.all, sty.columns__fekih)}>
+                <p.PlasmicLink
+                  className={classNames(
+                    projectcss.all,
+                    projectcss.a,
+                    sty.column__qBpbC
                   )}
                   component={Link}
                   href={
-                    "https://shop.lifehacksplus.com/discount/QUIT15?redirect=/collections/all/products/variety-pack" as const
+                    "https://shop.lifehacksplus.com/discount/QUIT15?redirect=/collections/all/products/3-pack?variant=31099464122437" as const
                   }
                   platform={"nextjs"}
                 >
                   <Collection1
                     className={classNames(
                       "__wab_instance",
-                      sty.collection1__v5LQ
+                      sty.collection1__veAXu
                     )}
-                    slot={"VARIETY PACK"}
-                    slot9={
-                      <div
-                        className={classNames(
-                          projectcss.all,
-                          projectcss.__wab_text,
-                          sty.text__w03H9
-                        )}
-                      >
-                        <React.Fragment>
-                          <React.Fragment>{"$98 "}</React.Fragment>
-                          <span
-                            className={
-                              "plasmic_default__all plasmic_default__span"
-                            }
-                            style={{ color: "#FF0000" }}
-                          >
-                            {"+ FREE SHIPPING"}
-                          </span>
-                        </React.Fragment>
-                      </div>
-                    }
+                    slot9={"$56"}
                   >
                     <p.PlasmicImg
                       alt={""}
-                      className={classNames(sty.img__cSRvk)}
+                      className={classNames(sty.img__fWvRu)}
                       displayHeight={"441px" as const}
                       displayMaxHeight={"none" as const}
                       displayMaxWidth={"100%" as const}
@@ -837,238 +1136,112 @@ function PlasmicCollection7__RenderFunc(props: {
                       displayWidth={"387px" as const}
                       loading={"lazy" as const}
                       src={{
-                        src: "/plasmic/lhp_3_30_23/images/varietYsvg.svg",
+                        src: "/plasmic/lhp_3_30_23/images/_3PacKsvg.svg",
                         fullWidth: 131,
                         fullHeight: 150,
-                        aspectRatio: 0.87471
+                        aspectRatio: 0.875566
                       }}
                     />
                   </Collection1>
                   <Collection1Cta
                     className={classNames(
                       "__wab_instance",
-                      sty.collection1Cta__sMjQh
+                      sty.collection1Cta__cL7NF
                     )}
                   >
                     <div
                       className={classNames(
                         projectcss.all,
                         projectcss.__wab_text,
-                        sty.text__xsF9W
+                        sty.text__xiKgB
                       )}
                     >
                       {"SHOP NOW"}
                     </div>
                   </Collection1Cta>
                 </p.PlasmicLink>
-              ) : null}
-              <p.PlasmicLink
-                className={classNames(
-                  projectcss.all,
-                  projectcss.a,
-                  sty.column__eyXuA
-                )}
-                component={Link}
-                href={
-                  "https://shop.lifehacksplus.com/discount/QUIT15?redirect=/collections/all/products/fuel?variant=39394788108" as const
-                }
-                platform={"nextjs"}
-              >
-                <Collection1
-                  className={classNames(
-                    "__wab_instance",
-                    sty.collection1__sEgwt
-                  )}
-                  slot={"FUEL"}
-                  slot3={"Energy-Enhancing"}
-                  slot9={"$20"}
-                >
-                  <p.PlasmicImg
-                    alt={""}
-                    className={classNames(sty.img___8IvKe)}
-                    displayHeight={"441px" as const}
-                    displayMaxHeight={"none" as const}
-                    displayMaxWidth={"100%" as const}
-                    displayMinHeight={"0" as const}
-                    displayMinWidth={"0" as const}
-                    displayWidth={"387px" as const}
-                    loading={"lazy" as const}
-                    src={{
-                      src: "/plasmic/lhp_3_30_23/images/fueLsvg.svg",
-                      fullWidth: 132,
-                      fullHeight: 150,
-                      aspectRatio: 0.877551
-                    }}
-                  />
-                </Collection1>
-                <Collection1Cta
-                  className={classNames(
-                    "__wab_instance",
-                    sty.collection1Cta__j9LBm
-                  )}
-                />
-              </p.PlasmicLink>
-            </div>
-            <div className={classNames(projectcss.all, sty.columns__kOvXl)}>
-              <p.PlasmicLink
-                className={classNames(
-                  projectcss.all,
-                  projectcss.a,
-                  sty.column__cEcUq
-                )}
-                component={Link}
-                href={
-                  "https://shop.lifehacksplus.com/discount/QUIT15?redirect=/collections/all/products/pure?variant=39394817036" as const
-                }
-                platform={"nextjs"}
-              >
-                <Collection1
-                  className={classNames(
-                    "__wab_instance",
-                    sty.collection1__fd4Fk
-                  )}
-                  slot={
-                    <div
-                      className={classNames(
-                        projectcss.all,
-                        projectcss.__wab_text,
-                        sty.text___27Q2I
-                      )}
-                    >
-                      {"PURE"}
-                    </div>
-                  }
-                  slot3={"Age-Defying"}
-                  slot9={
-                    <div
-                      className={classNames(
-                        projectcss.all,
-                        projectcss.__wab_text,
-                        sty.text__b2Uez
-                      )}
-                    >
-                      {"$20"}
-                    </div>
-                  }
-                >
-                  <p.PlasmicImg
-                    alt={""}
-                    className={classNames(sty.img__vnhZu)}
-                    displayHeight={"441px" as const}
-                    displayMaxHeight={"none" as const}
-                    displayMaxWidth={"100%" as const}
-                    displayMinHeight={"0" as const}
-                    displayMinWidth={"0" as const}
-                    displayWidth={"387px" as const}
-                    loading={"lazy" as const}
-                    src={{
-                      src: "/plasmic/lhp_3_30_23/images/purEsvg.svg",
-                      fullWidth: 132,
-                      fullHeight: 150,
-                      aspectRatio: 0.877551
-                    }}
-                  />
-                </Collection1>
-                <Collection1Cta
-                  className={classNames(
-                    "__wab_instance",
-                    sty.collection1Cta__u1WAu
-                  )}
-                >
-                  <div
+                {true ? (
+                  <p.PlasmicLink
                     className={classNames(
                       projectcss.all,
-                      projectcss.__wab_text,
-                      sty.text___6O1Tm
+                      projectcss.a,
+                      sty.column__snZzo
                     )}
+                    component={Link}
+                    href={
+                      "https://shop.lifehacksplus.com/discount/QUIT15?redirect=/collections/all/products/variety-pack" as const
+                    }
+                    platform={"nextjs"}
                   >
-                    {"SHOP NOW"}
-                  </div>
-                </Collection1Cta>
-              </p.PlasmicLink>
-              {true ? (
-                <p.PlasmicLink
-                  className={classNames(
-                    projectcss.all,
-                    projectcss.a,
-                    sty.column__eKo0G
-                  )}
-                  component={Link}
-                  href={
-                    "https://shop.lifehacksplus.com/discount/QUIT15?redirect=/collections/all/products/melt?variant=39394868748" as const
-                  }
-                  platform={"nextjs"}
-                >
-                  <Collection1
-                    className={classNames(
-                      "__wab_instance",
-                      sty.collection1__rKeu
-                    )}
-                    slot={"MELT"}
-                    slot3={"Metabolism-Boosting"}
-                    slot9={
+                    <Collection1
+                      className={classNames(
+                        "__wab_instance",
+                        sty.collection1__v5LQ
+                      )}
+                      slot={"VARIETY PACK"}
+                      slot9={
+                        <div
+                          className={classNames(
+                            projectcss.all,
+                            projectcss.__wab_text,
+                            sty.text__w03H9
+                          )}
+                        >
+                          <React.Fragment>
+                            <React.Fragment>{"$98 "}</React.Fragment>
+                            <span
+                              className={
+                                "plasmic_default__all plasmic_default__span"
+                              }
+                              style={{ color: "#FF0000" }}
+                            >
+                              {"+ FREE SHIPPING"}
+                            </span>
+                          </React.Fragment>
+                        </div>
+                      }
+                    >
+                      <p.PlasmicImg
+                        alt={""}
+                        className={classNames(sty.img__cSRvk)}
+                        displayHeight={"441px" as const}
+                        displayMaxHeight={"none" as const}
+                        displayMaxWidth={"100%" as const}
+                        displayMinHeight={"0" as const}
+                        displayMinWidth={"0" as const}
+                        displayWidth={"387px" as const}
+                        loading={"lazy" as const}
+                        src={{
+                          src: "/plasmic/lhp_3_30_23/images/varietYsvg.svg",
+                          fullWidth: 131,
+                          fullHeight: 150,
+                          aspectRatio: 0.87471
+                        }}
+                      />
+                    </Collection1>
+                    <Collection1Cta
+                      className={classNames(
+                        "__wab_instance",
+                        sty.collection1Cta__sMjQh
+                      )}
+                    >
                       <div
                         className={classNames(
                           projectcss.all,
                           projectcss.__wab_text,
-                          sty.text__fsBw
+                          sty.text__xsF9W
                         )}
                       >
-                        <React.Fragment>
-                          <span
-                            className={
-                              "plasmic_default__all plasmic_default__span"
-                            }
-                            style={{ color: "#000000" }}
-                          >
-                            {"$20"}
-                          </span>
-                        </React.Fragment>
+                        {"SHOP NOW"}
                       </div>
-                    }
-                  >
-                    <p.PlasmicImg
-                      alt={""}
-                      className={classNames(sty.img___40Hgu)}
-                      displayHeight={"441px" as const}
-                      displayMaxHeight={"none" as const}
-                      displayMaxWidth={"100%" as const}
-                      displayMinHeight={"0" as const}
-                      displayMinWidth={"0" as const}
-                      displayWidth={"387px" as const}
-                      loading={"lazy" as const}
-                      src={{
-                        src: "/plasmic/lhp_3_30_23/images/melTsvg.svg",
-                        fullWidth: 132,
-                        fullHeight: 150,
-                        aspectRatio: 0.877551
-                      }}
-                    />
-                  </Collection1>
-                  <Collection1Cta
-                    className={classNames(
-                      "__wab_instance",
-                      sty.collection1Cta__hqsL0
-                    )}
-                  >
-                    <div
-                      className={classNames(
-                        projectcss.all,
-                        projectcss.__wab_text,
-                        sty.text__seniw
-                      )}
-                    >
-                      {"SHOP NOW"}
-                    </div>
-                  </Collection1Cta>
-                </p.PlasmicLink>
-              ) : null}
-              {true ? (
+                    </Collection1Cta>
+                  </p.PlasmicLink>
+                ) : null}
                 <p.PlasmicLink
                   className={classNames(
                     projectcss.all,
                     projectcss.a,
-                    sty.column__qScuo
+                    sty.column__eyXuA
                   )}
                   component={Link}
                   href={
@@ -1079,7 +1252,7 @@ function PlasmicCollection7__RenderFunc(props: {
                   <Collection1
                     className={classNames(
                       "__wab_instance",
-                      sty.collection1__fibia
+                      sty.collection1__sEgwt
                     )}
                     slot={"FUEL"}
                     slot3={"Energy-Enhancing"}
@@ -1087,7 +1260,7 @@ function PlasmicCollection7__RenderFunc(props: {
                   >
                     <p.PlasmicImg
                       alt={""}
-                      className={classNames(sty.img__mejz)}
+                      className={classNames(sty.img___8IvKe)}
                       displayHeight={"441px" as const}
                       displayMaxHeight={"none" as const}
                       displayMaxWidth={"100%" as const}
@@ -1106,13 +1279,221 @@ function PlasmicCollection7__RenderFunc(props: {
                   <Collection1Cta
                     className={classNames(
                       "__wab_instance",
-                      sty.collection1Cta___07HE
+                      sty.collection1Cta__j9LBm
                     )}
                   />
                 </p.PlasmicLink>
-              ) : null}
+              </div>
+              <div className={classNames(projectcss.all, sty.columns__kOvXl)}>
+                <p.PlasmicLink
+                  className={classNames(
+                    projectcss.all,
+                    projectcss.a,
+                    sty.column__cEcUq
+                  )}
+                  component={Link}
+                  href={
+                    "https://shop.lifehacksplus.com/discount/QUIT15?redirect=/collections/all/products/pure?variant=39394817036" as const
+                  }
+                  platform={"nextjs"}
+                >
+                  <Collection1
+                    className={classNames(
+                      "__wab_instance",
+                      sty.collection1__fd4Fk
+                    )}
+                    slot={
+                      <div
+                        className={classNames(
+                          projectcss.all,
+                          projectcss.__wab_text,
+                          sty.text___27Q2I
+                        )}
+                      >
+                        {"PURE"}
+                      </div>
+                    }
+                    slot3={"Age-Defying"}
+                    slot9={
+                      <div
+                        className={classNames(
+                          projectcss.all,
+                          projectcss.__wab_text,
+                          sty.text__b2Uez
+                        )}
+                      >
+                        {"$20"}
+                      </div>
+                    }
+                  >
+                    <p.PlasmicImg
+                      alt={""}
+                      className={classNames(sty.img__vnhZu)}
+                      displayHeight={"441px" as const}
+                      displayMaxHeight={"none" as const}
+                      displayMaxWidth={"100%" as const}
+                      displayMinHeight={"0" as const}
+                      displayMinWidth={"0" as const}
+                      displayWidth={"387px" as const}
+                      loading={"lazy" as const}
+                      src={{
+                        src: "/plasmic/lhp_3_30_23/images/purEsvg.svg",
+                        fullWidth: 132,
+                        fullHeight: 150,
+                        aspectRatio: 0.877551
+                      }}
+                    />
+                  </Collection1>
+                  <Collection1Cta
+                    className={classNames(
+                      "__wab_instance",
+                      sty.collection1Cta__u1WAu
+                    )}
+                  >
+                    <div
+                      className={classNames(
+                        projectcss.all,
+                        projectcss.__wab_text,
+                        sty.text___6O1Tm
+                      )}
+                    >
+                      {"SHOP NOW"}
+                    </div>
+                  </Collection1Cta>
+                </p.PlasmicLink>
+                {true ? (
+                  <p.PlasmicLink
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.a,
+                      sty.column__eKo0G
+                    )}
+                    component={Link}
+                    href={
+                      "https://shop.lifehacksplus.com/discount/QUIT15?redirect=/collections/all/products/melt?variant=39394868748" as const
+                    }
+                    platform={"nextjs"}
+                  >
+                    <Collection1
+                      className={classNames(
+                        "__wab_instance",
+                        sty.collection1__rKeu
+                      )}
+                      slot={"MELT"}
+                      slot3={"Metabolism-Boosting"}
+                      slot9={
+                        <div
+                          className={classNames(
+                            projectcss.all,
+                            projectcss.__wab_text,
+                            sty.text__fsBw
+                          )}
+                        >
+                          <React.Fragment>
+                            <span
+                              className={
+                                "plasmic_default__all plasmic_default__span"
+                              }
+                              style={{ color: "#000000" }}
+                            >
+                              {"$20"}
+                            </span>
+                          </React.Fragment>
+                        </div>
+                      }
+                    >
+                      <p.PlasmicImg
+                        alt={""}
+                        className={classNames(sty.img___40Hgu)}
+                        displayHeight={"441px" as const}
+                        displayMaxHeight={"none" as const}
+                        displayMaxWidth={"100%" as const}
+                        displayMinHeight={"0" as const}
+                        displayMinWidth={"0" as const}
+                        displayWidth={"387px" as const}
+                        loading={"lazy" as const}
+                        src={{
+                          src: "/plasmic/lhp_3_30_23/images/melTsvg.svg",
+                          fullWidth: 132,
+                          fullHeight: 150,
+                          aspectRatio: 0.877551
+                        }}
+                      />
+                    </Collection1>
+                    <Collection1Cta
+                      className={classNames(
+                        "__wab_instance",
+                        sty.collection1Cta__hqsL0
+                      )}
+                    >
+                      <div
+                        className={classNames(
+                          projectcss.all,
+                          projectcss.__wab_text,
+                          sty.text__seniw
+                        )}
+                      >
+                        {"SHOP NOW"}
+                      </div>
+                    </Collection1Cta>
+                  </p.PlasmicLink>
+                ) : null}
+                {true ? (
+                  <p.PlasmicLink
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.a,
+                      sty.column__qScuo
+                    )}
+                    component={Link}
+                    href={
+                      "https://shop.lifehacksplus.com/discount/QUIT15?redirect=/collections/all/products/fuel?variant=39394788108" as const
+                    }
+                    platform={"nextjs"}
+                  >
+                    <Collection1
+                      className={classNames(
+                        "__wab_instance",
+                        sty.collection1__fibia
+                      )}
+                      slot={"FUEL"}
+                      slot3={"Energy-Enhancing"}
+                      slot9={"$20"}
+                    >
+                      <p.PlasmicImg
+                        alt={""}
+                        className={classNames(sty.img__mejz)}
+                        displayHeight={"441px" as const}
+                        displayMaxHeight={"none" as const}
+                        displayMaxWidth={"100%" as const}
+                        displayMinHeight={"0" as const}
+                        displayMinWidth={"0" as const}
+                        displayWidth={"387px" as const}
+                        loading={"lazy" as const}
+                        src={{
+                          src: "/plasmic/lhp_3_30_23/images/fueLsvg.svg",
+                          fullWidth: 132,
+                          fullHeight: 150,
+                          aspectRatio: 0.877551
+                        }}
+                      />
+                    </Collection1>
+                    <Collection1Cta
+                      className={classNames(
+                        "__wab_instance",
+                        sty.collection1Cta___07HE
+                      )}
+                    />
+                  </p.PlasmicLink>
+                ) : null}
+              </div>
             </div>
-          </div>
+          ) : null}
+          <Collection12
+            data-plasmic-name={"collection12"}
+            data-plasmic-override={overrides.collection12}
+            className={classNames("__wab_instance", sty.collection12)}
+          />
         </div>
       </div>
     </React.Fragment>
@@ -1122,6 +1503,7 @@ function PlasmicCollection7__RenderFunc(props: {
 const PlasmicDescendants = {
   root: [
     "root",
+    "logo2",
     "logo",
     "hiconsH1",
     "hiconsIcon1",
@@ -1145,8 +1527,10 @@ const PlasmicDescendants = {
     "offerH2",
     "offerParagraph",
     "offerCta",
-    "products"
+    "products",
+    "collection12"
   ],
+  logo2: ["logo2"],
   logo: ["logo"],
   hiconsH1: ["hiconsH1"],
   hiconsIcon1: ["hiconsIcon1"],
@@ -1197,13 +1581,15 @@ const PlasmicDescendants = {
   offerH2: ["offerH2"],
   offerParagraph: ["offerParagraph"],
   offerCta: ["offerCta"],
-  products: ["products"]
+  products: ["products"],
+  collection12: ["collection12"]
 } as const;
 type NodeNameType = keyof typeof PlasmicDescendants;
 type DescendantsType<T extends NodeNameType> =
   (typeof PlasmicDescendants)[T][number];
 type NodeDefaultElementType = {
   root: "div";
+  logo2: typeof p.PlasmicImg;
   logo: typeof p.PlasmicImg;
   hiconsH1: "div";
   hiconsIcon1: typeof p.PlasmicImg;
@@ -1228,6 +1614,7 @@ type NodeDefaultElementType = {
   offerParagraph: "div";
   offerCta: "div";
   products: "div";
+  collection12: typeof Collection12;
 };
 
 type ReservedPropsType = "variants" | "args" | "overrides";
@@ -1290,6 +1677,7 @@ export const PlasmicCollection7 = Object.assign(
   makeNodeComponent("root"),
   {
     // Helper components rendering sub-elements
+    logo2: makeNodeComponent("logo2"),
     logo: makeNodeComponent("logo"),
     hiconsH1: makeNodeComponent("hiconsH1"),
     hiconsIcon1: makeNodeComponent("hiconsIcon1"),
@@ -1314,6 +1702,7 @@ export const PlasmicCollection7 = Object.assign(
     offerParagraph: makeNodeComponent("offerParagraph"),
     offerCta: makeNodeComponent("offerCta"),
     products: makeNodeComponent("products"),
+    collection12: makeNodeComponent("collection12"),
 
     // Metadata about props expected for PlasmicCollection7
     internalVariantProps: PlasmicCollection7__VariantProps,

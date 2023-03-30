@@ -723,6 +723,19 @@
           "cssFilePath": "plasmic/lhp_3_30_23/PlasmicCollection11.module.css",
           "scheme": "blackbox",
           "componentType": "page"
+        },
+        {
+          "id": "9Pza3R-tisl",
+          "name": "Collection12",
+          "type": "managed",
+          "projectId": "jZt38kveZDTpkrHTcXsHEY",
+          "renderModuleFilePath": "plasmic/lhp_3_30_23/PlasmicCollection12.tsx",
+          "importSpec": {
+            "modulePath": "Collection12.tsx"
+          },
+          "cssFilePath": "plasmic/lhp_3_30_23/PlasmicCollection12.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
         }
       ],
       "icons": [
@@ -1217,6 +1230,21 @@
           "id": "7VKAgh7A2tcqUe",
           "name": "disp offer.gif",
           "filePath": "../public/plasmic/lhp_3_30_23/images/dispOffergif.gif"
+        },
+        {
+          "id": "FE0V05o8S",
+          "name": "cart.png",
+          "filePath": "../public/plasmic/lhp_3_30_23/images/cartpng.png"
+        },
+        {
+          "id": "AJCC8Kw3yJ",
+          "name": "cart.svg",
+          "filePath": "../public/plasmic/lhp_3_30_23/images/cartsvg.svg"
+        },
+        {
+          "id": "jxXWtxMBKw",
+          "name": "nav.svg",
+          "filePath": "../public/plasmic/lhp_3_30_23/images/navsvg.svg"
         }
       ],
       "indirect": false,
