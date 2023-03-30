@@ -762,6 +762,45 @@
           "cssFilePath": "plasmic/lhp_3_30_23/PlasmicCollection13.module.css",
           "scheme": "blackbox",
           "componentType": "page"
+        },
+        {
+          "id": "1wHq-n7bvWLi",
+          "name": "CwAdvert",
+          "type": "managed",
+          "projectId": "jZt38kveZDTpkrHTcXsHEY",
+          "renderModuleFilePath": "plasmic/lhp_3_30_23/PlasmicCwAdvert.tsx",
+          "importSpec": {
+            "modulePath": "CwAdvert.tsx"
+          },
+          "cssFilePath": "plasmic/lhp_3_30_23/PlasmicCwAdvert.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "PfkD9KizcRK5",
+          "name": "Article4Bv",
+          "type": "managed",
+          "projectId": "jZt38kveZDTpkrHTcXsHEY",
+          "renderModuleFilePath": "plasmic/lhp_3_30_23/PlasmicArticle4Bv.tsx",
+          "importSpec": {
+            "modulePath": "../pages/article-4.tsx"
+          },
+          "cssFilePath": "plasmic/lhp_3_30_23/PlasmicArticle4Bv.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "epiRd4VV1SXb",
+          "name": "CwAdvert2",
+          "type": "managed",
+          "projectId": "jZt38kveZDTpkrHTcXsHEY",
+          "renderModuleFilePath": "plasmic/lhp_3_30_23/PlasmicCwAdvert2.tsx",
+          "importSpec": {
+            "modulePath": "CwAdvert2.tsx"
+          },
+          "cssFilePath": "plasmic/lhp_3_30_23/PlasmicCwAdvert2.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
         }
       ],
       "icons": [
