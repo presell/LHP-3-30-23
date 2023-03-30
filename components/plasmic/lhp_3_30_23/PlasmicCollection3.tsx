@@ -40,6 +40,7 @@ import Collection12 from "../../Collection12"; // plasmic-import: 9Pza3R-tisl/co
 import Offer1 from "../../Offer1"; // plasmic-import: IfOzLkHETww2DF/component
 import Collection1 from "../../Collection1"; // plasmic-import: vA1Wg9x_sh5TE2/component
 import Collection1Cta from "../../Collection1Cta"; // plasmic-import: MzQ_uHTWm_TQyz/component
+import CwAdvert2 from "../../CwAdvert2"; // plasmic-import: epiRd4VV1SXb/component
 
 import { useScreenVariants as useScreenVariants_3APUwNdKvYe3 } from "./PlasmicGlobalVariant__Screen"; // plasmic-import: 3_a-pUwNdKvYE3/globalVariant
 
@@ -85,6 +86,7 @@ export type PlasmicCollection3__OverridesType = {
   offerParagraph?: p.Flex<"div">;
   offerCta?: p.Flex<"div">;
   products?: p.Flex<"div">;
+  cwAdvert2?: p.Flex<typeof CwAdvert2>;
 };
 
 export interface DefaultCollection3Props {}
@@ -1496,6 +1498,11 @@ function PlasmicCollection3__RenderFunc(props: {
               </div>
             </div>
           ) : null}
+          <CwAdvert2
+            data-plasmic-name={"cwAdvert2"}
+            data-plasmic-override={overrides.cwAdvert2}
+            className={classNames("__wab_instance", sty.cwAdvert2)}
+          />
         </div>
       </div>
     </React.Fragment>
@@ -1530,7 +1537,8 @@ const PlasmicDescendants = {
     "offerH2",
     "offerParagraph",
     "offerCta",
-    "products"
+    "products",
+    "cwAdvert2"
   ],
   collection12: ["collection12"],
   logo2: ["logo2"],
@@ -1584,7 +1592,8 @@ const PlasmicDescendants = {
   offerH2: ["offerH2"],
   offerParagraph: ["offerParagraph"],
   offerCta: ["offerCta"],
-  products: ["products"]
+  products: ["products"],
+  cwAdvert2: ["cwAdvert2"]
 } as const;
 type NodeNameType = keyof typeof PlasmicDescendants;
 type DescendantsType<T extends NodeNameType> =
@@ -1617,6 +1626,7 @@ type NodeDefaultElementType = {
   offerParagraph: "div";
   offerCta: "div";
   products: "div";
+  cwAdvert2: typeof CwAdvert2;
 };
 
 type ReservedPropsType = "variants" | "args" | "overrides";
@@ -1705,6 +1715,7 @@ export const PlasmicCollection3 = Object.assign(
     offerParagraph: makeNodeComponent("offerParagraph"),
     offerCta: makeNodeComponent("offerCta"),
     products: makeNodeComponent("products"),
+    cwAdvert2: makeNodeComponent("cwAdvert2"),
 
     // Metadata about props expected for PlasmicCollection3
     internalVariantProps: PlasmicCollection3__VariantProps,

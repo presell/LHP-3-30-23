@@ -12,7 +12,7 @@
 .collection12:global(.__wab_instance) {
   max-width: 100%;
   position: relative;
-  display: flex;
+  display: none;
 }
 .freeBox___8BKz {
   position: relative;
@@ -1255,4 +1255,8 @@
   font-weight: 600;
   color: #ffffff;
   min-width: 0;
+}
+.cwAdvert2:global(.__wab_instance) {
+  max-width: 100%;
+  position: relative;
 }

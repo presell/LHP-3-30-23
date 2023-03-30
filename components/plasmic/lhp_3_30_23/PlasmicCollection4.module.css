@@ -1254,4 +1254,9 @@
 .collection12:global(.__wab_instance) {
   max-width: 100%;
   position: relative;
+  display: none;
+}
+.cwAdvert2:global(.__wab_instance) {
+  max-width: 100%;
+  position: relative;
 }
