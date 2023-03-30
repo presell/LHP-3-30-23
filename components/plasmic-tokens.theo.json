@@ -1,0 +1,189 @@
+{
+  "props": [
+    {
+      "name": "#1F7926",
+      "type": "color",
+      "value": "#1F7926",
+      "category": "color",
+      "meta": {
+        "projectId": "jZt38kveZDTpkrHTcXsHEY",
+        "id": "hdNQ8bJEZLcq02"
+      }
+    },
+    {
+      "name": "UnnamedStyleToken",
+      "type": "spacing",
+      "value": "1px",
+      "category": "spacing",
+      "meta": {
+        "projectId": "jZt38kveZDTpkrHTcXsHEY",
+        "id": "WdZPV23br-DzXy"
+      }
+    },
+    {
+      "name": "UnnamedStyleToken 10",
+      "type": "color",
+      "value": "#35B0D1",
+      "category": "color",
+      "meta": {
+        "projectId": "jZt38kveZDTpkrHTcXsHEY",
+        "id": "F8pX3eHJlTUTZu"
+      }
+    },
+    {
+      "name": "UnnamedStyleToken 11",
+      "type": "color",
+      "value": "#35B0D1",
+      "category": "color",
+      "meta": {
+        "projectId": "jZt38kveZDTpkrHTcXsHEY",
+        "id": "b2C9dWCkKw_Ylt"
+      }
+    },
+    {
+      "name": "UnnamedStyleToken 12",
+      "type": "color",
+      "value": "#35B0D1",
+      "category": "color",
+      "meta": {
+        "projectId": "jZt38kveZDTpkrHTcXsHEY",
+        "id": "1ug01OW-NmYyce"
+      }
+    },
+    {
+      "name": "UnnamedStyleToken 13",
+      "type": "color",
+      "value": "#FF7613",
+      "category": "color",
+      "meta": {
+        "projectId": "jZt38kveZDTpkrHTcXsHEY",
+        "id": "Zc-gIqYIlk3hVV"
+      }
+    },
+    {
+      "name": "UnnamedStyleToken 14",
+      "type": "color",
+      "value": "#F35500",
+      "category": "color",
+      "meta": {
+        "projectId": "jZt38kveZDTpkrHTcXsHEY",
+        "id": "mW7b4YoXiFJSuG"
+      }
+    },
+    {
+      "name": "UnnamedStyleToken 15",
+      "type": "color",
+      "value": "#1F7926",
+      "category": "color",
+      "meta": {
+        "projectId": "jZt38kveZDTpkrHTcXsHEY",
+        "id": "X3_Qwyadd3qbLT"
+      }
+    },
+    {
+      "name": "UnnamedStyleToken 16",
+      "type": "color",
+      "value": "#387FCB",
+      "category": "color",
+      "meta": {
+        "projectId": "jZt38kveZDTpkrHTcXsHEY",
+        "id": "SihYZldj2VymBN"
+      }
+    },
+    {
+      "name": "UnnamedStyleToken 2",
+      "type": "color",
+      "value": "#535353",
+      "category": "color",
+      "meta": {
+        "projectId": "jZt38kveZDTpkrHTcXsHEY",
+        "id": "ekpU7Vcx0k8Ygy"
+      }
+    },
+    {
+      "name": "UnnamedStyleToken 3",
+      "type": "color",
+      "value": "#535353",
+      "category": "color",
+      "meta": {
+        "projectId": "jZt38kveZDTpkrHTcXsHEY",
+        "id": "3PrpnKKxa6InVs"
+      }
+    },
+    {
+      "name": "UnnamedStyleToken 4",
+      "type": "color",
+      "value": "#535353",
+      "category": "color",
+      "meta": {
+        "projectId": "jZt38kveZDTpkrHTcXsHEY",
+        "id": "wd9Dm3eSyLEM8p"
+      }
+    },
+    {
+      "name": "UnnamedStyleToken 5",
+      "type": "color",
+      "value": "#535353",
+      "category": "color",
+      "meta": {
+        "projectId": "jZt38kveZDTpkrHTcXsHEY",
+        "id": "Jbby_d-Z4xYUZn"
+      }
+    },
+    {
+      "name": "UnnamedStyleToken 6",
+      "type": "color",
+      "value": "#535353",
+      "category": "color",
+      "meta": {
+        "projectId": "jZt38kveZDTpkrHTcXsHEY",
+        "id": "Jtq7CdxTAZF0R9"
+      }
+    },
+    {
+      "name": "UnnamedStyleToken 7",
+      "type": "color",
+      "value": "#35B0D1",
+      "category": "color",
+      "meta": {
+        "projectId": "jZt38kveZDTpkrHTcXsHEY",
+        "id": "S_EGFpHo7DdMO4"
+      }
+    },
+    {
+      "name": "UnnamedStyleToken 8",
+      "type": "color",
+      "value": "#35B0D1",
+      "category": "color",
+      "meta": {
+        "projectId": "jZt38kveZDTpkrHTcXsHEY",
+        "id": "gA6MeE-EmgZv5C"
+      }
+    },
+    {
+      "name": "UnnamedStyleToken 9",
+      "type": "color",
+      "value": "#35B0D1",
+      "category": "color",
+      "meta": {
+        "projectId": "jZt38kveZDTpkrHTcXsHEY",
+        "id": "PYwc-b-FHOWlSC"
+      }
+    },
+    {
+      "name": "background-color-#1F7926",
+      "type": "color",
+      "value": "#1F7926",
+      "category": "color",
+      "meta": {
+        "projectId": "jZt38kveZDTpkrHTcXsHEY",
+        "id": "2nJcwLo7D47Wmw"
+      }
+    }
+  ],
+  "global": {
+    "meta": {
+      "source": "plasmic.app"
+    }
+  }
+}
