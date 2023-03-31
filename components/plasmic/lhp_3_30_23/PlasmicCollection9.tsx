@@ -41,6 +41,7 @@ import Collection1 from "../../Collection1"; // plasmic-import: vA1Wg9x_sh5TE2/c
 import Collection1Cta from "../../Collection1Cta"; // plasmic-import: MzQ_uHTWm_TQyz/component
 import SqueezeForm from "../../SqueezeForm"; // plasmic-import: RQ9xjyMahGMjxP/component
 import Collection12 from "../../Collection12"; // plasmic-import: 9Pza3R-tisl/component
+import CwAdvert2 from "../../CwAdvert2"; // plasmic-import: epiRd4VV1SXb/component
 
 import { useScreenVariants as useScreenVariants_3APUwNdKvYe3 } from "./PlasmicGlobalVariant__Screen"; // plasmic-import: 3_a-pUwNdKvYE3/globalVariant
 
@@ -87,6 +88,7 @@ export type PlasmicCollection9__OverridesType = {
   products?: p.Flex<"div">;
   squeezeForm?: p.Flex<typeof SqueezeForm>;
   collection12?: p.Flex<typeof Collection12>;
+  cwAdvert2?: p.Flex<typeof CwAdvert2>;
 };
 
 export interface DefaultCollection9Props {}
@@ -185,57 +187,350 @@ function PlasmicCollection9__RenderFunc(props: {
             sty.root
           )}
         >
-          <div className={classNames(projectcss.all, sty.freeBox__v6Z7N)}>
-            <div
-              className={classNames(
-                projectcss.all,
-                projectcss.__wab_text,
-                sty.text__aXIeP
-              )}
-            >
-              <React.Fragment>
-                <span
-                  className={"plasmic_default__all plasmic_default__span"}
-                  style={{ color: "#FFFFFF" }}
-                >
-                  {"FREE SHIPPING ON ORDERS OVER $65"}
-                </span>
-              </React.Fragment>
+          {true ? (
+            <div className={classNames(projectcss.all, sty.freeBox__v6Z7N)}>
+              <div
+                className={classNames(
+                  projectcss.all,
+                  projectcss.__wab_text,
+                  sty.text__aXIeP
+                )}
+              >
+                <React.Fragment>
+                  <span
+                    className={"plasmic_default__all plasmic_default__span"}
+                    style={{ color: "#FFFFFF" }}
+                  >
+                    {"FREE SHIPPING ON ORDERS OVER $65"}
+                  </span>
+                </React.Fragment>
+              </div>
             </div>
-          </div>
-          <div className={classNames(projectcss.all, sty.freeBox___0XhB5)}>
-            <div className={classNames(projectcss.all, sty.freeBox__gUjLh)}>
-              {true ? (
-                <p.PlasmicLink
-                  className={classNames(
-                    projectcss.all,
-                    projectcss.a,
-                    sty.link__rwvwR
-                  )}
-                  component={Link}
-                  href={"https://www.sparqlife.com/discount/QUIT15" as const}
-                  platform={"nextjs"}
-                >
-                  {(
-                    hasVariant(globalVariants, "screen", "mobileOnly")
-                      ? true
-                      : false
-                  ) ? (
+          ) : null}
+          {true ? (
+            <div className={classNames(projectcss.all, sty.freeBox___0XhB5)}>
+              <div className={classNames(projectcss.all, sty.freeBox__gUjLh)}>
+                {true ? (
+                  <p.PlasmicLink
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.a,
+                      sty.link__rwvwR
+                    )}
+                    component={Link}
+                    href={"https://www.sparqlife.com/discount/QUIT15" as const}
+                    platform={"nextjs"}
+                  >
+                    {(
+                      hasVariant(globalVariants, "screen", "mobileOnly")
+                        ? true
+                        : false
+                    ) ? (
+                      <p.PlasmicLink
+                        className={classNames(
+                          projectcss.all,
+                          projectcss.a,
+                          sty.link__prMm9
+                        )}
+                        component={Link}
+                        href={
+                          "https://www.sparqlife.com/discount/QUIT15" as const
+                        }
+                        platform={"nextjs"}
+                      >
+                        <p.PlasmicImg
+                          alt={""}
+                          className={classNames(sty.img__qjb5U)}
+                          displayHeight={"auto" as const}
+                          displayMaxHeight={"none" as const}
+                          displayMaxWidth={"100%" as const}
+                          displayMinHeight={"0" as const}
+                          displayMinWidth={"0" as const}
+                          displayWidth={"13px" as const}
+                          loading={"lazy" as const}
+                          src={{
+                            src: "/plasmic/lhp_3_30_23/images/navsvg.svg",
+                            fullWidth: 102,
+                            fullHeight: 150,
+                            aspectRatio: 0.677419
+                          }}
+                        />
+                      </p.PlasmicLink>
+                    ) : null}
+                    <p.PlasmicImg
+                      data-plasmic-name={"logo2"}
+                      data-plasmic-override={overrides.logo2}
+                      alt={""}
+                      className={classNames(sty.logo2)}
+                      displayHeight={"auto" as const}
+                      displayMaxHeight={"50px" as const}
+                      displayMaxWidth={"100%" as const}
+                      displayMinHeight={"0" as const}
+                      displayMinWidth={"0" as const}
+                      displayWidth={"125px" as const}
+                      loading={"lazy" as const}
+                      src={{
+                        src: "/plasmic/lhp_3_30_23/images/logopng.png",
+                        fullWidth: 276,
+                        fullHeight: 46,
+                        aspectRatio: undefined
+                      }}
+                    />
+
+                    {(
+                      hasVariant(globalVariants, "screen", "mobileOnly")
+                        ? true
+                        : true
+                    ) ? (
+                      <p.PlasmicLink
+                        className={classNames(
+                          projectcss.all,
+                          projectcss.a,
+                          projectcss.__wab_text,
+                          sty.link__fSz3H
+                        )}
+                        component={Link}
+                        href={
+                          "https://www.sparqlife.com/discount/QUIT15?redirect=/collections/rechargeable" as const
+                        }
+                        platform={"nextjs"}
+                      >
+                        {"RECHARGABLE"}
+                      </p.PlasmicLink>
+                    ) : null}
+                    {(
+                      hasVariant(globalVariants, "screen", "mobileOnly")
+                        ? true
+                        : true
+                    ) ? (
+                      <p.PlasmicLink
+                        className={classNames(
+                          projectcss.all,
+                          projectcss.a,
+                          projectcss.__wab_text,
+                          sty.link__quMbs
+                        )}
+                        component={Link}
+                        href={
+                          "https://www.sparqlife.com/discount/QUIT15?redirect=/collections/all" as const
+                        }
+                        platform={"nextjs"}
+                      >
+                        {"DISPOSABLE"}
+                      </p.PlasmicLink>
+                    ) : null}
+                    {(
+                      hasVariant(globalVariants, "screen", "mobileOnly")
+                        ? true
+                        : true
+                    ) ? (
+                      <p.PlasmicLink
+                        className={classNames(
+                          projectcss.all,
+                          projectcss.a,
+                          projectcss.__wab_text,
+                          sty.link___2DUL
+                        )}
+                        component={Link}
+                        href={
+                          "https://www.sparqlife.com/discount/QUIT15?redirect=/collections/volume-buying" as const
+                        }
+                        platform={"nextjs"}
+                      >
+                        {"BULK BUYING"}
+                      </p.PlasmicLink>
+                    ) : null}
+                    {(
+                      hasVariant(globalVariants, "screen", "mobileOnly")
+                        ? true
+                        : true
+                    ) ? (
+                      <p.PlasmicLink
+                        className={classNames(
+                          projectcss.all,
+                          projectcss.a,
+                          projectcss.__wab_text,
+                          sty.link__rC7J
+                        )}
+                        component={Link}
+                        href={
+                          "https://www.sparqlife.com/discount/QUIT15?redirect=/pages/our-story" as const
+                        }
+                        platform={"nextjs"}
+                      >
+                        <React.Fragment>
+                          <span
+                            className={
+                              "plasmic_default__all plasmic_default__span"
+                            }
+                            style={{ color: "#000000" }}
+                          >
+                            {"AUTO-SHIP"}
+                          </span>
+                        </React.Fragment>
+                      </p.PlasmicLink>
+                    ) : null}
+                    {(
+                      hasVariant(globalVariants, "screen", "mobileOnly")
+                        ? true
+                        : true
+                    ) ? (
+                      <p.PlasmicLink
+                        className={classNames(
+                          projectcss.all,
+                          projectcss.a,
+                          projectcss.__wab_text,
+                          sty.link__ulSHc
+                        )}
+                        component={Link}
+                        href={
+                          "https://www.sparqlife.com/discount/QUIT15?redirect=/pages/pod-subscription" as const
+                        }
+                        platform={"nextjs"}
+                      >
+                        <React.Fragment>
+                          <span
+                            className={
+                              "plasmic_default__all plasmic_default__span"
+                            }
+                            style={{ color: "#000000" }}
+                          >
+                            {"ABOUT"}
+                          </span>
+                        </React.Fragment>
+                      </p.PlasmicLink>
+                    ) : null}
+                    {(
+                      hasVariant(globalVariants, "screen", "mobileOnly")
+                        ? true
+                        : true
+                    ) ? (
+                      <p.PlasmicLink
+                        className={classNames(
+                          projectcss.all,
+                          projectcss.a,
+                          projectcss.__wab_text,
+                          sty.link___5J4Rg
+                        )}
+                        component={Link}
+                        href={
+                          "https://www.sparqlife.com/discount/QUIT15?redirect=/pages/loyalty-referral-program" as const
+                        }
+                        platform={"nextjs"}
+                      >
+                        <React.Fragment>
+                          <span
+                            className={
+                              "plasmic_default__all plasmic_default__span"
+                            }
+                            style={{ color: "#000000" }}
+                          >
+                            {"REWARDS"}
+                          </span>
+                        </React.Fragment>
+                      </p.PlasmicLink>
+                    ) : null}
+                    {(
+                      hasVariant(globalVariants, "screen", "mobileOnly")
+                        ? true
+                        : true
+                    ) ? (
+                      <p.PlasmicLink
+                        className={classNames(
+                          projectcss.all,
+                          projectcss.a,
+                          projectcss.__wab_text,
+                          sty.link___2CwLp
+                        )}
+                        component={Link}
+                        href={
+                          "https://www.sparqlife.com/account/login" as const
+                        }
+                        platform={"nextjs"}
+                      >
+                        <React.Fragment>
+                          <span
+                            className={
+                              "plasmic_default__all plasmic_default__span"
+                            }
+                            style={{ color: "#000000" }}
+                          >
+                            {"LOGIN"}
+                          </span>
+                        </React.Fragment>
+                      </p.PlasmicLink>
+                    ) : null}
+                    {(
+                      hasVariant(globalVariants, "screen", "mobileOnly")
+                        ? true
+                        : true
+                    ) ? (
+                      <p.PlasmicLink
+                        className={classNames(
+                          projectcss.all,
+                          projectcss.a,
+                          projectcss.__wab_text,
+                          sty.link__wq6O1
+                        )}
+                        component={Link}
+                        href={
+                          "https://www.sparqlife.com/account/register" as const
+                        }
+                        platform={"nextjs"}
+                      >
+                        <React.Fragment>
+                          <span
+                            className={
+                              "plasmic_default__all plasmic_default__span"
+                            }
+                            style={{ color: "#000000" }}
+                          >
+                            {"LOGIN"}
+                          </span>
+                        </React.Fragment>
+                      </p.PlasmicLink>
+                    ) : null}
+                    {(
+                      hasVariant(globalVariants, "screen", "mobileOnly")
+                        ? true
+                        : true
+                    ) ? (
+                      <p.PlasmicLink
+                        className={classNames(
+                          projectcss.all,
+                          projectcss.a,
+                          projectcss.__wab_text,
+                          sty.link__h45Ek
+                        )}
+                        component={Link}
+                        href={"https://www.sparqlife.com/cart" as const}
+                        platform={"nextjs"}
+                      >
+                        <React.Fragment>
+                          <span
+                            className={
+                              "plasmic_default__all plasmic_default__span"
+                            }
+                            style={{ color: "#93896A" }}
+                          >
+                            {"CART"}
+                          </span>
+                        </React.Fragment>
+                      </p.PlasmicLink>
+                    ) : null}
                     <p.PlasmicLink
                       className={classNames(
                         projectcss.all,
                         projectcss.a,
-                        sty.link__prMm9
+                        sty.link__pWgFe
                       )}
                       component={Link}
-                      href={
-                        "https://www.sparqlife.com/discount/QUIT15" as const
-                      }
+                      href={"https://www.sparqlife.com/cart" as const}
                       platform={"nextjs"}
                     >
                       <p.PlasmicImg
                         alt={""}
-                        className={classNames(sty.img__qjb5U)}
+                        className={classNames(sty.img__eWy2Y)}
                         displayHeight={"auto" as const}
                         displayMaxHeight={"none" as const}
                         displayMaxWidth={"100%" as const}
@@ -244,305 +539,18 @@ function PlasmicCollection9__RenderFunc(props: {
                         displayWidth={"13px" as const}
                         loading={"lazy" as const}
                         src={{
-                          src: "/plasmic/lhp_3_30_23/images/navsvg.svg",
-                          fullWidth: 102,
+                          src: "/plasmic/lhp_3_30_23/images/cartsvg.svg",
+                          fullWidth: 134,
                           fullHeight: 150,
-                          aspectRatio: 0.677419
+                          aspectRatio: 0.894737
                         }}
                       />
                     </p.PlasmicLink>
-                  ) : null}
-                  <p.PlasmicImg
-                    data-plasmic-name={"logo2"}
-                    data-plasmic-override={overrides.logo2}
-                    alt={""}
-                    className={classNames(sty.logo2)}
-                    displayHeight={"auto" as const}
-                    displayMaxHeight={"50px" as const}
-                    displayMaxWidth={"100%" as const}
-                    displayMinHeight={"0" as const}
-                    displayMinWidth={"0" as const}
-                    displayWidth={"125px" as const}
-                    loading={"lazy" as const}
-                    src={{
-                      src: "/plasmic/lhp_3_30_23/images/logopng.png",
-                      fullWidth: 276,
-                      fullHeight: 46,
-                      aspectRatio: undefined
-                    }}
-                  />
-
-                  {(
-                    hasVariant(globalVariants, "screen", "mobileOnly")
-                      ? true
-                      : true
-                  ) ? (
-                    <p.PlasmicLink
-                      className={classNames(
-                        projectcss.all,
-                        projectcss.a,
-                        projectcss.__wab_text,
-                        sty.link__fSz3H
-                      )}
-                      component={Link}
-                      href={
-                        "https://www.sparqlife.com/discount/QUIT15?redirect=/collections/rechargeable" as const
-                      }
-                      platform={"nextjs"}
-                    >
-                      {"RECHARGABLE"}
-                    </p.PlasmicLink>
-                  ) : null}
-                  {(
-                    hasVariant(globalVariants, "screen", "mobileOnly")
-                      ? true
-                      : true
-                  ) ? (
-                    <p.PlasmicLink
-                      className={classNames(
-                        projectcss.all,
-                        projectcss.a,
-                        projectcss.__wab_text,
-                        sty.link__quMbs
-                      )}
-                      component={Link}
-                      href={
-                        "https://www.sparqlife.com/discount/QUIT15?redirect=/collections/all" as const
-                      }
-                      platform={"nextjs"}
-                    >
-                      {"DISPOSABLE"}
-                    </p.PlasmicLink>
-                  ) : null}
-                  {(
-                    hasVariant(globalVariants, "screen", "mobileOnly")
-                      ? true
-                      : true
-                  ) ? (
-                    <p.PlasmicLink
-                      className={classNames(
-                        projectcss.all,
-                        projectcss.a,
-                        projectcss.__wab_text,
-                        sty.link___2DUL
-                      )}
-                      component={Link}
-                      href={
-                        "https://www.sparqlife.com/discount/QUIT15?redirect=/collections/volume-buying" as const
-                      }
-                      platform={"nextjs"}
-                    >
-                      {"BULK BUYING"}
-                    </p.PlasmicLink>
-                  ) : null}
-                  {(
-                    hasVariant(globalVariants, "screen", "mobileOnly")
-                      ? true
-                      : true
-                  ) ? (
-                    <p.PlasmicLink
-                      className={classNames(
-                        projectcss.all,
-                        projectcss.a,
-                        projectcss.__wab_text,
-                        sty.link__rC7J
-                      )}
-                      component={Link}
-                      href={
-                        "https://www.sparqlife.com/discount/QUIT15?redirect=/pages/our-story" as const
-                      }
-                      platform={"nextjs"}
-                    >
-                      <React.Fragment>
-                        <span
-                          className={
-                            "plasmic_default__all plasmic_default__span"
-                          }
-                          style={{ color: "#000000" }}
-                        >
-                          {"AUTO-SHIP"}
-                        </span>
-                      </React.Fragment>
-                    </p.PlasmicLink>
-                  ) : null}
-                  {(
-                    hasVariant(globalVariants, "screen", "mobileOnly")
-                      ? true
-                      : true
-                  ) ? (
-                    <p.PlasmicLink
-                      className={classNames(
-                        projectcss.all,
-                        projectcss.a,
-                        projectcss.__wab_text,
-                        sty.link__ulSHc
-                      )}
-                      component={Link}
-                      href={
-                        "https://www.sparqlife.com/discount/QUIT15?redirect=/pages/pod-subscription" as const
-                      }
-                      platform={"nextjs"}
-                    >
-                      <React.Fragment>
-                        <span
-                          className={
-                            "plasmic_default__all plasmic_default__span"
-                          }
-                          style={{ color: "#000000" }}
-                        >
-                          {"ABOUT"}
-                        </span>
-                      </React.Fragment>
-                    </p.PlasmicLink>
-                  ) : null}
-                  {(
-                    hasVariant(globalVariants, "screen", "mobileOnly")
-                      ? true
-                      : true
-                  ) ? (
-                    <p.PlasmicLink
-                      className={classNames(
-                        projectcss.all,
-                        projectcss.a,
-                        projectcss.__wab_text,
-                        sty.link___5J4Rg
-                      )}
-                      component={Link}
-                      href={
-                        "https://www.sparqlife.com/discount/QUIT15?redirect=/pages/loyalty-referral-program" as const
-                      }
-                      platform={"nextjs"}
-                    >
-                      <React.Fragment>
-                        <span
-                          className={
-                            "plasmic_default__all plasmic_default__span"
-                          }
-                          style={{ color: "#000000" }}
-                        >
-                          {"REWARDS"}
-                        </span>
-                      </React.Fragment>
-                    </p.PlasmicLink>
-                  ) : null}
-                  {(
-                    hasVariant(globalVariants, "screen", "mobileOnly")
-                      ? true
-                      : true
-                  ) ? (
-                    <p.PlasmicLink
-                      className={classNames(
-                        projectcss.all,
-                        projectcss.a,
-                        projectcss.__wab_text,
-                        sty.link___2CwLp
-                      )}
-                      component={Link}
-                      href={"https://www.sparqlife.com/account/login" as const}
-                      platform={"nextjs"}
-                    >
-                      <React.Fragment>
-                        <span
-                          className={
-                            "plasmic_default__all plasmic_default__span"
-                          }
-                          style={{ color: "#000000" }}
-                        >
-                          {"LOGIN"}
-                        </span>
-                      </React.Fragment>
-                    </p.PlasmicLink>
-                  ) : null}
-                  {(
-                    hasVariant(globalVariants, "screen", "mobileOnly")
-                      ? true
-                      : true
-                  ) ? (
-                    <p.PlasmicLink
-                      className={classNames(
-                        projectcss.all,
-                        projectcss.a,
-                        projectcss.__wab_text,
-                        sty.link__wq6O1
-                      )}
-                      component={Link}
-                      href={
-                        "https://www.sparqlife.com/account/register" as const
-                      }
-                      platform={"nextjs"}
-                    >
-                      <React.Fragment>
-                        <span
-                          className={
-                            "plasmic_default__all plasmic_default__span"
-                          }
-                          style={{ color: "#000000" }}
-                        >
-                          {"LOGIN"}
-                        </span>
-                      </React.Fragment>
-                    </p.PlasmicLink>
-                  ) : null}
-                  {(
-                    hasVariant(globalVariants, "screen", "mobileOnly")
-                      ? true
-                      : true
-                  ) ? (
-                    <p.PlasmicLink
-                      className={classNames(
-                        projectcss.all,
-                        projectcss.a,
-                        projectcss.__wab_text,
-                        sty.link__h45Ek
-                      )}
-                      component={Link}
-                      href={"https://www.sparqlife.com/cart" as const}
-                      platform={"nextjs"}
-                    >
-                      <React.Fragment>
-                        <span
-                          className={
-                            "plasmic_default__all plasmic_default__span"
-                          }
-                          style={{ color: "#93896A" }}
-                        >
-                          {"CART"}
-                        </span>
-                      </React.Fragment>
-                    </p.PlasmicLink>
-                  ) : null}
-                  <p.PlasmicLink
-                    className={classNames(
-                      projectcss.all,
-                      projectcss.a,
-                      sty.link__pWgFe
-                    )}
-                    component={Link}
-                    href={"https://www.sparqlife.com/cart" as const}
-                    platform={"nextjs"}
-                  >
-                    <p.PlasmicImg
-                      alt={""}
-                      className={classNames(sty.img__eWy2Y)}
-                      displayHeight={"auto" as const}
-                      displayMaxHeight={"none" as const}
-                      displayMaxWidth={"100%" as const}
-                      displayMinHeight={"0" as const}
-                      displayMinWidth={"0" as const}
-                      displayWidth={"13px" as const}
-                      loading={"lazy" as const}
-                      src={{
-                        src: "/plasmic/lhp_3_30_23/images/cartsvg.svg",
-                        fullWidth: 134,
-                        fullHeight: 150,
-                        aspectRatio: 0.894737
-                      }}
-                    />
                   </p.PlasmicLink>
-                </p.PlasmicLink>
-              ) : null}
+                ) : null}
+              </div>
             </div>
-          </div>
+          ) : null}
           {true ? (
             <div className={classNames(projectcss.all, sty.freeBox___4BYdA)}>
               <p.PlasmicLink
@@ -1485,12 +1493,13 @@ function PlasmicCollection9__RenderFunc(props: {
               </div>
             </div>
           ) : null}
-          <SqueezeForm
-            data-plasmic-name={"squeezeForm"}
-            data-plasmic-override={overrides.squeezeForm}
-            className={classNames("__wab_instance", sty.squeezeForm)}
-          />
-
+          {true ? (
+            <SqueezeForm
+              data-plasmic-name={"squeezeForm"}
+              data-plasmic-override={overrides.squeezeForm}
+              className={classNames("__wab_instance", sty.squeezeForm)}
+            />
+          ) : null}
           {true ? (
             <Collection12
               data-plasmic-name={"collection12"}
@@ -1498,6 +1507,11 @@ function PlasmicCollection9__RenderFunc(props: {
               className={classNames("__wab_instance", sty.collection12)}
             />
           ) : null}
+          <CwAdvert2
+            data-plasmic-name={"cwAdvert2"}
+            data-plasmic-override={overrides.cwAdvert2}
+            className={classNames("__wab_instance", sty.cwAdvert2)}
+          />
         </div>
       </div>
     </React.Fragment>
@@ -1533,7 +1547,8 @@ const PlasmicDescendants = {
     "offerCta",
     "products",
     "squeezeForm",
-    "collection12"
+    "collection12",
+    "cwAdvert2"
   ],
   logo2: ["logo2"],
   logo: ["logo"],
@@ -1588,7 +1603,8 @@ const PlasmicDescendants = {
   offerCta: ["offerCta"],
   products: ["products"],
   squeezeForm: ["squeezeForm"],
-  collection12: ["collection12"]
+  collection12: ["collection12"],
+  cwAdvert2: ["cwAdvert2"]
 } as const;
 type NodeNameType = keyof typeof PlasmicDescendants;
 type DescendantsType<T extends NodeNameType> =
@@ -1622,6 +1638,7 @@ type NodeDefaultElementType = {
   products: "div";
   squeezeForm: typeof SqueezeForm;
   collection12: typeof Collection12;
+  cwAdvert2: typeof CwAdvert2;
 };
 
 type ReservedPropsType = "variants" | "args" | "overrides";
@@ -1711,6 +1728,7 @@ export const PlasmicCollection9 = Object.assign(
     products: makeNodeComponent("products"),
     squeezeForm: makeNodeComponent("squeezeForm"),
     collection12: makeNodeComponent("collection12"),
+    cwAdvert2: makeNodeComponent("cwAdvert2"),
 
     // Metadata about props expected for PlasmicCollection9
     internalVariantProps: PlasmicCollection9__VariantProps,
