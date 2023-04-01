@@ -1626,7 +1626,7 @@ function PlasmicCwAdvert2__RenderFunc(props: {
                 displayMinHeight={"0" as const}
                 displayMinWidth={"0" as const}
                 displayWidth={"100%" as const}
-                loading={"lazy" as const}
+                loading={"eager" as const}
                 src={{
                   src: "/plasmic/lhp_3_30_23/images/disposableOutrogif.gif",
                   fullWidth: 669,
