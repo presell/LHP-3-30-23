@@ -1359,7 +1359,7 @@ function PlasmicCollection12__RenderFunc(props: {
         data-plasmic-override={overrides.embedHtml}
         className={classNames("__wab_instance", sty.embedHtml)}
         code={
-          "<!-- BV Meta Pixel Code -->\n<script>\n!function(f,b,e,v,n,t,s)\n{if(f.fbq)return;n=f.fbq=function(){n.callMethod?\nn.callMethod.apply(n,arguments):n.queue.push(arguments)};\nif(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';\nn.queue=[];t=b.createElement(e);t.async=!0;\nt.src=v;s=b.getElementsByTagName(e)[0];\ns.parentNode.insertBefore(t,s)}(window, document,'script',\n'https://connect.facebook.net/en_US/fbevents.js');\nfbq('init', '744390030232451');\nfbq('track', 'PageView');\nfbq('track', 'ViewContent');\n</script>\n<noscript><img height=\"1\" width=\"1\" style=\"display:none\"\nsrc=\"https://www.facebook.com/tr?id=744390030232451&ev=PageView&noscript=1\"\n/></noscript>\n<!-- End Meta Pixel Code -->\n\n<!-- Meta GetSparq Pixel Code -->\n<script>\n!function(f,b,e,v,n,t,s)\n{if(f.fbq)return;n=f.fbq=function(){n.callMethod?\nn.callMethod.apply(n,arguments):n.queue.push(arguments)};\nif(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';\nn.queue=[];t=b.createElement(e);t.async=!0;\nt.src=v;s=b.getElementsByTagName(e)[0];\ns.parentNode.insertBefore(t,s)}(window, document,'script',\n'https://connect.facebook.net/en_US/fbevents.js');\nfbq('init', '700814538266424');\nfbq('track', 'PageView');\nfbq('track', 'ViewContent');\n</script>\n<noscript><img height=\"1\" width=\"1\" style=\"display:none\"\nsrc=\"https://www.facebook.com/tr?id=700814538266424&ev=PageView&noscript=1\"\n/></noscript>\n<!-- End Meta Pixel Code -->\n\n<!-- Meta LHP Pixel Code -->\n<script>\n!function(f,b,e,v,n,t,s)\n{if(f.fbq)return;n=f.fbq=function(){n.callMethod?\nn.callMethod.apply(n,arguments):n.queue.push(arguments)};\nif(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';\nn.queue=[];t=b.createElement(e);t.async=!0;\nt.src=v;s=b.getElementsByTagName(e)[0];\ns.parentNode.insertBefore(t,s)}(window, document,'script',\n'https://connect.facebook.net/en_US/fbevents.js');\nfbq('init', '1183658905859121');\nfbq('track', 'PageView');\nfbq('track', 'ViewContent');\n</script>\n<noscript><img height=\"1\" width=\"1\" style=\"display:none\"\nsrc=\"https://www.facebook.com/tr?id=1183658905859121&ev=PageView&noscript=1\"\n/></noscript>\n<!-- End Meta Pixel Code -->" as const
+          "<!-- BV Meta Pixel Code -->\n<script>\n!function(f,b,e,v,n,t,s)\n{if(f.fbq)return;n=f.fbq=function(){n.callMethod?\nn.callMethod.apply(n,arguments):n.queue.push(arguments)};\nif(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';\nn.queue=[];t=b.createElement(e);t.async=!0;\nt.src=v;s=b.getElementsByTagName(e)[0];\ns.parentNode.insertBefore(t,s)}(window, document,'script',\n'https://connect.facebook.net/en_US/fbevents.js');\nfbq('init', '744390030232451');\nfbq('track', 'PageView');\n</script>\n<noscript><img height=\"1\" width=\"1\" style=\"display:none\"\nsrc=\"https://www.facebook.com/tr?id=744390030232451&ev=PageView&noscript=1\"\n/></noscript>\n<!-- End Meta Pixel Code -->\n\n<!-- Meta GetSparq Pixel Code -->\n<script>\n!function(f,b,e,v,n,t,s)\n{if(f.fbq)return;n=f.fbq=function(){n.callMethod?\nn.callMethod.apply(n,arguments):n.queue.push(arguments)};\nif(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';\nn.queue=[];t=b.createElement(e);t.async=!0;\nt.src=v;s=b.getElementsByTagName(e)[0];\ns.parentNode.insertBefore(t,s)}(window, document,'script',\n'https://connect.facebook.net/en_US/fbevents.js');\nfbq('init', '700814538266424');\nfbq('track', 'PageView');\n</script>\n<noscript><img height=\"1\" width=\"1\" style=\"display:none\"\nsrc=\"https://www.facebook.com/tr?id=700814538266424&ev=PageView&noscript=1\"\n/></noscript>\n<!-- End Meta Pixel Code -->\n\n<!-- Meta LHP Pixel Code -->\n<script>\n!function(f,b,e,v,n,t,s)\n{if(f.fbq)return;n=f.fbq=function(){n.callMethod?\nn.callMethod.apply(n,arguments):n.queue.push(arguments)};\nif(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';\nn.queue=[];t=b.createElement(e);t.async=!0;\nt.src=v;s=b.getElementsByTagName(e)[0];\ns.parentNode.insertBefore(t,s)}(window, document,'script',\n'https://connect.facebook.net/en_US/fbevents.js');\nfbq('init', '1183658905859121');\nfbq('track', 'PageView');\n</script>\n<noscript><img height=\"1\" width=\"1\" style=\"display:none\"\nsrc=\"https://www.facebook.com/tr?id=1183658905859121&ev=PageView&noscript=1\"\n/></noscript>\n<!-- End Meta Pixel Code -->" as const
         }
       />
     </div>
@@ -1395,7 +1395,6 @@ const PlasmicDescendants = {
     "products",
     "embedHtml"
   ],
-
   logo: ["logo"],
   hiconsH1: ["hiconsH1"],
   hiconsIcon1: ["hiconsIcon1"],
@@ -1421,7 +1420,6 @@ const PlasmicDescendants = {
     "offerParagraph",
     "offerCta"
   ],
-
   offer1: [
     "offer1",
     "offerImage",
@@ -1436,7 +1434,6 @@ const PlasmicDescendants = {
     "offerParagraph",
     "offerCta"
   ],
-
   offerImage: ["offerImage"],
   offerVariant1Url: ["offerVariant1Url", "offerVariant1Image"],
   offerVariant1Image: ["offerVariant1Image"],
@@ -1488,7 +1485,6 @@ type NodeOverridesType<T extends NodeNameType> = Pick<
   PlasmicCollection12__OverridesType,
   DescendantsType<T>
 >;
-
 type NodeComponentProps<T extends NodeNameType> =
   // Explicitly specify variants, args, and overrides as objects
   {
@@ -1524,7 +1520,6 @@ function makeNodeComponent<NodeName extends NodeNameType>(nodeName: NodeName) {
         }),
       [props, nodeName]
     );
-
     return PlasmicCollection12__RenderFunc({
       variants,
       args,
