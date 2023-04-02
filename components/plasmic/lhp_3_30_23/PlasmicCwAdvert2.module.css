@@ -1109,6 +1109,7 @@
   object-fit: cover;
   max-width: 100%;
   width: 100%;
+  margin-bottom: 30px;
   min-width: 0;
 }
 .img__lFtLx > picture > img {
@@ -1137,6 +1138,7 @@
   object-fit: cover;
   max-width: 100%;
   width: 100%;
+  margin-bottom: 30px;
   min-width: 0;
 }
 .img__lfhVw > picture > img {
