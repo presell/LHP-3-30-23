@@ -65,7 +65,6 @@ export const PlasmicCwAdvert2__ArgProps = new Array<ArgPropType>(
 
 export type PlasmicCwAdvert2__OverridesType = {
   root?: p.Flex<"div">;
-  embedHtml?: p.Flex<typeof Embed>;
   nav?: p.Flex<"div">;
   logo?: p.Flex<typeof p.PlasmicImg>;
   aSlogan?: p.Flex<"div">;
@@ -80,10 +79,11 @@ export type PlasmicCwAdvert2__OverridesType = {
   press?: p.Flex<"div">;
   pressIcons?: p.Flex<typeof p.PlasmicImg>;
   paragraph1?: p.Flex<"div">;
-  h21?: p.Flex<"div">;
   heroImage?: p.Flex<typeof p.PlasmicImg>;
+  h21?: p.Flex<"div">;
   paragraph2?: p.Flex<"div">;
   h22?: p.Flex<"div">;
+  paragraph22?: p.Flex<"div">;
   image2?: p.Flex<typeof p.PlasmicImg>;
   paragraph31?: p.Flex<"div">;
   paragraph32?: p.Flex<"div">;
@@ -105,6 +105,10 @@ export type PlasmicCwAdvert2__OverridesType = {
   paragraph48?: p.Flex<"div">;
   paragraph49?: p.Flex<"div">;
   paragraph410?: p.Flex<"div">;
+  paragraph23?: p.Flex<"div">;
+  paragraph24?: p.Flex<"div">;
+  paragraph25?: p.Flex<"div">;
+  paragraph26?: p.Flex<"div">;
   h25?: p.Flex<"div">;
   h35?: p.Flex<"div">;
   offer2?: p.Flex<typeof Offer2>;
@@ -213,9 +217,7 @@ function PlasmicCwAdvert2__RenderFunc(props: {
       )}
     >
       <Embed
-        data-plasmic-name={"embedHtml"}
-        data-plasmic-override={overrides.embedHtml}
-        className={classNames("__wab_instance", sty.embedHtml)}
+        className={classNames("__wab_instance", sty.embedHtml__zYtTc)}
         code={
           "<!-- BV Meta Pixel Code -->\n<script>\n!function(f,b,e,v,n,t,s)\n{if(f.fbq)return;n=f.fbq=function(){n.callMethod?\nn.callMethod.apply(n,arguments):n.queue.push(arguments)};\nif(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';\nn.queue=[];t=b.createElement(e);t.async=!0;\nt.src=v;s=b.getElementsByTagName(e)[0];\ns.parentNode.insertBefore(t,s)}(window, document,'script',\n'https://connect.facebook.net/en_US/fbevents.js');\nfbq('init', '744390030232451');\nfbq('track', 'PageView');\n</script>\n<noscript><img height=\"1\" width=\"1\" style=\"display:none\"\nsrc=\"https://www.facebook.com/tr?id=744390030232451&ev=PageView&noscript=1\"\n/></noscript>\n<!-- End Meta Pixel Code -->\n\n<!-- Meta GetSparq Pixel Code -->\n<script>\n!function(f,b,e,v,n,t,s)\n{if(f.fbq)return;n=f.fbq=function(){n.callMethod?\nn.callMethod.apply(n,arguments):n.queue.push(arguments)};\nif(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';\nn.queue=[];t=b.createElement(e);t.async=!0;\nt.src=v;s=b.getElementsByTagName(e)[0];\ns.parentNode.insertBefore(t,s)}(window, document,'script',\n'https://connect.facebook.net/en_US/fbevents.js');\nfbq('init', '700814538266424');\nfbq('track', 'PageView');\n</script>\n<noscript><img height=\"1\" width=\"1\" style=\"display:none\"\nsrc=\"https://www.facebook.com/tr?id=700814538266424&ev=PageView&noscript=1\"\n/></noscript>\n<!-- End Meta Pixel Code -->\n\n<!-- Meta LHP Pixel Code -->\n<script>\n!function(f,b,e,v,n,t,s)\n{if(f.fbq)return;n=f.fbq=function(){n.callMethod?\nn.callMethod.apply(n,arguments):n.queue.push(arguments)};\nif(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';\nn.queue=[];t=b.createElement(e);t.async=!0;\nt.src=v;s=b.getElementsByTagName(e)[0];\ns.parentNode.insertBefore(t,s)}(window, document,'script',\n'https://connect.facebook.net/en_US/fbevents.js');\nfbq('init', '1183658905859121');\nfbq('track', 'PageView');\n</script>\n<noscript><img height=\"1\" width=\"1\" style=\"display:none\"\nsrc=\"https://www.facebook.com/tr?id=1183658905859121&ev=PageView&noscript=1\"\n/></noscript>\n<!-- End Meta Pixel Code -->" as const
         }
@@ -471,53 +473,44 @@ function PlasmicCwAdvert2__RenderFunc(props: {
                 />
               </div>
             ) : null}
-            <div
-              data-plasmic-name={"paragraph1"}
-              data-plasmic-override={overrides.paragraph1}
-              className={classNames(
-                projectcss.all,
-                projectcss.__wab_text,
-                sty.paragraph1
-              )}
-            >
-              <React.Fragment>
+            {true ? (
+              <div
+                data-plasmic-name={"paragraph1"}
+                data-plasmic-override={overrides.paragraph1}
+                className={classNames(
+                  projectcss.all,
+                  projectcss.__wab_text,
+                  sty.paragraph1
+                )}
+              >
                 <React.Fragment>
-                  {"Imagine a world where you could "}
-                </React.Fragment>
-                {
-                  <p.PlasmicLink
-                    className={classNames(
-                      projectcss.all,
-                      projectcss.a,
-                      projectcss.__wab_text,
-                      projectcss.plasmic_default__inline,
-                      sty.link__gyFKm
-                    )}
-                    component={Link}
-                    href={`/disposable-offer`}
-                    platform={"nextjs"}
-                  >
-                    {"inhale vitamins"}
-                  </p.PlasmicLink>
-                }
-                <React.Fragment>
+                  <React.Fragment>
+                    {"Imagine a world where you could "}
+                  </React.Fragment>
                   {
-                    ", minerals, and antioxidants to improve your well-being.\n\nThink about what it would be like to never have to suffer again through the jitters and anxiety that traditional inhalation methods bring.\n\nWhat if you’ll no longer have to choose between your habit or quitting, or feel like you are compromising on health just to get the throat hit and flavor you enjoy?"
+                    <p.PlasmicLink
+                      className={classNames(
+                        projectcss.all,
+                        projectcss.a,
+                        projectcss.__wab_text,
+                        projectcss.plasmic_default__inline,
+                        sty.link__gyFKm
+                      )}
+                      component={Link}
+                      href={`/disposable-offer`}
+                      platform={"nextjs"}
+                    >
+                      {"inhale vitamins"}
+                    </p.PlasmicLink>
                   }
+                  <React.Fragment>
+                    {
+                      ", minerals, and antioxidants to improve your well-being.\n\nThink about what it would be like to never have to suffer again through the jitters and anxiety that traditional inhalation methods bring.\n\nWhat if you’ll no longer have to choose between your habit or quitting, or feel like you are compromising on health just to get the throat hit and flavor you enjoy?"
+                    }
+                  </React.Fragment>
                 </React.Fragment>
-              </React.Fragment>
-            </div>
-            <div
-              data-plasmic-name={"h21"}
-              data-plasmic-override={overrides.h21}
-              className={classNames(
-                projectcss.all,
-                projectcss.__wab_text,
-                sty.h21
-              )}
-            >
-              {"All Of The Above Is Possible…With Sparq’s Vitamin Air®."}
-            </div>
+              </div>
+            ) : null}
             <p.PlasmicLink
               className={classNames(
                 projectcss.all,
@@ -548,6 +541,19 @@ function PlasmicCwAdvert2__RenderFunc(props: {
                 }}
               />
             </p.PlasmicLink>
+            {true ? (
+              <div
+                data-plasmic-name={"h21"}
+                data-plasmic-override={overrides.h21}
+                className={classNames(
+                  projectcss.all,
+                  projectcss.__wab_text,
+                  sty.h21
+                )}
+              >
+                {"Scientists Invent Healthy Vitamin Diffuser:"}
+              </div>
+            ) : null}
             <div
               data-plasmic-name={"paragraph2"}
               data-plasmic-override={overrides.paragraph2}
@@ -558,13 +564,7 @@ function PlasmicCwAdvert2__RenderFunc(props: {
               )}
             >
               <React.Fragment>
-                <span
-                  className={"plasmic_default__all plasmic_default__span"}
-                  style={{ fontWeight: 700, color: "#93896A" }}
-                >
-                  {"When you make the switch to "}
-                </span>
-                <React.Fragment>{""}</React.Fragment>
+                <React.Fragment>{"This "}</React.Fragment>
                 {
                   <p.PlasmicLink
                     className={classNames(
@@ -572,97 +572,18 @@ function PlasmicCwAdvert2__RenderFunc(props: {
                       projectcss.a,
                       projectcss.__wab_text,
                       projectcss.plasmic_default__inline,
-                      sty.link__hEhRl
-                    )}
-                    component={Link}
-                    href={
-                      "https://blog.quittinghacks.com/disposable-offer" as const
-                    }
-                    platform={"nextjs"}
-                  >
-                    <React.Fragment>
-                      <span
-                        className={"plasmic_default__all plasmic_default__span"}
-                        style={{ fontWeight: 700, color: "#93896A" }}
-                      >
-                        {"Sparq"}
-                      </span>
-                    </React.Fragment>
-                  </p.PlasmicLink>
-                }
-                <React.Fragment>{""}</React.Fragment>
-                <span
-                  className={"plasmic_default__all plasmic_default__span"}
-                  style={{ fontWeight: 700, color: "#93896A" }}
-                >
-                  {
-                    ", you're choosing to go beyond your typical inhalation experience."
-                  }
-                </span>
-                <React.Fragment>{"\n\nWith "}</React.Fragment>
-                {
-                  <p.PlasmicLink
-                    className={classNames(
-                      projectcss.all,
-                      projectcss.a,
-                      projectcss.__wab_text,
-                      projectcss.plasmic_default__inline,
-                      sty.link__eaAij
+                      sty.link__lJfUo
                     )}
                     component={Link}
                     href={`/disposable-offer`}
                     platform={"nextjs"}
                   >
-                    {"Sparq’s Vitamin Air"}
+                    {"new invention"}
                   </p.PlasmicLink>
                 }
                 <React.Fragment>
                   {
-                    ", you don’t have to choose between staying healthy and treating yourself. Instead, you can lead a healthy lifestyle while also quenching your thirst for that truly satisfying hit.\n\nYou can enjoy "
-                  }
-                </React.Fragment>
-                {
-                  <p.PlasmicLink
-                    className={classNames(
-                      projectcss.all,
-                      projectcss.a,
-                      projectcss.__wab_text,
-                      projectcss.plasmic_default__inline,
-                      sty.link__iBzW
-                    )}
-                    component={Link}
-                    href={`/disposable-offer`}
-                    platform={"nextjs"}
-                  >
-                    {
-                      "delicious hitting flavors in the form of a slim, compact, and odorless device"
-                    }
-                  </p.PlasmicLink>
-                }
-                <React.Fragment>
-                  {
-                    " while delivering nutrients and botanicals to your body. They will give you energy, mental clarity, boost your metabolism, and protect your body against aging.\n\n"
-                  }
-                </React.Fragment>
-                {
-                  <p.PlasmicLink
-                    className={classNames(
-                      projectcss.all,
-                      projectcss.a,
-                      projectcss.__wab_text,
-                      projectcss.plasmic_default__inline,
-                      sty.link__jvCkE
-                    )}
-                    component={Link}
-                    href={`/disposable-offer`}
-                    platform={"nextjs"}
-                  >
-                    {"Sparq"}
-                  </p.PlasmicLink>
-                }
-                <React.Fragment>
-                  {
-                    " provides a satisfying inhalation experience without any of the harmful chemicals or stimulants."
+                    " is turning bad habits into healthy ones…\n\nImagine being nic-free without having to quit!\n\nSounds too good to be true, right?\n\nThe solution is simple:"
                   }
                 </React.Fragment>
               </React.Fragment>
@@ -676,7 +597,167 @@ function PlasmicCwAdvert2__RenderFunc(props: {
                 sty.h22
               )}
             >
-              {"Are YOU One Of These Two Types Of People?"}
+              {"Introducing Vitamin Air:"}
+            </div>
+            <div
+              data-plasmic-name={"paragraph22"}
+              data-plasmic-override={overrides.paragraph22}
+              className={classNames(
+                projectcss.all,
+                projectcss.__wab_text,
+                sty.paragraph22
+              )}
+            >
+              <React.Fragment>
+                <React.Fragment>{""}</React.Fragment>
+                {
+                  <p.PlasmicLink
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.a,
+                      projectcss.__wab_text,
+                      projectcss.plasmic_default__inline,
+                      sty.link__xoFjp
+                    )}
+                    component={Link}
+                    href={`/disposable-offer`}
+                    platform={"nextjs"}
+                  >
+                    {"Vitamin Air is the Evolution of Inhalation."}
+                  </p.PlasmicLink>
+                }
+                <React.Fragment>
+                  {
+                    "\n\nEach breath is filled with vitamins that melt away stress and anxiety while instantly eliminating nic-cravings.\n\nThere are no sacrifices here…\n\nThe device hits hard and packs intense flavor!"
+                  }
+                </React.Fragment>
+              </React.Fragment>
+            </div>
+            <div className={classNames(projectcss.all, sty.freeBox__d27Sz)}>
+              <p.PlasmicImg
+                alt={""}
+                className={classNames(sty.img__hc3E8)}
+                displayHeight={
+                  hasVariant(globalVariants, "screen", "mobileOnly")
+                    ? ("auto" as const)
+                    : ("250px" as const)
+                }
+                displayMaxHeight={"none" as const}
+                displayMaxWidth={"100%" as const}
+                displayMinHeight={"0" as const}
+                displayMinWidth={"0" as const}
+                displayWidth={
+                  hasVariant(globalVariants, "screen", "mobileOnly")
+                    ? ("50px" as const)
+                    : ("auto" as const)
+                }
+                loading={"lazy" as const}
+                src={{
+                  src: "/plasmic/lhp_3_30_23/images/negativepng.png",
+                  fullWidth: 179,
+                  fullHeight: 338,
+                  aspectRatio: undefined
+                }}
+              />
+
+              <div className={classNames(projectcss.all, sty.freeBox__aQd1T)}>
+                <div
+                  className={classNames(
+                    projectcss.all,
+                    projectcss.__wab_text,
+                    sty.text__aXax1
+                  )}
+                >
+                  {hasVariant(globalVariants, "screen", "mobileOnly")
+                    ? "❌ Addictive Nic"
+                    : "❌ Addictive Nic"}
+                </div>
+                <div
+                  className={classNames(
+                    projectcss.all,
+                    projectcss.__wab_text,
+                    sty.text__ex3Vw
+                  )}
+                >
+                  {hasVariant(globalVariants, "screen", "mobileOnly")
+                    ? "❌ Harmful Chemicals"
+                    : "❌ Harmful Chemicals"}
+                </div>
+                <div
+                  className={classNames(
+                    projectcss.all,
+                    projectcss.__wab_text,
+                    sty.text__na4G
+                  )}
+                >
+                  {"❌ Destroys Lungs"}
+                </div>
+              </div>
+              <p.PlasmicLink
+                className={classNames(
+                  projectcss.all,
+                  projectcss.a,
+                  sty.link__nOmQ
+                )}
+                component={Link}
+                href={`/disposable-offer`}
+                platform={"nextjs"}
+              >
+                <p.PlasmicImg
+                  alt={""}
+                  className={classNames(sty.img__sw6Gy)}
+                  displayHeight={
+                    hasVariant(globalVariants, "screen", "mobileOnly")
+                      ? ("auto" as const)
+                      : ("250px" as const)
+                  }
+                  displayMaxHeight={"none" as const}
+                  displayMaxWidth={"100%" as const}
+                  displayMinHeight={"0" as const}
+                  displayMinWidth={"0" as const}
+                  displayWidth={
+                    hasVariant(globalVariants, "screen", "mobileOnly")
+                      ? ("50px" as const)
+                      : ("auto" as const)
+                  }
+                  loading={"lazy" as const}
+                  src={{
+                    src: "/plasmic/lhp_3_30_23/images/fuelIso21Png.png",
+                    fullWidth: 126,
+                    fullHeight: 296,
+                    aspectRatio: undefined
+                  }}
+                />
+              </p.PlasmicLink>
+              <div className={classNames(projectcss.all, sty.freeBox___8Z2Tn)}>
+                <div
+                  className={classNames(
+                    projectcss.all,
+                    projectcss.__wab_text,
+                    sty.text__ymW5S
+                  )}
+                >
+                  {"✅ ZERO Nic"}
+                </div>
+                <div
+                  className={classNames(
+                    projectcss.all,
+                    projectcss.__wab_text,
+                    sty.text___1Feh6
+                  )}
+                >
+                  {"✅ Lab Tested"}
+                </div>
+                <div
+                  className={classNames(
+                    projectcss.all,
+                    projectcss.__wab_text,
+                    sty.text__h84C
+                  )}
+                >
+                  {"✅ Happy Lungs"}
+                </div>
+              </div>
             </div>
             {true ? (
               <p.PlasmicImg
@@ -699,94 +780,100 @@ function PlasmicCwAdvert2__RenderFunc(props: {
                 }}
               />
             ) : null}
-            <div className={classNames(projectcss.all, sty.freeBox___4SNrw)}>
-              <div
-                className={classNames(
-                  projectcss.all,
-                  projectcss.__wab_text,
-                  sty.text__ovf29
-                )}
-              >
-                {"#1"}
-              </div>
-              <div
-                data-plasmic-name={"paragraph31"}
-                data-plasmic-override={overrides.paragraph31}
-                className={classNames(
-                  projectcss.all,
-                  projectcss.__wab_text,
-                  sty.paragraph31
-                )}
-              >
-                {
-                  "If you're trying to quit, it can feel like every craving is another insurmountable problem to face.. Even if you've managed to go several days, weeks, or months without caving, you still crave that puff…that throat hit…that oh so satisfying flavor.\n\nWe know nic is addictive…but did you know it’s the oral fixation that keeps bringing you back? When you drop the habit, nic is out of your system in 72 hours but the oral fixation can last in the brain for up to 10 years!\n\nThat's why no matter how many times you try, you find yourself going back to your old habit again and again. Fortunately, we've got the alternative that will break this repetitive pattern!"
-                }
-              </div>
-            </div>
-            <div className={classNames(projectcss.all, sty.freeBox__urCqF)}>
-              <div
-                className={classNames(
-                  projectcss.all,
-                  projectcss.__wab_text,
-                  sty.text__kr7WP
-                )}
-              >
-                {"#2"}
-              </div>
-              {true ? (
+            {true ? (
+              <div className={classNames(projectcss.all, sty.freeBox___4SNrw)}>
                 <div
-                  data-plasmic-name={"paragraph32"}
-                  data-plasmic-override={overrides.paragraph32}
                   className={classNames(
                     projectcss.all,
                     projectcss.__wab_text,
-                    sty.paragraph32
+                    sty.text__ovf29
                   )}
                 >
-                  <React.Fragment>
-                    <React.Fragment>
-                      {
-                        "The world is your oyster, and you want nothing less than to enjoy it to the fullest extent. Maybe you're not into using inhalation devices but you've always been curious as to what all the hype is about. "
-                      }
-                    </React.Fragment>
-                    {
-                      <p.PlasmicLink
-                        className={classNames(
-                          projectcss.all,
-                          projectcss.a,
-                          projectcss.__wab_text,
-                          projectcss.plasmic_default__inline,
-                          sty.link__kcEjp
-                        )}
-                        component={Link}
-                        href={
-                          "https://blog.quittinghacks.com/disposable-offer" as const
-                        }
-                        platform={"nextjs"}
-                      >
-                        {"Sparq"}
-                      </p.PlasmicLink>
-                    }
-                    <React.Fragment>
-                      {
-                        " offers the perfect option for the curious spirit: all of the enjoyment and flavors of traditional products/devices but without the harmful chemicals or addictive stimulants!\n\nNatural flavoring that is intensely delicious, vitamins, amino acids and botanicals, all wrapped in a device designed to provide a superior inhalation experience."
-                      }
-                    </React.Fragment>
-                  </React.Fragment>
+                  {"#1"}
                 </div>
-              ) : null}
-            </div>
-            <div
-              data-plasmic-name={"h23"}
-              data-plasmic-override={overrides.h23}
-              className={classNames(
-                projectcss.all,
-                projectcss.__wab_text,
-                sty.h23
-              )}
-            >
-              {"Sparq Has The Answers You’re Looking for:"}
-            </div>
+                <div
+                  data-plasmic-name={"paragraph31"}
+                  data-plasmic-override={overrides.paragraph31}
+                  className={classNames(
+                    projectcss.all,
+                    projectcss.__wab_text,
+                    sty.paragraph31
+                  )}
+                >
+                  {
+                    "If you're trying to quit, it can feel like every craving is another insurmountable problem to face.. Even if you've managed to go several days, weeks, or months without caving, you still crave that puff…that throat hit…that oh so satisfying flavor.\n\nWe know nic is addictive…but did you know it’s the oral fixation that keeps bringing you back? When you drop the habit, nic is out of your system in 72 hours but the oral fixation can last in the brain for up to 10 years!\n\nThat's why no matter how many times you try, you find yourself going back to your old habit again and again. Fortunately, we've got the alternative that will break this repetitive pattern!"
+                  }
+                </div>
+              </div>
+            ) : null}
+            {true ? (
+              <div className={classNames(projectcss.all, sty.freeBox__urCqF)}>
+                <div
+                  className={classNames(
+                    projectcss.all,
+                    projectcss.__wab_text,
+                    sty.text__kr7WP
+                  )}
+                >
+                  {"#2"}
+                </div>
+                {true ? (
+                  <div
+                    data-plasmic-name={"paragraph32"}
+                    data-plasmic-override={overrides.paragraph32}
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.__wab_text,
+                      sty.paragraph32
+                    )}
+                  >
+                    <React.Fragment>
+                      <React.Fragment>
+                        {
+                          "The world is your oyster, and you want nothing less than to enjoy it to the fullest extent. Maybe you're not into using inhalation devices but you've always been curious as to what all the hype is about. "
+                        }
+                      </React.Fragment>
+                      {
+                        <p.PlasmicLink
+                          className={classNames(
+                            projectcss.all,
+                            projectcss.a,
+                            projectcss.__wab_text,
+                            projectcss.plasmic_default__inline,
+                            sty.link__kcEjp
+                          )}
+                          component={Link}
+                          href={
+                            "https://blog.quittinghacks.com/disposable-offer" as const
+                          }
+                          platform={"nextjs"}
+                        >
+                          {"Sparq"}
+                        </p.PlasmicLink>
+                      }
+                      <React.Fragment>
+                        {
+                          " offers the perfect option for the curious spirit: all of the enjoyment and flavors of traditional products/devices but without the harmful chemicals or addictive stimulants!\n\nNatural flavoring that is intensely delicious, vitamins, amino acids and botanicals, all wrapped in a device designed to provide a superior inhalation experience."
+                        }
+                      </React.Fragment>
+                    </React.Fragment>
+                  </div>
+                ) : null}
+              </div>
+            ) : null}
+            {true ? (
+              <div
+                data-plasmic-name={"h23"}
+                data-plasmic-override={overrides.h23}
+                className={classNames(
+                  projectcss.all,
+                  projectcss.__wab_text,
+                  sty.h23
+                )}
+              >
+                {"Vitamin Air is the Evolution of Inhalation"}
+              </div>
+            ) : null}
             {true ? (
               <p.PlasmicImg
                 data-plasmic-name={"image3"}
@@ -823,158 +910,162 @@ function PlasmicCwAdvert2__RenderFunc(props: {
                 }
               </div>
             ) : null}
-            <ol
-              data-plasmic-name={"paragraph411"}
-              data-plasmic-override={overrides.paragraph411}
-              className={classNames(
-                projectcss.all,
-                projectcss.ol,
-                sty.paragraph411
-              )}
-            >
-              <li
+            {true ? (
+              <ol
+                data-plasmic-name={"paragraph411"}
+                data-plasmic-override={overrides.paragraph411}
                 className={classNames(
                   projectcss.all,
-                  projectcss.li,
-                  projectcss.__wab_text,
-                  sty.li__gxJu
+                  projectcss.ol,
+                  sty.paragraph411
                 )}
               >
-                {
-                  "Get rid of those nic cravings whilst still enjoying that strong and intense throat hit."
-                }
-              </li>
-              <li
-                className={classNames(
-                  projectcss.all,
-                  projectcss.li,
-                  projectcss.__wab_text,
-                  sty.li___80Lo2
-                )}
-              >
-                {
-                  "Satisfy your oral fixation without consuming toxic substances or harmful chemicals."
-                }
-              </li>
-              <li
-                className={classNames(
-                  projectcss.all,
-                  projectcss.li,
-                  projectcss.__wab_text,
-                  sty.li__hr4Mc
-                )}
-              >
-                {
-                  "Replace those harmful chemicals with vitamins, amino acids, and botanicals."
-                }
-              </li>
-              <li
-                className={classNames(
-                  projectcss.all,
-                  projectcss.li,
-                  projectcss.__wab_text,
-                  sty.li__ciX0G
-                )}
-              >
-                {
-                  "Promote deep-breathing and relieve anxiety with each vitamin infused inhalation."
-                }
-              </li>
-              <li
-                className={classNames(
-                  projectcss.all,
-                  projectcss.li,
-                  projectcss.__wab_text,
-                  sty.li___0UEZt
-                )}
-              >
-                <React.Fragment>
-                  <React.Fragment>{"Enjoy a "}</React.Fragment>
+                <li
+                  className={classNames(
+                    projectcss.all,
+                    projectcss.li,
+                    projectcss.__wab_text,
+                    sty.li__gxJu
+                  )}
+                >
                   {
-                    <p.PlasmicLink
-                      className={classNames(
-                        projectcss.all,
-                        projectcss.a,
-                        projectcss.__wab_text,
-                        projectcss.plasmic_default__inline,
-                        sty.link__oxFxt
-                      )}
-                      component={Link}
-                      href={`/disposable-offer`}
-                      platform={"nextjs"}
-                    >
-                      {"healthier alternative"}
-                    </p.PlasmicLink>
+                    "Get rid of those nic cravings whilst still enjoying that strong and intense throat hit."
                   }
-                  <React.Fragment>
-                    {" without giving up your habit."}
-                  </React.Fragment>
-                </React.Fragment>
-              </li>
-              <li
-                className={classNames(
-                  projectcss.all,
-                  projectcss.li,
-                  projectcss.__wab_text,
-                  sty.li__uPAe7
-                )}
-              >
-                <React.Fragment>
-                  <React.Fragment>{"Take "}</React.Fragment>
+                </li>
+                <li
+                  className={classNames(
+                    projectcss.all,
+                    projectcss.li,
+                    projectcss.__wab_text,
+                    sty.li___80Lo2
+                  )}
+                >
                   {
-                    <p.PlasmicLink
-                      className={classNames(
-                        projectcss.all,
-                        projectcss.a,
-                        projectcss.__wab_text,
-                        projectcss.plasmic_default__inline,
-                        sty.link__ueQon
-                      )}
-                      component={Link}
-                      href={`/disposable-offer`}
-                      platform={"nextjs"}
-                    >
-                      {"your device"}
-                    </p.PlasmicLink>
+                    "Satisfy your oral fixation without consuming toxic substances or harmful chemicals."
                   }
+                </li>
+                <li
+                  className={classNames(
+                    projectcss.all,
+                    projectcss.li,
+                    projectcss.__wab_text,
+                    sty.li__hr4Mc
+                  )}
+                >
+                  {
+                    "Replace those harmful chemicals with vitamins, amino acids, and botanicals."
+                  }
+                </li>
+                <li
+                  className={classNames(
+                    projectcss.all,
+                    projectcss.li,
+                    projectcss.__wab_text,
+                    sty.li__ciX0G
+                  )}
+                >
+                  {
+                    "Promote deep-breathing and relieve anxiety with each vitamin infused inhalation."
+                  }
+                </li>
+                <li
+                  className={classNames(
+                    projectcss.all,
+                    projectcss.li,
+                    projectcss.__wab_text,
+                    sty.li___0UEZt
+                  )}
+                >
                   <React.Fragment>
+                    <React.Fragment>{"Enjoy a "}</React.Fragment>
                     {
-                      " everywhere with its ultramodern and compact design and use it anytime you want."
+                      <p.PlasmicLink
+                        className={classNames(
+                          projectcss.all,
+                          projectcss.a,
+                          projectcss.__wab_text,
+                          projectcss.plasmic_default__inline,
+                          sty.link__oxFxt
+                        )}
+                        component={Link}
+                        href={`/disposable-offer`}
+                        platform={"nextjs"}
+                      >
+                        {"healthier alternative"}
+                      </p.PlasmicLink>
                     }
+                    <React.Fragment>
+                      {" without giving up your habit."}
+                    </React.Fragment>
                   </React.Fragment>
-                </React.Fragment>
-              </li>
-            </ol>
-            <p.PlasmicLink
-              className={classNames(
-                projectcss.all,
-                projectcss.a,
-                sty.link__y5Ino
-              )}
-              component={Link}
-              href={`/disposable-offer`}
-              platform={"nextjs"}
-            >
-              <p.PlasmicImg
-                data-plasmic-name={"image4"}
-                data-plasmic-override={overrides.image4}
-                alt={""}
-                className={classNames(sty.image4)}
-                displayHeight={"auto" as const}
-                displayMaxHeight={"none" as const}
-                displayMaxWidth={"100%" as const}
-                displayMinHeight={"0" as const}
-                displayMinWidth={"0" as const}
-                displayWidth={"100%" as const}
-                loading={"lazy" as const}
-                src={{
-                  src: "/plasmic/lhp_3_30_23/images/comparepng2.png",
-                  fullWidth: 1461,
-                  fullHeight: 607,
-                  aspectRatio: undefined
-                }}
-              />
-            </p.PlasmicLink>
+                </li>
+                <li
+                  className={classNames(
+                    projectcss.all,
+                    projectcss.li,
+                    projectcss.__wab_text,
+                    sty.li__uPAe7
+                  )}
+                >
+                  <React.Fragment>
+                    <React.Fragment>{"Take "}</React.Fragment>
+                    {
+                      <p.PlasmicLink
+                        className={classNames(
+                          projectcss.all,
+                          projectcss.a,
+                          projectcss.__wab_text,
+                          projectcss.plasmic_default__inline,
+                          sty.link__ueQon
+                        )}
+                        component={Link}
+                        href={`/disposable-offer`}
+                        platform={"nextjs"}
+                      >
+                        {"your device"}
+                      </p.PlasmicLink>
+                    }
+                    <React.Fragment>
+                      {
+                        " everywhere with its ultramodern and compact design and use it anytime you want."
+                      }
+                    </React.Fragment>
+                  </React.Fragment>
+                </li>
+              </ol>
+            ) : null}
+            {true ? (
+              <p.PlasmicLink
+                className={classNames(
+                  projectcss.all,
+                  projectcss.a,
+                  sty.link__y5Ino
+                )}
+                component={Link}
+                href={`/disposable-offer`}
+                platform={"nextjs"}
+              >
+                <p.PlasmicImg
+                  data-plasmic-name={"image4"}
+                  data-plasmic-override={overrides.image4}
+                  alt={""}
+                  className={classNames(sty.image4)}
+                  displayHeight={"auto" as const}
+                  displayMaxHeight={"none" as const}
+                  displayMaxWidth={"100%" as const}
+                  displayMinHeight={"0" as const}
+                  displayMinWidth={"0" as const}
+                  displayWidth={"100%" as const}
+                  loading={"lazy" as const}
+                  src={{
+                    src: "/plasmic/lhp_3_30_23/images/comparepng2.png",
+                    fullWidth: 1461,
+                    fullHeight: 607,
+                    aspectRatio: undefined
+                  }}
+                />
+              </p.PlasmicLink>
+            ) : null}
             {true ? (
               <div
                 data-plasmic-name={"h24"}
@@ -1167,6 +1258,241 @@ function PlasmicCwAdvert2__RenderFunc(props: {
                 {"Philip G."}
               </div>
             </div>
+            <Embed
+              className={classNames("__wab_instance", sty.embedHtml__bJoF1)}
+              code={
+                '<script src="https://fast.wistia.com/embed/medias/v0vj632tas.jsonp" async></script><script src="https://fast.wistia.com/assets/external/E-v1.js" async></script><div class="wistia_responsive_padding" style="padding:56.25% 0 0 0;position:relative;"><div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><div class="wistia_embed wistia_async_v0vj632tas videoFoam=true" style="height:100%;position:relative;width:100%">&nbsp;</div></div></div>' as const
+              }
+            />
+
+            <div
+              data-plasmic-name={"paragraph23"}
+              data-plasmic-override={overrides.paragraph23}
+              className={classNames(
+                projectcss.all,
+                projectcss.__wab_text,
+                sty.paragraph23
+              )}
+            >
+              <React.Fragment>
+                <React.Fragment>
+                  {
+                    "No expense was spared regarding design and engineering.\n\nYou will happily find an "
+                  }
+                </React.Fragment>
+                {
+                  <p.PlasmicLink
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.a,
+                      projectcss.__wab_text,
+                      projectcss.plasmic_default__inline,
+                      sty.link__u2Dh3
+                    )}
+                    component={Link}
+                    href={`/disposable-offer`}
+                    platform={"nextjs"}
+                  >
+                    {"ultra-modern device"}
+                  </p.PlasmicLink>
+                }
+                <React.Fragment>
+                  {
+                    ", comprised of real wood and stainless steel.\n\nNo plastic here….\n\nSparq’s devices are slim, compact, odorless and easy to use anywhere."
+                  }
+                </React.Fragment>
+              </React.Fragment>
+            </div>
+            <p.PlasmicLink
+              className={classNames(
+                projectcss.all,
+                projectcss.a,
+                sty.link__w2BMa
+              )}
+              component={Link}
+              href={`/disposable-offer`}
+              platform={"nextjs"}
+            >
+              <p.PlasmicImg
+                alt={""}
+                className={classNames(sty.img__lFtLx)}
+                displayHeight={"auto" as const}
+                displayMaxHeight={"none" as const}
+                displayMaxWidth={"100%" as const}
+                displayMinHeight={"0" as const}
+                displayMinWidth={"0" as const}
+                displayWidth={"100%" as const}
+                loading={"eager" as const}
+                src={{
+                  src: "/plasmic/lhp_3_30_23/images/sparqBoxAnimationLoopShorterVersiongif.gif",
+                  fullWidth: 600,
+                  fullHeight: 338,
+                  aspectRatio: undefined
+                }}
+              />
+            </p.PlasmicLink>
+            <div
+              data-plasmic-name={"paragraph24"}
+              data-plasmic-override={overrides.paragraph24}
+              className={classNames(
+                projectcss.all,
+                projectcss.__wab_text,
+                sty.paragraph24
+              )}
+            >
+              <React.Fragment>
+                <React.Fragment>{"Our "}</React.Fragment>
+                {
+                  <p.PlasmicLink
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.a,
+                      projectcss.__wab_text,
+                      projectcss.plasmic_default__inline,
+                      sty.link__qw8Ed
+                    )}
+                    component={Link}
+                    href={`/disposable-offer`}
+                    platform={"nextjs"}
+                  >
+                    {"formulations"}
+                  </p.PlasmicLink>
+                }
+                <React.Fragment>
+                  {
+                    " have undergone extensive lab testing proving it to be today’s safest option.\n\nThe test results verified our all-natural, plant-based formulations are safe when heated."
+                  }
+                </React.Fragment>
+              </React.Fragment>
+            </div>
+            <p.PlasmicLink
+              className={classNames(
+                projectcss.all,
+                projectcss.a,
+                sty.link__nW5Vw
+              )}
+              component={Link}
+              href={`/disposable-offer`}
+              platform={"nextjs"}
+            >
+              <p.PlasmicImg
+                alt={""}
+                className={classNames(sty.img__lfhVw)}
+                displayHeight={"auto" as const}
+                displayMaxHeight={"none" as const}
+                displayMaxWidth={"100%" as const}
+                displayMinHeight={"0" as const}
+                displayMinWidth={"0" as const}
+                displayWidth={"100%" as const}
+                loading={"eager" as const}
+                src={{
+                  src: "/plasmic/lhp_3_30_23/images/_12A7A7BbTestingSmallerImage10Yy0Fa000000000000028Png.png",
+                  fullWidth: 1258,
+                  fullHeight: 550,
+                  aspectRatio: undefined
+                }}
+              />
+            </p.PlasmicLink>
+            <div
+              data-plasmic-name={"paragraph25"}
+              data-plasmic-override={overrides.paragraph25}
+              className={classNames(
+                projectcss.all,
+                projectcss.__wab_text,
+                sty.paragraph25
+              )}
+            >
+              <React.Fragment>
+                <React.Fragment>{"Millions are turning to "}</React.Fragment>
+                {
+                  <p.PlasmicLink
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.a,
+                      projectcss.__wab_text,
+                      projectcss.plasmic_default__inline,
+                      sty.link__lKca
+                    )}
+                    component={Link}
+                    href={`/disposable-offer`}
+                    platform={"nextjs"}
+                  >
+                    {"Vitamin Air"}
+                  </p.PlasmicLink>
+                }
+                <React.Fragment>
+                  {
+                    " in their journey to quitting harmful and addictive, chemical-filled alternatives."
+                  }
+                </React.Fragment>
+              </React.Fragment>
+            </div>
+            <p.PlasmicLink
+              className={classNames(
+                projectcss.all,
+                projectcss.a,
+                sty.link___0CFDq
+              )}
+              component={Link}
+              href={`/disposable-offer`}
+              platform={"nextjs"}
+            >
+              <p.PlasmicImg
+                alt={""}
+                className={classNames(sty.img__gipRw)}
+                displayHeight={"auto" as const}
+                displayMaxHeight={"none" as const}
+                displayMaxWidth={"100%" as const}
+                displayMinHeight={"0" as const}
+                displayMinWidth={"0" as const}
+                displayWidth={"100%" as const}
+                loading={"eager" as const}
+                src={{
+                  src: "/plasmic/lhp_3_30_23/images/ladybaguette2020Img3156Edit2Jpg.jpg",
+                  fullWidth: 4480,
+                  fullHeight: 6720,
+                  aspectRatio: undefined
+                }}
+              />
+            </p.PlasmicLink>
+            <div
+              data-plasmic-name={"paragraph26"}
+              data-plasmic-override={overrides.paragraph26}
+              className={classNames(
+                projectcss.all,
+                projectcss.__wab_text,
+                sty.paragraph26
+              )}
+            >
+              <React.Fragment>
+                <React.Fragment>
+                  {
+                    "There’s really no reason why you should not make the switch to "
+                  }
+                </React.Fragment>
+                {
+                  <p.PlasmicLink
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.a,
+                      projectcss.__wab_text,
+                      projectcss.plasmic_default__inline,
+                      sty.link__fiqDt
+                    )}
+                    component={Link}
+                    href={`/disposable-offer`}
+                    platform={"nextjs"}
+                  >
+                    {"Sparq’s Vitamin Air"}
+                  </p.PlasmicLink>
+                }
+                <React.Fragment>
+                  {
+                    " today.\n\nTake the easiest step towards a healthier you and receive 1 FREE DEVICE with your first purchase, auto-applied at checkout."
+                  }
+                </React.Fragment>
+              </React.Fragment>
+            </div>
             <div
               data-plasmic-name={"h25"}
               data-plasmic-override={overrides.h25}
@@ -1286,142 +1612,154 @@ function PlasmicCwAdvert2__RenderFunc(props: {
                 }
               </div>
             ) : null}
-            <div
-              data-plasmic-name={"h26"}
-              data-plasmic-override={overrides.h26}
-              className={classNames(
-                projectcss.all,
-                projectcss.__wab_text,
-                sty.h26
-              )}
-            >
-              {"FAQs"}
-            </div>
-            <div className={classNames(projectcss.all, sty.freeBox__crJpo)}>
+            {true ? (
               <div
-                data-plasmic-name={"faq1"}
-                data-plasmic-override={overrides.faq1}
+                data-plasmic-name={"h26"}
+                data-plasmic-override={overrides.h26}
                 className={classNames(
                   projectcss.all,
                   projectcss.__wab_text,
-                  sty.faq1
+                  sty.h26
                 )}
               >
-                <React.Fragment>
-                  <span
-                    className={"plasmic_default__all plasmic_default__span"}
-                    style={{ fontWeight: 700, color: "#000000" }}
-                  >
-                    {"Is Sparq Vitamin Air safe?"}
-                  </span>
-                  <React.Fragment>
-                    {
-                      "\n\nSparq Vitamin Air has been laboratory-tested in an ISO-17025 accredited lab and certified to be free of harmful chemicals. It is only made with organic, natural substances."
-                    }
-                  </React.Fragment>
-                </React.Fragment>
+                {"FAQs"}
               </div>
-            </div>
-            <div className={classNames(projectcss.all, sty.freeBox__cEiwz)}>
-              <div
-                data-plasmic-name={"faq12"}
-                data-plasmic-override={overrides.faq12}
-                className={classNames(
-                  projectcss.all,
-                  projectcss.__wab_text,
-                  sty.faq12
-                )}
-              >
-                <React.Fragment>
-                  <span
-                    className={"plasmic_default__all plasmic_default__span"}
-                    style={{ fontWeight: 700, color: "#000000" }}
-                  >
-                    {"What are the ingredients used in Sparq Vitamin Air?"}
-                  </span>
+            ) : null}
+            {true ? (
+              <div className={classNames(projectcss.all, sty.freeBox__crJpo)}>
+                <div
+                  data-plasmic-name={"faq1"}
+                  data-plasmic-override={overrides.faq1}
+                  className={classNames(
+                    projectcss.all,
+                    projectcss.__wab_text,
+                    sty.faq1
+                  )}
+                >
                   <React.Fragment>
-                    {
-                      "\n\nOur formulations do not contain nic or any addictive substances. We only use Organic Vegetable Glycerin and Natural Flavoring as our base, combined with the highest quality, U.S. sourced vitamins, amino acids and botanicals."
-                    }
+                    <span
+                      className={"plasmic_default__all plasmic_default__span"}
+                      style={{ fontWeight: 700, color: "#000000" }}
+                    >
+                      {"Is Sparq Vitamin Air safe?"}
+                    </span>
+                    <React.Fragment>
+                      {
+                        "\n\nSparq Vitamin Air has been laboratory-tested in an ISO-17025 accredited lab and certified to be free of harmful chemicals. It is only made with organic, natural substances."
+                      }
+                    </React.Fragment>
                   </React.Fragment>
-                </React.Fragment>
+                </div>
               </div>
-            </div>
-            <div className={classNames(projectcss.all, sty.freeBox__vy3Ir)}>
-              <div
-                data-plasmic-name={"faq13"}
-                data-plasmic-override={overrides.faq13}
-                className={classNames(
-                  projectcss.all,
-                  projectcss.__wab_text,
-                  sty.faq13
-                )}
-              >
-                <React.Fragment>
-                  <span
-                    className={"plasmic_default__all plasmic_default__span"}
-                    style={{ fontWeight: 700, color: "#000000" }}
-                  >
-                    {"How do I use Sparq Vitamin Air?"}
-                  </span>
+            ) : null}
+            {true ? (
+              <div className={classNames(projectcss.all, sty.freeBox__cEiwz)}>
+                <div
+                  data-plasmic-name={"faq12"}
+                  data-plasmic-override={overrides.faq12}
+                  className={classNames(
+                    projectcss.all,
+                    projectcss.__wab_text,
+                    sty.faq12
+                  )}
+                >
                   <React.Fragment>
-                    {
-                      "\n\nTo use Sparq Vitamin Air, simply lift the device from the packaging, remove the protective silicone caps, place the wooden end of the device in your mouth and inhale. The LED will illuminate to indicate suctio."
-                    }
+                    <span
+                      className={"plasmic_default__all plasmic_default__span"}
+                      style={{ fontWeight: 700, color: "#000000" }}
+                    >
+                      {"What are the ingredients used in Sparq Vitamin Air?"}
+                    </span>
+                    <React.Fragment>
+                      {
+                        "\n\nOur formulations do not contain nic or any addictive substances. We only use Organic Vegetable Glycerin and Natural Flavoring as our base, combined with the highest quality, U.S. sourced vitamins, amino acids and botanicals."
+                      }
+                    </React.Fragment>
                   </React.Fragment>
-                </React.Fragment>
+                </div>
               </div>
-            </div>
-            <div className={classNames(projectcss.all, sty.freeBox___1YNo)}>
-              <div
-                data-plasmic-name={"faq14"}
-                data-plasmic-override={overrides.faq14}
-                className={classNames(
-                  projectcss.all,
-                  projectcss.__wab_text,
-                  sty.faq14
-                )}
-              >
-                <React.Fragment>
-                  <span
-                    className={"plasmic_default__all plasmic_default__span"}
-                    style={{ fontWeight: 700, color: "#000000" }}
-                  >
-                    {"How long does it last?"}
-                  </span>
+            ) : null}
+            {true ? (
+              <div className={classNames(projectcss.all, sty.freeBox__vy3Ir)}>
+                <div
+                  data-plasmic-name={"faq13"}
+                  data-plasmic-override={overrides.faq13}
+                  className={classNames(
+                    projectcss.all,
+                    projectcss.__wab_text,
+                    sty.faq13
+                  )}
+                >
                   <React.Fragment>
-                    {
-                      "\n\nEach Sparq device will provide 300 puffs or more, depending on how it is used. The built-in LED will blink for 2 seconds when the juice is about to run out."
-                    }
+                    <span
+                      className={"plasmic_default__all plasmic_default__span"}
+                      style={{ fontWeight: 700, color: "#000000" }}
+                    >
+                      {"How do I use Sparq Vitamin Air?"}
+                    </span>
+                    <React.Fragment>
+                      {
+                        "\n\nTo use Sparq Vitamin Air, simply lift the device from the packaging, remove the protective silicone caps, place the wooden end of the device in your mouth and inhale. The LED will illuminate to indicate suctio."
+                      }
+                    </React.Fragment>
                   </React.Fragment>
-                </React.Fragment>
+                </div>
               </div>
-            </div>
-            <div className={classNames(projectcss.all, sty.freeBox__ve73Z)}>
-              <div
-                data-plasmic-name={"faq15"}
-                data-plasmic-override={overrides.faq15}
-                className={classNames(
-                  projectcss.all,
-                  projectcss.__wab_text,
-                  sty.faq15
-                )}
-              >
-                <React.Fragment>
-                  <span
-                    className={"plasmic_default__all plasmic_default__span"}
-                    style={{ fontWeight: 700, color: "#000000" }}
-                  >
-                    {"What materials is Sparq made from?"}
-                  </span>
+            ) : null}
+            {true ? (
+              <div className={classNames(projectcss.all, sty.freeBox___1YNo)}>
+                <div
+                  data-plasmic-name={"faq14"}
+                  data-plasmic-override={overrides.faq14}
+                  className={classNames(
+                    projectcss.all,
+                    projectcss.__wab_text,
+                    sty.faq14
+                  )}
+                >
                   <React.Fragment>
-                    {
-                      "\n\nOur Sparq Vitamin Air is 100% recyclable. It is made of a biodegradable body of wood, stainless steel and food-grade silicone and it's powered by a lithium battery."
-                    }
+                    <span
+                      className={"plasmic_default__all plasmic_default__span"}
+                      style={{ fontWeight: 700, color: "#000000" }}
+                    >
+                      {"How long does it last?"}
+                    </span>
+                    <React.Fragment>
+                      {
+                        "\n\nEach Sparq device will provide 300 puffs or more, depending on how it is used. The built-in LED will blink for 2 seconds when the juice is about to run out."
+                      }
+                    </React.Fragment>
                   </React.Fragment>
-                </React.Fragment>
+                </div>
               </div>
-            </div>
+            ) : null}
+            {true ? (
+              <div className={classNames(projectcss.all, sty.freeBox__ve73Z)}>
+                <div
+                  data-plasmic-name={"faq15"}
+                  data-plasmic-override={overrides.faq15}
+                  className={classNames(
+                    projectcss.all,
+                    projectcss.__wab_text,
+                    sty.faq15
+                  )}
+                >
+                  <React.Fragment>
+                    <span
+                      className={"plasmic_default__all plasmic_default__span"}
+                      style={{ fontWeight: 700, color: "#000000" }}
+                    >
+                      {"What materials is Sparq made from?"}
+                    </span>
+                    <React.Fragment>
+                      {
+                        "\n\nOur Sparq Vitamin Air is 100% recyclable. It is made of a biodegradable body of wood, stainless steel and food-grade silicone and it's powered by a lithium battery."
+                      }
+                    </React.Fragment>
+                  </React.Fragment>
+                </div>
+              </div>
+            ) : null}
             {true ? (
               <p.PlasmicImg
                 data-plasmic-name={"image6"}
@@ -1628,9 +1966,9 @@ function PlasmicCwAdvert2__RenderFunc(props: {
                 displayWidth={"100%" as const}
                 loading={"eager" as const}
                 src={{
-                  src: "/plasmic/lhp_3_30_23/images/disposableOutrogif.gif",
-                  fullWidth: 669,
-                  fullHeight: 575,
+                  src: "/plasmic/lhp_3_30_23/images/img3592Edit1Jpg.jpg",
+                  fullWidth: 4480,
+                  fullHeight: 6720,
                   aspectRatio: undefined
                 }}
               />
@@ -2020,7 +2358,6 @@ function PlasmicCwAdvert2__RenderFunc(props: {
 const PlasmicDescendants = {
   root: [
     "root",
-    "embedHtml",
     "nav",
     "logo",
     "aSlogan",
@@ -2035,10 +2372,11 @@ const PlasmicDescendants = {
     "press",
     "pressIcons",
     "paragraph1",
-    "h21",
     "heroImage",
+    "h21",
     "paragraph2",
     "h22",
+    "paragraph22",
     "image2",
     "paragraph31",
     "paragraph32",
@@ -2060,6 +2398,10 @@ const PlasmicDescendants = {
     "paragraph48",
     "paragraph49",
     "paragraph410",
+    "paragraph23",
+    "paragraph24",
+    "paragraph25",
+    "paragraph26",
     "h25",
     "h35",
     "offer2",
@@ -2103,7 +2445,6 @@ const PlasmicDescendants = {
     "article",
     "reviews"
   ],
-  embedHtml: ["embedHtml"],
   nav: ["nav", "logo", "aSlogan"],
   logo: ["logo"],
   aSlogan: ["aSlogan"],
@@ -2126,10 +2467,11 @@ const PlasmicDescendants = {
     "press",
     "pressIcons",
     "paragraph1",
-    "h21",
     "heroImage",
+    "h21",
     "paragraph2",
     "h22",
+    "paragraph22",
     "image2",
     "paragraph31",
     "paragraph32",
@@ -2151,6 +2493,10 @@ const PlasmicDescendants = {
     "paragraph48",
     "paragraph49",
     "paragraph410",
+    "paragraph23",
+    "paragraph24",
+    "paragraph25",
+    "paragraph26",
     "h25",
     "h35",
     "offer2",
@@ -2199,10 +2545,11 @@ const PlasmicDescendants = {
     "press",
     "pressIcons",
     "paragraph1",
-    "h21",
     "heroImage",
+    "h21",
     "paragraph2",
     "h22",
+    "paragraph22",
     "image2",
     "paragraph31",
     "paragraph32",
@@ -2224,6 +2571,10 @@ const PlasmicDescendants = {
     "paragraph48",
     "paragraph49",
     "paragraph410",
+    "paragraph23",
+    "paragraph24",
+    "paragraph25",
+    "paragraph26",
     "h25",
     "h35",
     "offer2",
@@ -2248,10 +2599,11 @@ const PlasmicDescendants = {
   press: ["press", "pressIcons"],
   pressIcons: ["pressIcons"],
   paragraph1: ["paragraph1"],
-  h21: ["h21"],
   heroImage: ["heroImage"],
+  h21: ["h21"],
   paragraph2: ["paragraph2"],
   h22: ["h22"],
+  paragraph22: ["paragraph22"],
   image2: ["image2"],
   paragraph31: ["paragraph31"],
   paragraph32: ["paragraph32"],
@@ -2273,6 +2625,10 @@ const PlasmicDescendants = {
   paragraph48: ["paragraph48"],
   paragraph49: ["paragraph49"],
   paragraph410: ["paragraph410"],
+  paragraph23: ["paragraph23"],
+  paragraph24: ["paragraph24"],
+  paragraph25: ["paragraph25"],
+  paragraph26: ["paragraph26"],
   h25: ["h25"],
   h35: ["h35"],
   offer2: ["offer2"],
@@ -2321,7 +2677,6 @@ type DescendantsType<T extends NodeNameType> =
   (typeof PlasmicDescendants)[T][number];
 type NodeDefaultElementType = {
   root: "div";
-  embedHtml: typeof Embed;
   nav: "div";
   logo: typeof p.PlasmicImg;
   aSlogan: "div";
@@ -2336,10 +2691,11 @@ type NodeDefaultElementType = {
   press: "div";
   pressIcons: typeof p.PlasmicImg;
   paragraph1: "div";
-  h21: "div";
   heroImage: typeof p.PlasmicImg;
+  h21: "div";
   paragraph2: "div";
   h22: "div";
+  paragraph22: "div";
   image2: typeof p.PlasmicImg;
   paragraph31: "div";
   paragraph32: "div";
@@ -2361,6 +2717,10 @@ type NodeDefaultElementType = {
   paragraph48: "div";
   paragraph49: "div";
   paragraph410: "div";
+  paragraph23: "div";
+  paragraph24: "div";
+  paragraph25: "div";
+  paragraph26: "div";
   h25: "div";
   h35: "div";
   offer2: typeof Offer2;
@@ -2465,7 +2825,6 @@ export const PlasmicCwAdvert2 = Object.assign(
   makeNodeComponent("root"),
   {
     // Helper components rendering sub-elements
-    embedHtml: makeNodeComponent("embedHtml"),
     nav: makeNodeComponent("nav"),
     logo: makeNodeComponent("logo"),
     aSlogan: makeNodeComponent("aSlogan"),
@@ -2480,10 +2839,11 @@ export const PlasmicCwAdvert2 = Object.assign(
     press: makeNodeComponent("press"),
     pressIcons: makeNodeComponent("pressIcons"),
     paragraph1: makeNodeComponent("paragraph1"),
-    h21: makeNodeComponent("h21"),
     heroImage: makeNodeComponent("heroImage"),
+    h21: makeNodeComponent("h21"),
     paragraph2: makeNodeComponent("paragraph2"),
     h22: makeNodeComponent("h22"),
+    paragraph22: makeNodeComponent("paragraph22"),
     image2: makeNodeComponent("image2"),
     paragraph31: makeNodeComponent("paragraph31"),
     paragraph32: makeNodeComponent("paragraph32"),
@@ -2505,6 +2865,10 @@ export const PlasmicCwAdvert2 = Object.assign(
     paragraph48: makeNodeComponent("paragraph48"),
     paragraph49: makeNodeComponent("paragraph49"),
     paragraph410: makeNodeComponent("paragraph410"),
+    paragraph23: makeNodeComponent("paragraph23"),
+    paragraph24: makeNodeComponent("paragraph24"),
+    paragraph25: makeNodeComponent("paragraph25"),
+    paragraph26: makeNodeComponent("paragraph26"),
     h25: makeNodeComponent("h25"),
     h35: makeNodeComponent("h35"),
     offer2: makeNodeComponent("offer2"),

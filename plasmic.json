@@ -801,6 +801,19 @@
           "cssFilePath": "plasmic/lhp_3_30_23/PlasmicCwAdvert2.module.css",
           "scheme": "blackbox",
           "componentType": "component"
+        },
+        {
+          "id": "vVVduO1KZ2W",
+          "name": "CwAdvert3",
+          "type": "managed",
+          "projectId": "jZt38kveZDTpkrHTcXsHEY",
+          "renderModuleFilePath": "plasmic/lhp_3_30_23/PlasmicCwAdvert3.tsx",
+          "importSpec": {
+            "modulePath": "CwAdvert3.tsx"
+          },
+          "cssFilePath": "plasmic/lhp_3_30_23/PlasmicCwAdvert3.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
         }
       ],
       "icons": [
@@ -1325,6 +1338,41 @@
           "id": "YVwA-maac",
           "name": "sidereview2.png.png",
           "filePath": "../public/plasmic/lhp_3_30_23/images/sidereview2Pngpng.png"
+        },
+        {
+          "id": "pKkuVsQmV",
+          "name": "negative.png",
+          "filePath": "../public/plasmic/lhp_3_30_23/images/negativepng.png"
+        },
+        {
+          "id": "7E1vTcGiO",
+          "name": "postive.png",
+          "filePath": "../public/plasmic/lhp_3_30_23/images/postivepng.png"
+        },
+        {
+          "id": "k4IU1SWss",
+          "name": "fuel iso 2 1.png",
+          "filePath": "../public/plasmic/lhp_3_30_23/images/fuelIso21Png.png"
+        },
+        {
+          "id": "Ihcd9cy0B",
+          "name": "Sparq box animation loop shorter version.gif",
+          "filePath": "../public/plasmic/lhp_3_30_23/images/sparqBoxAnimationLoopShorterVersiongif.gif"
+        },
+        {
+          "id": "8PjIA0sV8",
+          "name": "12a7a7bb-testing-smaller-image_10yy0fa000000000000028.png",
+          "filePath": "../public/plasmic/lhp_3_30_23/images/_12A7A7BbTestingSmallerImage10Yy0Fa000000000000028Png.png"
+        },
+        {
+          "id": "jCrrnAXSJ",
+          "name": "LADYBAGUETTE2020IMG_3156-Edit (2).jpg",
+          "filePath": "../public/plasmic/lhp_3_30_23/images/ladybaguette2020Img3156Edit2Jpg.jpg"
+        },
+        {
+          "id": "bkHTVGO1F",
+          "name": "IMG_3592-Edit (1).jpg",
+          "filePath": "../public/plasmic/lhp_3_30_23/images/img3592Edit1Jpg.jpg"
         }
       ],
       "indirect": false,
