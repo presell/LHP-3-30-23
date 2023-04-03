@@ -583,7 +583,7 @@ function PlasmicCwAdvert2__RenderFunc(props: {
                 }
                 <React.Fragment>
                   {
-                    " is turning bad habits into healthy ones…\n\nImagine being nic-free without having to quit!\n\nSounds too good to be true, right?\n\nThe solution is simple:"
+                    " is turning bad habits into healthy ones…\n\nImagine being nic-free without having to quit!\n\nSounds too good to be true, right?\n\nThe solution is simple..."
                   }
                 </React.Fragment>
               </React.Fragment>
