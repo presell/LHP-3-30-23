@@ -10,7 +10,6 @@
   min-height: 0;
 }
 .freeBox__hvvN9 {
-  display: flex;
   position: relative;
   flex-direction: column;
   align-items: center;
@@ -20,6 +19,7 @@
   max-width: 100%;
   background: #93896a;
   min-width: 0;
+  display: none;
   padding: 0px;
 }
 .text__ie2Df {
@@ -35,7 +35,6 @@
   min-width: 0;
 }
 .freeBox___4MxE {
-  display: flex;
   position: relative;
   flex-direction: column;
   align-items: center;
@@ -45,6 +44,7 @@
   max-width: 100%;
   margin-bottom: 0px;
   min-width: 0;
+  display: none;
   padding: 15px 0px;
 }
 .freeBox__gWjnL {
@@ -244,7 +244,6 @@
   object-fit: contain;
 }
 .freeBox__yydK2 {
-  display: flex;
   position: relative;
   flex-direction: column;
   align-items: center;
@@ -254,6 +253,7 @@
   max-width: 100%;
   margin-bottom: 0px;
   min-width: 0;
+  display: none;
   padding: 15px 0px;
 }
 .link__yCr8I {
@@ -272,7 +272,6 @@
   object-fit: cover;
 }
 .freeBox__j1VUx {
-  display: flex;
   position: relative;
   flex-direction: column;
   align-items: center;
@@ -283,6 +282,7 @@
   margin-top: 40px;
   margin-bottom: 19px;
   min-width: 0;
+  display: none;
   padding: 8px;
 }
 @media (min-width: 0px) and (max-width: 768px) {
@@ -1254,7 +1254,7 @@
 .squeezeForm:global(.__wab_instance) {
   max-width: 100%;
   position: relative;
-  display: flex;
+  display: none;
 }
 .collection12:global(.__wab_instance) {
   max-width: 100%;
@@ -1264,5 +1264,5 @@
 .cwAdvert2:global(.__wab_instance) {
   max-width: 100%;
   position: relative;
-  display: none;
+  display: flex;
 }
