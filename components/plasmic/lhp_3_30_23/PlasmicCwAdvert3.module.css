@@ -54,10 +54,10 @@
   padding: 8px 70px;
 }
 .columns___3Hj1L > :nth-child(2n + 1) {
-  width: calc((100% - 2 * 0px) * 6 / 12);
+  width: calc((100% - 2 * var(--plsmc-col-gap, 0px)) * 6 / 12);
 }
 .columns___3Hj1L > :nth-child(2n + 2) {
-  width: calc((100% - 2 * 0px) * 6 / 12);
+  width: calc((100% - 2 * var(--plsmc-col-gap, 0px)) * 6 / 12);
 }
 @media (min-width: 0px) and (max-width: 768px) {
   .columns___3Hj1L {
@@ -72,12 +72,12 @@
 }
 @media (min-width: 0px) and (max-width: 768px) {
   .columns___3Hj1L > :nth-child(2n + 1) {
-    width: calc((100% - 2 * 0px) * 6 / 12);
+    width: calc((100% - 2 * var(--plsmc-col-gap, 0px)) * 6 / 12);
   }
 }
 @media (min-width: 0px) and (max-width: 768px) {
   .columns___3Hj1L > :nth-child(2n + 2) {
-    width: calc((100% - 2 * 0px) * 6 / 12);
+    width: calc((100% - 2 * var(--plsmc-col-gap, 0px)) * 6 / 12);
   }
 }
 .column__fAOsg {
@@ -1748,12 +1748,7 @@
   min-width: 0;
   margin-left: calc(0px - 50px);
   width: calc(100% + 50px);
-}
-.columns___4EqQ > :global(.__wab_flex-container) > :nth-child(2n + 1) {
-  width: calc((100% - 2 * 50px) * 8 / 12);
-}
-.columns___4EqQ > :global(.__wab_flex-container) > :nth-child(2n + 2) {
-  width: calc((100% - 2 * 50px) * 4 / 12);
+  --plsmc-col-gap: 50px;
 }
 .columns___4EqQ > :global(.__wab_flex-container) > *,
 .columns___4EqQ > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
@@ -1764,6 +1759,25 @@
   > picture
   > img {
   margin-left: 50px;
+}
+.columns___4EqQ {
+  position: relative;
+  width: 100%;
+  height: auto;
+  align-items: stretch;
+  flex-shrink: 1;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-self: auto;
+  min-width: 0;
+  display: none;
+  padding: 0px;
+}
+.columns___4EqQ > :global(.__wab_flex-container) > :nth-child(2n + 1) {
+  width: calc((100% - 2 * var(--plsmc-col-gap, 0px)) * 8 / 12);
+}
+.columns___4EqQ > :global(.__wab_flex-container) > :nth-child(2n + 2) {
+  width: calc((100% - 2 * var(--plsmc-col-gap, 0px)) * 4 / 12);
 }
 @media (min-width: 0px) and (max-width: 768px) {
   .columns___4EqQ {
@@ -1782,8 +1796,18 @@
   }
 }
 @media (min-width: 0px) and (max-width: 768px) {
+  .columns___4EqQ {
+    width: 100%;
+    height: auto;
+    flex-direction: row;
+    flex-wrap: wrap;
+    min-width: 0;
+    display: none;
+  }
+}
+@media (min-width: 0px) and (max-width: 768px) {
   .columns___4EqQ > :global(.__wab_flex-container) > :nth-child(1n + 1) {
-    width: calc((100% - 1 * 50px) * 12 / 12);
+    width: calc((100% - 1 * var(--plsmc-col-gap, 0px)) * 12 / 12);
   }
 }
 .article {

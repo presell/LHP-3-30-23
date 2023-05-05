@@ -76,7 +76,11 @@
         {
           "id": "SAEWraOT2YV",
           "name": "Checkbox",
-          "componentImportPath": "antd/lib/checkbox/Checkbox"
+          "componentImportPath": "antd/lib/checkbox/Checkbox",
+          "helper": {
+            "name": "checkboxHelpers",
+            "importPath": "@plasmicpkgs/antd/skinny/registerCheckbox"
+          }
         },
         {
           "id": "m5zFS-kMOL-",
@@ -116,22 +120,38 @@
         {
           "id": "tO9wrxr8Nbb",
           "name": "Input",
-          "componentImportPath": "antd/lib/input"
+          "componentImportPath": "antd/lib/input",
+          "helper": {
+            "name": "inputHelpers",
+            "importPath": "@plasmicpkgs/antd/skinny/registerInput"
+          }
         },
         {
           "id": "ZJIPHLoTjkN",
           "name": "TextArea",
-          "componentImportPath": "antd/lib/input/TextArea"
+          "componentImportPath": "antd/lib/input/TextArea",
+          "helper": {
+            "name": "inputHelpers",
+            "importPath": "@plasmicpkgs/antd/skinny/registerInput"
+          }
         },
         {
           "id": "zDcn8vsMldu",
           "name": "Search",
-          "componentImportPath": "antd/lib/input/Search"
+          "componentImportPath": "antd/lib/input/Search",
+          "helper": {
+            "name": "inputHelpers",
+            "importPath": "@plasmicpkgs/antd/skinny/registerInput"
+          }
         },
         {
           "id": "fTDg0FM1tnD",
           "name": "Password",
-          "componentImportPath": "antd/lib/input/Password"
+          "componentImportPath": "antd/lib/input/Password",
+          "helper": {
+            "name": "inputHelpers",
+            "importPath": "@plasmicpkgs/antd/skinny/registerInput"
+          }
         },
         {
           "id": "uZueUXuqePq",
@@ -178,8 +198,7 @@
           "name": "TableValue",
           "componentImportPath": "@plasmicpkgs/antd/skinny/registerTable"
         }
-      ],
-      "jsBundleThemes": []
+      ]
     },
     {
       "projectId": "caTPwKxj5ZrD9LQ7DMdK4Z",
@@ -213,8 +232,7 @@
           "name": "DataProvider",
           "componentImportPath": "@plasmicpkgs/plasmic-basic-components"
         }
-      ],
-      "jsBundleThemes": []
+      ]
     },
     {
       "projectId": "7nJ7UcFmq9UzB6eXfC5z4a",
@@ -233,8 +251,7 @@
           "name": "NavigationBar",
           "componentImportPath": "@plasmicpkgs/plasmic-nav"
         }
-      ],
-      "jsBundleThemes": []
+      ]
     },
     {
       "projectId": "kmmGrmCVRJPgZ5NNJMDQ4v",
@@ -263,8 +280,7 @@
           "name": "WordpressProvider",
           "componentImportPath": "@plasmicpkgs/plasmic-wordpress"
         }
-      ],
-      "jsBundleThemes": []
+      ]
     },
     {
       "projectId": "hjKYmYi6HMwK6TRyk7ew5R",
@@ -308,8 +324,7 @@
           "name": "CmsQueryRepeater",
           "componentImportPath": "@plasmicpkgs/plasmic-cms"
         }
-      ],
-      "jsBundleThemes": []
+      ]
     },
     {
       "projectId": "YUiM7yqBWAqsh8KSnrdj7",
@@ -333,8 +348,7 @@
           "name": "GraphqlFetcher",
           "componentImportPath": "@plasmicpkgs/plasmic-query"
         }
-      ],
-      "jsBundleThemes": []
+      ]
     },
     {
       "projectId": "jZt38kveZDTpkrHTcXsHEY",
@@ -825,6 +839,19 @@
             "modulePath": "../pages/disposable-5.tsx"
           },
           "cssFilePath": "plasmic/lhp_3_30_23/PlasmicCollection14.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "zxpwT8NbVAC",
+          "name": "Collection15",
+          "type": "managed",
+          "projectId": "jZt38kveZDTpkrHTcXsHEY",
+          "renderModuleFilePath": "plasmic/lhp_3_30_23/PlasmicCollection15.tsx",
+          "importSpec": {
+            "modulePath": "../pages/disposable-6.tsx"
+          },
+          "cssFilePath": "plasmic/lhp_3_30_23/PlasmicCollection15.module.css",
           "scheme": "blackbox",
           "componentType": "page"
         }
@@ -1418,6 +1445,6 @@
   "nextjsConfig": {
     "pagesDir": "../pages"
   },
-  "cliVersion": "0.1.249",
-  "$schema": "https://unpkg.com/@plasmicapp/cli@0.1.249/dist/plasmic.schema.json"
+  "cliVersion": "0.1.274",
+  "$schema": "https://unpkg.com/@plasmicapp/cli@0.1.274/dist/plasmic.schema.json"
 }

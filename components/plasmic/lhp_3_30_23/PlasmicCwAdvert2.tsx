@@ -1529,6 +1529,9 @@ function PlasmicCwAdvert2__RenderFunc(props: {
               data-plasmic-name={"offer2"}
               data-plasmic-override={overrides.offer2}
               className={classNames("__wab_instance", sty.offer2)}
+              slot5={
+                "Money-Back Guarantee: Better Flavor & Harder Hits or Your Money Back."
+              }
               slot7={
                 <div
                   className={classNames(
