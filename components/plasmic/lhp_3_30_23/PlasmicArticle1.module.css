@@ -37,6 +37,9 @@
   }
 }
 .columns___7Tb6F {
+  --plsmc-rc-col-gap: 0px;
+}
+.columns___7Tb6F {
   display: flex;
   position: relative;
   width: 100%;
@@ -49,10 +52,10 @@
   padding: 8px 70px;
 }
 .columns___7Tb6F > :nth-child(2n + 1) {
-  width: calc((100% - 2 * var(--plsmc-col-gap, 0px)) * 6 / 12);
+  width: calc((100% - 2 * var(--plsmc-rc-col-gap, 0px)) * 6 / 12);
 }
 .columns___7Tb6F > :nth-child(2n + 2) {
-  width: calc((100% - 2 * var(--plsmc-col-gap, 0px)) * 6 / 12);
+  width: calc((100% - 2 * var(--plsmc-rc-col-gap, 0px)) * 6 / 12);
 }
 @media (min-width: 0px) and (max-width: 768px) {
   .columns___7Tb6F {
@@ -67,12 +70,12 @@
 }
 @media (min-width: 0px) and (max-width: 768px) {
   .columns___7Tb6F > :nth-child(2n + 1) {
-    width: calc((100% - 2 * var(--plsmc-col-gap, 0px)) * 6 / 12);
+    width: calc((100% - 2 * var(--plsmc-rc-col-gap, 0px)) * 6 / 12);
   }
 }
 @media (min-width: 0px) and (max-width: 768px) {
   .columns___7Tb6F > :nth-child(2n + 2) {
-    width: calc((100% - 2 * var(--plsmc-col-gap, 0px)) * 6 / 12);
+    width: calc((100% - 2 * var(--plsmc-rc-col-gap, 0px)) * 6 / 12);
   }
 }
 .column___6RfnB {
@@ -290,6 +293,9 @@
   }
 }
 .columns__ym8Nt {
+  --plsmc-rc-col-gap: 0px;
+}
+.columns__ym8Nt {
   display: flex;
   position: relative;
   width: 100%;
@@ -303,10 +309,10 @@
   padding: 0px;
 }
 .columns__ym8Nt > :nth-child(2n + 1) {
-  width: calc((100% - 2 * var(--plsmc-col-gap, 0px)) * 7 / 12);
+  width: calc((100% - 2 * var(--plsmc-rc-col-gap, 0px)) * 7 / 12);
 }
 .columns__ym8Nt > :nth-child(2n + 2) {
-  width: calc((100% - 2 * var(--plsmc-col-gap, 0px)) * 5 / 12);
+  width: calc((100% - 2 * var(--plsmc-rc-col-gap, 0px)) * 5 / 12);
 }
 @media (min-width: 0px) and (max-width: 768px) {
   .columns__ym8Nt {
@@ -320,7 +326,7 @@
 }
 @media (min-width: 0px) and (max-width: 768px) {
   .columns__ym8Nt > :nth-child(1n + 1) {
-    width: calc((100% - 1 * var(--plsmc-col-gap, 0px)) * 12 / 12);
+    width: calc((100% - 1 * var(--plsmc-rc-col-gap, 0px)) * 12 / 12);
   }
 }
 .article {
@@ -1726,7 +1732,6 @@
   min-width: 0;
   margin-left: calc(0px - 30px);
   width: calc(100% + 30px);
-  --plsmc-col-gap: 30px;
 }
 .div6 > :global(.__wab_flex-container) > *,
 .div6 > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
@@ -3801,7 +3806,6 @@
   justify-content: flex-start;
   margin-left: calc(0px - 14.156px);
   width: calc(100% + 14.156px);
-  --plsmc-col-gap: 14.156px;
 }
 .div59 > :global(.__wab_flex-container) > *,
 .div59 > :global(.__wab_flex-container) > :global(.__wab_slot) > *,

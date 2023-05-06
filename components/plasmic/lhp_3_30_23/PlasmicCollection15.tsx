@@ -173,1229 +173,193 @@ function PlasmicCollection15__RenderFunc(props: {
       `}</style>
 
       <div className={projectcss.plasmic_page_wrapper}>
-        <div
-          data-plasmic-name={"root"}
-          data-plasmic-override={overrides.root}
-          data-plasmic-root={true}
-          data-plasmic-for-node={forNode}
-          className={classNames(
-            projectcss.all,
-            projectcss.root_reset,
-            projectcss.plasmic_default_styles,
-            projectcss.plasmic_mixins,
-            projectcss.plasmic_tokens,
-            sty.root
-          )}
-        >
-          {true ? (
-            <div className={classNames(projectcss.all, sty.freeBox__ozXns)}>
-              <div
-                className={classNames(
-                  projectcss.all,
-                  projectcss.__wab_text,
-                  sty.text__cjAr
-                )}
-              >
-                <React.Fragment>
-                  <span
-                    className={"plasmic_default__all plasmic_default__span"}
-                    style={{ color: "#FFFFFF" }}
-                  >
-                    {"FREE SHIPPING ON ORDERS OVER $65"}
-                  </span>
-                </React.Fragment>
-              </div>
-            </div>
-          ) : null}
-          {true ? (
-            <div className={classNames(projectcss.all, sty.freeBox__rPuSq)}>
-              <div className={classNames(projectcss.all, sty.freeBox__orG8)}>
-                {true ? (
-                  <p.PlasmicLink
-                    className={classNames(
-                      projectcss.all,
-                      projectcss.a,
-                      sty.link__ljIZm
-                    )}
-                    component={Link}
-                    href={"https://www.sparqlife.com/discount/QUIT15" as const}
-                    platform={"nextjs"}
-                  >
-                    {(
-                      hasVariant(globalVariants, "screen", "mobileOnly")
-                        ? true
-                        : false
-                    ) ? (
-                      <p.PlasmicLink
-                        className={classNames(
-                          projectcss.all,
-                          projectcss.a,
-                          sty.link__qlUcc
-                        )}
-                        component={Link}
-                        href={
-                          "https://www.sparqlife.com/discount/QUIT15" as const
-                        }
-                        platform={"nextjs"}
-                      >
-                        <p.PlasmicImg
-                          alt={""}
-                          className={classNames(sty.img__p73Ri)}
-                          displayHeight={"auto" as const}
-                          displayMaxHeight={"none" as const}
-                          displayMaxWidth={"100%" as const}
-                          displayMinHeight={"0" as const}
-                          displayMinWidth={"0" as const}
-                          displayWidth={"13px" as const}
-                          loading={"lazy" as const}
-                          src={{
-                            src: "/plasmic/lhp_3_30_23/images/navsvg.svg",
-                            fullWidth: 102,
-                            fullHeight: 150,
-                            aspectRatio: 0.677419
-                          }}
-                        />
-                      </p.PlasmicLink>
-                    ) : null}
-                    <p.PlasmicImg
-                      data-plasmic-name={"logo2"}
-                      data-plasmic-override={overrides.logo2}
-                      alt={""}
-                      className={classNames(sty.logo2)}
-                      displayHeight={"auto" as const}
-                      displayMaxHeight={"50px" as const}
-                      displayMaxWidth={"100%" as const}
-                      displayMinHeight={"0" as const}
-                      displayMinWidth={"0" as const}
-                      displayWidth={"125px" as const}
-                      loading={"lazy" as const}
-                      src={{
-                        src: "/plasmic/lhp_3_30_23/images/logopng.png",
-                        fullWidth: 276,
-                        fullHeight: 46,
-                        aspectRatio: undefined
-                      }}
-                    />
-
-                    {(
-                      hasVariant(globalVariants, "screen", "mobileOnly")
-                        ? true
-                        : true
-                    ) ? (
-                      <p.PlasmicLink
-                        className={classNames(
-                          projectcss.all,
-                          projectcss.a,
-                          projectcss.__wab_text,
-                          sty.link__vQtBl
-                        )}
-                        component={Link}
-                        href={
-                          "https://www.sparqlife.com/discount/QUIT15?redirect=/collections/rechargeable" as const
-                        }
-                        platform={"nextjs"}
-                      >
-                        {"RECHARGABLE"}
-                      </p.PlasmicLink>
-                    ) : null}
-                    {(
-                      hasVariant(globalVariants, "screen", "mobileOnly")
-                        ? true
-                        : true
-                    ) ? (
-                      <p.PlasmicLink
-                        className={classNames(
-                          projectcss.all,
-                          projectcss.a,
-                          projectcss.__wab_text,
-                          sty.link__xAzyV
-                        )}
-                        component={Link}
-                        href={
-                          "https://www.sparqlife.com/discount/QUIT15?redirect=/collections/all" as const
-                        }
-                        platform={"nextjs"}
-                      >
-                        {"DISPOSABLE"}
-                      </p.PlasmicLink>
-                    ) : null}
-                    {(
-                      hasVariant(globalVariants, "screen", "mobileOnly")
-                        ? true
-                        : true
-                    ) ? (
-                      <p.PlasmicLink
-                        className={classNames(
-                          projectcss.all,
-                          projectcss.a,
-                          projectcss.__wab_text,
-                          sty.link__kujiZ
-                        )}
-                        component={Link}
-                        href={
-                          "https://www.sparqlife.com/discount/QUIT15?redirect=/collections/volume-buying" as const
-                        }
-                        platform={"nextjs"}
-                      >
-                        {"BULK BUYING"}
-                      </p.PlasmicLink>
-                    ) : null}
-                    {(
-                      hasVariant(globalVariants, "screen", "mobileOnly")
-                        ? true
-                        : true
-                    ) ? (
-                      <p.PlasmicLink
-                        className={classNames(
-                          projectcss.all,
-                          projectcss.a,
-                          projectcss.__wab_text,
-                          sty.link__ksQir
-                        )}
-                        component={Link}
-                        href={
-                          "https://www.sparqlife.com/discount/QUIT15?redirect=/pages/our-story" as const
-                        }
-                        platform={"nextjs"}
-                      >
-                        <React.Fragment>
-                          <span
-                            className={
-                              "plasmic_default__all plasmic_default__span"
-                            }
-                            style={{ color: "#000000" }}
-                          >
-                            {"AUTO-SHIP"}
-                          </span>
-                        </React.Fragment>
-                      </p.PlasmicLink>
-                    ) : null}
-                    {(
-                      hasVariant(globalVariants, "screen", "mobileOnly")
-                        ? true
-                        : true
-                    ) ? (
-                      <p.PlasmicLink
-                        className={classNames(
-                          projectcss.all,
-                          projectcss.a,
-                          projectcss.__wab_text,
-                          sty.link__s1Bfm
-                        )}
-                        component={Link}
-                        href={
-                          "https://www.sparqlife.com/discount/QUIT15?redirect=/pages/pod-subscription" as const
-                        }
-                        platform={"nextjs"}
-                      >
-                        <React.Fragment>
-                          <span
-                            className={
-                              "plasmic_default__all plasmic_default__span"
-                            }
-                            style={{ color: "#000000" }}
-                          >
-                            {"ABOUT"}
-                          </span>
-                        </React.Fragment>
-                      </p.PlasmicLink>
-                    ) : null}
-                    {(
-                      hasVariant(globalVariants, "screen", "mobileOnly")
-                        ? true
-                        : true
-                    ) ? (
-                      <p.PlasmicLink
-                        className={classNames(
-                          projectcss.all,
-                          projectcss.a,
-                          projectcss.__wab_text,
-                          sty.link__cIrc
-                        )}
-                        component={Link}
-                        href={
-                          "https://www.sparqlife.com/discount/QUIT15?redirect=/pages/loyalty-referral-program" as const
-                        }
-                        platform={"nextjs"}
-                      >
-                        <React.Fragment>
-                          <span
-                            className={
-                              "plasmic_default__all plasmic_default__span"
-                            }
-                            style={{ color: "#000000" }}
-                          >
-                            {"REWARDS"}
-                          </span>
-                        </React.Fragment>
-                      </p.PlasmicLink>
-                    ) : null}
-                    {(
-                      hasVariant(globalVariants, "screen", "mobileOnly")
-                        ? true
-                        : true
-                    ) ? (
-                      <p.PlasmicLink
-                        className={classNames(
-                          projectcss.all,
-                          projectcss.a,
-                          projectcss.__wab_text,
-                          sty.link___4Ynu8
-                        )}
-                        component={Link}
-                        href={
-                          "https://www.sparqlife.com/account/login" as const
-                        }
-                        platform={"nextjs"}
-                      >
-                        <React.Fragment>
-                          <span
-                            className={
-                              "plasmic_default__all plasmic_default__span"
-                            }
-                            style={{ color: "#000000" }}
-                          >
-                            {"LOGIN"}
-                          </span>
-                        </React.Fragment>
-                      </p.PlasmicLink>
-                    ) : null}
-                    {(
-                      hasVariant(globalVariants, "screen", "mobileOnly")
-                        ? true
-                        : true
-                    ) ? (
-                      <p.PlasmicLink
-                        className={classNames(
-                          projectcss.all,
-                          projectcss.a,
-                          projectcss.__wab_text,
-                          sty.link__kcvLh
-                        )}
-                        component={Link}
-                        href={
-                          "https://www.sparqlife.com/account/register" as const
-                        }
-                        platform={"nextjs"}
-                      >
-                        <React.Fragment>
-                          <span
-                            className={
-                              "plasmic_default__all plasmic_default__span"
-                            }
-                            style={{ color: "#000000" }}
-                          >
-                            {"LOGIN"}
-                          </span>
-                        </React.Fragment>
-                      </p.PlasmicLink>
-                    ) : null}
-                    {(
-                      hasVariant(globalVariants, "screen", "mobileOnly")
-                        ? true
-                        : true
-                    ) ? (
-                      <p.PlasmicLink
-                        className={classNames(
-                          projectcss.all,
-                          projectcss.a,
-                          projectcss.__wab_text,
-                          sty.link__dEmjw
-                        )}
-                        component={Link}
-                        href={"https://www.sparqlife.com/cart" as const}
-                        platform={"nextjs"}
-                      >
-                        <React.Fragment>
-                          <span
-                            className={
-                              "plasmic_default__all plasmic_default__span"
-                            }
-                            style={{ color: "#93896A" }}
-                          >
-                            {"CART"}
-                          </span>
-                        </React.Fragment>
-                      </p.PlasmicLink>
-                    ) : null}
-                    <p.PlasmicLink
-                      className={classNames(
-                        projectcss.all,
-                        projectcss.a,
-                        sty.link__kfZn
-                      )}
-                      component={Link}
-                      href={"https://www.sparqlife.com/cart" as const}
-                      platform={"nextjs"}
-                    >
-                      <p.PlasmicImg
-                        alt={""}
-                        className={classNames(sty.img__iAh0Y)}
-                        displayHeight={"auto" as const}
-                        displayMaxHeight={"none" as const}
-                        displayMaxWidth={"100%" as const}
-                        displayMinHeight={"0" as const}
-                        displayMinWidth={"0" as const}
-                        displayWidth={"13px" as const}
-                        loading={"lazy" as const}
-                        src={{
-                          src: "/plasmic/lhp_3_30_23/images/cartsvg.svg",
-                          fullWidth: 134,
-                          fullHeight: 150,
-                          aspectRatio: 0.894737
-                        }}
-                      />
-                    </p.PlasmicLink>
-                  </p.PlasmicLink>
-                ) : null}
-              </div>
-            </div>
-          ) : null}
-          {true ? (
-            <div className={classNames(projectcss.all, sty.freeBox__vshpq)}>
-              {true ? (
-                <p.PlasmicLink
+        {true ? (
+          <div
+            data-plasmic-name={"root"}
+            data-plasmic-override={overrides.root}
+            data-plasmic-root={true}
+            data-plasmic-for-node={forNode}
+            className={classNames(
+              projectcss.all,
+              projectcss.root_reset,
+              projectcss.plasmic_default_styles,
+              projectcss.plasmic_mixins,
+              projectcss.plasmic_tokens,
+              sty.root
+            )}
+          >
+            {true ? (
+              <div className={classNames(projectcss.all, sty.freeBox__ozXns)}>
+                <div
                   className={classNames(
                     projectcss.all,
-                    projectcss.a,
-                    sty.link__sWmKh
+                    projectcss.__wab_text,
+                    sty.text__cjAr
                   )}
-                  component={Link}
-                  href={
-                    "https://shop.lifehacksplus.com/discount/QUIT15" as const
-                  }
-                  platform={"nextjs"}
                 >
-                  <p.PlasmicImg
-                    data-plasmic-name={"logo"}
-                    data-plasmic-override={overrides.logo}
-                    alt={""}
-                    className={classNames(sty.logo)}
-                    displayHeight={"auto" as const}
-                    displayMaxHeight={"50px" as const}
-                    displayMaxWidth={"100%" as const}
-                    displayMinHeight={"0" as const}
-                    displayMinWidth={"0" as const}
-                    displayWidth={"auto" as const}
-                    loading={"lazy" as const}
-                    src={{
-                      src: "/plasmic/lhp_3_30_23/images/logopng.png",
-                      fullWidth: 276,
-                      fullHeight: 46,
-                      aspectRatio: undefined
-                    }}
-                  />
-                </p.PlasmicLink>
-              ) : null}
-            </div>
-          ) : null}
-          {true ? (
-            <div className={classNames(projectcss.all, sty.freeBox___1PBbf)}>
-              <div
-                data-plasmic-name={"hiconsH1"}
-                data-plasmic-override={overrides.hiconsH1}
-                className={classNames(
-                  projectcss.all,
-                  projectcss.__wab_text,
-                  sty.hiconsH1
-                )}
-              >
-                {(() => {
-                  try {
-                    return $ctx.fetchDyanamicData.records[0].fields.hicons_h1;
-                  } catch (e) {
-                    if (e instanceof TypeError) {
-                      return "BREATHE VITAMIN AIR®";
-                    }
-                    throw e;
-                  }
-                })()}
-              </div>
-              <div className={classNames(projectcss.all, sty.freeBox__jDzfx)}>
-                <div className={classNames(projectcss.all, sty.freeBox__eh4J)}>
-                  <p.PlasmicImg
-                    data-plasmic-name={"hiconsIcon1"}
-                    data-plasmic-override={overrides.hiconsIcon1}
-                    alt={""}
-                    className={classNames(sty.hiconsIcon1)}
-                    displayHeight={
-                      hasVariant(globalVariants, "screen", "mobileOnly")
-                        ? ("32px" as const)
-                        : ("45px" as const)
-                    }
-                    displayMaxHeight={"none" as const}
-                    displayMaxWidth={"100%" as const}
-                    displayMinHeight={"0" as const}
-                    displayMinWidth={"0" as const}
-                    displayWidth={
-                      hasVariant(globalVariants, "screen", "mobileOnly")
-                        ? ("32px" as const)
-                        : ("45px" as const)
-                    }
-                    loading={"lazy" as const}
-                    src={(() => {
-                      try {
-                        return $ctx.fetchDyanamicData.records[0].fields
-                          .hicons_icon1[0].url;
-                      } catch (e) {
-                        if (e instanceof TypeError) {
-                          return "https://site-assets.plasmic.app/6e42147b488b5ca87759208eede507e2.png";
-                        }
-                        throw e;
-                      }
-                    })()}
-                  />
-
-                  <div
-                    data-plasmic-name={"hiconsLabel1"}
-                    data-plasmic-override={overrides.hiconsLabel1}
-                    className={classNames(
-                      projectcss.all,
-                      projectcss.__wab_text,
-                      sty.hiconsLabel1
-                    )}
-                  >
-                    {(() => {
-                      try {
-                        return $ctx.fetchDyanamicData.records[0].fields
-                          .hicons_label_1;
-                      } catch (e) {
-                        if (e instanceof TypeError) {
-                          return "0% Nicotine";
-                        }
-                        throw e;
-                      }
-                    })()}
-                  </div>
-                </div>
-                <div className={classNames(projectcss.all, sty.freeBox__zJbVh)}>
-                  <p.PlasmicImg
-                    data-plasmic-name={"hiconsIcon2"}
-                    data-plasmic-override={overrides.hiconsIcon2}
-                    alt={""}
-                    className={classNames(sty.hiconsIcon2)}
-                    displayHeight={
-                      hasVariant(globalVariants, "screen", "mobileOnly")
-                        ? ("32px" as const)
-                        : ("45px" as const)
-                    }
-                    displayMaxHeight={"none" as const}
-                    displayMaxWidth={"100%" as const}
-                    displayMinHeight={"0" as const}
-                    displayMinWidth={"0" as const}
-                    displayWidth={
-                      hasVariant(globalVariants, "screen", "mobileOnly")
-                        ? ("32px" as const)
-                        : ("45px" as const)
-                    }
-                    loading={"lazy" as const}
-                    src={(() => {
-                      try {
-                        return $ctx.fetchDyanamicData.records[0].fields
-                          .hicons_icon_2[0].url;
-                      } catch (e) {
-                        if (e instanceof TypeError) {
-                          return "https://site-assets.plasmic.app/9d995ea0affc51c4faaeacafd85b5294.png";
-                        }
-                        throw e;
-                      }
-                    })()}
-                  />
-
-                  <div
-                    data-plasmic-name={"hiconsLabel2"}
-                    data-plasmic-override={overrides.hiconsLabel2}
-                    className={classNames(
-                      projectcss.all,
-                      projectcss.__wab_text,
-                      sty.hiconsLabel2
-                    )}
-                  >
-                    {(() => {
-                      try {
-                        return $ctx.fetchDyanamicData.records[0].fields
-                          .hicons_label_2;
-                      } catch (e) {
-                        if (e instanceof TypeError) {
-                          return "Lab-Tested";
-                        }
-                        throw e;
-                      }
-                    })()}
-                  </div>
-                </div>
-                <div className={classNames(projectcss.all, sty.freeBox__kgC1N)}>
-                  <p.PlasmicImg
-                    data-plasmic-name={"hiconsIcon3"}
-                    data-plasmic-override={overrides.hiconsIcon3}
-                    alt={""}
-                    className={classNames(sty.hiconsIcon3)}
-                    displayHeight={
-                      hasVariant(globalVariants, "screen", "mobileOnly")
-                        ? ("32px" as const)
-                        : ("45px" as const)
-                    }
-                    displayMaxHeight={"none" as const}
-                    displayMaxWidth={"100%" as const}
-                    displayMinHeight={"0" as const}
-                    displayMinWidth={"0" as const}
-                    displayWidth={
-                      hasVariant(globalVariants, "screen", "mobileOnly")
-                        ? ("32px" as const)
-                        : ("45px" as const)
-                    }
-                    loading={"lazy" as const}
-                    src={(() => {
-                      try {
-                        return $ctx.fetchDyanamicData.records[0].fields
-                          .hicons_icon_3[0].url;
-                      } catch (e) {
-                        if (e instanceof TypeError) {
-                          return "https://site-assets.plasmic.app/c7ff4dd82964e5ed55ed8e02cffad8aa.png";
-                        }
-                        throw e;
-                      }
-                    })()}
-                  />
-
-                  <div
-                    data-plasmic-name={"hiconsIcon4"}
-                    data-plasmic-override={overrides.hiconsIcon4}
-                    className={classNames(
-                      projectcss.all,
-                      projectcss.__wab_text,
-                      sty.hiconsIcon4
-                    )}
-                  >
-                    {(() => {
-                      try {
-                        return $ctx.fetchDyanamicData.records[0].fields
-                          .hicons_label_3;
-                      } catch (e) {
-                        if (e instanceof TypeError) {
-                          return "Vitamins";
-                        }
-                        throw e;
-                      }
-                    })()}
-                  </div>
-                </div>
-                <div className={classNames(projectcss.all, sty.freeBox__h4JWn)}>
-                  <p.PlasmicImg
-                    data-plasmic-name={"hiconsIcon5"}
-                    data-plasmic-override={overrides.hiconsIcon5}
-                    alt={""}
-                    className={classNames(sty.hiconsIcon5)}
-                    displayHeight={
-                      hasVariant(globalVariants, "screen", "mobileOnly")
-                        ? ("32px" as const)
-                        : ("45px" as const)
-                    }
-                    displayMaxHeight={"none" as const}
-                    displayMaxWidth={"100%" as const}
-                    displayMinHeight={"0" as const}
-                    displayMinWidth={"0" as const}
-                    displayWidth={
-                      hasVariant(globalVariants, "screen", "mobileOnly")
-                        ? ("32px" as const)
-                        : ("45px" as const)
-                    }
-                    loading={"lazy" as const}
-                    src={(() => {
-                      try {
-                        return $ctx.fetchDyanamicData.records[0].fields
-                          .hicons_icon_4[0].url;
-                      } catch (e) {
-                        if (e instanceof TypeError) {
-                          return "https://site-assets.plasmic.app/5c825a2405e0e04e2cec44d1082488b6.png";
-                        }
-                        throw e;
-                      }
-                    })()}
-                  />
-
-                  <div
-                    data-plasmic-name={"hiconsIcon6"}
-                    data-plasmic-override={overrides.hiconsIcon6}
-                    className={classNames(
-                      projectcss.all,
-                      projectcss.__wab_text,
-                      sty.hiconsIcon6
-                    )}
-                  >
-                    {(() => {
-                      try {
-                        return $ctx.fetchDyanamicData.records[0].fields
-                          .hicons_label_4;
-                      } catch (e) {
-                        if (e instanceof TypeError) {
-                          return "Recyclable";
-                        }
-                        throw e;
-                      }
-                    })()}
-                  </div>
-                </div>
-              </div>
-            </div>
-          ) : null}
-          {true ? (
-            <div
-              data-plasmic-name={"offer"}
-              data-plasmic-override={overrides.offer}
-              className={classNames(projectcss.all, sty.offer)}
-            >
-              <Offer1
-                data-plasmic-name={"offer1"}
-                data-plasmic-override={overrides.offer1}
-                className={classNames("__wab_instance", sty.offer1)}
-                slot={
                   <React.Fragment>
+                    <span
+                      className={"plasmic_default__all plasmic_default__span"}
+                      style={{ color: "#FFFFFF" }}
+                    >
+                      {"FREE SHIPPING ON ORDERS OVER $65"}
+                    </span>
+                  </React.Fragment>
+                </div>
+              </div>
+            ) : null}
+            {true ? (
+              <div className={classNames(projectcss.all, sty.freeBox__rPuSq)}>
+                <div className={classNames(projectcss.all, sty.freeBox__orG8)}>
+                  {true ? (
                     <p.PlasmicLink
-                      data-plasmic-name={"offerVariant1Url"}
-                      data-plasmic-override={overrides.offerVariant1Url}
                       className={classNames(
                         projectcss.all,
                         projectcss.a,
-                        sty.offerVariant1Url
+                        sty.link__ljIZm
                       )}
                       component={Link}
                       href={
-                        "https://shop.lifehacksplus.com/discount/FREE?redirect=/cart/39394788108:1,39394868748:1,39394817036:1?note=LHP-cw-offer-widget" as const
+                        "https://www.sparqlife.com/discount/QUIT15" as const
                       }
                       platform={"nextjs"}
                     >
-                      <p.PlasmicImg
-                        data-plasmic-name={"offerVariant1Image"}
-                        data-plasmic-override={overrides.offerVariant1Image}
-                        alt={""}
-                        className={classNames(sty.offerVariant1Image)}
-                        displayHeight={"60px" as const}
-                        displayMaxHeight={"none" as const}
-                        displayMaxWidth={"100%" as const}
-                        displayMinHeight={"0" as const}
-                        displayMinWidth={"0" as const}
-                        displayWidth={"60px" as const}
-                        loading={"lazy" as const}
-                        src={(() => {
-                          try {
-                            return $ctx.fetchDyanamicData.records[0].fields
-                              .offer_variant_image1[0].url;
-                          } catch (e) {
-                            if (e instanceof TypeError) {
-                              return "https://site-assets.plasmic.app/c63d1d2e518b2d80727ede4d7588f173.svg";
-                            }
-                            throw e;
-                          }
-                        })()}
-                      />
-                    </p.PlasmicLink>
-                    <div
-                      data-plasmic-name={"offerVariant1Label"}
-                      data-plasmic-override={overrides.offerVariant1Label}
-                      className={classNames(
-                        projectcss.all,
-                        projectcss.__wab_text,
-                        sty.offerVariant1Label
-                      )}
-                    >
-                      {(() => {
-                        try {
-                          return $ctx.fetchDyanamicData.records[0].fields
-                            .offer_variant_label1;
-                        } catch (e) {
-                          if (e instanceof TypeError) {
-                            return "Strawberry";
-                          }
-                          throw e;
-                        }
-                      })()}
-                    </div>
-                  </React.Fragment>
-                }
-                slot2={
-                  <React.Fragment>
-                    <p.PlasmicLink
-                      data-plasmic-name={"offerVariant2Url"}
-                      data-plasmic-override={overrides.offerVariant2Url}
-                      className={classNames(
-                        projectcss.all,
-                        projectcss.a,
-                        sty.offerVariant2Url
-                      )}
-                      component={Link}
-                      href={
-                        "https://shop.lifehacksplus.com/discount/FREE?redirect=/cart/39394788236:1,39394868940:1,39394817164:1?discount=FREE&note=LHP-cw-offer-widget" as const
-                      }
-                      platform={"nextjs"}
-                    >
-                      <p.PlasmicImg
-                        data-plasmic-name={"offerVariant2Image"}
-                        data-plasmic-override={overrides.offerVariant2Image}
-                        alt={""}
-                        className={classNames(sty.offerVariant2Image)}
-                        displayHeight={"60px" as const}
-                        displayMaxHeight={"none" as const}
-                        displayMaxWidth={"100%" as const}
-                        displayMinHeight={"0" as const}
-                        displayMinWidth={"0" as const}
-                        displayWidth={"60px" as const}
-                        loading={"lazy" as const}
-                        src={(() => {
-                          try {
-                            return $ctx.fetchDyanamicData.records[0].fields
-                              .offer_variant_image2[0].url;
-                          } catch (e) {
-                            if (e instanceof TypeError) {
-                              return "https://site-assets.plasmic.app/eac11844e4f24b6cdb55891eb5d2951d.svg";
-                            }
-                            throw e;
-                          }
-                        })()}
-                      />
-                    </p.PlasmicLink>
-                    <div
-                      data-plasmic-name={"offerVariant2Label"}
-                      data-plasmic-override={overrides.offerVariant2Label}
-                      className={classNames(
-                        projectcss.all,
-                        projectcss.__wab_text,
-                        sty.offerVariant2Label
-                      )}
-                    >
-                      {(() => {
-                        try {
-                          return $ctx.fetchDyanamicData.records[0].fields
-                            .offer_variant_label2;
-                        } catch (e) {
-                          if (e instanceof TypeError) {
-                            return "Vanilla";
-                          }
-                          throw e;
-                        }
-                      })()}
-                    </div>
-                  </React.Fragment>
-                }
-                slot3={
-                  <div
-                    data-plasmic-name={"offerH1"}
-                    data-plasmic-override={overrides.offerH1}
-                    className={classNames(
-                      projectcss.all,
-                      projectcss.__wab_text,
-                      sty.offerH1
-                    )}
-                  >
-                    {(() => {
-                      try {
-                        return $ctx.fetchDyanamicData.records[0].fields
-                          .offer_h1;
-                      } catch (e) {
-                        if (e instanceof TypeError) {
-                          return "SPECIAL OFFER";
-                        }
-                        throw e;
-                      }
-                    })()}
-                  </div>
-                }
-                slot4={
-                  <div
-                    data-plasmic-name={"offerH2"}
-                    data-plasmic-override={overrides.offerH2}
-                    className={classNames(
-                      projectcss.all,
-                      projectcss.__wab_text,
-                      sty.offerH2
-                    )}
-                  >
-                    {(() => {
-                      try {
-                        return $ctx.fetchDyanamicData.records[0].fields
-                          .offer_h2;
-                      } catch (e) {
-                        if (e instanceof TypeError) {
-                          return "FREE VITAMIN AIR";
-                        }
-                        throw e;
-                      }
-                    })()}
-                  </div>
-                }
-                slot5={
-                  <div
-                    data-plasmic-name={"offerParagraph"}
-                    data-plasmic-override={overrides.offerParagraph}
-                    className={classNames(
-                      projectcss.all,
-                      projectcss.__wab_text,
-                      sty.offerParagraph
-                    )}
-                  >
-                    {(() => {
-                      try {
-                        return $ctx.fetchDyanamicData.records[0].fields
-                          .offer_paragraph;
-                      } catch (e) {
-                        if (e instanceof TypeError) {
-                          return "Money-Back Guarantee: Better Flavor & Harder Hits or Your Money Back.";
-                        }
-                        throw e;
-                      }
-                    })()}
-                  </div>
-                }
-                slot6={
-                  <div
-                    data-plasmic-name={"offerCta"}
-                    data-plasmic-override={overrides.offerCta}
-                    className={classNames(
-                      projectcss.all,
-                      projectcss.__wab_text,
-                      sty.offerCta
-                    )}
-                  >
-                    {(() => {
-                      try {
-                        return $ctx.fetchDyanamicData.records[0].fields
-                          .offer_cta;
-                      } catch (e) {
-                        if (e instanceof TypeError) {
-                          return "CHOOSE FLAVOR";
-                        }
-                        throw e;
-                      }
-                    })()}
-                  </div>
-                }
-              >
-                <p.PlasmicLink
-                  className={classNames(
-                    projectcss.all,
-                    projectcss.a,
-                    sty.link__j27DL
-                  )}
-                  component={Link}
-                  platform={"nextjs"}
-                >
-                  <p.PlasmicImg
-                    data-plasmic-name={"offerImage"}
-                    data-plasmic-override={overrides.offerImage}
-                    alt={""}
-                    className={classNames(sty.offerImage)}
-                    displayHeight={"423px" as const}
-                    displayMaxHeight={"none" as const}
-                    displayMaxWidth={"100%" as const}
-                    displayMinHeight={"0" as const}
-                    displayMinWidth={"0" as const}
-                    displayWidth={"auto" as const}
-                    loading={"lazy" as const}
-                    src={(() => {
-                      try {
-                        return $ctx.fetchDyanamicData.records[0].fields
-                          .offer_image[0].url;
-                      } catch (e) {
-                        if (e instanceof TypeError) {
-                          return "https://site-assets.plasmic.app/6187c6867888745d6599b0c2b977be87.svg";
-                        }
-                        throw e;
-                      }
-                    })()}
-                  />
-                </p.PlasmicLink>
-              </Offer1>
-            </div>
-          ) : null}
-          {true ? (
-            <div
-              data-plasmic-name={"products"}
-              data-plasmic-override={overrides.products}
-              className={classNames(projectcss.all, sty.products)}
-            >
-              <div className={classNames(projectcss.all, sty.columns__u9Jza)}>
-                <p.PlasmicLink
-                  className={classNames(
-                    projectcss.all,
-                    projectcss.a,
-                    sty.column__ah08P
-                  )}
-                  component={Link}
-                  href={
-                    "https://shop.lifehacksplus.com/discount/QUIT15?redirect=/collections/all/products/3-pack?variant=31099464122437" as const
-                  }
-                  platform={"nextjs"}
-                >
-                  <Collection1
-                    className={classNames(
-                      "__wab_instance",
-                      sty.collection1__gbX
-                    )}
-                    slot9={"$56"}
-                  >
-                    <p.PlasmicImg
-                      alt={""}
-                      className={classNames(sty.img__cBiJl)}
-                      displayHeight={"441px" as const}
-                      displayMaxHeight={"none" as const}
-                      displayMaxWidth={"100%" as const}
-                      displayMinHeight={"0" as const}
-                      displayMinWidth={"0" as const}
-                      displayWidth={"387px" as const}
-                      loading={"lazy" as const}
-                      src={{
-                        src: "/plasmic/lhp_3_30_23/images/_3PacKsvg.svg",
-                        fullWidth: 131,
-                        fullHeight: 150,
-                        aspectRatio: 0.875566
-                      }}
-                    />
-                  </Collection1>
-                  <Collection1Cta
-                    className={classNames(
-                      "__wab_instance",
-                      sty.collection1Cta__tnwqj
-                    )}
-                  >
-                    <div
-                      className={classNames(
-                        projectcss.all,
-                        projectcss.__wab_text,
-                        sty.text__jqng0
-                      )}
-                    >
-                      {"SHOP NOW"}
-                    </div>
-                  </Collection1Cta>
-                </p.PlasmicLink>
-                {true ? (
-                  <p.PlasmicLink
-                    className={classNames(
-                      projectcss.all,
-                      projectcss.a,
-                      sty.column__uDSP
-                    )}
-                    component={Link}
-                    href={
-                      "https://shop.lifehacksplus.com/discount/QUIT15?redirect=/collections/all/products/variety-pack" as const
-                    }
-                    platform={"nextjs"}
-                  >
-                    <Collection1
-                      className={classNames(
-                        "__wab_instance",
-                        sty.collection1__ethBf
-                      )}
-                      slot={"VARIETY PACK"}
-                      slot9={
-                        <div
+                      {(
+                        hasVariant(globalVariants, "screen", "mobileOnly")
+                          ? true
+                          : false
+                      ) ? (
+                        <p.PlasmicLink
                           className={classNames(
                             projectcss.all,
-                            projectcss.__wab_text,
-                            sty.text__zHogu
+                            projectcss.a,
+                            sty.link__qlUcc
                           )}
+                          component={Link}
+                          href={
+                            "https://www.sparqlife.com/discount/QUIT15" as const
+                          }
+                          platform={"nextjs"}
                         >
-                          <React.Fragment>
-                            <React.Fragment>{"$98 "}</React.Fragment>
-                            <span
-                              className={
-                                "plasmic_default__all plasmic_default__span"
-                              }
-                              style={{ color: "#FF0000" }}
-                            >
-                              {"+ FREE SHIPPING"}
-                            </span>
-                          </React.Fragment>
-                        </div>
-                      }
-                    >
+                          <p.PlasmicImg
+                            alt={""}
+                            className={classNames(sty.img__p73Ri)}
+                            displayHeight={"auto" as const}
+                            displayMaxHeight={"none" as const}
+                            displayMaxWidth={"100%" as const}
+                            displayMinHeight={"0" as const}
+                            displayMinWidth={"0" as const}
+                            displayWidth={"13px" as const}
+                            loading={"lazy" as const}
+                            src={{
+                              src: "/plasmic/lhp_3_30_23/images/navsvg.svg",
+                              fullWidth: 102,
+                              fullHeight: 150,
+                              aspectRatio: 0.677419
+                            }}
+                          />
+                        </p.PlasmicLink>
+                      ) : null}
                       <p.PlasmicImg
+                        data-plasmic-name={"logo2"}
+                        data-plasmic-override={overrides.logo2}
                         alt={""}
-                        className={classNames(sty.img__fl8Zu)}
-                        displayHeight={"441px" as const}
-                        displayMaxHeight={"none" as const}
+                        className={classNames(sty.logo2)}
+                        displayHeight={"auto" as const}
+                        displayMaxHeight={"50px" as const}
                         displayMaxWidth={"100%" as const}
                         displayMinHeight={"0" as const}
                         displayMinWidth={"0" as const}
-                        displayWidth={"387px" as const}
+                        displayWidth={"125px" as const}
                         loading={"lazy" as const}
                         src={{
-                          src: "/plasmic/lhp_3_30_23/images/varietYsvg.svg",
-                          fullWidth: 131,
-                          fullHeight: 150,
-                          aspectRatio: 0.87471
+                          src: "/plasmic/lhp_3_30_23/images/logopng.png",
+                          fullWidth: 276,
+                          fullHeight: 46,
+                          aspectRatio: undefined
                         }}
                       />
-                    </Collection1>
-                    <Collection1Cta
-                      className={classNames(
-                        "__wab_instance",
-                        sty.collection1Cta__f6LdY
-                      )}
-                    >
-                      <div
-                        className={classNames(
-                          projectcss.all,
-                          projectcss.__wab_text,
-                          sty.text__gmj0H
-                        )}
-                      >
-                        {"SHOP NOW"}
-                      </div>
-                    </Collection1Cta>
-                  </p.PlasmicLink>
-                ) : null}
-                <p.PlasmicLink
-                  className={classNames(
-                    projectcss.all,
-                    projectcss.a,
-                    sty.column__ebri2
-                  )}
-                  component={Link}
-                  href={
-                    "https://shop.lifehacksplus.com/discount/QUIT15?redirect=/collections/all/products/fuel?variant=39394788108" as const
-                  }
-                  platform={"nextjs"}
-                >
-                  <Collection1
-                    className={classNames(
-                      "__wab_instance",
-                      sty.collection1___0BZ9
-                    )}
-                    slot={"FUEL"}
-                    slot3={"Energy-Enhancing"}
-                    slot9={"$20"}
-                  >
-                    <p.PlasmicImg
-                      alt={""}
-                      className={classNames(sty.img__llsRw)}
-                      displayHeight={"441px" as const}
-                      displayMaxHeight={"none" as const}
-                      displayMaxWidth={"100%" as const}
-                      displayMinHeight={"0" as const}
-                      displayMinWidth={"0" as const}
-                      displayWidth={"387px" as const}
-                      loading={"lazy" as const}
-                      src={{
-                        src: "/plasmic/lhp_3_30_23/images/fueLsvg.svg",
-                        fullWidth: 132,
-                        fullHeight: 150,
-                        aspectRatio: 0.877551
-                      }}
-                    />
-                  </Collection1>
-                  <Collection1Cta
-                    className={classNames(
-                      "__wab_instance",
-                      sty.collection1Cta__veNup
-                    )}
-                  />
-                </p.PlasmicLink>
-              </div>
-              <div className={classNames(projectcss.all, sty.columns__h0J6B)}>
-                <p.PlasmicLink
-                  className={classNames(
-                    projectcss.all,
-                    projectcss.a,
-                    sty.column__hqmnx
-                  )}
-                  component={Link}
-                  href={
-                    "https://shop.lifehacksplus.com/discount/QUIT15?redirect=/collections/all/products/pure?variant=39394817036" as const
-                  }
-                  platform={"nextjs"}
-                >
-                  <Collection1
-                    className={classNames(
-                      "__wab_instance",
-                      sty.collection1__eN2N
-                    )}
-                    slot={
-                      <div
-                        className={classNames(
-                          projectcss.all,
-                          projectcss.__wab_text,
-                          sty.text__f606Y
-                        )}
-                      >
-                        {"PURE"}
-                      </div>
-                    }
-                    slot3={"Age-Defying"}
-                    slot9={
-                      <div
-                        className={classNames(
-                          projectcss.all,
-                          projectcss.__wab_text,
-                          sty.text__kOH3
-                        )}
-                      >
-                        {"$20"}
-                      </div>
-                    }
-                  >
-                    <p.PlasmicImg
-                      alt={""}
-                      className={classNames(sty.img___6Qmtu)}
-                      displayHeight={"441px" as const}
-                      displayMaxHeight={"none" as const}
-                      displayMaxWidth={"100%" as const}
-                      displayMinHeight={"0" as const}
-                      displayMinWidth={"0" as const}
-                      displayWidth={"387px" as const}
-                      loading={"lazy" as const}
-                      src={{
-                        src: "/plasmic/lhp_3_30_23/images/purEsvg.svg",
-                        fullWidth: 132,
-                        fullHeight: 150,
-                        aspectRatio: 0.877551
-                      }}
-                    />
-                  </Collection1>
-                  <Collection1Cta
-                    className={classNames(
-                      "__wab_instance",
-                      sty.collection1Cta___35MwF
-                    )}
-                  >
-                    <div
-                      className={classNames(
-                        projectcss.all,
-                        projectcss.__wab_text,
-                        sty.text__oDptj
-                      )}
-                    >
-                      {"SHOP NOW"}
-                    </div>
-                  </Collection1Cta>
-                </p.PlasmicLink>
-                {true ? (
-                  <p.PlasmicLink
-                    className={classNames(
-                      projectcss.all,
-                      projectcss.a,
-                      sty.column__jEcsj
-                    )}
-                    component={Link}
-                    href={
-                      "https://shop.lifehacksplus.com/discount/QUIT15?redirect=/collections/all/products/melt?variant=39394868748" as const
-                    }
-                    platform={"nextjs"}
-                  >
-                    <Collection1
-                      className={classNames(
-                        "__wab_instance",
-                        sty.collection1___2SDI
-                      )}
-                      slot={"MELT"}
-                      slot3={"Metabolism-Boosting"}
-                      slot9={
-                        <div
+
+                      {(
+                        hasVariant(globalVariants, "screen", "mobileOnly")
+                          ? true
+                          : true
+                      ) ? (
+                        <p.PlasmicLink
                           className={classNames(
                             projectcss.all,
+                            projectcss.a,
                             projectcss.__wab_text,
-                            sty.text__o7Xq6
+                            sty.link__vQtBl
                           )}
+                          component={Link}
+                          href={
+                            "https://www.sparqlife.com/discount/QUIT15?redirect=/collections/rechargeable" as const
+                          }
+                          platform={"nextjs"}
+                        >
+                          {"RECHARGABLE"}
+                        </p.PlasmicLink>
+                      ) : null}
+                      {(
+                        hasVariant(globalVariants, "screen", "mobileOnly")
+                          ? true
+                          : true
+                      ) ? (
+                        <p.PlasmicLink
+                          className={classNames(
+                            projectcss.all,
+                            projectcss.a,
+                            projectcss.__wab_text,
+                            sty.link__xAzyV
+                          )}
+                          component={Link}
+                          href={
+                            "https://www.sparqlife.com/discount/QUIT15?redirect=/collections/all" as const
+                          }
+                          platform={"nextjs"}
+                        >
+                          {"DISPOSABLE"}
+                        </p.PlasmicLink>
+                      ) : null}
+                      {(
+                        hasVariant(globalVariants, "screen", "mobileOnly")
+                          ? true
+                          : true
+                      ) ? (
+                        <p.PlasmicLink
+                          className={classNames(
+                            projectcss.all,
+                            projectcss.a,
+                            projectcss.__wab_text,
+                            sty.link__kujiZ
+                          )}
+                          component={Link}
+                          href={
+                            "https://www.sparqlife.com/discount/QUIT15?redirect=/collections/volume-buying" as const
+                          }
+                          platform={"nextjs"}
+                        >
+                          {"BULK BUYING"}
+                        </p.PlasmicLink>
+                      ) : null}
+                      {(
+                        hasVariant(globalVariants, "screen", "mobileOnly")
+                          ? true
+                          : true
+                      ) ? (
+                        <p.PlasmicLink
+                          className={classNames(
+                            projectcss.all,
+                            projectcss.a,
+                            projectcss.__wab_text,
+                            sty.link__ksQir
+                          )}
+                          component={Link}
+                          href={
+                            "https://www.sparqlife.com/discount/QUIT15?redirect=/pages/our-story" as const
+                          }
+                          platform={"nextjs"}
                         >
                           <React.Fragment>
                             <span
@@ -1404,15 +368,785 @@ function PlasmicCollection15__RenderFunc(props: {
                               }
                               style={{ color: "#000000" }}
                             >
-                              {"$20"}
+                              {"AUTO-SHIP"}
                             </span>
                           </React.Fragment>
-                        </div>
+                        </p.PlasmicLink>
+                      ) : null}
+                      {(
+                        hasVariant(globalVariants, "screen", "mobileOnly")
+                          ? true
+                          : true
+                      ) ? (
+                        <p.PlasmicLink
+                          className={classNames(
+                            projectcss.all,
+                            projectcss.a,
+                            projectcss.__wab_text,
+                            sty.link__s1Bfm
+                          )}
+                          component={Link}
+                          href={
+                            "https://www.sparqlife.com/discount/QUIT15?redirect=/pages/pod-subscription" as const
+                          }
+                          platform={"nextjs"}
+                        >
+                          <React.Fragment>
+                            <span
+                              className={
+                                "plasmic_default__all plasmic_default__span"
+                              }
+                              style={{ color: "#000000" }}
+                            >
+                              {"ABOUT"}
+                            </span>
+                          </React.Fragment>
+                        </p.PlasmicLink>
+                      ) : null}
+                      {(
+                        hasVariant(globalVariants, "screen", "mobileOnly")
+                          ? true
+                          : true
+                      ) ? (
+                        <p.PlasmicLink
+                          className={classNames(
+                            projectcss.all,
+                            projectcss.a,
+                            projectcss.__wab_text,
+                            sty.link__cIrc
+                          )}
+                          component={Link}
+                          href={
+                            "https://www.sparqlife.com/discount/QUIT15?redirect=/pages/loyalty-referral-program" as const
+                          }
+                          platform={"nextjs"}
+                        >
+                          <React.Fragment>
+                            <span
+                              className={
+                                "plasmic_default__all plasmic_default__span"
+                              }
+                              style={{ color: "#000000" }}
+                            >
+                              {"REWARDS"}
+                            </span>
+                          </React.Fragment>
+                        </p.PlasmicLink>
+                      ) : null}
+                      {(
+                        hasVariant(globalVariants, "screen", "mobileOnly")
+                          ? true
+                          : true
+                      ) ? (
+                        <p.PlasmicLink
+                          className={classNames(
+                            projectcss.all,
+                            projectcss.a,
+                            projectcss.__wab_text,
+                            sty.link___4Ynu8
+                          )}
+                          component={Link}
+                          href={
+                            "https://www.sparqlife.com/account/login" as const
+                          }
+                          platform={"nextjs"}
+                        >
+                          <React.Fragment>
+                            <span
+                              className={
+                                "plasmic_default__all plasmic_default__span"
+                              }
+                              style={{ color: "#000000" }}
+                            >
+                              {"LOGIN"}
+                            </span>
+                          </React.Fragment>
+                        </p.PlasmicLink>
+                      ) : null}
+                      {(
+                        hasVariant(globalVariants, "screen", "mobileOnly")
+                          ? true
+                          : true
+                      ) ? (
+                        <p.PlasmicLink
+                          className={classNames(
+                            projectcss.all,
+                            projectcss.a,
+                            projectcss.__wab_text,
+                            sty.link__kcvLh
+                          )}
+                          component={Link}
+                          href={
+                            "https://www.sparqlife.com/account/register" as const
+                          }
+                          platform={"nextjs"}
+                        >
+                          <React.Fragment>
+                            <span
+                              className={
+                                "plasmic_default__all plasmic_default__span"
+                              }
+                              style={{ color: "#000000" }}
+                            >
+                              {"LOGIN"}
+                            </span>
+                          </React.Fragment>
+                        </p.PlasmicLink>
+                      ) : null}
+                      {(
+                        hasVariant(globalVariants, "screen", "mobileOnly")
+                          ? true
+                          : true
+                      ) ? (
+                        <p.PlasmicLink
+                          className={classNames(
+                            projectcss.all,
+                            projectcss.a,
+                            projectcss.__wab_text,
+                            sty.link__dEmjw
+                          )}
+                          component={Link}
+                          href={"https://www.sparqlife.com/cart" as const}
+                          platform={"nextjs"}
+                        >
+                          <React.Fragment>
+                            <span
+                              className={
+                                "plasmic_default__all plasmic_default__span"
+                              }
+                              style={{ color: "#93896A" }}
+                            >
+                              {"CART"}
+                            </span>
+                          </React.Fragment>
+                        </p.PlasmicLink>
+                      ) : null}
+                      <p.PlasmicLink
+                        className={classNames(
+                          projectcss.all,
+                          projectcss.a,
+                          sty.link__kfZn
+                        )}
+                        component={Link}
+                        href={"https://www.sparqlife.com/cart" as const}
+                        platform={"nextjs"}
+                      >
+                        <p.PlasmicImg
+                          alt={""}
+                          className={classNames(sty.img__iAh0Y)}
+                          displayHeight={"auto" as const}
+                          displayMaxHeight={"none" as const}
+                          displayMaxWidth={"100%" as const}
+                          displayMinHeight={"0" as const}
+                          displayMinWidth={"0" as const}
+                          displayWidth={"13px" as const}
+                          loading={"lazy" as const}
+                          src={{
+                            src: "/plasmic/lhp_3_30_23/images/cartsvg.svg",
+                            fullWidth: 134,
+                            fullHeight: 150,
+                            aspectRatio: 0.894737
+                          }}
+                        />
+                      </p.PlasmicLink>
+                    </p.PlasmicLink>
+                  ) : null}
+                </div>
+              </div>
+            ) : null}
+            {true ? (
+              <div className={classNames(projectcss.all, sty.freeBox__vshpq)}>
+                {true ? (
+                  <p.PlasmicLink
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.a,
+                      sty.link__sWmKh
+                    )}
+                    component={Link}
+                    href={
+                      "https://shop.lifehacksplus.com/discount/QUIT15" as const
+                    }
+                    platform={"nextjs"}
+                  >
+                    <p.PlasmicImg
+                      data-plasmic-name={"logo"}
+                      data-plasmic-override={overrides.logo}
+                      alt={""}
+                      className={classNames(sty.logo)}
+                      displayHeight={"auto" as const}
+                      displayMaxHeight={"50px" as const}
+                      displayMaxWidth={"100%" as const}
+                      displayMinHeight={"0" as const}
+                      displayMinWidth={"0" as const}
+                      displayWidth={"auto" as const}
+                      loading={"lazy" as const}
+                      src={{
+                        src: "/plasmic/lhp_3_30_23/images/logopng.png",
+                        fullWidth: 276,
+                        fullHeight: 46,
+                        aspectRatio: undefined
+                      }}
+                    />
+                  </p.PlasmicLink>
+                ) : null}
+              </div>
+            ) : null}
+            {true ? (
+              <div className={classNames(projectcss.all, sty.freeBox___1PBbf)}>
+                <div
+                  data-plasmic-name={"hiconsH1"}
+                  data-plasmic-override={overrides.hiconsH1}
+                  className={classNames(
+                    projectcss.all,
+                    projectcss.__wab_text,
+                    sty.hiconsH1
+                  )}
+                >
+                  {(() => {
+                    try {
+                      return $ctx.fetchDyanamicData.records[0].fields.hicons_h1;
+                    } catch (e) {
+                      if (e instanceof TypeError) {
+                        return "BREATHE VITAMIN AIR®";
                       }
+                      throw e;
+                    }
+                  })()}
+                </div>
+                <div className={classNames(projectcss.all, sty.freeBox__jDzfx)}>
+                  <div
+                    className={classNames(projectcss.all, sty.freeBox__eh4J)}
+                  >
+                    <p.PlasmicImg
+                      data-plasmic-name={"hiconsIcon1"}
+                      data-plasmic-override={overrides.hiconsIcon1}
+                      alt={""}
+                      className={classNames(sty.hiconsIcon1)}
+                      displayHeight={
+                        hasVariant(globalVariants, "screen", "mobileOnly")
+                          ? ("32px" as const)
+                          : ("45px" as const)
+                      }
+                      displayMaxHeight={"none" as const}
+                      displayMaxWidth={"100%" as const}
+                      displayMinHeight={"0" as const}
+                      displayMinWidth={"0" as const}
+                      displayWidth={
+                        hasVariant(globalVariants, "screen", "mobileOnly")
+                          ? ("32px" as const)
+                          : ("45px" as const)
+                      }
+                      loading={"lazy" as const}
+                      src={(() => {
+                        try {
+                          return $ctx.fetchDyanamicData.records[0].fields
+                            .hicons_icon1[0].url;
+                        } catch (e) {
+                          if (e instanceof TypeError) {
+                            return "https://site-assets.plasmic.app/6e42147b488b5ca87759208eede507e2.png";
+                          }
+                          throw e;
+                        }
+                      })()}
+                    />
+
+                    <div
+                      data-plasmic-name={"hiconsLabel1"}
+                      data-plasmic-override={overrides.hiconsLabel1}
+                      className={classNames(
+                        projectcss.all,
+                        projectcss.__wab_text,
+                        sty.hiconsLabel1
+                      )}
+                    >
+                      {(() => {
+                        try {
+                          return $ctx.fetchDyanamicData.records[0].fields
+                            .hicons_label_1;
+                        } catch (e) {
+                          if (e instanceof TypeError) {
+                            return "0% Nicotine";
+                          }
+                          throw e;
+                        }
+                      })()}
+                    </div>
+                  </div>
+                  <div
+                    className={classNames(projectcss.all, sty.freeBox__zJbVh)}
+                  >
+                    <p.PlasmicImg
+                      data-plasmic-name={"hiconsIcon2"}
+                      data-plasmic-override={overrides.hiconsIcon2}
+                      alt={""}
+                      className={classNames(sty.hiconsIcon2)}
+                      displayHeight={
+                        hasVariant(globalVariants, "screen", "mobileOnly")
+                          ? ("32px" as const)
+                          : ("45px" as const)
+                      }
+                      displayMaxHeight={"none" as const}
+                      displayMaxWidth={"100%" as const}
+                      displayMinHeight={"0" as const}
+                      displayMinWidth={"0" as const}
+                      displayWidth={
+                        hasVariant(globalVariants, "screen", "mobileOnly")
+                          ? ("32px" as const)
+                          : ("45px" as const)
+                      }
+                      loading={"lazy" as const}
+                      src={(() => {
+                        try {
+                          return $ctx.fetchDyanamicData.records[0].fields
+                            .hicons_icon_2[0].url;
+                        } catch (e) {
+                          if (e instanceof TypeError) {
+                            return "https://site-assets.plasmic.app/9d995ea0affc51c4faaeacafd85b5294.png";
+                          }
+                          throw e;
+                        }
+                      })()}
+                    />
+
+                    <div
+                      data-plasmic-name={"hiconsLabel2"}
+                      data-plasmic-override={overrides.hiconsLabel2}
+                      className={classNames(
+                        projectcss.all,
+                        projectcss.__wab_text,
+                        sty.hiconsLabel2
+                      )}
+                    >
+                      {(() => {
+                        try {
+                          return $ctx.fetchDyanamicData.records[0].fields
+                            .hicons_label_2;
+                        } catch (e) {
+                          if (e instanceof TypeError) {
+                            return "Lab-Tested";
+                          }
+                          throw e;
+                        }
+                      })()}
+                    </div>
+                  </div>
+                  <div
+                    className={classNames(projectcss.all, sty.freeBox__kgC1N)}
+                  >
+                    <p.PlasmicImg
+                      data-plasmic-name={"hiconsIcon3"}
+                      data-plasmic-override={overrides.hiconsIcon3}
+                      alt={""}
+                      className={classNames(sty.hiconsIcon3)}
+                      displayHeight={
+                        hasVariant(globalVariants, "screen", "mobileOnly")
+                          ? ("32px" as const)
+                          : ("45px" as const)
+                      }
+                      displayMaxHeight={"none" as const}
+                      displayMaxWidth={"100%" as const}
+                      displayMinHeight={"0" as const}
+                      displayMinWidth={"0" as const}
+                      displayWidth={
+                        hasVariant(globalVariants, "screen", "mobileOnly")
+                          ? ("32px" as const)
+                          : ("45px" as const)
+                      }
+                      loading={"lazy" as const}
+                      src={(() => {
+                        try {
+                          return $ctx.fetchDyanamicData.records[0].fields
+                            .hicons_icon_3[0].url;
+                        } catch (e) {
+                          if (e instanceof TypeError) {
+                            return "https://site-assets.plasmic.app/c7ff4dd82964e5ed55ed8e02cffad8aa.png";
+                          }
+                          throw e;
+                        }
+                      })()}
+                    />
+
+                    <div
+                      data-plasmic-name={"hiconsIcon4"}
+                      data-plasmic-override={overrides.hiconsIcon4}
+                      className={classNames(
+                        projectcss.all,
+                        projectcss.__wab_text,
+                        sty.hiconsIcon4
+                      )}
+                    >
+                      {(() => {
+                        try {
+                          return $ctx.fetchDyanamicData.records[0].fields
+                            .hicons_label_3;
+                        } catch (e) {
+                          if (e instanceof TypeError) {
+                            return "Vitamins";
+                          }
+                          throw e;
+                        }
+                      })()}
+                    </div>
+                  </div>
+                  <div
+                    className={classNames(projectcss.all, sty.freeBox__h4JWn)}
+                  >
+                    <p.PlasmicImg
+                      data-plasmic-name={"hiconsIcon5"}
+                      data-plasmic-override={overrides.hiconsIcon5}
+                      alt={""}
+                      className={classNames(sty.hiconsIcon5)}
+                      displayHeight={
+                        hasVariant(globalVariants, "screen", "mobileOnly")
+                          ? ("32px" as const)
+                          : ("45px" as const)
+                      }
+                      displayMaxHeight={"none" as const}
+                      displayMaxWidth={"100%" as const}
+                      displayMinHeight={"0" as const}
+                      displayMinWidth={"0" as const}
+                      displayWidth={
+                        hasVariant(globalVariants, "screen", "mobileOnly")
+                          ? ("32px" as const)
+                          : ("45px" as const)
+                      }
+                      loading={"lazy" as const}
+                      src={(() => {
+                        try {
+                          return $ctx.fetchDyanamicData.records[0].fields
+                            .hicons_icon_4[0].url;
+                        } catch (e) {
+                          if (e instanceof TypeError) {
+                            return "https://site-assets.plasmic.app/5c825a2405e0e04e2cec44d1082488b6.png";
+                          }
+                          throw e;
+                        }
+                      })()}
+                    />
+
+                    <div
+                      data-plasmic-name={"hiconsIcon6"}
+                      data-plasmic-override={overrides.hiconsIcon6}
+                      className={classNames(
+                        projectcss.all,
+                        projectcss.__wab_text,
+                        sty.hiconsIcon6
+                      )}
+                    >
+                      {(() => {
+                        try {
+                          return $ctx.fetchDyanamicData.records[0].fields
+                            .hicons_label_4;
+                        } catch (e) {
+                          if (e instanceof TypeError) {
+                            return "Recyclable";
+                          }
+                          throw e;
+                        }
+                      })()}
+                    </div>
+                  </div>
+                </div>
+              </div>
+            ) : null}
+            {true ? (
+              <div
+                data-plasmic-name={"offer"}
+                data-plasmic-override={overrides.offer}
+                className={classNames(projectcss.all, sty.offer)}
+              >
+                <Offer1
+                  data-plasmic-name={"offer1"}
+                  data-plasmic-override={overrides.offer1}
+                  className={classNames("__wab_instance", sty.offer1)}
+                  slot={
+                    <React.Fragment>
+                      <p.PlasmicLink
+                        data-plasmic-name={"offerVariant1Url"}
+                        data-plasmic-override={overrides.offerVariant1Url}
+                        className={classNames(
+                          projectcss.all,
+                          projectcss.a,
+                          sty.offerVariant1Url
+                        )}
+                        component={Link}
+                        href={
+                          "https://shop.lifehacksplus.com/discount/FREE?redirect=/cart/39394788108:1,39394868748:1,39394817036:1?note=LHP-cw-offer-widget" as const
+                        }
+                        platform={"nextjs"}
+                      >
+                        <p.PlasmicImg
+                          data-plasmic-name={"offerVariant1Image"}
+                          data-plasmic-override={overrides.offerVariant1Image}
+                          alt={""}
+                          className={classNames(sty.offerVariant1Image)}
+                          displayHeight={"60px" as const}
+                          displayMaxHeight={"none" as const}
+                          displayMaxWidth={"100%" as const}
+                          displayMinHeight={"0" as const}
+                          displayMinWidth={"0" as const}
+                          displayWidth={"60px" as const}
+                          loading={"lazy" as const}
+                          src={(() => {
+                            try {
+                              return $ctx.fetchDyanamicData.records[0].fields
+                                .offer_variant_image1[0].url;
+                            } catch (e) {
+                              if (e instanceof TypeError) {
+                                return "https://site-assets.plasmic.app/c63d1d2e518b2d80727ede4d7588f173.svg";
+                              }
+                              throw e;
+                            }
+                          })()}
+                        />
+                      </p.PlasmicLink>
+                      <div
+                        data-plasmic-name={"offerVariant1Label"}
+                        data-plasmic-override={overrides.offerVariant1Label}
+                        className={classNames(
+                          projectcss.all,
+                          projectcss.__wab_text,
+                          sty.offerVariant1Label
+                        )}
+                      >
+                        {(() => {
+                          try {
+                            return $ctx.fetchDyanamicData.records[0].fields
+                              .offer_variant_label1;
+                          } catch (e) {
+                            if (e instanceof TypeError) {
+                              return "Strawberry";
+                            }
+                            throw e;
+                          }
+                        })()}
+                      </div>
+                    </React.Fragment>
+                  }
+                  slot2={
+                    <React.Fragment>
+                      <p.PlasmicLink
+                        data-plasmic-name={"offerVariant2Url"}
+                        data-plasmic-override={overrides.offerVariant2Url}
+                        className={classNames(
+                          projectcss.all,
+                          projectcss.a,
+                          sty.offerVariant2Url
+                        )}
+                        component={Link}
+                        href={
+                          "https://shop.lifehacksplus.com/discount/FREE?redirect=/cart/39394788236:1,39394868940:1,39394817164:1?discount=FREE&note=LHP-cw-offer-widget" as const
+                        }
+                        platform={"nextjs"}
+                      >
+                        <p.PlasmicImg
+                          data-plasmic-name={"offerVariant2Image"}
+                          data-plasmic-override={overrides.offerVariant2Image}
+                          alt={""}
+                          className={classNames(sty.offerVariant2Image)}
+                          displayHeight={"60px" as const}
+                          displayMaxHeight={"none" as const}
+                          displayMaxWidth={"100%" as const}
+                          displayMinHeight={"0" as const}
+                          displayMinWidth={"0" as const}
+                          displayWidth={"60px" as const}
+                          loading={"lazy" as const}
+                          src={(() => {
+                            try {
+                              return $ctx.fetchDyanamicData.records[0].fields
+                                .offer_variant_image2[0].url;
+                            } catch (e) {
+                              if (e instanceof TypeError) {
+                                return "https://site-assets.plasmic.app/eac11844e4f24b6cdb55891eb5d2951d.svg";
+                              }
+                              throw e;
+                            }
+                          })()}
+                        />
+                      </p.PlasmicLink>
+                      <div
+                        data-plasmic-name={"offerVariant2Label"}
+                        data-plasmic-override={overrides.offerVariant2Label}
+                        className={classNames(
+                          projectcss.all,
+                          projectcss.__wab_text,
+                          sty.offerVariant2Label
+                        )}
+                      >
+                        {(() => {
+                          try {
+                            return $ctx.fetchDyanamicData.records[0].fields
+                              .offer_variant_label2;
+                          } catch (e) {
+                            if (e instanceof TypeError) {
+                              return "Vanilla";
+                            }
+                            throw e;
+                          }
+                        })()}
+                      </div>
+                    </React.Fragment>
+                  }
+                  slot3={
+                    <div
+                      data-plasmic-name={"offerH1"}
+                      data-plasmic-override={overrides.offerH1}
+                      className={classNames(
+                        projectcss.all,
+                        projectcss.__wab_text,
+                        sty.offerH1
+                      )}
+                    >
+                      {(() => {
+                        try {
+                          return $ctx.fetchDyanamicData.records[0].fields
+                            .offer_h1;
+                        } catch (e) {
+                          if (e instanceof TypeError) {
+                            return "SPECIAL OFFER";
+                          }
+                          throw e;
+                        }
+                      })()}
+                    </div>
+                  }
+                  slot4={
+                    <div
+                      data-plasmic-name={"offerH2"}
+                      data-plasmic-override={overrides.offerH2}
+                      className={classNames(
+                        projectcss.all,
+                        projectcss.__wab_text,
+                        sty.offerH2
+                      )}
+                    >
+                      {(() => {
+                        try {
+                          return $ctx.fetchDyanamicData.records[0].fields
+                            .offer_h2;
+                        } catch (e) {
+                          if (e instanceof TypeError) {
+                            return "FREE VITAMIN AIR";
+                          }
+                          throw e;
+                        }
+                      })()}
+                    </div>
+                  }
+                  slot5={
+                    <div
+                      data-plasmic-name={"offerParagraph"}
+                      data-plasmic-override={overrides.offerParagraph}
+                      className={classNames(
+                        projectcss.all,
+                        projectcss.__wab_text,
+                        sty.offerParagraph
+                      )}
+                    >
+                      {(() => {
+                        try {
+                          return $ctx.fetchDyanamicData.records[0].fields
+                            .offer_paragraph;
+                        } catch (e) {
+                          if (e instanceof TypeError) {
+                            return "Money-Back Guarantee: Better Flavor & Harder Hits or Your Money Back.";
+                          }
+                          throw e;
+                        }
+                      })()}
+                    </div>
+                  }
+                  slot6={
+                    <div
+                      data-plasmic-name={"offerCta"}
+                      data-plasmic-override={overrides.offerCta}
+                      className={classNames(
+                        projectcss.all,
+                        projectcss.__wab_text,
+                        sty.offerCta
+                      )}
+                    >
+                      {(() => {
+                        try {
+                          return $ctx.fetchDyanamicData.records[0].fields
+                            .offer_cta;
+                        } catch (e) {
+                          if (e instanceof TypeError) {
+                            return "CHOOSE FLAVOR";
+                          }
+                          throw e;
+                        }
+                      })()}
+                    </div>
+                  }
+                >
+                  <p.PlasmicLink
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.a,
+                      sty.link__j27DL
+                    )}
+                    component={Link}
+                    platform={"nextjs"}
+                  >
+                    <p.PlasmicImg
+                      data-plasmic-name={"offerImage"}
+                      data-plasmic-override={overrides.offerImage}
+                      alt={""}
+                      className={classNames(sty.offerImage)}
+                      displayHeight={"423px" as const}
+                      displayMaxHeight={"none" as const}
+                      displayMaxWidth={"100%" as const}
+                      displayMinHeight={"0" as const}
+                      displayMinWidth={"0" as const}
+                      displayWidth={"auto" as const}
+                      loading={"lazy" as const}
+                      src={(() => {
+                        try {
+                          return $ctx.fetchDyanamicData.records[0].fields
+                            .offer_image[0].url;
+                        } catch (e) {
+                          if (e instanceof TypeError) {
+                            return "https://site-assets.plasmic.app/6187c6867888745d6599b0c2b977be87.svg";
+                          }
+                          throw e;
+                        }
+                      })()}
+                    />
+                  </p.PlasmicLink>
+                </Offer1>
+              </div>
+            ) : null}
+            {true ? (
+              <div
+                data-plasmic-name={"products"}
+                data-plasmic-override={overrides.products}
+                className={classNames(projectcss.all, sty.products)}
+              >
+                <div className={classNames(projectcss.all, sty.columns__u9Jza)}>
+                  <p.PlasmicLink
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.a,
+                      sty.column__ah08P
+                    )}
+                    component={Link}
+                    href={
+                      "https://shop.lifehacksplus.com/discount/QUIT15?redirect=/collections/all/products/3-pack?variant=31099464122437" as const
+                    }
+                    platform={"nextjs"}
+                  >
+                    <Collection1
+                      className={classNames(
+                        "__wab_instance",
+                        sty.collection1__gbX
+                      )}
+                      slot9={"$56"}
                     >
                       <p.PlasmicImg
                         alt={""}
-                        className={classNames(sty.img__da1Qi)}
+                        className={classNames(sty.img__cBiJl)}
                         displayHeight={"441px" as const}
                         displayMaxHeight={"none" as const}
                         displayMaxWidth={"100%" as const}
@@ -1421,37 +1155,112 @@ function PlasmicCollection15__RenderFunc(props: {
                         displayWidth={"387px" as const}
                         loading={"lazy" as const}
                         src={{
-                          src: "/plasmic/lhp_3_30_23/images/melTsvg.svg",
-                          fullWidth: 132,
+                          src: "/plasmic/lhp_3_30_23/images/_3PacKsvg.svg",
+                          fullWidth: 131,
                           fullHeight: 150,
-                          aspectRatio: 0.877551
+                          aspectRatio: 0.875566
                         }}
                       />
                     </Collection1>
                     <Collection1Cta
                       className={classNames(
                         "__wab_instance",
-                        sty.collection1Cta__y6QBs
+                        sty.collection1Cta__tnwqj
                       )}
                     >
                       <div
                         className={classNames(
                           projectcss.all,
                           projectcss.__wab_text,
-                          sty.text__hviab
+                          sty.text__jqng0
                         )}
                       >
                         {"SHOP NOW"}
                       </div>
                     </Collection1Cta>
                   </p.PlasmicLink>
-                ) : null}
-                {true ? (
+                  {true ? (
+                    <p.PlasmicLink
+                      className={classNames(
+                        projectcss.all,
+                        projectcss.a,
+                        sty.column__uDSP
+                      )}
+                      component={Link}
+                      href={
+                        "https://shop.lifehacksplus.com/discount/QUIT15?redirect=/collections/all/products/variety-pack" as const
+                      }
+                      platform={"nextjs"}
+                    >
+                      <Collection1
+                        className={classNames(
+                          "__wab_instance",
+                          sty.collection1__ethBf
+                        )}
+                        slot={"VARIETY PACK"}
+                        slot9={
+                          <div
+                            className={classNames(
+                              projectcss.all,
+                              projectcss.__wab_text,
+                              sty.text__zHogu
+                            )}
+                          >
+                            <React.Fragment>
+                              <React.Fragment>{"$98 "}</React.Fragment>
+                              <span
+                                className={
+                                  "plasmic_default__all plasmic_default__span"
+                                }
+                                style={{ color: "#FF0000" }}
+                              >
+                                {"+ FREE SHIPPING"}
+                              </span>
+                            </React.Fragment>
+                          </div>
+                        }
+                      >
+                        <p.PlasmicImg
+                          alt={""}
+                          className={classNames(sty.img__fl8Zu)}
+                          displayHeight={"441px" as const}
+                          displayMaxHeight={"none" as const}
+                          displayMaxWidth={"100%" as const}
+                          displayMinHeight={"0" as const}
+                          displayMinWidth={"0" as const}
+                          displayWidth={"387px" as const}
+                          loading={"lazy" as const}
+                          src={{
+                            src: "/plasmic/lhp_3_30_23/images/varietYsvg.svg",
+                            fullWidth: 131,
+                            fullHeight: 150,
+                            aspectRatio: 0.87471
+                          }}
+                        />
+                      </Collection1>
+                      <Collection1Cta
+                        className={classNames(
+                          "__wab_instance",
+                          sty.collection1Cta__f6LdY
+                        )}
+                      >
+                        <div
+                          className={classNames(
+                            projectcss.all,
+                            projectcss.__wab_text,
+                            sty.text__gmj0H
+                          )}
+                        >
+                          {"SHOP NOW"}
+                        </div>
+                      </Collection1Cta>
+                    </p.PlasmicLink>
+                  ) : null}
                   <p.PlasmicLink
                     className={classNames(
                       projectcss.all,
                       projectcss.a,
-                      sty.column___5P4B3
+                      sty.column__ebri2
                     )}
                     component={Link}
                     href={
@@ -1462,7 +1271,7 @@ function PlasmicCollection15__RenderFunc(props: {
                     <Collection1
                       className={classNames(
                         "__wab_instance",
-                        sty.collection1__aMdOm
+                        sty.collection1___0BZ9
                       )}
                       slot={"FUEL"}
                       slot3={"Energy-Enhancing"}
@@ -1470,7 +1279,7 @@ function PlasmicCollection15__RenderFunc(props: {
                     >
                       <p.PlasmicImg
                         alt={""}
-                        className={classNames(sty.img__l3Ciz)}
+                        className={classNames(sty.img__llsRw)}
                         displayHeight={"441px" as const}
                         displayMaxHeight={"none" as const}
                         displayMaxWidth={"100%" as const}
@@ -1489,36 +1298,239 @@ function PlasmicCollection15__RenderFunc(props: {
                     <Collection1Cta
                       className={classNames(
                         "__wab_instance",
-                        sty.collection1Cta__iwhws
+                        sty.collection1Cta__veNup
                       )}
                     />
                   </p.PlasmicLink>
-                ) : null}
+                </div>
+                <div className={classNames(projectcss.all, sty.columns__h0J6B)}>
+                  <p.PlasmicLink
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.a,
+                      sty.column__hqmnx
+                    )}
+                    component={Link}
+                    href={
+                      "https://shop.lifehacksplus.com/discount/QUIT15?redirect=/collections/all/products/pure?variant=39394817036" as const
+                    }
+                    platform={"nextjs"}
+                  >
+                    <Collection1
+                      className={classNames(
+                        "__wab_instance",
+                        sty.collection1__eN2N
+                      )}
+                      slot={
+                        <div
+                          className={classNames(
+                            projectcss.all,
+                            projectcss.__wab_text,
+                            sty.text__f606Y
+                          )}
+                        >
+                          {"PURE"}
+                        </div>
+                      }
+                      slot3={"Age-Defying"}
+                      slot9={
+                        <div
+                          className={classNames(
+                            projectcss.all,
+                            projectcss.__wab_text,
+                            sty.text__kOH3
+                          )}
+                        >
+                          {"$20"}
+                        </div>
+                      }
+                    >
+                      <p.PlasmicImg
+                        alt={""}
+                        className={classNames(sty.img___6Qmtu)}
+                        displayHeight={"441px" as const}
+                        displayMaxHeight={"none" as const}
+                        displayMaxWidth={"100%" as const}
+                        displayMinHeight={"0" as const}
+                        displayMinWidth={"0" as const}
+                        displayWidth={"387px" as const}
+                        loading={"lazy" as const}
+                        src={{
+                          src: "/plasmic/lhp_3_30_23/images/purEsvg.svg",
+                          fullWidth: 132,
+                          fullHeight: 150,
+                          aspectRatio: 0.877551
+                        }}
+                      />
+                    </Collection1>
+                    <Collection1Cta
+                      className={classNames(
+                        "__wab_instance",
+                        sty.collection1Cta___35MwF
+                      )}
+                    >
+                      <div
+                        className={classNames(
+                          projectcss.all,
+                          projectcss.__wab_text,
+                          sty.text__oDptj
+                        )}
+                      >
+                        {"SHOP NOW"}
+                      </div>
+                    </Collection1Cta>
+                  </p.PlasmicLink>
+                  {true ? (
+                    <p.PlasmicLink
+                      className={classNames(
+                        projectcss.all,
+                        projectcss.a,
+                        sty.column__jEcsj
+                      )}
+                      component={Link}
+                      href={
+                        "https://shop.lifehacksplus.com/discount/QUIT15?redirect=/collections/all/products/melt?variant=39394868748" as const
+                      }
+                      platform={"nextjs"}
+                    >
+                      <Collection1
+                        className={classNames(
+                          "__wab_instance",
+                          sty.collection1___2SDI
+                        )}
+                        slot={"MELT"}
+                        slot3={"Metabolism-Boosting"}
+                        slot9={
+                          <div
+                            className={classNames(
+                              projectcss.all,
+                              projectcss.__wab_text,
+                              sty.text__o7Xq6
+                            )}
+                          >
+                            <React.Fragment>
+                              <span
+                                className={
+                                  "plasmic_default__all plasmic_default__span"
+                                }
+                                style={{ color: "#000000" }}
+                              >
+                                {"$20"}
+                              </span>
+                            </React.Fragment>
+                          </div>
+                        }
+                      >
+                        <p.PlasmicImg
+                          alt={""}
+                          className={classNames(sty.img__da1Qi)}
+                          displayHeight={"441px" as const}
+                          displayMaxHeight={"none" as const}
+                          displayMaxWidth={"100%" as const}
+                          displayMinHeight={"0" as const}
+                          displayMinWidth={"0" as const}
+                          displayWidth={"387px" as const}
+                          loading={"lazy" as const}
+                          src={{
+                            src: "/plasmic/lhp_3_30_23/images/melTsvg.svg",
+                            fullWidth: 132,
+                            fullHeight: 150,
+                            aspectRatio: 0.877551
+                          }}
+                        />
+                      </Collection1>
+                      <Collection1Cta
+                        className={classNames(
+                          "__wab_instance",
+                          sty.collection1Cta__y6QBs
+                        )}
+                      >
+                        <div
+                          className={classNames(
+                            projectcss.all,
+                            projectcss.__wab_text,
+                            sty.text__hviab
+                          )}
+                        >
+                          {"SHOP NOW"}
+                        </div>
+                      </Collection1Cta>
+                    </p.PlasmicLink>
+                  ) : null}
+                  {true ? (
+                    <p.PlasmicLink
+                      className={classNames(
+                        projectcss.all,
+                        projectcss.a,
+                        sty.column___5P4B3
+                      )}
+                      component={Link}
+                      href={
+                        "https://shop.lifehacksplus.com/discount/QUIT15?redirect=/collections/all/products/fuel?variant=39394788108" as const
+                      }
+                      platform={"nextjs"}
+                    >
+                      <Collection1
+                        className={classNames(
+                          "__wab_instance",
+                          sty.collection1__aMdOm
+                        )}
+                        slot={"FUEL"}
+                        slot3={"Energy-Enhancing"}
+                        slot9={"$20"}
+                      >
+                        <p.PlasmicImg
+                          alt={""}
+                          className={classNames(sty.img__l3Ciz)}
+                          displayHeight={"441px" as const}
+                          displayMaxHeight={"none" as const}
+                          displayMaxWidth={"100%" as const}
+                          displayMinHeight={"0" as const}
+                          displayMinWidth={"0" as const}
+                          displayWidth={"387px" as const}
+                          loading={"lazy" as const}
+                          src={{
+                            src: "/plasmic/lhp_3_30_23/images/fueLsvg.svg",
+                            fullWidth: 132,
+                            fullHeight: 150,
+                            aspectRatio: 0.877551
+                          }}
+                        />
+                      </Collection1>
+                      <Collection1Cta
+                        className={classNames(
+                          "__wab_instance",
+                          sty.collection1Cta__iwhws
+                        )}
+                      />
+                    </p.PlasmicLink>
+                  ) : null}
+                </div>
               </div>
-            </div>
-          ) : null}
-          {true ? (
-            <SqueezeForm
-              data-plasmic-name={"squeezeForm"}
-              data-plasmic-override={overrides.squeezeForm}
-              className={classNames("__wab_instance", sty.squeezeForm)}
-            />
-          ) : null}
-          {true ? (
-            <Collection12
-              data-plasmic-name={"collection12"}
-              data-plasmic-override={overrides.collection12}
-              className={classNames("__wab_instance", sty.collection12)}
-            />
-          ) : null}
-          {true ? (
-            <CwAdvert2
-              data-plasmic-name={"cwAdvert2"}
-              data-plasmic-override={overrides.cwAdvert2}
-              className={classNames("__wab_instance", sty.cwAdvert2)}
-            />
-          ) : null}
-        </div>
+            ) : null}
+            {true ? (
+              <SqueezeForm
+                data-plasmic-name={"squeezeForm"}
+                data-plasmic-override={overrides.squeezeForm}
+                className={classNames("__wab_instance", sty.squeezeForm)}
+              />
+            ) : null}
+            {true ? (
+              <Collection12
+                data-plasmic-name={"collection12"}
+                data-plasmic-override={overrides.collection12}
+                className={classNames("__wab_instance", sty.collection12)}
+              />
+            ) : null}
+            {true ? (
+              <CwAdvert2
+                data-plasmic-name={"cwAdvert2"}
+                data-plasmic-override={overrides.cwAdvert2}
+                className={classNames("__wab_instance", sty.cwAdvert2)}
+              />
+            ) : null}
+          </div>
+        ) : null}
       </div>
     </React.Fragment>
   ) as React.ReactElement | null;

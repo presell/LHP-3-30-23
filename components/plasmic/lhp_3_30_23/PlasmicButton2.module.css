@@ -158,7 +158,6 @@
   align-items: center;
   margin-left: calc(0px - 8px);
   width: calc(100% + 8px);
-  --plsmc-col-gap: 8px;
   margin-top: calc(0px - 0px);
   height: calc(100% + 0px);
 }

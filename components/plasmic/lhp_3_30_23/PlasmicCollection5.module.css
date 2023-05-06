@@ -705,6 +705,9 @@
   }
 }
 .columns___6N1PR {
+  --plsmc-rc-col-gap: 0px;
+}
+.columns___6N1PR {
   display: flex;
   position: relative;
   width: 100%;
@@ -717,13 +720,13 @@
   padding: 8px 0px;
 }
 .columns___6N1PR > :nth-child(3n + 1) {
-  width: calc((100% - 3 * var(--plsmc-col-gap, 0px)) * 4 / 12);
+  width: calc((100% - 3 * var(--plsmc-rc-col-gap, 0px)) * 4 / 12);
 }
 .columns___6N1PR > :nth-child(3n + 2) {
-  width: calc((100% - 3 * var(--plsmc-col-gap, 0px)) * 4 / 12);
+  width: calc((100% - 3 * var(--plsmc-rc-col-gap, 0px)) * 4 / 12);
 }
 .columns___6N1PR > :nth-child(3n + 3) {
-  width: calc((100% - 3 * var(--plsmc-col-gap, 0px)) * 4 / 12);
+  width: calc((100% - 3 * var(--plsmc-rc-col-gap, 0px)) * 4 / 12);
 }
 @media (min-width: 0px) and (max-width: 768px) {
   .columns___6N1PR {
@@ -738,7 +741,7 @@
 }
 @media (min-width: 0px) and (max-width: 768px) {
   .columns___6N1PR > :nth-child(1n + 1) {
-    width: calc((100% - 1 * var(--plsmc-col-gap, 0px)) * 12 / 12);
+    width: calc((100% - 1 * var(--plsmc-rc-col-gap, 0px)) * 12 / 12);
   }
 }
 .column__j3OV {
@@ -975,6 +978,9 @@
   min-width: 0;
 }
 .columns__yCvXg {
+  --plsmc-rc-col-gap: 0px;
+}
+.columns__yCvXg {
   display: flex;
   position: relative;
   width: 100%;
@@ -987,13 +993,13 @@
   padding: 8px 0px;
 }
 .columns__yCvXg > :nth-child(3n + 1) {
-  width: calc((100% - 3 * var(--plsmc-col-gap, 0px)) * 4 / 12);
+  width: calc((100% - 3 * var(--plsmc-rc-col-gap, 0px)) * 4 / 12);
 }
 .columns__yCvXg > :nth-child(3n + 2) {
-  width: calc((100% - 3 * var(--plsmc-col-gap, 0px)) * 4 / 12);
+  width: calc((100% - 3 * var(--plsmc-rc-col-gap, 0px)) * 4 / 12);
 }
 .columns__yCvXg > :nth-child(3n + 3) {
-  width: calc((100% - 3 * var(--plsmc-col-gap, 0px)) * 4 / 12);
+  width: calc((100% - 3 * var(--plsmc-rc-col-gap, 0px)) * 4 / 12);
 }
 @media (min-width: 0px) and (max-width: 768px) {
   .columns__yCvXg {
@@ -1009,7 +1015,7 @@
 }
 @media (min-width: 0px) and (max-width: 768px) {
   .columns__yCvXg > :nth-child(1n + 1) {
-    width: calc((100% - 1 * var(--plsmc-col-gap, 0px)) * 12 / 12);
+    width: calc((100% - 1 * var(--plsmc-rc-col-gap, 0px)) * 12 / 12);
   }
 }
 .column__ph2QC {

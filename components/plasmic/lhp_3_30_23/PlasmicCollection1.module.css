@@ -128,6 +128,9 @@
   text-align: center;
 }
 .columns {
+  --plsmc-rc-col-gap: 0px;
+}
+.columns {
   display: flex;
   position: relative;
   width: 100%;
@@ -140,10 +143,10 @@
   padding: 8px 50px;
 }
 .columns > :nth-child(2n + 1) {
-  width: calc((100% - 2 * var(--plsmc-col-gap, 0px)) * 6 / 12);
+  width: calc((100% - 2 * var(--plsmc-rc-col-gap, 0px)) * 6 / 12);
 }
 .columns > :nth-child(2n + 2) {
-  width: calc((100% - 2 * var(--plsmc-col-gap, 0px)) * 6 / 12);
+  width: calc((100% - 2 * var(--plsmc-rc-col-gap, 0px)) * 6 / 12);
 }
 @media (min-width: 0px) and (max-width: 768px) {
   .columns {
@@ -156,12 +159,12 @@
 }
 @media (min-width: 0px) and (max-width: 768px) {
   .columns > :nth-child(2n + 1) {
-    width: calc((100% - 2 * var(--plsmc-col-gap, 0px)) * 6 / 12);
+    width: calc((100% - 2 * var(--plsmc-rc-col-gap, 0px)) * 6 / 12);
   }
 }
 @media (min-width: 0px) and (max-width: 768px) {
   .columns > :nth-child(2n + 2) {
-    width: calc((100% - 2 * var(--plsmc-col-gap, 0px)) * 6 / 12);
+    width: calc((100% - 2 * var(--plsmc-rc-col-gap, 0px)) * 6 / 12);
   }
 }
 .column__sxLnq {
