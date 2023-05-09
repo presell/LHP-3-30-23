@@ -854,6 +854,19 @@
           "cssFilePath": "plasmic/lhp_3_30_23/PlasmicCollection15.module.css",
           "scheme": "blackbox",
           "componentType": "page"
+        },
+        {
+          "id": "HBbbZ0GPMQl",
+          "name": "Collection16",
+          "type": "managed",
+          "projectId": "jZt38kveZDTpkrHTcXsHEY",
+          "renderModuleFilePath": "plasmic/lhp_3_30_23/PlasmicCollection16.tsx",
+          "importSpec": {
+            "modulePath": "../pages/disposable-7.tsx"
+          },
+          "cssFilePath": "plasmic/lhp_3_30_23/PlasmicCollection16.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
         }
       ],
       "icons": [

@@ -121,13 +121,15 @@ export type PlasmicButton2__ArgsType = {
   children?: React.ReactNode;
   endIcon?: React.ReactNode;
   link?: string;
+  submitsForm?: boolean;
 };
 type ArgPropType = keyof PlasmicButton2__ArgsType;
 export const PlasmicButton2__ArgProps = new Array<ArgPropType>(
   "startIcon",
   "children",
   "endIcon",
-  "link"
+  "link",
+  "submitsForm"
 );
 
 export type PlasmicButton2__OverridesType = {
@@ -135,6 +137,7 @@ export type PlasmicButton2__OverridesType = {
 };
 
 export interface DefaultButton2Props extends pp.BaseButtonProps {
+  submitsForm?: boolean;
   color?: SingleChoiceArg<
     | "green"
     | "indigo"
