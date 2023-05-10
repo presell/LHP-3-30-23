@@ -190,22 +190,24 @@ function PlasmicCollection16__RenderFunc(props: {
           >
             {true ? (
               <div className={classNames(projectcss.all, sty.freeBox__ax9YT)}>
-                <div
-                  className={classNames(
-                    projectcss.all,
-                    projectcss.__wab_text,
-                    sty.text__hsLo
-                  )}
-                >
-                  <React.Fragment>
-                    <span
-                      className={"plasmic_default__all plasmic_default__span"}
-                      style={{ color: "#FFFFFF" }}
-                    >
-                      {"FREE SHIPPING ON ORDERS OVER $65"}
-                    </span>
-                  </React.Fragment>
-                </div>
+                {true ? (
+                  <div
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.__wab_text,
+                      sty.text__hsLo
+                    )}
+                  >
+                    <React.Fragment>
+                      <span
+                        className={"plasmic_default__all plasmic_default__span"}
+                        style={{ color: "#FFFFFF" }}
+                      >
+                        {"FREE SHIPPING ON ORDERS OVER $65"}
+                      </span>
+                    </React.Fragment>
+                  </div>
+                ) : null}
               </div>
             ) : null}
             {true ? (
