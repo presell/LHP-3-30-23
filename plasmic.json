@@ -873,6 +873,19 @@
           "cssFilePath": "plasmic/lhp_3_30_23/PlasmicCollection16.module.css",
           "scheme": "blackbox",
           "componentType": "page"
+        },
+        {
+          "id": "bpB8p7zvanc",
+          "name": "Collection17",
+          "type": "managed",
+          "projectId": "jZt38kveZDTpkrHTcXsHEY",
+          "renderModuleFilePath": "plasmic/lhp_3_30_23/PlasmicCollection17.tsx",
+          "importSpec": {
+            "modulePath": "../pages/disposable-8.tsx"
+          },
+          "cssFilePath": "plasmic/lhp_3_30_23/PlasmicCollection17.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
         }
       ],
       "icons": [
@@ -1464,6 +1477,6 @@
   "nextjsConfig": {
     "pagesDir": "../pages"
   },
-  "cliVersion": "0.1.274",
-  "$schema": "https://unpkg.com/@plasmicapp/cli@0.1.274/dist/plasmic.schema.json"
+  "cliVersion": "0.1.275",
+  "$schema": "https://unpkg.com/@plasmicapp/cli@0.1.275/dist/plasmic.schema.json"
 }

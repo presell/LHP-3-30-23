@@ -60,7 +60,9 @@ export const PlasmicArticleInfo__ArgProps = new Array<ArgPropType>();
 export type PlasmicArticleInfo__OverridesType = {
   root?: p.Flex<"div">;
   httpRestApiFetcher?: p.Flex<typeof DataFetcher>;
+  pageMetadataOverride?: p.Flex<typeof PlasmicHead>;
   bodyArticle1?: p.Flex<typeof BodyArticle1>;
+  head?: p.Flex<typeof PlasmicHead>;
 };
 
 export interface DefaultArticleInfoProps {}
@@ -182,7 +184,12 @@ function PlasmicArticleInfo__RenderFunc(props: {
                 {$ctx => (
                   <React.Fragment>
                     <PlasmicHead
-                      className={classNames("__wab_instance", sty.head__qd0Rw)}
+                      data-plasmic-name={"pageMetadataOverride"}
+                      data-plasmic-override={overrides.pageMetadataOverride}
+                      className={classNames(
+                        "__wab_instance",
+                        sty.pageMetadataOverride
+                      )}
                       description={(() => {
                         try {
                           return $ctx.fetchDyanamicData.records[0].fields[
@@ -235,7 +242,9 @@ function PlasmicArticleInfo__RenderFunc(props: {
                     />
 
                     <PlasmicHead
-                      className={classNames("__wab_instance", sty.head__ep8Oz)}
+                      data-plasmic-name={"head"}
+                      data-plasmic-override={overrides.head}
+                      className={classNames("__wab_instance", sty.head)}
                       description={(() => {
                         try {
                           return $ctx.fetchDyanamicData.fields.paragraph1;
@@ -279,9 +288,22 @@ function PlasmicArticleInfo__RenderFunc(props: {
 }
 
 const PlasmicDescendants = {
-  root: ["root", "httpRestApiFetcher", "bodyArticle1"],
-  httpRestApiFetcher: ["httpRestApiFetcher", "bodyArticle1"],
-  bodyArticle1: ["bodyArticle1"]
+  root: [
+    "root",
+    "httpRestApiFetcher",
+    "pageMetadataOverride",
+    "bodyArticle1",
+    "head"
+  ],
+  httpRestApiFetcher: [
+    "httpRestApiFetcher",
+    "pageMetadataOverride",
+    "bodyArticle1",
+    "head"
+  ],
+  pageMetadataOverride: ["pageMetadataOverride"],
+  bodyArticle1: ["bodyArticle1"],
+  head: ["head"]
 } as const;
 type NodeNameType = keyof typeof PlasmicDescendants;
 type DescendantsType<T extends NodeNameType> =
@@ -289,7 +311,9 @@ type DescendantsType<T extends NodeNameType> =
 type NodeDefaultElementType = {
   root: "div";
   httpRestApiFetcher: typeof DataFetcher;
+  pageMetadataOverride: typeof PlasmicHead;
   bodyArticle1: typeof BodyArticle1;
+  head: typeof PlasmicHead;
 };
 
 type ReservedPropsType = "variants" | "args" | "overrides";
@@ -353,7 +377,9 @@ export const PlasmicArticleInfo = Object.assign(
   {
     // Helper components rendering sub-elements
     httpRestApiFetcher: makeNodeComponent("httpRestApiFetcher"),
+    pageMetadataOverride: makeNodeComponent("pageMetadataOverride"),
     bodyArticle1: makeNodeComponent("bodyArticle1"),
+    head: makeNodeComponent("head"),
 
     // Metadata about props expected for PlasmicArticleInfo
     internalVariantProps: PlasmicArticleInfo__VariantProps,

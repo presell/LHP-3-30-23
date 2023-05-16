@@ -70,7 +70,7 @@ export type PlasmicBodyArticle2__OverridesType = {
   paragraph5?: p.Flex<"div">;
   image5?: p.Flex<typeof p.PlasmicImg>;
   paragraph6?: p.Flex<"div">;
-  head?: p.Flex<typeof PlasmicHead>;
+  pageMetadataOverride?: p.Flex<typeof PlasmicHead>;
   image6?: p.Flex<typeof p.PlasmicImg>;
   paragraph7?: p.Flex<"div">;
   freeBox?: p.Flex<"div">;
@@ -731,9 +731,9 @@ function PlasmicBodyArticle2__RenderFunc(props: {
         })()}
       </div>
       <PlasmicHead
-        data-plasmic-name={"head"}
-        data-plasmic-override={overrides.head}
-        className={classNames("__wab_instance", sty.head)}
+        data-plasmic-name={"pageMetadataOverride"}
+        data-plasmic-override={overrides.pageMetadataOverride}
+        className={classNames("__wab_instance", sty.pageMetadataOverride)}
       />
 
       <p.PlasmicLink
@@ -1032,7 +1032,7 @@ const PlasmicDescendants = {
     "paragraph5",
     "image5",
     "paragraph6",
-    "head",
+    "pageMetadataOverride",
     "image6",
     "paragraph7",
     "freeBox",
@@ -1053,7 +1053,7 @@ const PlasmicDescendants = {
   paragraph5: ["paragraph5"],
   image5: ["image5"],
   paragraph6: ["paragraph6"],
-  head: ["head"],
+  pageMetadataOverride: ["pageMetadataOverride"],
   image6: ["image6"],
   paragraph7: ["paragraph7"],
   freeBox: ["freeBox", "columns"],
@@ -1079,7 +1079,7 @@ type NodeDefaultElementType = {
   paragraph5: "div";
   image5: typeof p.PlasmicImg;
   paragraph6: "div";
-  head: typeof PlasmicHead;
+  pageMetadataOverride: typeof PlasmicHead;
   image6: typeof p.PlasmicImg;
   paragraph7: "div";
   freeBox: "div";
@@ -1161,7 +1161,7 @@ export const PlasmicBodyArticle2 = Object.assign(
     paragraph5: makeNodeComponent("paragraph5"),
     image5: makeNodeComponent("image5"),
     paragraph6: makeNodeComponent("paragraph6"),
-    head: makeNodeComponent("head"),
+    pageMetadataOverride: makeNodeComponent("pageMetadataOverride"),
     image6: makeNodeComponent("image6"),
     paragraph7: makeNodeComponent("paragraph7"),
     freeBox: makeNodeComponent("freeBox"),

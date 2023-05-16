@@ -306,17 +306,6 @@
 .columns__c2Ai {
   --plsmc-rc-col-gap: 0px;
 }
-.columns__c2Ai {
-  display: flex;
-  width: 100%;
-  height: auto;
-  align-items: stretch;
-  flex-shrink: 1;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  min-width: 0;
-  padding: 20px;
-}
 .columns__c2Ai > :global(.__wab_flex-container) > :nth-child(2n + 1) {
   width: calc((100% - 2 * var(--plsmc-rc-col-gap, 0px)) * 6 / 12);
 }
@@ -333,15 +322,6 @@
 }
 @media (min-width: 0px) and (max-width: 768px) {
   .columns__c2Ai > :global(.__wab_flex-container) {
-    flex-direction: row;
-    flex-wrap: wrap;
-    min-width: 0;
-  }
-}
-@media (min-width: 0px) and (max-width: 768px) {
-  .columns__c2Ai {
-    width: 100%;
-    height: auto;
     flex-direction: row;
     flex-wrap: wrap;
     min-width: 0;

@@ -216,7 +216,7 @@ function PlasmicSqueezeForm__RenderFunc(props: {
           );
         }}
         placeholder={"📧 Your Email Address" as const}
-        value={p.generateStateValueProp($state, ["textInput", "value"])}
+        value={p.generateStateValueProp($state, ["textInput", "value"]) ?? ""}
       />
 
       <TextInput
@@ -231,7 +231,7 @@ function PlasmicSqueezeForm__RenderFunc(props: {
           );
         }}
         placeholder={"📲 Your Phone Number" as const}
-        value={p.generateStateValueProp($state, ["textInput2", "value"])}
+        value={p.generateStateValueProp($state, ["textInput2", "value"]) ?? ""}
       />
 
       {true
@@ -245,7 +245,8 @@ function PlasmicSqueezeForm__RenderFunc(props: {
                   (e => e.target?.value).apply(null, eventArgs)
                 );
               },
-              value: p.generateStateValueProp($state, ["textInput3", "value"])
+              value:
+                p.generateStateValueProp($state, ["textInput3", "value"]) ?? ""
             };
 
             p.initializePlasmicStates(
@@ -281,6 +282,7 @@ function PlasmicSqueezeForm__RenderFunc(props: {
         data-plasmic-name={"button"}
         data-plasmic-override={overrides.button}
         className={classNames("__wab_instance", sty.button)}
+        submitsForm={true}
       >
         <div
           className={classNames(
